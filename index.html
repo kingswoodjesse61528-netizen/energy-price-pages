@@ -9,6 +9,7 @@
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="apple-touch-icon" href="./icons/icon-192.png">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
   <style>
     :root{
       color-scheme:dark;
@@ -43,7 +44,15 @@
     .delta{font-variant-numeric:tabular-nums;font-weight:720}.up{color:var(--red)}.down{color:var(--green)}.flat{color:var(--muted)}
     .section{margin-top:12px}
     .chart-card{height:274px;padding-bottom:10px}
+    .chart-card.ref-chart{height:346px}
     .chart-box{height:220px;position:relative}
+    .ref-chart .chart-box{height:290px}
+    .chart-box .echart{width:100%;height:100%;min-height:220px}
+    .convert-card{min-height:116px}
+    .convert-field{display:flex;align-items:center;gap:6px;margin-top:8px}
+    .convert-field input{min-width:0;width:100%;height:32px;border:1px solid var(--line);border-radius:8px;background:var(--panel2);color:var(--text);font-size:16px;font-weight:720;padding:0 8px;font-variant-numeric:tabular-nums}
+    .convert-field span{flex:0 0 auto;font-size:11px;color:var(--muted)}
+    .conv-result{font-size:25px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1;margin:9px 0 4px}
     .list{display:grid;gap:8px}
     .row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;padding:10px;border:1px solid var(--line);background:var(--panel2);border-radius:8px}
     .row .name{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -62,6 +71,7 @@
       .app{padding:22px 20px 36px}.grid{grid-template-columns:repeat(4,minmax(0,1fr))}
       .grid.one{grid-template-columns:repeat(2,minmax(0,1fr))}
       h1{font-size:26px}.chart-card{height:322px}.chart-box{height:264px}
+      .chart-card.ref-chart{height:392px}.ref-chart .chart-box{height:332px}
     }
   </style>
 </head>
@@ -100,9 +110,9 @@
 
     <section id="coal" class="view hidden">
       <div class="grid" id="coalCards"></div>
-      <div class="section card chart-card">
-        <h2>煤价历史</h2>
-        <div class="chart-box"><canvas id="coalChart"></canvas></div>
+      <div class="section card chart-card ref-chart">
+        <h2>环渤海Q5500 × 秦皇岛港库存</h2>
+        <div class="chart-box"><div id="coalDualChart" class="echart"></div></div>
       </div>
       <div class="section card">
         <h2>煤价明细</h2>
@@ -112,15 +122,9 @@
 
     <section id="gas" class="view hidden">
       <div class="grid" id="gasCards"></div>
-      <div class="section grid one">
-        <div class="card chart-card">
-          <h2>国内 LNG</h2>
-          <div class="chart-box"><canvas id="gasDomesticChart"></canvas></div>
-        </div>
-        <div class="card chart-card">
-          <h2>国际天然气</h2>
-          <div class="chart-box"><canvas id="gasIntlChart"></canvas></div>
-        </div>
+      <div class="section card chart-card ref-chart">
+        <h2>天然气历史 · 国内LNG × 国际基准</h2>
+        <div class="chart-box"><div id="gasDualChart" class="echart"></div></div>
       </div>
       <div class="section card">
         <h2>天然气明细</h2>
@@ -153,6 +157,7 @@ const $=s=>document.querySelector(s);
 const C={blue:'#4f8cff',green:'#27c08a',amber:'#f3b33d',red:'#ee5b67',cyan:'#37c5d8',muted:'#9aa8bb',line:'rgba(165,180,204,.16)'};
 let DATA=null;
 const charts={};
+const echartsMap={};
 
 function nf(v,d=0){return v===null||v===undefined||Number.isNaN(+v)?'--':new Intl.NumberFormat('zh-CN',{maximumFractionDigits:d,minimumFractionDigits:d}).format(+v)}
 function relTime(iso){
@@ -192,6 +197,7 @@ function bindTabs(){
 function setView(id){
   document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));
   const el=$('#'+id); if(el)el.classList.remove('hidden');
+  setTimeout(resizeECharts,60);
 }
 
 function render(){
@@ -224,15 +230,15 @@ function renderOverview(){
 function renderCommodity(kind){
   const sec=DATA[kind];
   const cards=kind==='coal'
-    ? [sec.summary.thermal_q5500,sec.summary.qhd_5500,sec.summary.pit_5500,sec.summary.qhd_inventory].filter(Boolean)
-    : [sec.summary.guangdong_lng,sec.summary.national_lng,sec.summary.jkm,sec.summary.henry_hub].filter(Boolean);
-  $('#'+kind+'Cards').innerHTML=cards.map(priceCard).join('');
+    ? ((sec.reference&&sec.reference.cards&&sec.reference.cards.length)?sec.reference.cards:[sec.summary.thermal_q5500,sec.summary.qhd_5500,sec.summary.pit_5500,sec.summary.qhd_inventory].filter(Boolean))
+    : [sec.summary.national_lng,sec.summary.jkm,sec.summary.henry_hub,sec.summary.ttf].filter(Boolean);
+  $('#'+kind+'Cards').innerHTML=cards.map(priceCard).join('')+(kind==='gas'?conversionCards(sec.conversions):'');
   $('#'+kind+'List').innerHTML=sec.latest.map(detailRow).join('')||'<div class="empty">暂无数据</div>';
   if(kind==='coal'){
-    drawChart('coalChart', seriesByUnit(sec.history,'元/吨').slice(0,6), '元/吨');
+    drawCoalReference(sec.reference);
   }else{
-    drawChart('gasDomesticChart', seriesByUnit(sec.history,'元/吨').slice(0,5), '元/吨');
-    drawChart('gasIntlChart', seriesByUnit(sec.history,'美元/MMBtu').slice(0,4), '美元/MMBtu');
+    drawGasReference(sec.reference);
+    bindConverters(sec.conversions);
   }
 }
 
@@ -244,6 +250,39 @@ function priceCard(r){
     '<div class="meta"><span>'+r.date+' · '+r.source+'</span><span class="delta">'+chgText(r)+'</span></div>'+
     '<div class="meta"><span>'+age+'</span><span>'+(r.note||'')+'</span></div>'+
   '</article>';
+}
+
+function conversionCards(conversions){
+  if(!conversions)return '';
+  return ['jkm_to_cny_m3','lng_ton_to_m3'].map(key=>{
+    const c=conversions[key]; if(!c)return '';
+    const mode=key==='jkm_to_cny_m3'?'jkm':'lng';
+    const rate=c.usd_cny||1;
+    return '<article class="card convert-card" data-mode="'+mode+'" data-rate="'+rate+'" data-factor="'+c.factor+'">'+
+      '<div class="label">'+c.indicator+'</div>'+
+      '<div class="convert-field"><input type="number" step="0.01" inputmode="decimal" value="'+c.input_value+'"><span>'+c.input_unit+'</span></div>'+
+      '<div class="conv-result" data-result>'+nf(c.value,3)+'<span class="unit">'+c.unit+'</span></div>'+
+      '<div class="meta"><span>'+c.date+' · '+c.source+'</span><span>'+c.note+'</span></div>'+
+    '</article>';
+  }).join('');
+}
+
+function bindConverters(conversions){
+  if(!conversions)return;
+  document.querySelectorAll('.convert-card').forEach(card=>{
+    const input=card.querySelector('input');
+    const result=card.querySelector('[data-result]');
+    const mode=card.dataset.mode;
+    const rate=Number(card.dataset.rate||1);
+    const factor=Number(card.dataset.factor||1);
+    const update=()=>{
+      const v=Number(input.value);
+      const out=Number.isFinite(v)?(mode==='jkm'?v*rate/factor:v/factor):null;
+      result.innerHTML=nf(out,3)+'<span class="unit">元/立方米</span>';
+    };
+    input.oninput=update;
+    update();
+  });
 }
 
 function detailRow(r){
@@ -283,6 +322,95 @@ function drawChart(id, series, unit){
   });
 }
 
+function resizeECharts(){
+  Object.values(echartsMap).forEach(chart=>chart.resize());
+}
+
+function drawCoalReference(ref){
+  const series=(ref&&ref.series)||[];
+  drawDualReference('coalDualChart',series,{
+    leftName:'元/吨',
+    rightName:'万吨',
+    rightAxis:'inventory',
+    legendBottom:28,
+  });
+}
+
+function drawGasReference(ref){
+  const series=(ref&&ref.series)||[];
+  drawDualReference('gasDualChart',series,{
+    leftName:'元/吨',
+    rightName:'美元/MMBtu',
+    rightAxis:'international',
+    legendBottom:28,
+  });
+}
+
+function drawDualReference(id, series, cfg){
+  const el=$('#'+id); if(!el)return;
+  if(!window.echarts){
+    el.innerHTML='<div class="empty">图表组件载入失败</div>';
+    return;
+  }
+  const usable=(series||[]).filter(s=>s.points&&s.points.length);
+  if(!usable.length){
+    el.innerHTML='<div class="empty">暂无走势图</div>';
+    return;
+  }
+  const labels=[...new Set(usable.flatMap(s=>s.points.map(p=>p.date)))].sort();
+  const palette=[C.blue,C.green,C.amber,C.red,C.cyan,'#a78bfa','#f472b6','#94a3b8'];
+  const selected={};
+  usable.forEach(s=>{selected[s.name]=s.selected!==false});
+  const chart=echartsMap[id]||(echartsMap[id]=echarts.init(el,null,{renderer:'canvas'}));
+  chart.setOption({
+    animation:false,
+    color:palette,
+    grid:{left:44,right:44,top:36,bottom:56,containLabel:false},
+    legend:{type:'scroll',bottom:cfg.legendBottom||24,itemWidth:12,itemHeight:6,textStyle:{color:C.muted,fontSize:10},selected},
+    tooltip:{
+      trigger:'axis',
+      confine:true,
+      backgroundColor:'rgba(16,24,38,.97)',
+      borderColor:'rgba(79,140,255,.32)',
+      textStyle:{color:'#edf3fb',fontSize:11},
+      formatter:params=>{
+        const rows=[params[0].axisValue];
+        params.forEach(p=>{
+          if(p.value===null||p.value===undefined||Number.isNaN(+p.value))return;
+          const item=usable.find(s=>s.name===p.seriesName);
+          const decimals=item&&item.unit&&item.unit.includes('美元')?2:0;
+          rows.push(p.marker+p.seriesName+' '+nf(p.value,decimals)+' '+((item&&item.unit)||''));
+        });
+        return rows.join('<br>');
+      }
+    },
+    dataZoom:[
+      {type:'inside',xAxisIndex:0},
+      {type:'slider',height:20,bottom:2,borderColor:'transparent',fillerColor:'rgba(79,140,255,.2)',handleStyle:{color:C.blue},textStyle:{color:C.muted,fontSize:10}}
+    ],
+    xAxis:{type:'category',data:labels,boundaryGap:false,axisLine:{lineStyle:{color:C.line}},axisLabel:{color:C.muted,fontSize:10,hideOverlap:true},axisTick:{show:false}},
+    yAxis:[
+      {type:'value',name:cfg.leftName,nameTextStyle:{color:C.muted,fontSize:10},axisLabel:{color:C.muted,fontSize:10},splitLine:{lineStyle:{color:C.line}},axisLine:{show:false}},
+      {type:'value',name:cfg.rightName,nameTextStyle:{color:C.muted,fontSize:10},axisLabel:{color:C.muted,fontSize:10},splitLine:{show:false},axisLine:{show:false}}
+    ],
+    series:usable.map((s,i)=>{
+      const mp=new Map(s.points.map(p=>[p.date,p.value]));
+      return {
+        name:s.name,
+        type:'line',
+        yAxisIndex:s.axis===cfg.rightAxis?1:0,
+        data:labels.map(d=>mp.has(d)?mp.get(d):null),
+        connectNulls:true,
+        smooth:true,
+        showSymbol:false,
+        lineStyle:{width:2},
+        emphasis:{focus:'series'},
+      };
+    })
+  },true);
+  setTimeout(()=>chart.resize(),30);
+}
+
 function renderStatus(){
   const m=DATA.meta;
   $('#snapshotStatus').innerHTML=[
@@ -306,6 +434,7 @@ function line([k,v]){return '<div class="status-line"><div class="k">'+k+'</div>
 function prefixed(p,arr){return (arr||[]).map(x=>p+'：'+x)}
 
 load();
+window.addEventListener('resize',resizeECharts);
 if('serviceWorker' in navigator){
   window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 }
