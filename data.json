@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-06-28T18:38:52",
+    "generated_at": "2026-06-28T23:56:32",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   "coal": {
     "name": "coal",
@@ -152,6 +152,20 @@
         "direction": "down"
       },
       {
+        "indicator": "广州港(Q5500)",
+        "value": 925.0,
+        "value_text": "925",
+        "change": -5.0,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-06-24",
+        "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 4,
+        "direction": "down"
+      },
+      {
         "indicator": "秦皇岛港库存",
         "value": 677.0,
         "value_text": "677",
@@ -192,20 +206,6 @@
         "note": "",
         "age_days": 1,
         "direction": "flat"
-      },
-      {
-        "indicator": "广州港(Q5500)",
-        "value": 925.0,
-        "value_text": "925",
-        "change": -5.0,
-        "change_pct": null,
-        "unit": "元/吨",
-        "date": "2026-06-24",
-        "source": "Mysteel",
-        "status": "ok",
-        "note": "",
-        "age_days": 4,
-        "direction": "down"
       }
     ],
     "history": [
@@ -307,6 +307,18 @@
           {
             "date": "2026-06-28",
             "value": 856.0,
+            "change": -5.0
+          }
+        ]
+      },
+      {
+        "indicator": "广州港(Q5500)",
+        "source": "Mysteel",
+        "unit": "元/吨",
+        "points": [
+          {
+            "date": "2026-06-24",
+            "value": 925.0,
             "change": -5.0
           }
         ]

@@ -98,7 +98,7 @@
       <div class="grid" id="overviewCards"></div>
       <div class="section grid one">
         <div class="card chart-card">
-          <h2>动力煤价格走势</h2>
+          <h2>动力煤价格走势（年初至今）</h2>
           <div class="chart-box"><canvas id="coalOverviewChart"></canvas></div>
         </div>
         <div class="card chart-card">
@@ -307,7 +307,12 @@ function renderOverview(){
     DATA.gas.summary.jkm,
   ].filter(Boolean);
   $('#overviewCards').innerHTML=cards.map(priceCard).join('');
-  drawChart('coalOverviewChart', seriesByUnit(DATA.coal.history,'元/吨').slice(0,3), '元/吨');
+  drawChart('coalOverviewChart', ytdSeries(pickSeries(seriesByUnit(DATA.coal.history,'元/吨'),[
+    '动力煤5500综合价',
+    '秦皇岛港5500K',
+    '综合指数',
+    '广州港(Q5500)',
+  ])), '元/吨');
   drawChart('gasOverviewChart', seriesByUnit(DATA.gas.history,'元/吨').slice(0,3), '元/吨');
 }
 
@@ -379,6 +384,25 @@ function seriesByUnit(series, unit){
   return (series||[]).filter(s=>s.unit===unit && s.points && s.points.length);
 }
 
+function pickSeries(series, names){
+  return names.map(name=>(series||[]).find(s=>s.indicator===name)).filter(Boolean);
+}
+
+function overviewYearStart(){
+  const raw=(DATA.meta&&DATA.meta.generated_at)||new Date().toISOString();
+  const d=new Date(raw);
+  const year=Number.isFinite(d.getTime())?d.getFullYear():new Date().getFullYear();
+  return year+'-01-01';
+}
+
+function ytdSeries(series){
+  const start=overviewYearStart();
+  return (series||[]).map(s=>({
+    ...s,
+    points:(s.points||[]).filter(p=>p.date>=start),
+  })).filter(s=>s.points.length);
+}
+
 function drawChart(id, series, unit){
   const el=$('#'+id); if(!el)return;
   if(charts[id])charts[id].destroy();
@@ -392,7 +416,7 @@ function drawChart(id, series, unit){
     data:{labels,datasets:series.map((s,i)=>{
       const mp=new Map(s.points.map(p=>[p.date,p.value]));
       return {label:s.indicator,data:labels.map(d=>mp.has(d)?mp.get(d):null),spanGaps:true,
-        borderColor:palette[i%palette.length],borderWidth:2,tension:.28,pointRadius:0,pointHoverRadius:4};
+        borderColor:palette[i%palette.length],borderWidth:2,tension:.28,pointRadius:s.points.length<2?3:0,pointHoverRadius:4};
     })},
     options:{
       responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
