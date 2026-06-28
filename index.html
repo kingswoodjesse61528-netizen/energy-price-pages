@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#101826">
+  <title>能源价格看板</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+  <style>
+    :root{
+      color-scheme:dark;
+      --bg:#0b111a;--band:#101826;--panel:#141d2a;--panel2:#182233;
+      --line:rgba(165,180,204,.18);--text:#edf3fb;--muted:#9aa8bb;--faint:#66768d;
+      --blue:#4f8cff;--green:#27c08a;--amber:#f3b33d;--red:#ee5b67;--cyan:#37c5d8;
+      --shadow:0 18px 42px rgba(0,0,0,.28);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang SC","Microsoft YaHei",sans-serif;letter-spacing:0}
+    .app{min-height:100vh;padding:16px 14px 28px;max-width:980px;margin:0 auto}
+    header{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin:2px 0 14px}
+    h1{font-size:22px;line-height:1.15;margin:0;font-weight:760}
+    .sub{margin-top:7px;color:var(--muted);font-size:12px;line-height:1.45}
+    .badge{flex:0 0 auto;min-width:72px;border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:7px 9px;text-align:center;box-shadow:var(--shadow)}
+    .badge .k{font-size:10px;color:var(--faint)}
+    .badge .v{font-size:14px;margin-top:2px;font-weight:720}
+    .badge.ok .v{color:var(--green)}.badge.stale .v{color:var(--amber)}.badge.partial .v{color:var(--red)}
+    .tabs{position:sticky;top:0;z-index:5;display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:8px 0 12px;background:linear-gradient(180deg,var(--bg) 72%,rgba(11,17,26,0))}
+    .tab{height:38px;border:1px solid var(--line);background:var(--panel);color:var(--muted);border-radius:8px;font-size:13px;font-weight:650}
+    .tab.on{color:#fff;border-color:rgba(79,140,255,.65);background:#1b2940}
+    .view{display:block}.hidden{display:none!important}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+    .grid.one{grid-template-columns:1fr}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px;box-shadow:var(--shadow);min-width:0}
+    .card h2{margin:0 0 10px;font-size:15px;line-height:1.2}
+    .price-card{min-height:116px;display:flex;flex-direction:column;justify-content:space-between}
+    .label{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .value{font-variant-numeric:tabular-nums;font-size:26px;font-weight:800;line-height:1;margin:8px 0 4px}
+    .unit{font-size:11px;color:var(--faint);margin-left:4px;font-weight:600}
+    .meta{display:flex;justify-content:space-between;gap:8px;align-items:center;color:var(--muted);font-size:11px;line-height:1.3}
+    .delta{font-variant-numeric:tabular-nums;font-weight:720}.up{color:var(--red)}.down{color:var(--green)}.flat{color:var(--muted)}
+    .section{margin-top:12px}
+    .chart-card{height:274px;padding-bottom:10px}
+    .chart-box{height:220px;position:relative}
+    .list{display:grid;gap:8px}
+    .row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;padding:10px;border:1px solid var(--line);background:var(--panel2);border-radius:8px}
+    .row .name{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .row .source{font-size:10px;color:var(--faint);margin-top:3px}
+    .row .num{text-align:right;font-variant-numeric:tabular-nums;font-size:17px;font-weight:760}
+    .row .chg{font-size:11px;margin-top:3px}
+    .status-grid{display:grid;gap:10px}
+    .status-line{display:grid;grid-template-columns:104px minmax(0,1fr);gap:8px;padding:9px 0;border-bottom:1px solid var(--line);font-size:13px}
+    .status-line:last-child{border-bottom:0}
+    .status-line .k{color:var(--muted)}
+    .status-line .v{overflow-wrap:anywhere}
+    .alert{border:1px solid rgba(243,179,61,.35);background:rgba(243,179,61,.09);border-radius:8px;padding:10px;font-size:12px;line-height:1.5;color:#f6d696}
+    .empty{height:160px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px}
+    footer{margin-top:18px;color:var(--faint);font-size:11px;text-align:center}
+    @media (min-width:720px){
+      .app{padding:22px 20px 36px}.grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+      .grid.one{grid-template-columns:repeat(2,minmax(0,1fr))}
+      h1{font-size:26px}.chart-card{height:322px}.chart-box{height:264px}
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div>
+        <h1>能源价格看板</h1>
+        <div class="sub" id="genLine">载入中</div>
+      </div>
+      <div class="badge" id="statusBadge"><div class="k">状态</div><div class="v">--</div></div>
+    </header>
+
+    <nav class="tabs" aria-label="视图">
+      <button class="tab on" data-view="overview">总览</button>
+      <button class="tab" data-view="coal">煤价</button>
+      <button class="tab" data-view="gas">天然气</button>
+      <button class="tab" data-view="status">状态</button>
+    </nav>
+
+    <section id="loading" class="card empty">正在载入数据</section>
+
+    <section id="overview" class="view hidden">
+      <div class="grid" id="overviewCards"></div>
+      <div class="section grid one">
+        <div class="card chart-card">
+          <h2>动力煤价格走势</h2>
+          <div class="chart-box"><canvas id="coalOverviewChart"></canvas></div>
+        </div>
+        <div class="card chart-card">
+          <h2>天然气价格走势</h2>
+          <div class="chart-box"><canvas id="gasOverviewChart"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="coal" class="view hidden">
+      <div class="grid" id="coalCards"></div>
+      <div class="section card chart-card">
+        <h2>煤价历史</h2>
+        <div class="chart-box"><canvas id="coalChart"></canvas></div>
+      </div>
+      <div class="section card">
+        <h2>煤价明细</h2>
+        <div class="list" id="coalList"></div>
+      </div>
+    </section>
+
+    <section id="gas" class="view hidden">
+      <div class="grid" id="gasCards"></div>
+      <div class="section grid one">
+        <div class="card chart-card">
+          <h2>国内 LNG</h2>
+          <div class="chart-box"><canvas id="gasDomesticChart"></canvas></div>
+        </div>
+        <div class="card chart-card">
+          <h2>国际天然气</h2>
+          <div class="chart-box"><canvas id="gasIntlChart"></canvas></div>
+        </div>
+      </div>
+      <div class="section card">
+        <h2>天然气明细</h2>
+        <div class="list" id="gasList"></div>
+      </div>
+    </section>
+
+    <section id="status" class="view hidden">
+      <div class="status-grid">
+        <div class="card">
+          <h2>快照</h2>
+          <div id="snapshotStatus"></div>
+        </div>
+        <div class="card">
+          <h2>数据状态</h2>
+          <div id="sourceStatus"></div>
+        </div>
+        <div class="card">
+          <h2>告警</h2>
+          <div id="alerts"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="foot"></footer>
+  </main>
+
+<script>
+const $=s=>document.querySelector(s);
+const C={blue:'#4f8cff',green:'#27c08a',amber:'#f3b33d',red:'#ee5b67',cyan:'#37c5d8',muted:'#9aa8bb',line:'rgba(165,180,204,.16)'};
+let DATA=null;
+const charts={};
+
+function nf(v,d=0){return v===null||v===undefined||Number.isNaN(+v)?'--':new Intl.NumberFormat('zh-CN',{maximumFractionDigits:d,minimumFractionDigits:d}).format(+v)}
+function relTime(iso){
+  const t=new Date(iso), now=new Date(), mins=Math.round((now-t)/60000);
+  if(!Number.isFinite(mins))return iso||'--';
+  if(mins<1)return'刚刚'; if(mins<60)return mins+' 分钟前'; if(mins<1440)return Math.round(mins/60)+' 小时前';
+  return Math.round(mins/1440)+' 天前';
+}
+function chgText(r){
+  if(r.change===null||r.change===undefined)return '无涨跌';
+  const cls=r.direction==='up'?'up':r.direction==='down'?'down':'flat';
+  const sign=r.change>0?'+':'';
+  const pct=r.change_pct===null||r.change_pct===undefined?'':' / '+sign+nf(r.change_pct,2)+'%';
+  return '<span class="'+cls+'">'+sign+nf(r.change, r.unit&&r.unit.includes('美元')?2:0)+pct+'</span>';
+}
+function statusText(s){return s==='ok'?'正常':s==='stale'?'滞后':'部分'}
+
+async function load(){
+  bindTabs();
+  try{
+    const r=await fetch('./data.json?t='+Date.now(),{cache:'no-store'});
+    if(!r.ok)throw new Error(r.status);
+    DATA=await r.json();
+    render();
+  }catch(e){
+    $('#loading').innerHTML='<div style="color:var(--red)">数据载入失败</div><div style="font-size:12px;margin-top:8px;color:var(--muted)">'+e+'</div>';
+  }
+}
+
+function bindTabs(){
+  document.querySelectorAll('.tab').forEach(btn=>btn.onclick=()=>{
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));
+    btn.classList.add('on');
+    setView(btn.dataset.view);
+  });
+}
+function setView(id){
+  document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));
+  const el=$('#'+id); if(el)el.classList.remove('hidden');
+}
+
+function render(){
+  $('#loading').classList.add('hidden');
+  setView('overview');
+  const meta=DATA.meta||{};
+  const badge=$('#statusBadge');
+  badge.className='badge '+(meta.status||'partial');
+  badge.querySelector('.v').textContent=statusText(meta.status);
+  $('#genLine').textContent='更新于 '+relTime(meta.generated_at)+' · '+(meta.machine||'--');
+  $('#foot').textContent='Energy Price PWA · '+(meta.generated_at||'').replace('T',' ');
+  renderOverview();
+  renderCommodity('coal');
+  renderCommodity('gas');
+  renderStatus();
+}
+
+function renderOverview(){
+  const cards=[
+    DATA.coal.summary.thermal_q5500,
+    DATA.coal.summary.qhd_5500,
+    DATA.gas.summary.guangdong_lng,
+    DATA.gas.summary.jkm,
+  ].filter(Boolean);
+  $('#overviewCards').innerHTML=cards.map(priceCard).join('');
+  drawChart('coalOverviewChart', seriesByUnit(DATA.coal.history,'元/吨').slice(0,3), '元/吨');
+  drawChart('gasOverviewChart', seriesByUnit(DATA.gas.history,'元/吨').slice(0,3), '元/吨');
+}
+
+function renderCommodity(kind){
+  const sec=DATA[kind];
+  const cards=kind==='coal'
+    ? [sec.summary.thermal_q5500,sec.summary.qhd_5500,sec.summary.pit_5500,sec.summary.qhd_inventory].filter(Boolean)
+    : [sec.summary.guangdong_lng,sec.summary.national_lng,sec.summary.jkm,sec.summary.henry_hub].filter(Boolean);
+  $('#'+kind+'Cards').innerHTML=cards.map(priceCard).join('');
+  $('#'+kind+'List').innerHTML=sec.latest.map(detailRow).join('')||'<div class="empty">暂无数据</div>';
+  if(kind==='coal'){
+    drawChart('coalChart', seriesByUnit(sec.history,'元/吨').slice(0,6), '元/吨');
+  }else{
+    drawChart('gasDomesticChart', seriesByUnit(sec.history,'元/吨').slice(0,5), '元/吨');
+    drawChart('gasIntlChart', seriesByUnit(sec.history,'美元/MMBtu').slice(0,4), '美元/MMBtu');
+  }
+}
+
+function priceCard(r){
+  const decimals=r.unit&&r.unit.includes('美元')?2:0;
+  const age=r.age_days===0?'今日':(r.age_days===null?'--':r.age_days+'天前');
+  return '<article class="card price-card">'+
+    '<div><div class="label">'+r.indicator+'</div><div class="value">'+nf(r.value,decimals)+'<span class="unit">'+r.unit+'</span></div></div>'+
+    '<div class="meta"><span>'+r.date+' · '+r.source+'</span><span class="delta">'+chgText(r)+'</span></div>'+
+    '<div class="meta"><span>'+age+'</span><span>'+(r.note||'')+'</span></div>'+
+  '</article>';
+}
+
+function detailRow(r){
+  const decimals=r.unit&&r.unit.includes('美元')?2:0;
+  return '<div class="row"><div><div class="name">'+r.indicator+'</div><div class="source">'+r.date+' · '+r.source+' · '+(r.age_days===null?'--':r.age_days+'天前')+'</div></div>'+
+    '<div><div class="num">'+nf(r.value,decimals)+' <span class="unit">'+r.unit+'</span></div><div class="chg">'+chgText(r)+'</div></div></div>';
+}
+
+function seriesByUnit(series, unit){
+  return (series||[]).filter(s=>s.unit===unit && s.points && s.points.length);
+}
+
+function drawChart(id, series, unit){
+  const el=$('#'+id); if(!el)return;
+  if(charts[id])charts[id].destroy();
+  if(!series.length){
+    const box=el.parentElement; box.innerHTML='<div class="empty">暂无走势图</div>'; return;
+  }
+  const labels=[...new Set(series.flatMap(s=>s.points.map(p=>p.date)))].sort();
+  const palette=[C.blue,C.green,C.amber,C.red,C.cyan,'#a78bfa'];
+  charts[id]=new Chart(el,{
+    type:'line',
+    data:{labels,datasets:series.map((s,i)=>{
+      const mp=new Map(s.points.map(p=>[p.date,p.value]));
+      return {label:s.indicator,data:labels.map(d=>mp.has(d)?mp.get(d):null),spanGaps:true,
+        borderColor:palette[i%palette.length],borderWidth:2,tension:.28,pointRadius:0,pointHoverRadius:4};
+    })},
+    options:{
+      responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
+      plugins:{legend:{display:true,position:'bottom',labels:{boxWidth:10,boxHeight:3,color:C.muted,font:{size:10}}},
+        tooltip:{backgroundColor:'rgba(16,24,38,.96)',borderColor:'rgba(79,140,255,.35)',borderWidth:1,
+          titleColor:'#edf3fb',bodyColor:'#c9d4e4',padding:10,displayColors:true,
+          callbacks:{label:c=>' '+c.dataset.label+' '+nf(c.parsed.y,unit.includes('美元')?2:0)+' '+unit}}},
+      scales:{x:{grid:{display:false},ticks:{color:C.muted,font:{size:10},maxTicksLimit:6,maxRotation:0}},
+        y:{grid:{color:C.line},ticks:{color:C.muted,font:{size:10}},title:{display:false}}}
+    }
+  });
+}
+
+function renderStatus(){
+  const m=DATA.meta;
+  $('#snapshotStatus').innerHTML=[
+    ['生成时间',m.generated_at],['发布机器',m.machine],['总体状态',statusText(m.status)],['版本',m.version],
+  ].map(line).join('');
+  $('#sourceStatus').innerHTML=[
+    ['煤价运行时间',DATA.coal.status.run_at||'--'],
+    ['煤价状态',statusText(DATA.coal.status.state)+' · '+DATA.coal.status.latest_count+' 条'],
+    ['天然气运行时间',DATA.gas.status.run_at||'--'],
+    ['天然气状态',statusText(DATA.gas.status.state)+' · '+DATA.gas.status.latest_count+' 条'],
+  ].map(line).join('');
+  const alerts=[
+    ...prefixed('煤价',DATA.coal.status.alerts),
+    ...prefixed('煤价提示',DATA.coal.status.warnings),
+    ...prefixed('天然气',DATA.gas.status.alerts),
+    ...prefixed('天然气提示',DATA.gas.status.warnings),
+  ];
+  $('#alerts').innerHTML=alerts.length?alerts.map(a=>'<div class="alert">'+a+'</div>').join(''):'<div class="status-line"><div class="k">当前</div><div class="v">无告警</div></div>';
+}
+function line([k,v]){return '<div class="status-line"><div class="k">'+k+'</div><div class="v">'+(v||'--')+'</div></div>'}
+function prefixed(p,arr){return (arr||[]).map(x=>p+'：'+x)}
+
+load();
+if('serviceWorker' in navigator){
+  window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+}
+</script>
+</body>
+</html>

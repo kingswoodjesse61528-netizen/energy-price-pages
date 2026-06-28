@@ -1,0 +1,3460 @@
+{
+  "meta": {
+    "generated_at": "2026-06-28T13:18:25",
+    "machine": "Air",
+    "status": "ok",
+    "title": "能源价格看板",
+    "version": "1.0.0"
+  },
+  "coal": {
+    "name": "coal",
+    "summary": {
+      "thermal_q5500": {
+        "indicator": "动力煤5500综合价",
+        "value": 586.0,
+        "value_text": "586",
+        "change": 3.0,
+        "change_pct": 0.51,
+        "unit": "元/吨",
+        "date": "2026-06-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "up"
+      },
+      "qhd_5500": {
+        "indicator": "秦皇岛港5500K",
+        "value": 715.0,
+        "value_text": "710-720",
+        "change": 0.0,
+        "change_pct": 0.0,
+        "unit": "元/吨",
+        "date": "2026-06-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "flat"
+      },
+      "pit_5500": {
+        "indicator": "5500K坑口价",
+        "value": 633.0,
+        "value_text": "630-636",
+        "change": 11.0,
+        "change_pct": 1.78,
+        "unit": "元/吨",
+        "date": "2026-06-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "up"
+      },
+      "qhd_inventory": {
+        "indicator": "秦皇岛港库存",
+        "value": 677.0,
+        "value_text": "677",
+        "change": 3.0,
+        "change_pct": null,
+        "unit": "万吨",
+        "date": "2026-06-26",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 2,
+        "direction": "up"
+      }
+    },
+    "latest": [
+      {
+        "indicator": "动力煤5500综合价",
+        "value": 586.0,
+        "value_text": "586",
+        "change": 3.0,
+        "change_pct": 0.51,
+        "unit": "元/吨",
+        "date": "2026-06-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "up"
+      },
+      {
+        "indicator": "秦皇岛港5500K",
+        "value": 715.0,
+        "value_text": "710-720",
+        "change": 0.0,
+        "change_pct": 0.0,
+        "unit": "元/吨",
+        "date": "2026-06-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "flat"
+      },
+      {
+        "indicator": "综合指数",
+        "value": 714.0,
+        "value_text": "714",
+        "change": 0.0,
+        "change_pct": 0.0,
+        "unit": "元/吨",
+        "date": "2026-06-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "flat"
+      },
+      {
+        "indicator": "5500K坑口价",
+        "value": 633.0,
+        "value_text": "630-636",
+        "change": 11.0,
+        "change_pct": 1.78,
+        "unit": "元/吨",
+        "date": "2026-06-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "up"
+      },
+      {
+        "indicator": "北方港5500K",
+        "value": 827.0,
+        "value_text": "827",
+        "change": -3.0,
+        "change_pct": -0.36,
+        "unit": "元/吨",
+        "date": "2026-06-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "down"
+      },
+      {
+        "indicator": "长江口5500K",
+        "value": 856.0,
+        "value_text": "856",
+        "change": -5.0,
+        "change_pct": -0.58,
+        "unit": "元/吨",
+        "date": "2026-06-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "down"
+      },
+      {
+        "indicator": "秦皇岛港库存",
+        "value": 677.0,
+        "value_text": "677",
+        "change": 3.0,
+        "change_pct": null,
+        "unit": "万吨",
+        "date": "2026-06-26",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 2,
+        "direction": "up"
+      },
+      {
+        "indicator": "内蒙古沫煤(Q5500坑口)",
+        "value": 851.0,
+        "value_text": "851",
+        "change": null,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-06-27",
+        "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 1,
+        "direction": "flat"
+      },
+      {
+        "indicator": "山西沫煤(Q5500坑口)",
+        "value": 851.0,
+        "value_text": "851",
+        "change": null,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-06-27",
+        "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 1,
+        "direction": "flat"
+      },
+      {
+        "indicator": "广州港(Q5500)",
+        "value": 925.0,
+        "value_text": "925",
+        "change": -5.0,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-06-24",
+        "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 4,
+        "direction": "down"
+      }
+    ],
+    "history": [
+      {
+        "indicator": "动力煤5500综合价",
+        "source": "CCTD",
+        "unit": "元/吨",
+        "points": [
+          {
+            "date": "2026-06-27",
+            "value": 586.0,
+            "change": 3.0
+          },
+          {
+            "date": "2026-06-28",
+            "value": 586.0,
+            "change": 3.0
+          }
+        ]
+      },
+      {
+        "indicator": "秦皇岛港5500K",
+        "source": "CCTD",
+        "unit": "元/吨",
+        "points": [
+          {
+            "date": "2026-06-27",
+            "value": 715.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-28",
+            "value": 715.0,
+            "change": 0.0
+          }
+        ]
+      },
+      {
+        "indicator": "综合指数",
+        "source": "CCTD",
+        "unit": "元/吨",
+        "points": [
+          {
+            "date": "2026-06-27",
+            "value": 714.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-28",
+            "value": 714.0,
+            "change": 0.0
+          }
+        ]
+      },
+      {
+        "indicator": "5500K坑口价",
+        "source": "CCTD",
+        "unit": "元/吨",
+        "points": [
+          {
+            "date": "2026-06-27",
+            "value": 633.0,
+            "change": 11.0
+          },
+          {
+            "date": "2026-06-28",
+            "value": 633.0,
+            "change": 11.0
+          }
+        ]
+      },
+      {
+        "indicator": "北方港5500K",
+        "source": "CCTD",
+        "unit": "元/吨",
+        "points": [
+          {
+            "date": "2026-06-27",
+            "value": 827.0,
+            "change": -3.0
+          },
+          {
+            "date": "2026-06-28",
+            "value": 827.0,
+            "change": -3.0
+          }
+        ]
+      },
+      {
+        "indicator": "长江口5500K",
+        "source": "CCTD",
+        "unit": "元/吨",
+        "points": [
+          {
+            "date": "2026-06-27",
+            "value": 856.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-06-28",
+            "value": 856.0,
+            "change": -5.0
+          }
+        ]
+      },
+      {
+        "indicator": "秦皇岛港库存",
+        "source": "CCTD",
+        "unit": "万吨",
+        "points": [
+          {
+            "date": "2026-05-28",
+            "value": 690.0,
+            "change": null
+          },
+          {
+            "date": "2026-05-29",
+            "value": 698.0,
+            "change": 8.0
+          },
+          {
+            "date": "2026-05-30",
+            "value": 690.0,
+            "change": -8.0
+          },
+          {
+            "date": "2026-05-31",
+            "value": 697.0,
+            "change": 7.0
+          },
+          {
+            "date": "2026-06-01",
+            "value": 686.0,
+            "change": -11.0
+          },
+          {
+            "date": "2026-06-02",
+            "value": 684.0,
+            "change": -2.0
+          },
+          {
+            "date": "2026-06-03",
+            "value": 686.0,
+            "change": 2.0
+          },
+          {
+            "date": "2026-06-04",
+            "value": 690.0,
+            "change": 4.0
+          },
+          {
+            "date": "2026-06-05",
+            "value": 691.0,
+            "change": 1.0
+          },
+          {
+            "date": "2026-06-06",
+            "value": 688.0,
+            "change": -3.0
+          },
+          {
+            "date": "2026-06-07",
+            "value": 677.0,
+            "change": -11.0
+          },
+          {
+            "date": "2026-06-08",
+            "value": 680.0,
+            "change": 3.0
+          },
+          {
+            "date": "2026-06-09",
+            "value": 660.0,
+            "change": -20.0
+          },
+          {
+            "date": "2026-06-10",
+            "value": 655.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-06-11",
+            "value": 650.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-06-12",
+            "value": 650.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-13",
+            "value": 645.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-06-14",
+            "value": 658.0,
+            "change": 13.0
+          },
+          {
+            "date": "2026-06-15",
+            "value": 651.0,
+            "change": -7.0
+          },
+          {
+            "date": "2026-06-16",
+            "value": 650.0,
+            "change": -1.0
+          },
+          {
+            "date": "2026-06-17",
+            "value": 641.0,
+            "change": -9.0
+          },
+          {
+            "date": "2026-06-18",
+            "value": 637.0,
+            "change": -4.0
+          },
+          {
+            "date": "2026-06-19",
+            "value": 637.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-20",
+            "value": 650.0,
+            "change": 13.0
+          },
+          {
+            "date": "2026-06-21",
+            "value": 656.0,
+            "change": 6.0
+          },
+          {
+            "date": "2026-06-22",
+            "value": 660.0,
+            "change": 4.0
+          },
+          {
+            "date": "2026-06-23",
+            "value": 662.0,
+            "change": 2.0
+          },
+          {
+            "date": "2026-06-24",
+            "value": 664.0,
+            "change": 2.0
+          },
+          {
+            "date": "2026-06-25",
+            "value": 674.0,
+            "change": 10.0
+          },
+          {
+            "date": "2026-06-26",
+            "value": 677.0,
+            "change": 3.0
+          }
+        ]
+      }
+    ],
+    "status": {
+      "state": "ok",
+      "ok": true,
+      "latest_count": 10,
+      "fetch_date": "2026-06-28",
+      "run_at": "2026-06-28 12:00:02",
+      "checked_at": "2026-06-28 12:00:23",
+      "alerts": [],
+      "warnings": [],
+      "stale_indicators": []
+    },
+    "source_files": {
+      "today": {
+        "path": "/Users/hydtzyj/coal-watch/data/today.json",
+        "mtime": "2026-06-28T12:00:16",
+        "bytes": 2368
+      },
+      "validation": {
+        "path": "/Users/hydtzyj/coal-watch/data/validation.json",
+        "mtime": "2026-06-28T12:00:23",
+        "bytes": 89
+      },
+      "history": {
+        "path": "/Users/hydtzyj/coal-watch/data/history.csv",
+        "mtime": "2026-06-28T12:00:16",
+        "bytes": 312206
+      }
+    }
+  },
+  "gas": {
+    "name": "gas",
+    "summary": {
+      "guangdong_lng": {
+        "indicator": "广东LNG出站价",
+        "value": 6362.0,
+        "value_text": "6362",
+        "change": -111.0,
+        "change_pct": -1.71,
+        "unit": "元/吨",
+        "date": "2026-06-26",
+        "source": "上海交易中心",
+        "status": "ok",
+        "note": "",
+        "age_days": 2,
+        "direction": "down"
+      },
+      "national_lng": {
+        "indicator": "全国LNG出站价",
+        "value": 6032.0,
+        "value_text": "6032",
+        "change": -65.0,
+        "change_pct": -1.07,
+        "unit": "元/吨",
+        "date": "2026-06-26",
+        "source": "上海交易中心",
+        "status": "ok",
+        "note": "",
+        "age_days": 2,
+        "direction": "down"
+      },
+      "jkm": {
+        "indicator": "JKM",
+        "value": 15.38,
+        "value_text": "15.38",
+        "change": -0.36,
+        "change_pct": -2.29,
+        "unit": "美元/MMBtu",
+        "date": "2026-06-25",
+        "source": "EnergyRiskIQ",
+        "status": "ok",
+        "note": "",
+        "age_days": 3,
+        "direction": "down"
+      },
+      "henry_hub": {
+        "indicator": "Henry Hub",
+        "value": 3.16,
+        "value_text": "3.16",
+        "change": 0.08,
+        "change_pct": 2.6,
+        "unit": "美元/MMBtu",
+        "date": "2026-06-22",
+        "source": "EIA",
+        "status": "ok",
+        "note": "",
+        "age_days": 6,
+        "direction": "up"
+      }
+    },
+    "latest": [
+      {
+        "indicator": "广东LNG出站价",
+        "value": 6362.0,
+        "value_text": "6362",
+        "change": -111.0,
+        "change_pct": -1.71,
+        "unit": "元/吨",
+        "date": "2026-06-26",
+        "source": "上海交易中心",
+        "status": "ok",
+        "note": "",
+        "age_days": 2,
+        "direction": "down"
+      },
+      {
+        "indicator": "全国LNG出站价",
+        "value": 6032.0,
+        "value_text": "6032",
+        "change": -65.0,
+        "change_pct": -1.07,
+        "unit": "元/吨",
+        "date": "2026-06-26",
+        "source": "上海交易中心",
+        "status": "ok",
+        "note": "",
+        "age_days": 2,
+        "direction": "down"
+      },
+      {
+        "indicator": "浙江LNG出站价",
+        "value": 6373.0,
+        "value_text": "6373",
+        "change": -17.0,
+        "change_pct": -0.27,
+        "unit": "元/吨",
+        "date": "2026-06-26",
+        "source": "上海交易中心",
+        "status": "ok",
+        "note": "",
+        "age_days": 2,
+        "direction": "down"
+      },
+      {
+        "indicator": "江苏LNG出站价",
+        "value": 6258.0,
+        "value_text": "6258",
+        "change": -34.0,
+        "change_pct": -0.54,
+        "unit": "元/吨",
+        "date": "2026-06-26",
+        "source": "上海交易中心",
+        "status": "ok",
+        "note": "",
+        "age_days": 2,
+        "direction": "down"
+      },
+      {
+        "indicator": "JKM",
+        "value": 15.38,
+        "value_text": "15.38",
+        "change": -0.36,
+        "change_pct": -2.29,
+        "unit": "美元/MMBtu",
+        "date": "2026-06-25",
+        "source": "EnergyRiskIQ",
+        "status": "ok",
+        "note": "",
+        "age_days": 3,
+        "direction": "down"
+      },
+      {
+        "indicator": "Henry Hub",
+        "value": 3.16,
+        "value_text": "3.16",
+        "change": 0.08,
+        "change_pct": 2.6,
+        "unit": "美元/MMBtu",
+        "date": "2026-06-22",
+        "source": "EIA",
+        "status": "ok",
+        "note": "",
+        "age_days": 6,
+        "direction": "up"
+      },
+      {
+        "indicator": "TTF",
+        "value": 14.1,
+        "value_text": "14.1",
+        "change": -1.8,
+        "change_pct": -11.32,
+        "unit": "美元/MMBtu",
+        "date": "2026-06-19",
+        "source": "JOGMEC/Platts(周)",
+        "status": "ok",
+        "note": "",
+        "age_days": 9,
+        "direction": "down"
+      },
+      {
+        "indicator": "山东LNG出站价",
+        "value": 4200.0,
+        "value_text": "4200",
+        "change": null,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-06-24",
+        "source": "上海交易中心",
+        "status": "ok",
+        "note": "",
+        "age_days": 4,
+        "direction": "flat"
+      }
+    ],
+    "history": [
+      {
+        "indicator": "广东LNG出站价",
+        "source": "上海交易中心",
+        "unit": "元/吨",
+        "points": [
+          {
+            "date": "2026-01-22",
+            "value": 4104.0,
+            "change": 19.0
+          },
+          {
+            "date": "2026-01-23",
+            "value": 4165.0,
+            "change": 61.0
+          },
+          {
+            "date": "2026-01-26",
+            "value": 4165.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-01-27",
+            "value": 4165.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-01-28",
+            "value": 4165.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-01-29",
+            "value": 4178.0,
+            "change": 13.0
+          },
+          {
+            "date": "2026-01-30",
+            "value": 4178.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-02",
+            "value": 4178.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-03",
+            "value": 4173.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-02-04",
+            "value": 4173.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-05",
+            "value": 4173.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-06",
+            "value": 4173.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-09",
+            "value": 4173.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-10",
+            "value": 4173.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-12",
+            "value": 4170.0,
+            "change": -3.0
+          },
+          {
+            "date": "2026-02-13",
+            "value": 4170.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-14",
+            "value": 4170.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-24",
+            "value": 4170.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-25",
+            "value": 4165.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-02-26",
+            "value": 4165.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-27",
+            "value": 4163.0,
+            "change": -2.0
+          },
+          {
+            "date": "2026-02-28",
+            "value": 4163.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-02",
+            "value": 4125.0,
+            "change": -38.0
+          },
+          {
+            "date": "2026-03-03",
+            "value": 4106.0,
+            "change": -19.0
+          },
+          {
+            "date": "2026-03-04",
+            "value": 4133.0,
+            "change": 27.0
+          },
+          {
+            "date": "2026-03-05",
+            "value": 4216.0,
+            "change": 83.0
+          },
+          {
+            "date": "2026-03-06",
+            "value": 4419.0,
+            "change": 203.0
+          },
+          {
+            "date": "2026-03-09",
+            "value": 5544.0,
+            "change": 1125.0
+          },
+          {
+            "date": "2026-03-10",
+            "value": 5544.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-11",
+            "value": 5544.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-12",
+            "value": 5544.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-13",
+            "value": 5544.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-16",
+            "value": 5544.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-17",
+            "value": 5524.0,
+            "change": -20.0
+          },
+          {
+            "date": "2026-03-18",
+            "value": 5524.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-19",
+            "value": 5524.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-20",
+            "value": 5524.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-23",
+            "value": 5524.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-24",
+            "value": 5544.0,
+            "change": 20.0
+          },
+          {
+            "date": "2026-03-25",
+            "value": 5544.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-26",
+            "value": 5544.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-27",
+            "value": 5544.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-30",
+            "value": 5544.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-31",
+            "value": 5544.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-01",
+            "value": 5615.0,
+            "change": 71.0
+          },
+          {
+            "date": "2026-04-02",
+            "value": 5560.0,
+            "change": -55.0
+          },
+          {
+            "date": "2026-04-03",
+            "value": 5567.0,
+            "change": 7.0
+          },
+          {
+            "date": "2026-04-07",
+            "value": 5567.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-08",
+            "value": 5567.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-09",
+            "value": 5567.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-10",
+            "value": 5567.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-13",
+            "value": 5562.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-04-14",
+            "value": 5562.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-15",
+            "value": 5547.0,
+            "change": -15.0
+          },
+          {
+            "date": "2026-04-16",
+            "value": 5549.0,
+            "change": 2.0
+          },
+          {
+            "date": "2026-04-17",
+            "value": 5549.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-20",
+            "value": 5549.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-21",
+            "value": 5549.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-22",
+            "value": 5549.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-23",
+            "value": 5558.0,
+            "change": 9.0
+          },
+          {
+            "date": "2026-04-24",
+            "value": 5549.0,
+            "change": -9.0
+          },
+          {
+            "date": "2026-04-27",
+            "value": 5554.0,
+            "change": 5.0
+          },
+          {
+            "date": "2026-04-28",
+            "value": 5559.0,
+            "change": 5.0
+          },
+          {
+            "date": "2026-04-29",
+            "value": 6115.0,
+            "change": 556.0
+          },
+          {
+            "date": "2026-04-30",
+            "value": 6582.0,
+            "change": 467.0
+          },
+          {
+            "date": "2026-05-06",
+            "value": 6582.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-07",
+            "value": 6641.0,
+            "change": 59.0
+          },
+          {
+            "date": "2026-05-08",
+            "value": 6666.0,
+            "change": 25.0
+          },
+          {
+            "date": "2026-05-09",
+            "value": 6628.0,
+            "change": -38.0
+          },
+          {
+            "date": "2026-05-15",
+            "value": 6593.0,
+            "change": -35.0
+          },
+          {
+            "date": "2026-05-20",
+            "value": 6586.0,
+            "change": -7.0
+          },
+          {
+            "date": "2026-05-26",
+            "value": 6586.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-28",
+            "value": 6586.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-01",
+            "value": 6596.0,
+            "change": 10.0
+          },
+          {
+            "date": "2026-06-03",
+            "value": 6596.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-04",
+            "value": 6575.0,
+            "change": -21.0
+          },
+          {
+            "date": "2026-06-08",
+            "value": 6596.0,
+            "change": 21.0
+          },
+          {
+            "date": "2026-06-09",
+            "value": 6596.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-10",
+            "value": 6596.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-11",
+            "value": 6596.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-12",
+            "value": 6596.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-15",
+            "value": 6596.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-16",
+            "value": 6596.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-17",
+            "value": 6596.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-18",
+            "value": 6596.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-22",
+            "value": 6516.0,
+            "change": -80.0
+          },
+          {
+            "date": "2026-06-23",
+            "value": 6516.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-24",
+            "value": 6516.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-25",
+            "value": 6473.0,
+            "change": -43.0
+          },
+          {
+            "date": "2026-06-26",
+            "value": 6362.0,
+            "change": -111.0
+          }
+        ]
+      },
+      {
+        "indicator": "全国LNG出站价",
+        "source": "上海交易中心",
+        "unit": "元/吨",
+        "points": [
+          {
+            "date": "2026-01-22",
+            "value": 4103.0,
+            "change": 55.0
+          },
+          {
+            "date": "2026-01-23",
+            "value": 4184.0,
+            "change": 81.0
+          },
+          {
+            "date": "2026-01-26",
+            "value": 4206.0,
+            "change": 22.0
+          },
+          {
+            "date": "2026-01-27",
+            "value": 4198.0,
+            "change": -8.0
+          },
+          {
+            "date": "2026-01-28",
+            "value": 4195.0,
+            "change": -3.0
+          },
+          {
+            "date": "2026-01-29",
+            "value": 4192.0,
+            "change": -3.0
+          },
+          {
+            "date": "2026-01-30",
+            "value": 4198.0,
+            "change": 6.0
+          },
+          {
+            "date": "2026-02-02",
+            "value": 4162.0,
+            "change": -36.0
+          },
+          {
+            "date": "2026-02-03",
+            "value": 4140.0,
+            "change": -22.0
+          },
+          {
+            "date": "2026-02-04",
+            "value": 4127.0,
+            "change": -13.0
+          },
+          {
+            "date": "2026-02-05",
+            "value": 4117.0,
+            "change": -10.0
+          },
+          {
+            "date": "2026-02-06",
+            "value": 4114.0,
+            "change": -3.0
+          },
+          {
+            "date": "2026-02-09",
+            "value": 4108.0,
+            "change": -6.0
+          },
+          {
+            "date": "2026-02-10",
+            "value": 4095.0,
+            "change": -13.0
+          },
+          {
+            "date": "2026-02-12",
+            "value": 4087.0,
+            "change": -8.0
+          },
+          {
+            "date": "2026-02-13",
+            "value": 4086.0,
+            "change": -1.0
+          },
+          {
+            "date": "2026-02-14",
+            "value": 4084.0,
+            "change": -2.0
+          },
+          {
+            "date": "2026-02-24",
+            "value": 4073.0,
+            "change": -11.0
+          },
+          {
+            "date": "2026-02-25",
+            "value": 4047.0,
+            "change": -26.0
+          },
+          {
+            "date": "2026-02-26",
+            "value": 4037.0,
+            "change": -10.0
+          },
+          {
+            "date": "2026-02-27",
+            "value": 4035.0,
+            "change": -2.0
+          },
+          {
+            "date": "2026-02-28",
+            "value": 4024.0,
+            "change": -11.0
+          },
+          {
+            "date": "2026-03-02",
+            "value": 3996.0,
+            "change": -28.0
+          },
+          {
+            "date": "2026-03-03",
+            "value": 4030.0,
+            "change": 34.0
+          },
+          {
+            "date": "2026-03-04",
+            "value": 4047.0,
+            "change": 17.0
+          },
+          {
+            "date": "2026-03-05",
+            "value": 4218.0,
+            "change": 171.0
+          },
+          {
+            "date": "2026-03-06",
+            "value": 4502.0,
+            "change": 284.0
+          },
+          {
+            "date": "2026-03-09",
+            "value": 5338.0,
+            "change": 836.0
+          },
+          {
+            "date": "2026-03-10",
+            "value": 5412.0,
+            "change": 74.0
+          },
+          {
+            "date": "2026-03-11",
+            "value": 5462.0,
+            "change": 50.0
+          },
+          {
+            "date": "2026-03-12",
+            "value": 5431.0,
+            "change": -31.0
+          },
+          {
+            "date": "2026-03-13",
+            "value": 5400.0,
+            "change": -31.0
+          },
+          {
+            "date": "2026-03-16",
+            "value": 5400.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-17",
+            "value": 5393.0,
+            "change": -7.0
+          },
+          {
+            "date": "2026-03-18",
+            "value": 5393.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-19",
+            "value": 5373.0,
+            "change": -20.0
+          },
+          {
+            "date": "2026-03-20",
+            "value": 5315.0,
+            "change": -58.0
+          },
+          {
+            "date": "2026-03-23",
+            "value": 5313.0,
+            "change": -2.0
+          },
+          {
+            "date": "2026-03-24",
+            "value": 5307.0,
+            "change": -6.0
+          },
+          {
+            "date": "2026-03-25",
+            "value": 5335.0,
+            "change": 28.0
+          },
+          {
+            "date": "2026-03-26",
+            "value": 5349.0,
+            "change": 14.0
+          },
+          {
+            "date": "2026-03-27",
+            "value": 5349.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-30",
+            "value": 5346.0,
+            "change": -3.0
+          },
+          {
+            "date": "2026-03-31",
+            "value": 5345.0,
+            "change": -1.0
+          },
+          {
+            "date": "2026-04-01",
+            "value": 5379.0,
+            "change": 34.0
+          },
+          {
+            "date": "2026-04-02",
+            "value": 5368.0,
+            "change": -11.0
+          },
+          {
+            "date": "2026-04-03",
+            "value": 5361.0,
+            "change": -7.0
+          },
+          {
+            "date": "2026-04-07",
+            "value": 5368.0,
+            "change": 7.0
+          },
+          {
+            "date": "2026-04-08",
+            "value": 5373.0,
+            "change": 5.0
+          },
+          {
+            "date": "2026-04-09",
+            "value": 5379.0,
+            "change": 6.0
+          },
+          {
+            "date": "2026-04-10",
+            "value": 5380.0,
+            "change": 1.0
+          },
+          {
+            "date": "2026-04-13",
+            "value": 5373.0,
+            "change": -7.0
+          },
+          {
+            "date": "2026-04-14",
+            "value": 5360.0,
+            "change": -13.0
+          },
+          {
+            "date": "2026-04-15",
+            "value": 5347.0,
+            "change": -13.0
+          },
+          {
+            "date": "2026-04-16",
+            "value": 5350.0,
+            "change": 3.0
+          },
+          {
+            "date": "2026-04-17",
+            "value": 5356.0,
+            "change": 6.0
+          },
+          {
+            "date": "2026-04-20",
+            "value": 5368.0,
+            "change": 12.0
+          },
+          {
+            "date": "2026-04-21",
+            "value": 5364.0,
+            "change": -4.0
+          },
+          {
+            "date": "2026-04-22",
+            "value": 5366.0,
+            "change": 2.0
+          },
+          {
+            "date": "2026-04-23",
+            "value": 5381.0,
+            "change": 15.0
+          },
+          {
+            "date": "2026-04-24",
+            "value": 5397.0,
+            "change": 16.0
+          },
+          {
+            "date": "2026-04-27",
+            "value": 5539.0,
+            "change": 142.0
+          },
+          {
+            "date": "2026-04-28",
+            "value": 5674.0,
+            "change": 135.0
+          },
+          {
+            "date": "2026-04-29",
+            "value": 5894.0,
+            "change": 220.0
+          },
+          {
+            "date": "2026-04-30",
+            "value": 6160.0,
+            "change": 266.0
+          },
+          {
+            "date": "2026-05-06",
+            "value": 6242.0,
+            "change": 82.0
+          },
+          {
+            "date": "2026-05-07",
+            "value": 6280.0,
+            "change": 38.0
+          },
+          {
+            "date": "2026-05-08",
+            "value": 6289.0,
+            "change": 9.0
+          },
+          {
+            "date": "2026-05-09",
+            "value": 6282.0,
+            "change": -7.0
+          },
+          {
+            "date": "2026-05-15",
+            "value": 6231.0,
+            "change": -51.0
+          },
+          {
+            "date": "2026-05-20",
+            "value": 6230.0,
+            "change": -1.0
+          },
+          {
+            "date": "2026-05-26",
+            "value": 6209.0,
+            "change": -21.0
+          },
+          {
+            "date": "2026-05-28",
+            "value": 6207.0,
+            "change": -2.0
+          },
+          {
+            "date": "2026-06-01",
+            "value": 6210.0,
+            "change": 3.0
+          },
+          {
+            "date": "2026-06-03",
+            "value": 6215.0,
+            "change": 5.0
+          },
+          {
+            "date": "2026-06-04",
+            "value": 6190.0,
+            "change": -25.0
+          },
+          {
+            "date": "2026-06-08",
+            "value": 6216.0,
+            "change": 26.0
+          },
+          {
+            "date": "2026-06-09",
+            "value": 6218.0,
+            "change": 2.0
+          },
+          {
+            "date": "2026-06-10",
+            "value": 6216.0,
+            "change": -2.0
+          },
+          {
+            "date": "2026-06-11",
+            "value": 6216.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-12",
+            "value": 6216.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-15",
+            "value": 6193.0,
+            "change": -23.0
+          },
+          {
+            "date": "2026-06-16",
+            "value": 6186.0,
+            "change": -7.0
+          },
+          {
+            "date": "2026-06-17",
+            "value": 6191.0,
+            "change": 5.0
+          },
+          {
+            "date": "2026-06-18",
+            "value": 6189.0,
+            "change": -2.0
+          },
+          {
+            "date": "2026-06-22",
+            "value": 6148.0,
+            "change": -41.0
+          },
+          {
+            "date": "2026-06-23",
+            "value": 6148.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-24",
+            "value": 6149.0,
+            "change": 1.0
+          },
+          {
+            "date": "2026-06-25",
+            "value": 6097.0,
+            "change": -52.0
+          },
+          {
+            "date": "2026-06-26",
+            "value": 6032.0,
+            "change": -65.0
+          }
+        ]
+      },
+      {
+        "indicator": "浙江LNG出站价",
+        "source": "上海交易中心",
+        "unit": "元/吨",
+        "points": [
+          {
+            "date": "2026-01-22",
+            "value": 4030.0,
+            "change": 118.0
+          },
+          {
+            "date": "2026-01-23",
+            "value": 4147.0,
+            "change": 117.0
+          },
+          {
+            "date": "2026-01-26",
+            "value": 4147.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-01-27",
+            "value": 4147.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-01-28",
+            "value": 4147.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-01-29",
+            "value": 4147.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-01-30",
+            "value": 4147.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-02",
+            "value": 4023.0,
+            "change": -124.0
+          },
+          {
+            "date": "2026-02-03",
+            "value": 4007.0,
+            "change": -16.0
+          },
+          {
+            "date": "2026-02-04",
+            "value": 4007.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-05",
+            "value": 4007.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-06",
+            "value": 4007.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-09",
+            "value": 4015.0,
+            "change": 8.0
+          },
+          {
+            "date": "2026-02-10",
+            "value": 3998.0,
+            "change": -17.0
+          },
+          {
+            "date": "2026-02-12",
+            "value": 3998.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-13",
+            "value": 3998.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-14",
+            "value": 3998.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-24",
+            "value": 3948.0,
+            "change": -50.0
+          },
+          {
+            "date": "2026-02-25",
+            "value": 3855.0,
+            "change": -93.0
+          },
+          {
+            "date": "2026-02-26",
+            "value": 3808.0,
+            "change": -47.0
+          },
+          {
+            "date": "2026-02-27",
+            "value": 3808.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-28",
+            "value": 3808.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-02",
+            "value": 3802.0,
+            "change": -6.0
+          },
+          {
+            "date": "2026-03-03",
+            "value": 3872.0,
+            "change": 70.0
+          },
+          {
+            "date": "2026-03-04",
+            "value": 3888.0,
+            "change": 16.0
+          },
+          {
+            "date": "2026-03-05",
+            "value": 4099.0,
+            "change": 211.0
+          },
+          {
+            "date": "2026-03-06",
+            "value": 4463.0,
+            "change": 364.0
+          },
+          {
+            "date": "2026-03-09",
+            "value": 5323.0,
+            "change": 860.0
+          },
+          {
+            "date": "2026-03-10",
+            "value": 5490.0,
+            "change": 167.0
+          },
+          {
+            "date": "2026-03-11",
+            "value": 5490.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-12",
+            "value": 5407.0,
+            "change": -83.0
+          },
+          {
+            "date": "2026-03-13",
+            "value": 5357.0,
+            "change": -50.0
+          },
+          {
+            "date": "2026-03-16",
+            "value": 5357.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-17",
+            "value": 5340.0,
+            "change": -17.0
+          },
+          {
+            "date": "2026-03-18",
+            "value": 5340.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-19",
+            "value": 5340.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-20",
+            "value": 5340.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-23",
+            "value": 5340.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-24",
+            "value": 5373.0,
+            "change": 33.0
+          },
+          {
+            "date": "2026-03-25",
+            "value": 5407.0,
+            "change": 34.0
+          },
+          {
+            "date": "2026-03-26",
+            "value": 5407.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-27",
+            "value": 5407.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-30",
+            "value": 5407.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-31",
+            "value": 5407.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-01",
+            "value": 5393.0,
+            "change": -14.0
+          },
+          {
+            "date": "2026-04-02",
+            "value": 5393.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-03",
+            "value": 5393.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-07",
+            "value": 5393.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-08",
+            "value": 5410.0,
+            "change": 17.0
+          },
+          {
+            "date": "2026-04-09",
+            "value": 5443.0,
+            "change": 33.0
+          },
+          {
+            "date": "2026-04-10",
+            "value": 5460.0,
+            "change": 17.0
+          },
+          {
+            "date": "2026-04-13",
+            "value": 5460.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-14",
+            "value": 5460.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-15",
+            "value": 5460.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-16",
+            "value": 5460.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-17",
+            "value": 5470.0,
+            "change": 10.0
+          },
+          {
+            "date": "2026-04-20",
+            "value": 5470.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-21",
+            "value": 5470.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-22",
+            "value": 5476.0,
+            "change": 6.0
+          },
+          {
+            "date": "2026-04-23",
+            "value": 5497.0,
+            "change": 21.0
+          },
+          {
+            "date": "2026-04-24",
+            "value": 5507.0,
+            "change": 10.0
+          },
+          {
+            "date": "2026-04-27",
+            "value": 5756.0,
+            "change": 249.0
+          },
+          {
+            "date": "2026-04-28",
+            "value": 5795.0,
+            "change": 39.0
+          },
+          {
+            "date": "2026-04-29",
+            "value": 5839.0,
+            "change": 44.0
+          },
+          {
+            "date": "2026-04-30",
+            "value": 6018.0,
+            "change": 179.0
+          },
+          {
+            "date": "2026-05-06",
+            "value": 6255.0,
+            "change": 237.0
+          },
+          {
+            "date": "2026-05-07",
+            "value": 6322.0,
+            "change": 67.0
+          },
+          {
+            "date": "2026-05-08",
+            "value": 6387.0,
+            "change": 65.0
+          },
+          {
+            "date": "2026-05-09",
+            "value": 6387.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-15",
+            "value": 6420.0,
+            "change": 33.0
+          },
+          {
+            "date": "2026-05-20",
+            "value": 6420.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-26",
+            "value": 6420.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-28",
+            "value": 6420.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-01",
+            "value": 6420.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-03",
+            "value": 6420.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-04",
+            "value": 6420.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-08",
+            "value": 6397.0,
+            "change": -23.0
+          },
+          {
+            "date": "2026-06-09",
+            "value": 6397.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-10",
+            "value": 6397.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-11",
+            "value": 6397.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-12",
+            "value": 6403.0,
+            "change": 6.0
+          },
+          {
+            "date": "2026-06-15",
+            "value": 6403.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-16",
+            "value": 6403.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-17",
+            "value": 6400.0,
+            "change": -3.0
+          },
+          {
+            "date": "2026-06-18",
+            "value": 6400.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-22",
+            "value": 6390.0,
+            "change": -10.0
+          },
+          {
+            "date": "2026-06-23",
+            "value": 6390.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-24",
+            "value": 6390.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-25",
+            "value": 6390.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-26",
+            "value": 6373.0,
+            "change": -17.0
+          }
+        ]
+      },
+      {
+        "indicator": "江苏LNG出站价",
+        "source": "上海交易中心",
+        "unit": "元/吨",
+        "points": [
+          {
+            "date": "2026-01-22",
+            "value": 3854.0,
+            "change": 66.0
+          },
+          {
+            "date": "2026-01-23",
+            "value": 3983.0,
+            "change": 129.0
+          },
+          {
+            "date": "2026-01-26",
+            "value": 4050.0,
+            "change": 67.0
+          },
+          {
+            "date": "2026-01-27",
+            "value": 4050.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-01-28",
+            "value": 4050.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-01-29",
+            "value": 4008.0,
+            "change": -42.0
+          },
+          {
+            "date": "2026-01-30",
+            "value": 3973.0,
+            "change": -35.0
+          },
+          {
+            "date": "2026-02-02",
+            "value": 3914.0,
+            "change": -59.0
+          },
+          {
+            "date": "2026-02-03",
+            "value": 3906.0,
+            "change": -8.0
+          },
+          {
+            "date": "2026-02-04",
+            "value": 3894.0,
+            "change": -12.0
+          },
+          {
+            "date": "2026-02-05",
+            "value": 3817.0,
+            "change": -77.0
+          },
+          {
+            "date": "2026-02-06",
+            "value": 3817.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-09",
+            "value": 3806.0,
+            "change": -11.0
+          },
+          {
+            "date": "2026-02-10",
+            "value": 3806.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-12",
+            "value": 3800.0,
+            "change": -6.0
+          },
+          {
+            "date": "2026-02-13",
+            "value": 3800.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-14",
+            "value": 3800.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-24",
+            "value": 3758.0,
+            "change": -42.0
+          },
+          {
+            "date": "2026-02-25",
+            "value": 3724.0,
+            "change": -34.0
+          },
+          {
+            "date": "2026-02-26",
+            "value": 3724.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-27",
+            "value": 3724.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-28",
+            "value": 3739.0,
+            "change": 15.0
+          },
+          {
+            "date": "2026-03-02",
+            "value": 3761.0,
+            "change": 22.0
+          },
+          {
+            "date": "2026-03-03",
+            "value": 3811.0,
+            "change": 50.0
+          },
+          {
+            "date": "2026-03-04",
+            "value": 3867.0,
+            "change": 56.0
+          },
+          {
+            "date": "2026-03-05",
+            "value": 4257.0,
+            "change": 390.0
+          },
+          {
+            "date": "2026-03-06",
+            "value": 4625.0,
+            "change": 368.0
+          },
+          {
+            "date": "2026-03-09",
+            "value": 5300.0,
+            "change": 675.0
+          },
+          {
+            "date": "2026-03-10",
+            "value": 5333.0,
+            "change": 33.0
+          },
+          {
+            "date": "2026-03-11",
+            "value": 5633.0,
+            "change": 300.0
+          },
+          {
+            "date": "2026-03-12",
+            "value": 5633.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-13",
+            "value": 5633.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-16",
+            "value": 5633.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-17",
+            "value": 5633.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-18",
+            "value": 5633.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-19",
+            "value": 5593.0,
+            "change": -40.0
+          },
+          {
+            "date": "2026-03-20",
+            "value": 5552.0,
+            "change": -41.0
+          },
+          {
+            "date": "2026-03-23",
+            "value": 5620.0,
+            "change": 68.0
+          },
+          {
+            "date": "2026-03-24",
+            "value": 5370.0,
+            "change": -250.0
+          },
+          {
+            "date": "2026-03-25",
+            "value": 5370.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-26",
+            "value": 5370.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-27",
+            "value": 5362.0,
+            "change": -8.0
+          },
+          {
+            "date": "2026-03-30",
+            "value": 5339.0,
+            "change": -23.0
+          },
+          {
+            "date": "2026-03-31",
+            "value": 5335.0,
+            "change": -4.0
+          },
+          {
+            "date": "2026-04-01",
+            "value": 5370.0,
+            "change": 35.0
+          },
+          {
+            "date": "2026-04-02",
+            "value": 5409.0,
+            "change": 39.0
+          },
+          {
+            "date": "2026-04-03",
+            "value": 5470.0,
+            "change": 61.0
+          },
+          {
+            "date": "2026-04-07",
+            "value": 5470.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-08",
+            "value": 5490.0,
+            "change": 20.0
+          },
+          {
+            "date": "2026-04-09",
+            "value": 5490.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-10",
+            "value": 5490.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-13",
+            "value": 5490.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-14",
+            "value": 5490.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-15",
+            "value": 5490.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-16",
+            "value": 5490.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-17",
+            "value": 5490.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-20",
+            "value": 5490.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-21",
+            "value": 5490.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-22",
+            "value": 5501.0,
+            "change": 11.0
+          },
+          {
+            "date": "2026-04-23",
+            "value": 5559.0,
+            "change": 58.0
+          },
+          {
+            "date": "2026-04-24",
+            "value": 5617.0,
+            "change": 58.0
+          },
+          {
+            "date": "2026-04-27",
+            "value": 5963.0,
+            "change": 346.0
+          },
+          {
+            "date": "2026-04-28",
+            "value": 6145.0,
+            "change": 182.0
+          },
+          {
+            "date": "2026-04-29",
+            "value": 6177.0,
+            "change": 32.0
+          },
+          {
+            "date": "2026-04-30",
+            "value": 6428.0,
+            "change": 251.0
+          },
+          {
+            "date": "2026-05-06",
+            "value": 6667.0,
+            "change": 239.0
+          },
+          {
+            "date": "2026-05-07",
+            "value": 6673.0,
+            "change": 6.0
+          },
+          {
+            "date": "2026-05-08",
+            "value": 6537.0,
+            "change": -136.0
+          },
+          {
+            "date": "2026-05-09",
+            "value": 6537.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-15",
+            "value": 6447.0,
+            "change": -90.0
+          },
+          {
+            "date": "2026-05-20",
+            "value": 6373.0,
+            "change": -74.0
+          },
+          {
+            "date": "2026-05-26",
+            "value": 6373.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-28",
+            "value": 6373.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-01",
+            "value": 6373.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-03",
+            "value": 6390.0,
+            "change": 17.0
+          },
+          {
+            "date": "2026-06-04",
+            "value": 6407.0,
+            "change": 17.0
+          },
+          {
+            "date": "2026-06-08",
+            "value": 6418.0,
+            "change": 11.0
+          },
+          {
+            "date": "2026-06-09",
+            "value": 6423.0,
+            "change": 5.0
+          },
+          {
+            "date": "2026-06-10",
+            "value": 6423.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-11",
+            "value": 6423.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-12",
+            "value": 6423.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-15",
+            "value": 6423.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-16",
+            "value": 6430.0,
+            "change": 7.0
+          },
+          {
+            "date": "2026-06-17",
+            "value": 6420.0,
+            "change": -10.0
+          },
+          {
+            "date": "2026-06-18",
+            "value": 6420.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-22",
+            "value": 6430.0,
+            "change": 10.0
+          },
+          {
+            "date": "2026-06-23",
+            "value": 6430.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-24",
+            "value": 6430.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-25",
+            "value": 6292.0,
+            "change": -138.0
+          },
+          {
+            "date": "2026-06-26",
+            "value": 6258.0,
+            "change": -34.0
+          }
+        ]
+      },
+      {
+        "indicator": "JKM",
+        "source": "EnergyRiskIQ",
+        "unit": "美元/MMBtu",
+        "points": [
+          {
+            "date": "2026-03-27",
+            "value": 20.39,
+            "change": 0.41
+          },
+          {
+            "date": "2026-03-28",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-29",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-30",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-31",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-01",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-02",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-03",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-04",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-05",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-06",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-07",
+            "value": 19.87,
+            "change": -0.52
+          },
+          {
+            "date": "2026-04-08",
+            "value": 19.48,
+            "change": -0.39
+          },
+          {
+            "date": "2026-04-09",
+            "value": 19.49,
+            "change": -0.38
+          },
+          {
+            "date": "2026-04-10",
+            "value": 19.42,
+            "change": -0.06
+          },
+          {
+            "date": "2026-04-11",
+            "value": 19.42,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-12",
+            "value": 19.42,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-13",
+            "value": 19.44,
+            "change": 0.02
+          },
+          {
+            "date": "2026-04-14",
+            "value": 19.35,
+            "change": -0.07
+          },
+          {
+            "date": "2026-04-15",
+            "value": 19.19,
+            "change": -0.16
+          },
+          {
+            "date": "2026-04-16",
+            "value": 16.13,
+            "change": -3.06
+          },
+          {
+            "date": "2026-04-17",
+            "value": 15.0,
+            "change": -0.78
+          },
+          {
+            "date": "2026-04-18",
+            "value": 15.0,
+            "change": -0.78
+          },
+          {
+            "date": "2026-04-19",
+            "value": 15.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-20",
+            "value": 15.23,
+            "change": 0.23
+          },
+          {
+            "date": "2026-04-21",
+            "value": 15.81,
+            "change": 0.81
+          },
+          {
+            "date": "2026-04-22",
+            "value": 16.12,
+            "change": 0.31
+          },
+          {
+            "date": "2026-04-23",
+            "value": 16.12,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-24",
+            "value": 16.55,
+            "change": 0.43
+          },
+          {
+            "date": "2026-04-25",
+            "value": 16.55,
+            "change": 0.43
+          },
+          {
+            "date": "2026-04-26",
+            "value": 16.55,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-27",
+            "value": 16.55,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-28",
+            "value": 16.48,
+            "change": -0.07
+          },
+          {
+            "date": "2026-04-29",
+            "value": 16.96,
+            "change": 0.41
+          },
+          {
+            "date": "2026-04-30",
+            "value": 16.9,
+            "change": -0.06
+          },
+          {
+            "date": "2026-05-01",
+            "value": 16.86,
+            "change": -0.04
+          },
+          {
+            "date": "2026-05-02",
+            "value": 16.86,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-03",
+            "value": 16.86,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-04",
+            "value": 16.86,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-05",
+            "value": 17.03,
+            "change": 0.17
+          },
+          {
+            "date": "2026-05-06",
+            "value": 16.85,
+            "change": -0.18
+          },
+          {
+            "date": "2026-05-07",
+            "value": 16.84,
+            "change": -0.01
+          },
+          {
+            "date": "2026-05-08",
+            "value": 16.87,
+            "change": 0.02
+          },
+          {
+            "date": "2026-05-09",
+            "value": 16.87,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-10",
+            "value": 16.87,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-11",
+            "value": 16.94,
+            "change": 0.07
+          },
+          {
+            "date": "2026-05-12",
+            "value": 16.98,
+            "change": 0.04
+          },
+          {
+            "date": "2026-05-13",
+            "value": 17.02,
+            "change": 0.08
+          },
+          {
+            "date": "2026-05-14",
+            "value": 17.06,
+            "change": 0.04
+          },
+          {
+            "date": "2026-05-15",
+            "value": 17.1,
+            "change": 0.08
+          },
+          {
+            "date": "2026-05-16",
+            "value": 17.1,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-17",
+            "value": 17.1,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-18",
+            "value": 18.96,
+            "change": 1.86
+          },
+          {
+            "date": "2026-05-19",
+            "value": 19.61,
+            "change": 2.51
+          },
+          {
+            "date": "2026-05-20",
+            "value": 18.9,
+            "change": -0.71
+          },
+          {
+            "date": "2026-05-21",
+            "value": 18.92,
+            "change": 0.02
+          },
+          {
+            "date": "2026-05-22",
+            "value": 18.8,
+            "change": -0.1
+          },
+          {
+            "date": "2026-05-24",
+            "value": 18.8,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-25",
+            "value": 18.8,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-26",
+            "value": 18.42,
+            "change": -0.38
+          },
+          {
+            "date": "2026-05-27",
+            "value": 18.23,
+            "change": -0.19
+          },
+          {
+            "date": "2026-05-28",
+            "value": 18.33,
+            "change": 0.1
+          },
+          {
+            "date": "2026-05-29",
+            "value": 18.3,
+            "change": 0.07
+          },
+          {
+            "date": "2026-05-30",
+            "value": 18.3,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-31",
+            "value": 18.3,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-01",
+            "value": 18.68,
+            "change": 0.38
+          },
+          {
+            "date": "2026-06-02",
+            "value": 18.61,
+            "change": 0.31
+          },
+          {
+            "date": "2026-06-03",
+            "value": 18.81,
+            "change": 0.13
+          },
+          {
+            "date": "2026-06-04",
+            "value": 18.76,
+            "change": -0.05
+          },
+          {
+            "date": "2026-06-05",
+            "value": 18.77,
+            "change": 0.01
+          },
+          {
+            "date": "2026-06-06",
+            "value": 18.77,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-07",
+            "value": 18.77,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-08",
+            "value": 18.89,
+            "change": 0.12
+          },
+          {
+            "date": "2026-06-09",
+            "value": 18.88,
+            "change": 0.11
+          },
+          {
+            "date": "2026-06-10",
+            "value": 18.91,
+            "change": 0.03
+          },
+          {
+            "date": "2026-06-11",
+            "value": 18.92,
+            "change": 0.01
+          },
+          {
+            "date": "2026-06-12",
+            "value": 18.85,
+            "change": -0.07
+          },
+          {
+            "date": "2026-06-13",
+            "value": 18.85,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-14",
+            "value": 18.85,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-15",
+            "value": 16.22,
+            "change": -2.63
+          },
+          {
+            "date": "2026-06-16",
+            "value": 15.94,
+            "change": -0.28
+          },
+          {
+            "date": "2026-06-17",
+            "value": 15.82,
+            "change": -0.12
+          },
+          {
+            "date": "2026-06-18",
+            "value": 15.31,
+            "change": -0.63
+          },
+          {
+            "date": "2026-06-19",
+            "value": 15.31,
+            "change": -0.63
+          },
+          {
+            "date": "2026-06-20",
+            "value": 15.31,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-21",
+            "value": 15.31,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-22",
+            "value": 15.86,
+            "change": 0.55
+          },
+          {
+            "date": "2026-06-23",
+            "value": 15.74,
+            "change": 0.43
+          },
+          {
+            "date": "2026-06-24",
+            "value": 15.55,
+            "change": -0.19
+          },
+          {
+            "date": "2026-06-25",
+            "value": 15.38,
+            "change": -0.36
+          }
+        ]
+      },
+      {
+        "indicator": "Henry Hub",
+        "source": "EIA",
+        "unit": "美元/MMBtu",
+        "points": [
+          {
+            "date": "2026-02-11",
+            "value": 3.25,
+            "change": 0.07
+          },
+          {
+            "date": "2026-02-12",
+            "value": 3.43,
+            "change": 0.18
+          },
+          {
+            "date": "2026-02-13",
+            "value": 3.24,
+            "change": -0.19
+          },
+          {
+            "date": "2026-02-17",
+            "value": 3.13,
+            "change": -0.11
+          },
+          {
+            "date": "2026-02-18",
+            "value": 2.98,
+            "change": -0.15
+          },
+          {
+            "date": "2026-02-19",
+            "value": 3.09,
+            "change": 0.11
+          },
+          {
+            "date": "2026-02-20",
+            "value": 3.15,
+            "change": 0.06
+          },
+          {
+            "date": "2026-02-23",
+            "value": 3.13,
+            "change": -0.02
+          },
+          {
+            "date": "2026-02-24",
+            "value": 2.99,
+            "change": -0.14
+          },
+          {
+            "date": "2026-02-25",
+            "value": 3.02,
+            "change": 0.03
+          },
+          {
+            "date": "2026-02-26",
+            "value": 2.94,
+            "change": -0.08
+          },
+          {
+            "date": "2026-02-27",
+            "value": 2.99,
+            "change": 0.05
+          },
+          {
+            "date": "2026-03-02",
+            "value": 2.99,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-03",
+            "value": 3.1,
+            "change": 0.11
+          },
+          {
+            "date": "2026-03-04",
+            "value": 2.87,
+            "change": -0.23
+          },
+          {
+            "date": "2026-03-05",
+            "value": 2.9,
+            "change": 0.03
+          },
+          {
+            "date": "2026-03-06",
+            "value": 3.1,
+            "change": 0.2
+          },
+          {
+            "date": "2026-03-09",
+            "value": 3.25,
+            "change": 0.15
+          },
+          {
+            "date": "2026-03-10",
+            "value": 3.08,
+            "change": -0.17
+          },
+          {
+            "date": "2026-03-11",
+            "value": 3.15,
+            "change": 0.07
+          },
+          {
+            "date": "2026-03-12",
+            "value": 3.27,
+            "change": 0.12
+          },
+          {
+            "date": "2026-03-13",
+            "value": 3.2,
+            "change": -0.07
+          },
+          {
+            "date": "2026-03-16",
+            "value": 3.03,
+            "change": -0.17
+          },
+          {
+            "date": "2026-03-17",
+            "value": 3.14,
+            "change": 0.11
+          },
+          {
+            "date": "2026-03-18",
+            "value": 3.12,
+            "change": -0.02
+          },
+          {
+            "date": "2026-03-19",
+            "value": 3.21,
+            "change": 0.09
+          },
+          {
+            "date": "2026-03-20",
+            "value": 3.04,
+            "change": -0.17
+          },
+          {
+            "date": "2026-03-23",
+            "value": 2.94,
+            "change": -0.1
+          },
+          {
+            "date": "2026-03-24",
+            "value": 2.9,
+            "change": -0.04
+          },
+          {
+            "date": "2026-03-25",
+            "value": 2.94,
+            "change": 0.04
+          },
+          {
+            "date": "2026-03-26",
+            "value": 2.99,
+            "change": 0.05
+          },
+          {
+            "date": "2026-03-27",
+            "value": 2.99,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-30",
+            "value": 2.88,
+            "change": -0.11
+          },
+          {
+            "date": "2026-03-31",
+            "value": 2.88,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-01",
+            "value": 2.99,
+            "change": 0.11
+          },
+          {
+            "date": "2026-04-02",
+            "value": 2.86,
+            "change": -0.13
+          },
+          {
+            "date": "2026-04-06",
+            "value": 3.04,
+            "change": 0.18
+          },
+          {
+            "date": "2026-04-07",
+            "value": 3.01,
+            "change": -0.03
+          },
+          {
+            "date": "2026-04-08",
+            "value": 2.78,
+            "change": -0.23
+          },
+          {
+            "date": "2026-04-09",
+            "value": 2.78,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-10",
+            "value": 2.64,
+            "change": -0.14
+          },
+          {
+            "date": "2026-04-13",
+            "value": 2.79,
+            "change": 0.15
+          },
+          {
+            "date": "2026-04-14",
+            "value": 2.79,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-15",
+            "value": 2.78,
+            "change": -0.01
+          },
+          {
+            "date": "2026-04-16",
+            "value": 2.78,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-17",
+            "value": 2.71,
+            "change": -0.07
+          },
+          {
+            "date": "2026-04-20",
+            "value": 2.81,
+            "change": 0.1
+          },
+          {
+            "date": "2026-04-21",
+            "value": 2.76,
+            "change": -0.05
+          },
+          {
+            "date": "2026-04-22",
+            "value": 2.75,
+            "change": -0.01
+          },
+          {
+            "date": "2026-04-23",
+            "value": 2.65,
+            "change": -0.1
+          },
+          {
+            "date": "2026-04-24",
+            "value": 2.54,
+            "change": -0.11
+          },
+          {
+            "date": "2026-04-27",
+            "value": 2.72,
+            "change": 0.18
+          },
+          {
+            "date": "2026-04-28",
+            "value": 2.7,
+            "change": -0.02
+          },
+          {
+            "date": "2026-04-29",
+            "value": 2.6,
+            "change": -0.1
+          },
+          {
+            "date": "2026-04-30",
+            "value": 2.64,
+            "change": 0.04
+          },
+          {
+            "date": "2026-05-01",
+            "value": 2.63,
+            "change": -0.01
+          },
+          {
+            "date": "2026-05-04",
+            "value": 2.67,
+            "change": 0.04
+          },
+          {
+            "date": "2026-05-05",
+            "value": 2.83,
+            "change": 0.16
+          },
+          {
+            "date": "2026-05-06",
+            "value": 2.75,
+            "change": -0.08
+          },
+          {
+            "date": "2026-05-07",
+            "value": 2.7,
+            "change": -0.05
+          },
+          {
+            "date": "2026-05-08",
+            "value": 2.75,
+            "change": 0.05
+          },
+          {
+            "date": "2026-05-11",
+            "value": 2.82,
+            "change": 0.07
+          },
+          {
+            "date": "2026-05-12",
+            "value": 2.91,
+            "change": 0.09
+          },
+          {
+            "date": "2026-05-13",
+            "value": 2.88,
+            "change": -0.03
+          },
+          {
+            "date": "2026-05-14",
+            "value": 2.79,
+            "change": -0.09
+          },
+          {
+            "date": "2026-05-15",
+            "value": 2.89,
+            "change": 0.1
+          },
+          {
+            "date": "2026-05-18",
+            "value": 3.07,
+            "change": 0.18
+          },
+          {
+            "date": "2026-05-19",
+            "value": 3.23,
+            "change": 0.16
+          },
+          {
+            "date": "2026-05-20",
+            "value": 3.18,
+            "change": -0.05
+          },
+          {
+            "date": "2026-05-21",
+            "value": 3.14,
+            "change": -0.04
+          },
+          {
+            "date": "2026-05-22",
+            "value": 2.92,
+            "change": -0.22
+          },
+          {
+            "date": "2026-05-26",
+            "value": 3.1,
+            "change": 0.18
+          },
+          {
+            "date": "2026-05-27",
+            "value": 3.13,
+            "change": 0.03
+          },
+          {
+            "date": "2026-05-28",
+            "value": 3.04,
+            "change": -0.09
+          },
+          {
+            "date": "2026-05-29",
+            "value": 3.34,
+            "change": 0.3
+          },
+          {
+            "date": "2026-06-01",
+            "value": 3.07,
+            "change": -0.27
+          },
+          {
+            "date": "2026-06-02",
+            "value": 2.97,
+            "change": -0.1
+          },
+          {
+            "date": "2026-06-03",
+            "value": 2.97,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-04",
+            "value": 3.08,
+            "change": 0.11
+          },
+          {
+            "date": "2026-06-05",
+            "value": 3.05,
+            "change": -0.03
+          },
+          {
+            "date": "2026-06-08",
+            "value": 3.1,
+            "change": 0.05
+          },
+          {
+            "date": "2026-06-09",
+            "value": 3.18,
+            "change": 0.08
+          },
+          {
+            "date": "2026-06-10",
+            "value": 3.27,
+            "change": 0.09
+          },
+          {
+            "date": "2026-06-11",
+            "value": 3.16,
+            "change": -0.11
+          },
+          {
+            "date": "2026-06-12",
+            "value": 3.06,
+            "change": -0.1
+          },
+          {
+            "date": "2026-06-15",
+            "value": 3.06,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-16",
+            "value": 3.1,
+            "change": 0.04
+          },
+          {
+            "date": "2026-06-17",
+            "value": 3.25,
+            "change": 0.15
+          },
+          {
+            "date": "2026-06-18",
+            "value": 3.08,
+            "change": -0.17
+          },
+          {
+            "date": "2026-06-22",
+            "value": 3.16,
+            "change": 0.08
+          }
+        ]
+      },
+      {
+        "indicator": "TTF",
+        "source": "JOGMEC/Platts(周)",
+        "unit": "美元/MMBtu",
+        "points": [
+          {
+            "date": "2026-06-19",
+            "value": 14.1,
+            "change": -1.8
+          }
+        ]
+      }
+    ],
+    "status": {
+      "state": "ok",
+      "ok": true,
+      "latest_count": 8,
+      "fetch_date": "2026-06-28",
+      "run_at": "2026-06-28 00:56:02",
+      "checked_at": "2026-06-28 00:56:13",
+      "alerts": [],
+      "warnings": [],
+      "stale_indicators": []
+    },
+    "source_files": {
+      "today": {
+        "path": "/Users/hydtzyj/gas-watch/data/today.json",
+        "mtime": "2026-06-28T00:56:13",
+        "bytes": 2313
+      },
+      "validation": {
+        "path": "/Users/hydtzyj/gas-watch/data/validation.json",
+        "mtime": "2026-06-28T00:56:13",
+        "bytes": 89
+      },
+      "history": {
+        "path": "/Users/hydtzyj/gas-watch/data/history.csv",
+        "mtime": "2026-06-28T00:56:13",
+        "bytes": 438300
+      }
+    }
+  }
+}
