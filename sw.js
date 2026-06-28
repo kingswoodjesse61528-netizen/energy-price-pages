@@ -1,6 +1,6 @@
 /* Energy price PWA service worker.
    Static shell is cache-first. data.json is network-first with cached fallback. */
-const VER = 'energy-price-v2';
+const VER = 'energy-price-v3';
 const SHELL = [
   './',
   './index.html',
@@ -27,6 +27,17 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
+  if (event.request.mode === 'navigate' || url.pathname.endsWith('/index.html')) {
+    event.respondWith(
+      fetch(event.request).then(response => {
+        const copy = response.clone();
+        caches.open(VER).then(cache => cache.put('./index.html', copy));
+        return response;
+      }).catch(() => caches.match('./index.html').then(hit => hit || caches.match('./')))
+    );
+    return;
+  }
+
   if (url.pathname.endsWith('/data.json')) {
     event.respondWith(
       fetch(event.request).then(response => {

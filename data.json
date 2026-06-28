@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-06-28T18:12:38",
+    "generated_at": "2026-06-28T18:29:26",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   "coal": {
     "name": "coal",

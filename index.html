@@ -158,6 +158,8 @@ const C={blue:'#4f8cff',green:'#27c08a',amber:'#f3b33d',red:'#ee5b67',cyan:'#37c
 let DATA=null;
 const charts={};
 const echartsMap={};
+const PUBLIC_DATA_URL='https://kingswoodjesse61528-netizen.github.io/energy-price-pages/data.json';
+const LAST_GOOD_KEY='energy-price:last-data';
 
 function nf(v,d=0){return v===null||v===undefined||Number.isNaN(+v)?'--':new Intl.NumberFormat('zh-CN',{maximumFractionDigits:d,minimumFractionDigits:d}).format(+v)}
 function relTime(iso){
@@ -178,12 +180,61 @@ function statusText(s){return s==='ok'?'正常':s==='stale'?'滞后':'部分'}
 async function load(){
   bindTabs();
   try{
-    const r=await fetch('./data.json?t='+Date.now(),{cache:'no-store'});
-    if(!r.ok)throw new Error(r.status);
-    DATA=await r.json();
+    DATA=await fetchSnapshot();
+    saveLastGood(DATA);
     render();
   }catch(e){
-    $('#loading').innerHTML='<div style="color:var(--red)">数据载入失败</div><div style="font-size:12px;margin-top:8px;color:var(--muted)">'+e+'</div>';
+    const cached=readLastGood();
+    if(cached){
+      DATA=cached;
+      DATA.meta=DATA.meta||{};
+      DATA.meta.status=DATA.meta.status||'stale';
+      render();
+      $('#genLine').textContent='使用上次成功快照 · '+(DATA.meta.generated_at||'');
+      return;
+    }
+    $('#loading').innerHTML='<div style="color:var(--red)">数据载入失败</div><div style="font-size:12px;margin-top:8px;color:var(--muted)">请检查网络后刷新。'+String(e)+'</div>';
+  }
+}
+
+async function fetchSnapshot(){
+  const stamp=Date.now();
+  const urls=[
+    new URL('./data.json?t='+stamp, location.href).href,
+    PUBLIC_DATA_URL+'?t='+stamp,
+  ].filter((url,i,arr)=>arr.indexOf(url)===i);
+  const errors=[];
+  for(const url of urls){
+    try{
+      const r=await fetch(url,{cache:'no-store',mode:'cors'});
+      if(!r.ok)throw new Error('HTTP '+r.status);
+      return await r.json();
+    }catch(e){
+      errors.push(shortUrl(url)+': '+(e&&e.message?e.message:e));
+    }
+  }
+  throw new Error(errors.join('；'));
+}
+
+function shortUrl(url){
+  try{
+    const u=new URL(url);
+    return u.protocol==='file:'?'本地文件':u.pathname.split('/').filter(Boolean).slice(-2).join('/');
+  }catch(e){
+    return url;
+  }
+}
+
+function saveLastGood(data){
+  try{localStorage.setItem(LAST_GOOD_KEY,JSON.stringify(data));}catch(e){}
+}
+
+function readLastGood(){
+  try{
+    const raw=localStorage.getItem(LAST_GOOD_KEY);
+    return raw?JSON.parse(raw):null;
+  }catch(e){
+    return null;
   }
 }
 
