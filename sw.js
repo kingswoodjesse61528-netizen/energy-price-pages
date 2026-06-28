@@ -1,6 +1,6 @@
 /* Energy price PWA service worker.
    Static shell is cache-first. data.json is network-first with cached fallback. */
-const VER = 'energy-price-v8';
+const VER = 'energy-price-v9';
 const SHELL = [
   './',
   './index.html',

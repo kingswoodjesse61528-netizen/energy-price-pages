@@ -307,12 +307,7 @@ function renderOverview(){
     DATA.gas.summary.jkm,
   ].filter(Boolean);
   $('#overviewCards').innerHTML=cards.map(priceCard).join('');
-  drawChart('coalOverviewChart', ytdSeries(pickSeries(seriesByUnit(DATA.coal.history,'元/吨'),[
-    '动力煤5500综合价',
-    '秦皇岛港5500K',
-    '综合指数',
-    '广州港(Q5500)',
-  ])), '元/吨');
+  drawChart('coalOverviewChart', overviewCoalSeries(), '元/吨', {labels:ytdLabels(), ytdAxis:true});
   drawChart('gasOverviewChart', seriesByUnit(DATA.gas.history,'元/吨').slice(0,3), '元/吨');
 }
 
@@ -388,6 +383,18 @@ function pickSeries(series, names){
   return names.map(name=>(series||[]).find(s=>s.indicator===name)).filter(Boolean);
 }
 
+function overviewCoalSeries(){
+  const ref=(DATA.coal.reference&&DATA.coal.reference.series)||[];
+  const refSeries=ref.filter(s=>['q5500','qhd_spot','bspi'].includes(s.key)).map(s=>({
+    indicator:s.name,
+    unit:s.unit,
+    points:s.points||[],
+  }));
+  const guangzhou=(DATA.coal.history||[]).find(s=>s.indicator==='广州港(Q5500)');
+  if(guangzhou)refSeries.push(guangzhou);
+  return ytdSeries(refSeries);
+}
+
 function overviewYearStart(){
   const raw=(DATA.meta&&DATA.meta.generated_at)||new Date().toISOString();
   const d=new Date(raw);
@@ -395,21 +402,38 @@ function overviewYearStart(){
   return year+'-01-01';
 }
 
+function overviewEndDate(){
+  const raw=(DATA.meta&&DATA.meta.generated_at)||new Date().toISOString();
+  const d=new Date(raw);
+  return Number.isFinite(d.getTime())?d.toISOString().slice(0,10):new Date().toISOString().slice(0,10);
+}
+
+function ytdLabels(){
+  const labels=[];
+  const start=new Date(overviewYearStart()+'T00:00:00');
+  const end=new Date(overviewEndDate()+'T00:00:00');
+  for(let d=start;d<=end;d.setDate(d.getDate()+1)){
+    labels.push(d.toISOString().slice(0,10));
+  }
+  return labels;
+}
+
 function ytdSeries(series){
   const start=overviewYearStart();
+  const end=overviewEndDate();
   return (series||[]).map(s=>({
     ...s,
-    points:(s.points||[]).filter(p=>p.date>=start),
+    points:(s.points||[]).filter(p=>p.date>=start&&p.date<=end),
   })).filter(s=>s.points.length);
 }
 
-function drawChart(id, series, unit){
+function drawChart(id, series, unit, cfg={}){
   const el=$('#'+id); if(!el)return;
   if(charts[id])charts[id].destroy();
   if(!series.length){
     const box=el.parentElement; box.innerHTML='<div class="empty">暂无走势图</div>'; return;
   }
-  const labels=[...new Set(series.flatMap(s=>s.points.map(p=>p.date)))].sort();
+  const labels=(cfg.labels&&cfg.labels.length)?cfg.labels:[...new Set(series.flatMap(s=>s.points.map(p=>p.date)))].sort();
   const palette=[C.blue,C.green,C.amber,C.red,C.cyan,'#a78bfa'];
   charts[id]=new Chart(el,{
     type:'line',
@@ -424,7 +448,15 @@ function drawChart(id, series, unit){
         tooltip:{backgroundColor:'rgba(16,24,38,.96)',borderColor:'rgba(79,140,255,.35)',borderWidth:1,
           titleColor:'#edf3fb',bodyColor:'#c9d4e4',padding:10,displayColors:true,
           callbacks:{label:c=>' '+c.dataset.label+' '+nf(c.parsed.y,unit.includes('美元')?2:0)+' '+unit}}},
-      scales:{x:{grid:{display:false},ticks:{color:C.muted,font:{size:10},maxTicksLimit:6,maxRotation:0}},
+      scales:{x:{grid:{display:false},ticks:{color:C.muted,font:{size:10},maxTicksLimit:cfg.ytdAxis?undefined:6,maxRotation:0,autoSkip:!cfg.ytdAxis,
+          callback:cfg.ytdAxis?function(value,index){
+            const label=this.getLabelForValue(value);
+            const last=this.chart.data.labels.length-1;
+            if(index===0)return '1/1';
+            if(index===last)return label.slice(5).replace('-','/');
+            if(label.slice(8)==='01')return label.slice(5).replace('-','/');
+            return '';
+          }:undefined}},
         y:{grid:{color:C.line},ticks:{color:C.muted,font:{size:10}},title:{display:false}}}
     }
   });
