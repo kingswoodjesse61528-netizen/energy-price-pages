@@ -1,6 +1,6 @@
 /* Energy price PWA service worker.
    Static shell is cache-first. data.json is network-first with cached fallback. */
-const VER = 'energy-price-v3';
+const VER = 'energy-price-v6';
 const SHELL = [
   './',
   './index.html',
@@ -8,8 +8,11 @@ const SHELL = [
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/icon-maskable-512.png',
+  './vendor/chart.umd.js',
+  './vendor/echarts.min.js',
   'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js',
-  'https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js'
+  'https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js',
+  'https://unpkg.com/echarts@5.5.1/dist/echarts.min.js'
 ];
 
 self.addEventListener('install', event => {
@@ -51,7 +54,7 @@ self.addEventListener('fetch', event => {
 
   event.respondWith(
     caches.match(event.request).then(hit => hit || fetch(event.request).then(response => {
-      if (response.ok && (url.origin === location.origin || url.host.includes('cdnjs'))) {
+      if (response.ok && (url.origin === location.origin || url.host.includes('cdnjs') || url.host.includes('jsdelivr') || url.host.includes('unpkg'))) {
         const copy = response.clone();
         caches.open(VER).then(cache => cache.put(event.request, copy));
       }

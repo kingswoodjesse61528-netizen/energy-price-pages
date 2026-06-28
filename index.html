@@ -8,8 +8,8 @@
   <link rel="icon" href="./icons/icon-192.png">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="apple-touch-icon" href="./icons/icon-192.png">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+  <script src="./vendor/chart.umd.js"></script>
+  <script src="./vendor/echarts.min.js"></script>
   <style>
     :root{
       color-scheme:dark;
@@ -160,6 +160,11 @@ const charts={};
 const echartsMap={};
 const PUBLIC_DATA_URL='https://kingswoodjesse61528-netizen.github.io/energy-price-pages/data.json';
 const LAST_GOOD_KEY='energy-price:last-data';
+const ECHARTS_URLS=[
+  './vendor/echarts.min.js',
+  'https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js',
+  'https://unpkg.com/echarts@5.5.1/dist/echarts.min.js'
+];
 
 function nf(v,d=0){return v===null||v===undefined||Number.isNaN(+v)?'--':new Intl.NumberFormat('zh-CN',{maximumFractionDigits:d,minimumFractionDigits:d}).format(+v)}
 function relTime(iso){
@@ -181,6 +186,7 @@ async function load(){
   bindTabs();
   try{
     DATA=await fetchSnapshot();
+    await loadECharts();
     saveLastGood(DATA);
     render();
   }catch(e){
@@ -195,6 +201,33 @@ async function load(){
     }
     $('#loading').innerHTML='<div style="color:var(--red)">数据载入失败</div><div style="font-size:12px;margin-top:8px;color:var(--muted)">请检查网络后刷新。'+String(e)+'</div>';
   }
+}
+
+function loadScript(src){
+  return new Promise((resolve,reject)=>{
+    const existing=document.querySelector('script[src="'+src+'"]');
+    if(existing&&window.echarts){resolve();return;}
+    const s=document.createElement('script');
+    s.src=src;
+    s.async=true;
+    s.onload=()=>window.echarts?resolve():reject(new Error('ECharts 未初始化'));
+    s.onerror=()=>reject(new Error(src));
+    document.head.appendChild(s);
+  });
+}
+
+async function loadECharts(){
+  if(window.echarts)return;
+  const errors=[];
+  for(const src of ECHARTS_URLS){
+    try{
+      await loadScript(src);
+      if(window.echarts)return;
+    }catch(e){
+      errors.push(shortUrl(src));
+    }
+  }
+  throw new Error('ECharts 库加载失败：'+errors.join('、'));
 }
 
 async function fetchSnapshot(){
@@ -380,20 +413,24 @@ function resizeECharts(){
 function drawCoalReference(ref){
   const series=(ref&&ref.series)||[];
   drawDualReference('coalDualChart',series,{
+    kind:'coal',
     leftName:'元/吨',
     rightName:'万吨',
     rightAxis:'inventory',
-    legendBottom:28,
+    colors:['#ee5b67','#4f8cff','#f3b33d','#27c08a'],
+    leftColor:'#ee5b67',
+    rightColor:'#4f8cff',
   });
 }
 
 function drawGasReference(ref){
   const series=(ref&&ref.series)||[];
   drawDualReference('gasDualChart',series,{
+    kind:'gas',
     leftName:'元/吨',
     rightName:'美元/MMBtu',
     rightAxis:'international',
-    legendBottom:28,
+    colors:[C.blue,C.green,C.amber,C.red,C.cyan,'#a78bfa','#f472b6','#94a3b8'],
   });
 }
 
@@ -408,55 +445,66 @@ function drawDualReference(id, series, cfg){
     el.innerHTML='<div class="empty">暂无走势图</div>';
     return;
   }
-  const labels=[...new Set(usable.flatMap(s=>s.points.map(p=>p.date)))].sort();
-  const palette=[C.blue,C.green,C.amber,C.red,C.cyan,'#a78bfa','#f472b6','#94a3b8'];
+  const palette=cfg.colors||[C.blue,C.green,C.amber,C.red,C.cyan,'#a78bfa','#f472b6','#94a3b8'];
   const selected={};
   usable.forEach(s=>{selected[s.name]=s.selected!==false});
   const chart=echartsMap[id]||(echartsMap[id]=echarts.init(el,null,{renderer:'canvas'}));
   chart.setOption({
     animation:false,
     color:palette,
-    grid:{left:44,right:44,top:36,bottom:56,containLabel:false},
-    legend:{type:'scroll',bottom:cfg.legendBottom||24,itemWidth:12,itemHeight:6,textStyle:{color:C.muted,fontSize:10},selected},
+    grid:{left:50,right:50,top:48,bottom:76,containLabel:false},
+    legend:{type:'scroll',top:4,itemWidth:12,itemHeight:6,textStyle:{color:C.muted,fontSize:10},selected},
     tooltip:{
       trigger:'axis',
+      triggerOn:'mousemove|click',
+      axisPointer:{type:'cross'},
       confine:true,
       backgroundColor:'rgba(16,24,38,.97)',
       borderColor:'rgba(79,140,255,.32)',
       textStyle:{color:'#edf3fb',fontSize:11},
       formatter:params=>{
-        const rows=[params[0].axisValue];
+        const rows=[params[0].axisValueLabel||params[0].axisValue];
         params.forEach(p=>{
-          if(p.value===null||p.value===undefined||Number.isNaN(+p.value))return;
+          const value=Array.isArray(p.value)?p.value[1]:p.value;
+          if(value===null||value===undefined||Number.isNaN(+value))return;
           const item=usable.find(s=>s.name===p.seriesName);
           const decimals=item&&item.unit&&item.unit.includes('美元')?2:0;
-          rows.push(p.marker+p.seriesName+' '+nf(p.value,decimals)+' '+((item&&item.unit)||''));
+          rows.push(p.marker+p.seriesName+' '+nf(value,decimals)+' '+((item&&item.unit)||''));
         });
         return rows.join('<br>');
       }
     },
     dataZoom:[
-      {type:'inside',xAxisIndex:0},
-      {type:'slider',height:20,bottom:2,borderColor:'transparent',fillerColor:'rgba(79,140,255,.2)',handleStyle:{color:C.blue},textStyle:{color:C.muted,fontSize:10}}
+      {type:'inside',xAxisIndex:0,start:0,end:100},
+      {type:'slider',xAxisIndex:0,start:0,end:100,height:24,bottom:20,borderColor:'transparent',fillerColor:'rgba(79,140,255,.2)',handleStyle:{color:C.blue},textStyle:{color:C.muted,fontSize:10}}
     ],
-    xAxis:{type:'category',data:labels,boundaryGap:false,axisLine:{lineStyle:{color:C.line}},axisLabel:{color:C.muted,fontSize:10,hideOverlap:true},axisTick:{show:false}},
+    xAxis:{type:'time',boundaryGap:false,axisLine:{lineStyle:{color:C.line}},axisLabel:{color:C.muted,fontSize:10,hideOverlap:true},axisTick:{show:false}},
     yAxis:[
-      {type:'value',name:cfg.leftName,nameTextStyle:{color:C.muted,fontSize:10},axisLabel:{color:C.muted,fontSize:10},splitLine:{lineStyle:{color:C.line}},axisLine:{show:false}},
-      {type:'value',name:cfg.rightName,nameTextStyle:{color:C.muted,fontSize:10},axisLabel:{color:C.muted,fontSize:10},splitLine:{show:false},axisLine:{show:false}}
+      {type:'value',name:cfg.leftName,scale:true,position:'left',nameTextStyle:{color:C.muted,fontSize:10},axisLabel:{color:cfg.leftColor||C.muted,fontSize:10},splitLine:{lineStyle:{color:C.line}},axisLine:{show:false}},
+      {type:'value',name:cfg.rightName,scale:true,position:'right',nameTextStyle:{color:C.muted,fontSize:10},axisLabel:{color:cfg.rightColor||C.muted,fontSize:10},splitLine:{show:false},axisLine:{show:false}}
     ],
     series:usable.map((s,i)=>{
-      const mp=new Map(s.points.map(p=>[p.date,p.value]));
-      return {
+      const isInventory=s.axis===cfg.rightAxis;
+      const lineStyle={width:cfg.kind==='gas'?1.6:2};
+      if(cfg.kind==='coal'&&(s.key==='qhd_spot'||s.key==='bspi'))lineStyle.type='dashed';
+      const item={
         name:s.name,
         type:'line',
         yAxisIndex:s.axis===cfg.rightAxis?1:0,
-        data:labels.map(d=>mp.has(d)?mp.get(d):null),
+        data:s.points.map(p=>[p.date,p.value]),
         connectNulls:true,
+        sampling:'lttb',
         smooth:true,
-        showSymbol:false,
-        lineStyle:{width:2},
+        showSymbol:isInventory,
+        symbolSize:isInventory?5:4,
+        lineStyle,
         emphasis:{focus:'series'},
       };
+      if(cfg.kind==='coal'&&s.key==='q5500'){
+        item.areaStyle={color:{type:'linear',x:0,y:0,x2:0,y2:1,colorStops:[{offset:0,color:'rgba(238,91,103,.16)'},{offset:1,color:'rgba(238,91,103,0)'}]}};
+        item.markPoint={symbolSize:42,data:[{type:'max',name:'高'},{type:'min',name:'低'}],itemStyle:{color:'#ee5b67'},label:{color:'#fff',fontSize:11}};
+      }
+      return item;
     })
   },true);
   setTimeout(()=>chart.resize(),30);
