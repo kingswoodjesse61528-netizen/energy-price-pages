@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-28T23:56:32",
+    "generated_at": "2026-06-29T00:00:29",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -20,7 +20,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "up"
       },
       "qhd_5500": {
@@ -34,7 +34,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       },
       "pit_5500": {
@@ -48,7 +48,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "up"
       },
       "qhd_inventory": {
@@ -62,7 +62,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "up"
       }
     },
@@ -78,7 +78,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "up"
       },
       {
@@ -92,7 +92,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       },
       {
@@ -106,7 +106,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       },
       {
@@ -120,7 +120,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "up"
       },
       {
@@ -134,7 +134,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "down"
       },
       {
@@ -148,7 +148,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "down"
       },
       {
@@ -162,7 +162,7 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 4,
+        "age_days": 5,
         "direction": "down"
       },
       {
@@ -176,7 +176,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "up"
       },
       {
@@ -190,7 +190,7 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       },
       {
@@ -204,7 +204,7 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       }
     ],
@@ -15405,7 +15405,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 3,
           "direction": "down"
         },
         {
@@ -15420,7 +15420,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 3,
           "direction": "up"
         },
         {
@@ -15435,7 +15435,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 3,
           "direction": "down"
         },
         {
@@ -15450,7 +15450,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 4,
+          "age_days": 5,
           "direction": "flat"
         }
       ],
@@ -15500,7 +15500,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "down"
       },
       "national_lng": {
@@ -15514,7 +15514,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "down"
       },
       "jkm": {
@@ -15528,7 +15528,7 @@
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "down"
       },
       "henry_hub": {
@@ -15542,7 +15542,7 @@
         "source": "EIA",
         "status": "ok",
         "note": "",
-        "age_days": 6,
+        "age_days": 7,
         "direction": "up"
       },
       "ttf": {
@@ -15556,7 +15556,7 @@
         "source": "JOGMEC/Platts(周)",
         "status": "ok",
         "note": "",
-        "age_days": 9,
+        "age_days": 10,
         "direction": "down"
       }
     },
@@ -15572,7 +15572,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "down"
       },
       {
@@ -15586,7 +15586,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "down"
       },
       {
@@ -15600,7 +15600,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "down"
       },
       {
@@ -15614,7 +15614,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "down"
       },
       {
@@ -15628,7 +15628,7 @@
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "down"
       },
       {
@@ -15642,7 +15642,7 @@
         "source": "EIA",
         "status": "ok",
         "note": "",
-        "age_days": 6,
+        "age_days": 7,
         "direction": "up"
       },
       {
@@ -15656,7 +15656,7 @@
         "source": "JOGMEC/Platts(周)",
         "status": "ok",
         "note": "",
-        "age_days": 9,
+        "age_days": 10,
         "direction": "down"
       },
       {
@@ -15670,7 +15670,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 4,
+        "age_days": 5,
         "direction": "flat"
       }
     ],
@@ -37039,7 +37039,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 3,
           "direction": "down"
         },
         {
@@ -37054,7 +37054,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 3,
           "direction": "down"
         },
         {
@@ -37069,7 +37069,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 3,
           "direction": "down"
         },
         {
@@ -37084,7 +37084,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 3,
           "direction": "down"
         },
         {
@@ -37099,7 +37099,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 4,
+          "age_days": 5,
           "direction": "flat"
         },
         {
@@ -37114,7 +37114,7 @@
           "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "down"
         },
         {
@@ -37129,7 +37129,7 @@
           "source": "EIA",
           "status": "ok",
           "note": "",
-          "age_days": 6,
+          "age_days": 7,
           "direction": "up"
         },
         {
@@ -37144,7 +37144,7 @@
           "source": "JOGMEC/Platts(周)",
           "status": "ok",
           "note": "",
-          "age_days": 9,
+          "age_days": 10,
           "direction": "down"
         }
       ],
