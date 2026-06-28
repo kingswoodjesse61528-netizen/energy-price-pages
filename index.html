@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#101826">
+  <meta name="theme-color" content="#101826" id="themeColorMeta">
   <title>能源价格看板</title>
   <link rel="icon" href="./icons/energy-price-192.png">
   <link rel="manifest" href="./manifest.webmanifest">
@@ -16,7 +16,20 @@
       --bg:#0b111a;--band:#101826;--panel:#141d2a;--panel2:#182233;
       --line:rgba(165,180,204,.18);--text:#edf3fb;--muted:#9aa8bb;--faint:#66768d;
       --blue:#4f8cff;--green:#27c08a;--amber:#f3b33d;--red:#ee5b67;--cyan:#37c5d8;
+      --theme-color:#101826;--bg-fade:rgba(11,17,26,0);--tab-on-bg:#1b2940;--tab-on-text:#fff;
+      --tooltip-bg:rgba(16,24,38,.97);--tooltip-border:rgba(79,140,255,.32);--alert-text:#f6d696;
+      --alert-bg:rgba(243,179,61,.09);--alert-line:rgba(243,179,61,.35);
       --shadow:0 18px 42px rgba(0,0,0,.28);
+    }
+    html[data-theme="light"]{
+      color-scheme:light;
+      --bg:#f4f7fb;--band:#eaf1f8;--panel:#ffffff;--panel2:#f7f9fc;
+      --line:rgba(32,55,84,.16);--text:#172033;--muted:#607086;--faint:#8491a3;
+      --blue:#1769e0;--green:#0f9f6e;--amber:#c87900;--red:#d9434f;--cyan:#0284a8;
+      --theme-color:#f4f7fb;--bg-fade:rgba(244,247,251,0);--tab-on-bg:#e6f0ff;--tab-on-text:#123a72;
+      --tooltip-bg:rgba(255,255,255,.98);--tooltip-border:rgba(23,105,224,.22);--alert-text:#7a4d00;
+      --alert-bg:rgba(200,121,0,.10);--alert-line:rgba(200,121,0,.28);
+      --shadow:0 14px 30px rgba(20,45,80,.10);
     }
     *{box-sizing:border-box}
     body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang SC","Microsoft YaHei",sans-serif;letter-spacing:0}
@@ -28,9 +41,14 @@
     .badge .k{font-size:10px;color:var(--faint)}
     .badge .v{font-size:14px;margin-top:2px;font-weight:720}
     .badge.ok .v{color:var(--green)}.badge.stale .v{color:var(--amber)}.badge.partial .v{color:var(--red)}
-    .tabs{position:sticky;top:0;z-index:5;display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:8px 0 12px;background:linear-gradient(180deg,var(--bg) 72%,rgba(11,17,26,0))}
+    .header-actions{flex:0 0 auto;display:grid;grid-template-columns:1fr;gap:8px;justify-items:end}
+    .theme-toggle{height:34px;min-width:72px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--muted);font-size:12px;font-weight:720;display:flex;align-items:center;justify-content:center;gap:7px;box-shadow:var(--shadow);padding:0 10px}
+    .theme-toggle:active{transform:translateY(1px)}
+    .theme-dot{width:12px;height:12px;border-radius:999px;background:linear-gradient(135deg,var(--blue),var(--amber));box-shadow:0 0 0 2px rgba(79,140,255,.16)}
+    html[data-theme="light"] .theme-dot{box-shadow:0 0 0 2px rgba(23,105,224,.14)}
+    .tabs{position:sticky;top:0;z-index:5;display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:8px 0 12px;background:linear-gradient(180deg,var(--bg) 72%,var(--bg-fade))}
     .tab{height:38px;border:1px solid var(--line);background:var(--panel);color:var(--muted);border-radius:8px;font-size:13px;font-weight:650}
-    .tab.on{color:#fff;border-color:rgba(79,140,255,.65);background:#1b2940}
+    .tab.on{color:var(--tab-on-text);border-color:rgba(79,140,255,.65);background:var(--tab-on-bg)}
     .view{display:block}.hidden{display:none!important}
     .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
     .grid.one{grid-template-columns:1fr}
@@ -64,7 +82,7 @@
     .status-line:last-child{border-bottom:0}
     .status-line .k{color:var(--muted)}
     .status-line .v{overflow-wrap:anywhere}
-    .alert{border:1px solid rgba(243,179,61,.35);background:rgba(243,179,61,.09);border-radius:8px;padding:10px;font-size:12px;line-height:1.5;color:#f6d696}
+    .alert{border:1px solid var(--alert-line);background:var(--alert-bg);border-radius:8px;padding:10px;font-size:12px;line-height:1.5;color:var(--alert-text)}
     .empty{height:160px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px}
     footer{margin-top:18px;color:var(--faint);font-size:11px;text-align:center}
     @media (min-width:720px){
@@ -82,7 +100,10 @@
         <h1>能源价格看板</h1>
         <div class="sub" id="genLine">载入中</div>
       </div>
-      <div class="badge" id="statusBadge"><div class="k">状态</div><div class="v">--</div></div>
+      <div class="header-actions">
+        <div class="badge" id="statusBadge"><div class="k">状态</div><div class="v">--</div></div>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换颜色主题" title="切换颜色主题"><span class="theme-dot"></span><span id="themeLabel">深色</span></button>
+      </div>
     </header>
 
     <nav class="tabs" aria-label="视图">
@@ -160,6 +181,11 @@ const charts={};
 const echartsMap={};
 const PUBLIC_DATA_URL='https://kingswoodjesse61528-netizen.github.io/energy-price-pages/data.json';
 const LAST_GOOD_KEY='energy-price:last-data';
+const THEME_KEY='energy-price:theme';
+const THEME_META={
+  dark:{label:'深色',color:'#101826'},
+  light:{label:'浅色',color:'#f4f7fb'}
+};
 const ECHARTS_URLS=[
   './vendor/echarts.min.js',
   'https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js',
@@ -183,6 +209,7 @@ function chgText(r){
 function statusText(s){return s==='ok'?'正常':s==='stale'?'滞后':'部分'}
 
 async function load(){
+  bindThemeToggle();
   bindTabs();
   try{
     DATA=await fetchSnapshot();
@@ -201,6 +228,69 @@ async function load(){
     }
     $('#loading').innerHTML='<div style="color:var(--red)">数据载入失败</div><div style="font-size:12px;margin-top:8px;color:var(--muted)">请检查网络后刷新。'+String(e)+'</div>';
   }
+}
+
+function storedTheme(){
+  try{
+    const saved=localStorage.getItem(THEME_KEY);
+    if(saved==='dark'||saved==='light')return saved;
+  }catch(e){}
+  return window.matchMedia&&window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';
+}
+
+function applyTheme(theme,redraw=false){
+  const next=theme==='light'?'light':'dark';
+  document.documentElement.dataset.theme=next;
+  const meta=THEME_META[next];
+  const themeMeta=$('#themeColorMeta');
+  if(themeMeta)themeMeta.setAttribute('content',meta.color);
+  const label=$('#themeLabel');
+  if(label)label.textContent=meta.label;
+  const toggle=$('#themeToggle');
+  if(toggle)toggle.setAttribute('aria-label','切换颜色主题，当前'+meta.label);
+  try{localStorage.setItem(THEME_KEY,next);}catch(e){}
+  if(redraw)refreshVisuals();
+}
+
+function bindThemeToggle(){
+  applyTheme(storedTheme(),false);
+  const btn=$('#themeToggle');
+  if(!btn)return;
+  btn.onclick=()=>{
+    const current=document.documentElement.dataset.theme==='light'?'light':'dark';
+    applyTheme(current==='light'?'dark':'light',true);
+  };
+}
+
+function cssVar(name){
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+
+function chartSkin(){
+  return {
+    muted:cssVar('--muted')||C.muted,
+    line:cssVar('--line')||C.line,
+    text:cssVar('--text')||'#edf3fb',
+    tooltipBg:cssVar('--tooltip-bg')||'rgba(16,24,38,.97)',
+    tooltipBorder:cssVar('--tooltip-border')||'rgba(79,140,255,.32)',
+    panel:cssVar('--panel')||'#141d2a',
+  };
+}
+
+function refreshVisuals(){
+  if(!DATA)return;
+  Object.keys(charts).forEach(key=>{
+    charts[key].destroy();
+    delete charts[key];
+  });
+  Object.keys(echartsMap).forEach(key=>{
+    echartsMap[key].dispose();
+    delete echartsMap[key];
+  });
+  renderOverview();
+  renderCommodity('coal');
+  renderCommodity('gas');
+  setTimeout(resizeECharts,60);
 }
 
 function loadScript(src){
@@ -435,6 +525,7 @@ function drawChart(id, series, unit, cfg={}){
   }
   const labels=(cfg.labels&&cfg.labels.length)?cfg.labels:[...new Set(series.flatMap(s=>s.points.map(p=>p.date)))].sort();
   const palette=[C.blue,C.green,C.amber,C.red,C.cyan,'#a78bfa'];
+  const skin=chartSkin();
   charts[id]=new Chart(el,{
     type:'line',
     data:{labels,datasets:series.map((s,i)=>{
@@ -444,11 +535,11 @@ function drawChart(id, series, unit, cfg={}){
     })},
     options:{
       responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
-      plugins:{legend:{display:true,position:'bottom',labels:{boxWidth:10,boxHeight:3,color:C.muted,font:{size:10}}},
-        tooltip:{backgroundColor:'rgba(16,24,38,.96)',borderColor:'rgba(79,140,255,.35)',borderWidth:1,
-          titleColor:'#edf3fb',bodyColor:'#c9d4e4',padding:10,displayColors:true,
+      plugins:{legend:{display:true,position:'bottom',labels:{boxWidth:10,boxHeight:3,color:skin.muted,font:{size:10}}},
+        tooltip:{backgroundColor:skin.tooltipBg,borderColor:skin.tooltipBorder,borderWidth:1,
+          titleColor:skin.text,bodyColor:skin.text,padding:10,displayColors:true,
           callbacks:{label:c=>' '+c.dataset.label+' '+nf(c.parsed.y,unit.includes('美元')?2:0)+' '+unit}}},
-      scales:{x:{grid:{display:false},ticks:{color:C.muted,font:{size:10},maxTicksLimit:cfg.ytdAxis?undefined:6,maxRotation:0,autoSkip:!cfg.ytdAxis,
+      scales:{x:{grid:{display:false},ticks:{color:skin.muted,font:{size:10},maxTicksLimit:cfg.ytdAxis?undefined:6,maxRotation:0,autoSkip:!cfg.ytdAxis,
           callback:cfg.ytdAxis?function(value,index){
             const label=this.getLabelForValue(value);
             const last=this.chart.data.labels.length-1;
@@ -457,7 +548,7 @@ function drawChart(id, series, unit, cfg={}){
             if(label.slice(8)==='01')return label.slice(5).replace('-','/');
             return '';
           }:undefined}},
-        y:{grid:{color:C.line},ticks:{color:C.muted,font:{size:10}},title:{display:false}}}
+        y:{grid:{color:skin.line},ticks:{color:skin.muted,font:{size:10}},title:{display:false}}}
     }
   });
 }
@@ -502,6 +593,7 @@ function drawDualReference(id, series, cfg){
     return;
   }
   const palette=cfg.colors||[C.blue,C.green,C.amber,C.red,C.cyan,'#a78bfa','#f472b6','#94a3b8'];
+  const skin=chartSkin();
   const selected={};
   usable.forEach(s=>{selected[s.name]=s.selected!==false});
   const chart=echartsMap[id]||(echartsMap[id]=echarts.init(el,null,{renderer:'canvas'}));
@@ -509,15 +601,15 @@ function drawDualReference(id, series, cfg){
     animation:false,
     color:palette,
     grid:{left:50,right:50,top:48,bottom:76,containLabel:false},
-    legend:{type:'scroll',top:4,itemWidth:12,itemHeight:6,textStyle:{color:C.muted,fontSize:10},selected},
+    legend:{type:'scroll',top:4,itemWidth:12,itemHeight:6,textStyle:{color:skin.muted,fontSize:10},selected},
     tooltip:{
       trigger:'axis',
       triggerOn:'mousemove|click',
       axisPointer:{type:'cross'},
       confine:true,
-      backgroundColor:'rgba(16,24,38,.97)',
-      borderColor:'rgba(79,140,255,.32)',
-      textStyle:{color:'#edf3fb',fontSize:11},
+      backgroundColor:skin.tooltipBg,
+      borderColor:skin.tooltipBorder,
+      textStyle:{color:skin.text,fontSize:11},
       formatter:params=>{
         const rows=[params[0].axisValueLabel||params[0].axisValue];
         params.forEach(p=>{
@@ -532,12 +624,12 @@ function drawDualReference(id, series, cfg){
     },
     dataZoom:[
       {type:'inside',xAxisIndex:0,start:0,end:100},
-      {type:'slider',xAxisIndex:0,start:0,end:100,height:24,bottom:20,borderColor:'transparent',fillerColor:'rgba(79,140,255,.2)',handleStyle:{color:C.blue},textStyle:{color:C.muted,fontSize:10}}
+      {type:'slider',xAxisIndex:0,start:0,end:100,height:24,bottom:20,borderColor:'transparent',fillerColor:'rgba(79,140,255,.2)',handleStyle:{color:C.blue},textStyle:{color:skin.muted,fontSize:10}}
     ],
-    xAxis:{type:'time',boundaryGap:false,axisLine:{lineStyle:{color:C.line}},axisLabel:{color:C.muted,fontSize:10,hideOverlap:true},axisTick:{show:false}},
+    xAxis:{type:'time',boundaryGap:false,axisLine:{lineStyle:{color:skin.line}},axisLabel:{color:skin.muted,fontSize:10,hideOverlap:true},axisTick:{show:false}},
     yAxis:[
-      {type:'value',name:cfg.leftName,scale:true,position:'left',nameTextStyle:{color:C.muted,fontSize:10},axisLabel:{color:cfg.leftColor||C.muted,fontSize:10},splitLine:{lineStyle:{color:C.line}},axisLine:{show:false}},
-      {type:'value',name:cfg.rightName,scale:true,position:'right',nameTextStyle:{color:C.muted,fontSize:10},axisLabel:{color:cfg.rightColor||C.muted,fontSize:10},splitLine:{show:false},axisLine:{show:false}}
+      {type:'value',name:cfg.leftName,scale:true,position:'left',nameTextStyle:{color:skin.muted,fontSize:10},axisLabel:{color:cfg.leftColor||skin.muted,fontSize:10},splitLine:{lineStyle:{color:skin.line}},axisLine:{show:false}},
+      {type:'value',name:cfg.rightName,scale:true,position:'right',nameTextStyle:{color:skin.muted,fontSize:10},axisLabel:{color:cfg.rightColor||skin.muted,fontSize:10},splitLine:{show:false},axisLine:{show:false}}
     ],
     series:usable.map((s,i)=>{
       const isInventory=s.axis===cfg.rightAxis;
