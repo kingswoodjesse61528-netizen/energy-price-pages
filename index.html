@@ -381,7 +381,9 @@ function render(){
   const badge=$('#statusBadge');
   badge.className='badge '+(meta.status||'partial');
   badge.querySelector('.v').textContent=statusText(meta.status);
-  $('#genLine').textContent='更新于 '+relTime(meta.generated_at)+' · '+(meta.machine||'--');
+  const _allDates=[...(DATA.coal.latest||[]),...(DATA.gas.latest||[])].map(r=>r.date).filter(Boolean).sort();
+  const _latestDate=_allDates.length?_allDates[_allDates.length-1]:'--';
+  $('#genLine').textContent='数据最新日 '+_latestDate+' · 抓取于 '+relTime(meta.generated_at)+' · '+(meta.machine||'--');
   $('#foot').textContent='Energy Price PWA · '+(meta.generated_at||'').replace('T',' ');
   renderOverview();
   renderCommodity('coal');
