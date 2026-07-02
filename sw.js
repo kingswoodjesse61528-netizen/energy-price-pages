@@ -1,14 +1,15 @@
 /* Energy price PWA service worker.
    Static shell is cache-first. data.json is network-first with cached fallback. */
-const VER = 'energy-price-v11';
+const VER = 'energy-price-v12';
 const SHELL = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './icons/apple-touch-icon.png',
-  './icons/energy-price-192.png',
-  './icons/energy-price-512.png',
-  './icons/energy-price-maskable-512.png',
+  './manifest.webmanifest?v=20260702',
+  './icons/apple-touch-icon-v2.png',
+  './icons/energy-price-v2-192.png',
+  './icons/energy-price-v2-512.png',
+  './icons/energy-price-v2-maskable-512.png',
   './vendor/chart.umd.js',
   './vendor/echarts.min.js',
   'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js',
