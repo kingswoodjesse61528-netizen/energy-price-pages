@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-03T08:10:03",
+    "generated_at": "2026-07-03T12:10:00",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -15719,8 +15719,8 @@
       "ok": true,
       "latest_count": 12,
       "fetch_date": "2026-07-03",
-      "run_at": "2026-07-03 04:34:29",
-      "checked_at": "2026-07-03 04:35:01",
+      "run_at": "2026-07-03 08:35:01",
+      "checked_at": "2026-07-03 08:35:27",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -15728,17 +15728,17 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-07-03T04:34:53",
+        "mtime": "2026-07-03T08:35:20",
         "bytes": 3056
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-07-03T04:35:01",
+        "mtime": "2026-07-03T08:35:27",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-07-03T04:34:53",
+        "mtime": "2026-07-03T08:35:20",
         "bytes": 316560
       }
     }
