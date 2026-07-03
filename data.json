@@ -62,8 +62,8 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
-        "direction": "down"
+        "age_days": 4,
+        "direction": "up"
       }
     },
     "latest": [
@@ -243,6 +243,26 @@
         "unit": "元/吨",
         "points": [
           {
+            "date": "2026-06-22",
+            "value": 583.0,
+            "change": 4.0
+          },
+          {
+            "date": "2026-06-23",
+            "value": 583.0,
+            "change": 4.0
+          },
+          {
+            "date": "2026-06-24",
+            "value": 583.0,
+            "change": 4.0
+          },
+          {
+            "date": "2026-06-25",
+            "value": 583.0,
+            "change": 4.0
+          },
+          {
             "date": "2026-06-27",
             "value": 586.0,
             "change": 3.0
@@ -290,6 +310,26 @@
         "unit": "元/吨",
         "points": [
           {
+            "date": "2026-06-22",
+            "value": 715.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-23",
+            "value": 715.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-24",
+            "value": 715.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-25",
+            "value": 715.0,
+            "change": 0.0
+          },
+          {
             "date": "2026-06-27",
             "value": 715.0,
             "change": 0.0
@@ -311,8 +351,8 @@
           },
           {
             "date": "2026-07-01",
-            "value": 710.0,
-            "change": -5.0
+            "value": 715.0,
+            "change": 0.0
           },
           {
             "date": "2026-07-02",
@@ -337,6 +377,26 @@
         "unit": "元/吨",
         "points": [
           {
+            "date": "2026-06-22",
+            "value": 714.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-23",
+            "value": 714.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-24",
+            "value": 714.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-25",
+            "value": 714.0,
+            "change": 0.0
+          },
+          {
             "date": "2026-06-27",
             "value": 714.0,
             "change": 0.0
@@ -358,8 +418,8 @@
           },
           {
             "date": "2026-07-01",
-            "value": 712.0,
-            "change": -2.0
+            "value": 714.0,
+            "change": 0.0
           },
           {
             "date": "2026-07-02",
@@ -383,6 +443,26 @@
         "source": "CCTD",
         "unit": "元/吨",
         "points": [
+          {
+            "date": "2026-06-22",
+            "value": 622.0,
+            "change": 15.0
+          },
+          {
+            "date": "2026-06-23",
+            "value": 622.0,
+            "change": 15.0
+          },
+          {
+            "date": "2026-06-24",
+            "value": 622.0,
+            "change": 15.0
+          },
+          {
+            "date": "2026-06-25",
+            "value": 622.0,
+            "change": 15.0
+          },
           {
             "date": "2026-06-27",
             "value": 633.0,
@@ -431,6 +511,26 @@
         "unit": "元/吨",
         "points": [
           {
+            "date": "2026-06-22",
+            "value": 827.0,
+            "change": -3.0
+          },
+          {
+            "date": "2026-06-23",
+            "value": 827.0,
+            "change": -3.0
+          },
+          {
+            "date": "2026-06-24",
+            "value": 827.0,
+            "change": -3.0
+          },
+          {
+            "date": "2026-06-25",
+            "value": 827.0,
+            "change": -3.0
+          },
+          {
             "date": "2026-06-27",
             "value": 827.0,
             "change": -3.0
@@ -477,6 +577,26 @@
         "source": "CCTD",
         "unit": "元/吨",
         "points": [
+          {
+            "date": "2026-06-22",
+            "value": 856.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-06-23",
+            "value": 856.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-06-24",
+            "value": 856.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-06-25",
+            "value": 856.0,
+            "change": -5.0
+          },
           {
             "date": "2026-06-27",
             "value": 856.0,
@@ -525,6 +645,11 @@
         "unit": "元/吨",
         "points": [
           {
+            "date": "2026-06-18",
+            "value": 930.0,
+            "change": 0.0
+          },
+          {
             "date": "2026-06-24",
             "value": 925.0,
             "change": -5.0
@@ -538,173 +663,13 @@
       },
       {
         "indicator": "秦皇岛港库存",
-        "source": "CCTD",
+        "source": "Mysteel",
         "unit": "万吨",
         "points": [
           {
-            "date": "2026-05-28",
-            "value": 690.0,
-            "change": null
-          },
-          {
-            "date": "2026-05-29",
-            "value": 698.0,
-            "change": 8.0
-          },
-          {
-            "date": "2026-05-30",
-            "value": 690.0,
-            "change": -8.0
-          },
-          {
-            "date": "2026-05-31",
-            "value": 697.0,
-            "change": 7.0
-          },
-          {
-            "date": "2026-06-01",
-            "value": 686.0,
-            "change": -11.0
-          },
-          {
-            "date": "2026-06-02",
-            "value": 684.0,
-            "change": -2.0
-          },
-          {
-            "date": "2026-06-03",
-            "value": 686.0,
-            "change": 2.0
-          },
-          {
-            "date": "2026-06-04",
-            "value": 690.0,
-            "change": 4.0
-          },
-          {
-            "date": "2026-06-05",
-            "value": 691.0,
-            "change": 1.0
-          },
-          {
-            "date": "2026-06-06",
-            "value": 688.0,
-            "change": -3.0
-          },
-          {
-            "date": "2026-06-07",
-            "value": 677.0,
-            "change": -11.0
-          },
-          {
-            "date": "2026-06-08",
-            "value": 680.0,
-            "change": 3.0
-          },
-          {
-            "date": "2026-06-09",
-            "value": 660.0,
-            "change": -20.0
-          },
-          {
-            "date": "2026-06-10",
-            "value": 655.0,
-            "change": -5.0
-          },
-          {
-            "date": "2026-06-11",
-            "value": 650.0,
-            "change": -5.0
-          },
-          {
-            "date": "2026-06-12",
-            "value": 650.0,
-            "change": 0.0
-          },
-          {
-            "date": "2026-06-13",
-            "value": 645.0,
-            "change": -5.0
-          },
-          {
-            "date": "2026-06-14",
-            "value": 658.0,
-            "change": 13.0
-          },
-          {
-            "date": "2026-06-15",
-            "value": 651.0,
-            "change": -7.0
-          },
-          {
-            "date": "2026-06-16",
-            "value": 650.0,
-            "change": -1.0
-          },
-          {
-            "date": "2026-06-17",
-            "value": 641.0,
-            "change": -9.0
-          },
-          {
             "date": "2026-06-18",
-            "value": 637.0,
-            "change": -4.0
-          },
-          {
-            "date": "2026-06-19",
-            "value": 637.0,
-            "change": 0.0
-          },
-          {
-            "date": "2026-06-20",
-            "value": 650.0,
-            "change": 13.0
-          },
-          {
-            "date": "2026-06-21",
-            "value": 656.0,
-            "change": 6.0
-          },
-          {
-            "date": "2026-06-22",
-            "value": 660.0,
-            "change": 4.0
-          },
-          {
-            "date": "2026-06-23",
-            "value": 662.0,
-            "change": 2.0
-          },
-          {
-            "date": "2026-06-24",
-            "value": 664.0,
-            "change": 2.0
-          },
-          {
-            "date": "2026-06-25",
-            "value": 674.0,
-            "change": 10.0
-          },
-          {
-            "date": "2026-06-26",
-            "value": 677.0,
-            "change": 3.0
-          },
-          {
-            "date": "2026-06-27",
-            "value": 692.0,
-            "change": 15.0
-          },
-          {
-            "date": "2026-06-28",
-            "value": 694.0,
-            "change": 2.0
-          },
-          {
-            "date": "2026-06-29",
-            "value": 708.0,
-            "change": 14.0
+            "value": 640.0,
+            "change": -7.0
           },
           {
             "date": "2026-06-30",
@@ -7545,7 +7510,7 @@
           "key": "inventory",
           "indicator": "秦皇岛港库存",
           "name": "秦皇岛港库存",
-          "source": "CCTD",
+          "source": "Mysteel",
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
@@ -7554,136 +7519,8 @@
           "date_end": "2026-07-03",
           "points": [
             {
-              "date": "2026-05-28",
-              "value": 690.0
-            },
-            {
-              "date": "2026-05-29",
-              "value": 698.0
-            },
-            {
-              "date": "2026-05-30",
-              "value": 690.0
-            },
-            {
-              "date": "2026-05-31",
-              "value": 697.0
-            },
-            {
-              "date": "2026-06-01",
-              "value": 686.0
-            },
-            {
-              "date": "2026-06-02",
-              "value": 684.0
-            },
-            {
-              "date": "2026-06-03",
-              "value": 686.0
-            },
-            {
-              "date": "2026-06-04",
-              "value": 690.0
-            },
-            {
-              "date": "2026-06-05",
-              "value": 691.0
-            },
-            {
-              "date": "2026-06-06",
-              "value": 688.0
-            },
-            {
-              "date": "2026-06-07",
-              "value": 677.0
-            },
-            {
-              "date": "2026-06-08",
-              "value": 680.0
-            },
-            {
-              "date": "2026-06-09",
-              "value": 660.0
-            },
-            {
-              "date": "2026-06-10",
-              "value": 655.0
-            },
-            {
-              "date": "2026-06-11",
-              "value": 650.0
-            },
-            {
-              "date": "2026-06-12",
-              "value": 650.0
-            },
-            {
-              "date": "2026-06-13",
-              "value": 645.0
-            },
-            {
-              "date": "2026-06-14",
-              "value": 658.0
-            },
-            {
-              "date": "2026-06-15",
-              "value": 651.0
-            },
-            {
-              "date": "2026-06-16",
-              "value": 650.0
-            },
-            {
-              "date": "2026-06-17",
-              "value": 641.0
-            },
-            {
               "date": "2026-06-18",
-              "value": 637.0
-            },
-            {
-              "date": "2026-06-19",
-              "value": 637.0
-            },
-            {
-              "date": "2026-06-20",
-              "value": 650.0
-            },
-            {
-              "date": "2026-06-21",
-              "value": 656.0
-            },
-            {
-              "date": "2026-06-22",
-              "value": 660.0
-            },
-            {
-              "date": "2026-06-23",
-              "value": 662.0
-            },
-            {
-              "date": "2026-06-24",
-              "value": 664.0
-            },
-            {
-              "date": "2026-06-25",
-              "value": 674.0
-            },
-            {
-              "date": "2026-06-26",
-              "value": 677.0
-            },
-            {
-              "date": "2026-06-27",
-              "value": 692.0
-            },
-            {
-              "date": "2026-06-28",
-              "value": 694.0
-            },
-            {
-              "date": "2026-06-29",
-              "value": 708.0
+              "value": 640.0
             },
             {
               "date": "2026-06-30",
@@ -18020,6 +17857,11 @@
             "change": -111.0
           },
           {
+            "date": "2026-06-29",
+            "value": 6315.0,
+            "change": -47.0
+          },
+          {
             "date": "2026-06-30",
             "value": 6320.0,
             "change": 5.0
@@ -20075,6 +19917,11 @@
             "date": "2026-06-26",
             "value": 6032.0,
             "change": -65.0
+          },
+          {
+            "date": "2026-06-29",
+            "value": 6004.0,
+            "change": -28.0
           },
           {
             "date": "2026-06-30",
@@ -22134,6 +21981,11 @@
             "change": -17.0
           },
           {
+            "date": "2026-06-29",
+            "value": 6348.0,
+            "change": -25.0
+          },
+          {
             "date": "2026-06-30",
             "value": 6348.0,
             "change": 0.0
@@ -24191,6 +24043,11 @@
             "change": -34.0
           },
           {
+            "date": "2026-06-29",
+            "value": 6200.0,
+            "change": -58.0
+          },
+          {
             "date": "2026-06-30",
             "value": 6200.0,
             "change": 0.0
@@ -24976,11 +24833,6 @@
             "date": "2026-06-25",
             "value": 15.38,
             "change": -0.36
-          },
-          {
-            "date": "2026-06-27",
-            "value": 15.52,
-            "change": 0.0
           },
           {
             "date": "2026-06-28",
@@ -27039,7 +26891,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 410,
+          "point_count": 411,
           "date_start": "2024-09-25",
           "date_end": "2026-07-02",
           "points": [
@@ -28672,6 +28524,10 @@
               "value": 6032.0
             },
             {
+              "date": "2026-06-29",
+              "value": 6004.0
+            },
+            {
               "date": "2026-06-30",
               "value": 6005.0
             },
@@ -28693,7 +28549,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 410,
+          "point_count": 411,
           "date_start": "2024-09-25",
           "date_end": "2026-07-02",
           "points": [
@@ -30326,6 +30182,10 @@
               "value": 6362.0
             },
             {
+              "date": "2026-06-29",
+              "value": 6315.0
+            },
+            {
               "date": "2026-06-30",
               "value": 6320.0
             },
@@ -30347,7 +30207,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 410,
+          "point_count": 411,
           "date_start": "2024-09-25",
           "date_end": "2026-07-02",
           "points": [
@@ -31980,6 +31840,10 @@
               "value": 6373.0
             },
             {
+              "date": "2026-06-29",
+              "value": 6348.0
+            },
+            {
               "date": "2026-06-30",
               "value": 6348.0
             },
@@ -32001,7 +31865,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 410,
+          "point_count": 411,
           "date_start": "2024-09-25",
           "date_end": "2026-07-02",
           "points": [
@@ -33634,6 +33498,10 @@
               "value": 6258.0
             },
             {
+              "date": "2026-06-29",
+              "value": 6200.0
+            },
+            {
               "date": "2026-06-30",
               "value": 6200.0
             },
@@ -35213,7 +35081,7 @@
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 157,
+          "point_count": 156,
           "date_start": "2026-01-13",
           "date_end": "2026-07-01",
           "points": [
@@ -35828,10 +35696,6 @@
             {
               "date": "2026-06-25",
               "value": 15.38
-            },
-            {
-              "date": "2026-06-27",
-              "value": 15.52
             },
             {
               "date": "2026-06-28",
@@ -37649,27 +37513,27 @@
       "ok": true,
       "latest_count": 8,
       "fetch_date": "2026-07-03",
-      "run_at": "2026-07-03 08:00:01",
-      "checked_at": "2026-07-03 08:00:35",
+      "run_at": "2026-07-03 08:40:00",
+      "checked_at": "2026-07-03 08:40:11",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
     },
     "source_files": {
       "today": {
-        "path": "/Users/hydtzyj/gas-watch/data/today.json",
-        "mtime": "2026-07-03T08:00:35",
+        "path": "/Users/zhouyijun/gas-watch/data/today.json",
+        "mtime": "2026-07-03T08:40:10",
         "bytes": 2309
       },
       "validation": {
-        "path": "/Users/hydtzyj/gas-watch/data/validation.json",
-        "mtime": "2026-07-03T08:00:35",
+        "path": "/Users/zhouyijun/gas-watch/data/validation.json",
+        "mtime": "2026-07-03T08:40:11",
         "bytes": 89
       },
       "history": {
-        "path": "/Users/hydtzyj/gas-watch/data/history.csv",
-        "mtime": "2026-07-03T08:00:35",
-        "bytes": 439818
+        "path": "/Users/zhouyijun/gas-watch/data/history.csv",
+        "mtime": "2026-07-03T08:40:11",
+        "bytes": 440110
       }
     }
   }
