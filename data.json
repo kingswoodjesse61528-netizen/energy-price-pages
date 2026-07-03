@@ -16,7 +16,7 @@
         "change": 3.0,
         "change_pct": 0.51,
         "unit": "元/吨",
-        "date": "2026-07-02",
+        "date": "2026-07-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -30,7 +30,7 @@
         "change": -5.0,
         "change_pct": -0.7,
         "unit": "元/吨",
-        "date": "2026-07-02",
+        "date": "2026-07-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -44,7 +44,7 @@
         "change": 11.0,
         "change_pct": 1.78,
         "unit": "元/吨",
-        "date": "2026-07-02",
+        "date": "2026-07-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -74,7 +74,7 @@
         "change": 3.0,
         "change_pct": 0.51,
         "unit": "元/吨",
-        "date": "2026-07-02",
+        "date": "2026-07-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -88,7 +88,7 @@
         "change": -5.0,
         "change_pct": -0.7,
         "unit": "元/吨",
-        "date": "2026-07-02",
+        "date": "2026-07-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -102,7 +102,7 @@
         "change": -2.0,
         "change_pct": -0.28,
         "unit": "元/吨",
-        "date": "2026-07-02",
+        "date": "2026-07-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -116,7 +116,7 @@
         "change": 11.0,
         "change_pct": 1.78,
         "unit": "元/吨",
-        "date": "2026-07-02",
+        "date": "2026-07-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -130,7 +130,7 @@
         "change": -3.0,
         "change_pct": -0.36,
         "unit": "元/吨",
-        "date": "2026-07-02",
+        "date": "2026-07-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -144,7 +144,7 @@
         "change": -5.0,
         "change_pct": -0.58,
         "unit": "元/吨",
-        "date": "2026-07-02",
+        "date": "2026-07-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -162,7 +162,7 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "flat"
       },
       {
@@ -263,6 +263,11 @@
             "date": "2026-07-02",
             "value": 586.0,
             "change": 3.0
+          },
+          {
+            "date": "2026-07-03",
+            "value": 586.0,
+            "change": 3.0
           }
         ]
       },
@@ -318,6 +323,11 @@
           },
           {
             "date": "2026-07-02",
+            "value": 710.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-07-03",
             "value": 710.0,
             "change": -5.0
           }
@@ -377,6 +387,11 @@
             "date": "2026-07-02",
             "value": 712.0,
             "change": -2.0
+          },
+          {
+            "date": "2026-07-03",
+            "value": 712.0,
+            "change": -2.0
           }
         ]
       },
@@ -432,6 +447,11 @@
           },
           {
             "date": "2026-07-02",
+            "value": 633.0,
+            "change": 11.0
+          },
+          {
+            "date": "2026-07-03",
             "value": 633.0,
             "change": 11.0
           }
@@ -491,6 +511,11 @@
             "date": "2026-07-02",
             "value": 827.0,
             "change": -3.0
+          },
+          {
+            "date": "2026-07-03",
+            "value": 827.0,
+            "change": -3.0
           }
         ]
       },
@@ -546,6 +571,11 @@
           },
           {
             "date": "2026-07-02",
+            "value": 856.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-07-03",
             "value": 856.0,
             "change": -5.0
           }
@@ -707,7 +737,7 @@
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "down"
       },
       "henry_hub": {
@@ -721,7 +751,7 @@
         "source": "EIA",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "up"
       },
       "ttf": {
@@ -735,7 +765,7 @@
         "source": "JOGMEC/Platts(周)",
         "status": "ok",
         "note": "",
-        "age_days": 6,
+        "age_days": 7,
         "direction": "down"
       }
     },
@@ -807,7 +837,7 @@
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "down"
       },
       {
@@ -821,7 +851,7 @@
         "source": "EIA",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "up"
       },
       {
@@ -835,7 +865,7 @@
         "source": "JOGMEC/Platts(周)",
         "status": "ok",
         "note": "",
-        "age_days": 6,
+        "age_days": 7,
         "direction": "down"
       },
       {
@@ -849,7 +879,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 8,
+        "age_days": 9,
         "direction": "flat"
       }
     ],
@@ -22467,7 +22497,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 8,
+          "age_days": 9,
           "direction": "flat"
         },
         {
@@ -22482,7 +22512,7 @@
           "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "down"
         },
         {
@@ -22497,7 +22527,7 @@
           "source": "EIA",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "up"
         },
         {
@@ -22512,7 +22542,7 @@
           "source": "JOGMEC/Platts(周)",
           "status": "ok",
           "note": "",
-          "age_days": 6,
+          "age_days": 7,
           "direction": "down"
         }
       ],
