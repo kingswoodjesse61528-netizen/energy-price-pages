@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-04T12:10:04",
+    "generated_at": "2026-07-05T08:10:02",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -176,7 +176,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "down"
       },
       {
@@ -190,7 +190,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "down"
       },
       {
@@ -223,12 +223,12 @@
       },
       {
         "indicator": "度电毛利",
-        "value": 54.6,
-        "value_text": "54.6",
+        "value": 11.3,
+        "value_text": "11.3",
         "change": null,
         "change_pct": null,
         "unit": "元/MWh",
-        "date": "2026-07-03",
+        "date": "2026-07-04",
         "source": "测算",
         "status": "ok",
         "note": "",
@@ -15576,7 +15576,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "down"
         },
         {
@@ -15591,7 +15591,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "down"
         },
         {
@@ -15606,7 +15606,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "up"
         },
         {
@@ -15621,7 +15621,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "down"
         }
       ],
@@ -15632,9 +15632,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 12,
-      "fetch_date": "2026-07-04",
-      "run_at": "2026-07-04 08:37:57",
-      "checked_at": "2026-07-04 08:38:23",
+      "fetch_date": "2026-07-05",
+      "run_at": "2026-07-05 04:40:45",
+      "checked_at": "2026-07-05 04:41:16",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -15642,18 +15642,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-07-04T08:38:17",
+        "mtime": "2026-07-05T04:41:08",
         "bytes": 3056
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-07-04T08:38:23",
+        "mtime": "2026-07-05T04:41:16",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-07-04T08:38:17",
-        "bytes": 317546
+        "mtime": "2026-07-05T04:41:08",
+        "bytes": 318212
       }
     }
   },
