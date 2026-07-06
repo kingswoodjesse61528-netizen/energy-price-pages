@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-06T08:10:03",
+    "generated_at": "2026-07-06T12:10:03",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -53,16 +53,16 @@
       },
       "qhd_inventory": {
         "indicator": "秦皇岛港库存",
-        "value": 723.0,
-        "value_text": "723",
-        "change": -4.0,
+        "value": 725.0,
+        "value_text": "725",
+        "change": -5.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-07-03",
+        "date": "2026-07-06",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 0,
         "direction": "down"
       }
     },
@@ -167,16 +167,16 @@
       },
       {
         "indicator": "秦皇岛港库存",
-        "value": 723.0,
-        "value_text": "723",
-        "change": -4.0,
+        "value": 725.0,
+        "value_text": "725",
+        "change": -5.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-07-03",
+        "date": "2026-07-06",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 0,
         "direction": "down"
       },
       {
@@ -785,6 +785,21 @@
             "date": "2026-07-03",
             "value": 723.0,
             "change": -4.0
+          },
+          {
+            "date": "2026-07-04",
+            "value": 720.0,
+            "change": -3.0
+          },
+          {
+            "date": "2026-07-05",
+            "value": 730.0,
+            "change": 10.0
+          },
+          {
+            "date": "2026-07-06",
+            "value": 725.0,
+            "change": -5.0
           }
         ]
       }
@@ -7609,9 +7624,9 @@
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
-          "point_count": 37,
+          "point_count": 40,
           "date_start": "2026-05-28",
-          "date_end": "2026-07-03",
+          "date_end": "2026-07-06",
           "points": [
             {
               "date": "2026-05-28",
@@ -7760,6 +7775,18 @@
             {
               "date": "2026-07-03",
               "value": 723.0
+            },
+            {
+              "date": "2026-07-04",
+              "value": 720.0
+            },
+            {
+              "date": "2026-07-05",
+              "value": 730.0
+            },
+            {
+              "date": "2026-07-06",
+              "value": 725.0
             }
           ]
         },
@@ -15775,16 +15802,16 @@
         {
           "indicator": "秦皇岛港库存",
           "source_indicator": "秦皇岛港库存",
-          "value": 723.0,
-          "value_text": "723.0",
-          "change": -4.0,
+          "value": 725.0,
+          "value_text": "725.0",
+          "change": -5.0,
           "change_pct": null,
           "unit": "万吨",
-          "date": "2026-07-03",
+          "date": "2026-07-06",
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 0,
           "direction": "down"
         },
         {
@@ -15826,8 +15853,8 @@
       "ok": true,
       "latest_count": 12,
       "fetch_date": "2026-07-06",
-      "run_at": "2026-07-06 06:05:21",
-      "checked_at": "2026-07-06 06:05:47",
+      "run_at": "2026-07-06 10:05:47",
+      "checked_at": "2026-07-06 10:06:17",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -15835,18 +15862,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-07-06T06:05:40",
+        "mtime": "2026-07-06T10:06:09",
         "bytes": 3058
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-07-06T06:05:47",
+        "mtime": "2026-07-06T10:06:17",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-07-06T06:05:40",
-        "bytes": 318879
+        "mtime": "2026-07-06T10:06:11",
+        "bytes": 319095
       }
     }
   },
