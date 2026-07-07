@@ -34707,13 +34707,13 @@
         "input_label": "JKM",
         "input_value": 16.06,
         "input_unit": "美元/MMBtu",
-        "usd_cny": 6.785482,
+        "usd_cny": 6.801784,
         "factor": 27.1,
         "value": 4.023715709963099,
         "unit": "元/立方米",
         "date": "2026-07-05",
         "source": "EnergyRiskIQ",
-        "fx_date": "Mon, 06 Jul 2026",
+        "fx_date": "Tue, 07 Jul 2026",
         "note": "美元/MMBtu × USD/CNY ÷ 27.1"
       },
       "lng_ton_to_m3": {
