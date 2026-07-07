@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-06T12:10:03",
+    "generated_at": "2026-07-07T08:00:32",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -62,7 +62,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "down"
       }
     },
@@ -176,21 +176,21 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "down"
       },
       {
         "indicator": "环渤海港口库存",
-        "value": 824.0,
-        "value_text": "824",
-        "change": -7.0,
+        "value": 816.0,
+        "value_text": "816",
+        "change": -8.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-07-03",
+        "date": "2026-07-06",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 1,
         "direction": "down"
       },
       {
@@ -232,7 +232,7 @@
         "source": "测算",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       }
     ],
@@ -809,9 +809,9 @@
           "unit": "元/吨",
           "axis": "price",
           "selected": true,
-          "point_count": 1699,
+          "point_count": 1700,
           "date_start": "2018-08-01",
-          "date_end": "2026-07-03",
+          "date_end": "2026-07-06",
           "points": [
             {
               "date": "2018-08-01",
@@ -7608,6 +7608,10 @@
             {
               "date": "2026-07-03",
               "value": 824.0
+            },
+            {
+              "date": "2026-07-06",
+              "value": 816.0
             }
           ]
         },
@@ -15654,16 +15658,16 @@
         {
           "indicator": "Q5500现货价",
           "source_indicator": "环渤海Q5500K现货参考价",
-          "value": 824.0,
-          "value_text": "824.0",
-          "change": -7.0,
+          "value": 816.0,
+          "value_text": "816.0",
+          "change": -8.0,
           "change_pct": null,
           "unit": "元/吨",
-          "date": "2026-07-03",
+          "date": "2026-07-06",
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 1,
           "direction": "down"
         },
         {
@@ -15678,7 +15682,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 0,
+          "age_days": 1,
           "direction": "down"
         },
         {
@@ -15693,7 +15697,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "up"
         },
         {
@@ -15708,7 +15712,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 5,
+          "age_days": 6,
           "direction": "down"
         }
       ],
@@ -15719,9 +15723,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 12,
-      "fetch_date": "2026-07-06",
-      "run_at": "2026-07-06 10:05:47",
-      "checked_at": "2026-07-06 10:06:17",
+      "fetch_date": "2026-07-07",
+      "run_at": "2026-07-07 05:34:45",
+      "checked_at": "2026-07-07 05:34:50",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -15729,18 +15733,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-07-06T10:06:09",
+        "mtime": "2026-07-07T05:34:48",
         "bytes": 3058
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-07-06T10:06:17",
+        "mtime": "2026-07-07T05:34:50",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-07-06T10:06:11",
-        "bytes": 319095
+        "mtime": "2026-07-07T05:34:48",
+        "bytes": 319856
       }
     }
   },
@@ -15782,7 +15786,7 @@
         "change": 0.0,
         "change_pct": 0.0,
         "unit": "美元/MMBtu",
-        "date": "2026-07-04",
+        "date": "2026-07-05",
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
@@ -15800,22 +15804,22 @@
         "source": "EIA",
         "status": "ok",
         "note": "",
-        "age_days": 7,
+        "age_days": 8,
         "direction": "up"
       },
       "ttf": {
         "indicator": "TTF",
-        "value": 13.6,
-        "value_text": "13.6",
-        "change": -0.5,
-        "change_pct": -3.55,
+        "value": null,
+        "value_text": "需手动",
+        "change": null,
+        "change_pct": null,
         "unit": "美元/MMBtu",
-        "date": "2026-06-26",
-        "source": "JOGMEC/Platts(周)",
-        "status": "ok",
-        "note": "",
-        "age_days": 10,
-        "direction": "down"
+        "date": "2026-07-07",
+        "source": "手动",
+        "status": "manual",
+        "note": "JOGMEC 未解析到该指标",
+        "age_days": 0,
+        "direction": "flat"
       }
     },
     "latest": [
@@ -15882,7 +15886,7 @@
         "change": 0.0,
         "change_pct": 0.0,
         "unit": "美元/MMBtu",
-        "date": "2026-07-04",
+        "date": "2026-07-05",
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
@@ -15900,22 +15904,22 @@
         "source": "EIA",
         "status": "ok",
         "note": "",
-        "age_days": 7,
+        "age_days": 8,
         "direction": "up"
       },
       {
         "indicator": "TTF",
-        "value": 13.6,
-        "value_text": "13.6",
-        "change": -0.5,
-        "change_pct": -3.55,
+        "value": null,
+        "value_text": "需手动",
+        "change": null,
+        "change_pct": null,
         "unit": "美元/MMBtu",
-        "date": "2026-06-26",
-        "source": "JOGMEC/Platts(周)",
-        "status": "ok",
-        "note": "",
-        "age_days": 10,
-        "direction": "down"
+        "date": "2026-07-07",
+        "source": "手动",
+        "status": "manual",
+        "note": "JOGMEC 未解析到该指标",
+        "age_days": 0,
+        "direction": "flat"
       },
       {
         "indicator": "山东LNG出站价",
@@ -25010,6 +25014,11 @@
             "date": "2026-07-04",
             "value": 16.07,
             "change": 0.0
+          },
+          {
+            "date": "2026-07-05",
+            "value": 16.07,
+            "change": 0.0
           }
         ]
       },
@@ -27027,7 +27036,7 @@
       },
       {
         "indicator": "TTF",
-        "source": "JOGMEC/Platts(周)",
+        "source": "手动",
         "unit": "美元/MMBtu",
         "points": [
           {
@@ -27053,7 +27062,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 411,
+          "point_count": 412,
           "date_start": "2024-09-25",
           "date_end": "2026-07-06",
           "points": [
@@ -28719,7 +28728,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 411,
+          "point_count": 412,
           "date_start": "2024-09-25",
           "date_end": "2026-07-06",
           "points": [
@@ -30385,7 +30394,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 411,
+          "point_count": 412,
           "date_start": "2024-09-25",
           "date_end": "2026-07-06",
           "points": [
@@ -32051,7 +32060,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 411,
+          "point_count": 412,
           "date_start": "2024-09-25",
           "date_end": "2026-07-06",
           "points": [
@@ -35275,9 +35284,9 @@
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 158,
+          "point_count": 159,
           "date_start": "2026-01-13",
-          "date_end": "2026-07-04",
+          "date_end": "2026-07-05",
           "points": [
             {
               "date": "2026-01-13",
@@ -35905,6 +35914,10 @@
             },
             {
               "date": "2026-07-04",
+              "value": 16.07
+            },
+            {
+              "date": "2026-07-05",
               "value": 16.07
             }
           ]
@@ -37638,7 +37651,7 @@
           "change": 0.0,
           "change_pct": null,
           "unit": "美元/MMBtu",
-          "date": "2026-07-04",
+          "date": "2026-07-05",
           "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
@@ -37684,13 +37697,13 @@
         "input_label": "JKM",
         "input_value": 16.07,
         "input_unit": "美元/MMBtu",
-        "usd_cny": 6.795288,
+        "usd_cny": 6.785482,
         "factor": 27.1,
-        "value": 4.0295305594095945,
+        "value": 4.023715709963099,
         "unit": "元/立方米",
-        "date": "2026-07-04",
+        "date": "2026-07-05",
         "source": "EnergyRiskIQ",
-        "fx_date": "Sun, 05 Jul 2026",
+        "fx_date": "Mon, 06 Jul 2026",
         "note": "美元/MMBtu × USD/CNY ÷ 27.1"
       },
       "lng_ton_to_m3": {
@@ -37710,9 +37723,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 8,
-      "fetch_date": "2026-07-06",
-      "run_at": "2026-07-06 08:00:01",
-      "checked_at": "2026-07-06 08:00:19",
+      "fetch_date": "2026-07-07",
+      "run_at": "2026-07-07 08:00:03",
+      "checked_at": "2026-07-07 08:00:21",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -37720,18 +37733,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/gas-watch/data/today.json",
-        "mtime": "2026-07-06T08:00:19",
-        "bytes": 2338
+        "mtime": "2026-07-07T08:00:21",
+        "bytes": 2356
       },
       "validation": {
         "path": "/Users/hydtzyj/gas-watch/data/validation.json",
-        "mtime": "2026-07-06T08:00:19",
+        "mtime": "2026-07-07T08:00:21",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/gas-watch/data/history.csv",
-        "mtime": "2026-07-06T08:00:19",
-        "bytes": 440250
+        "mtime": "2026-07-07T08:00:21",
+        "bytes": 440680
       }
     }
   }
