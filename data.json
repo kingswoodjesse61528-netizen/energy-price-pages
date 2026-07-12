@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-12T12:10:00",
+    "generated_at": "2026-07-12T12:55:50",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -16,11 +16,11 @@
         "change": 0.0,
         "change_pct": 0.0,
         "unit": "元/吨",
-        "date": "2026-07-11",
+        "date": "2026-07-12",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "flat"
       },
       "qhd_5500": {
@@ -30,11 +30,11 @@
         "change": 5.0,
         "change_pct": 0.71,
         "unit": "元/吨",
-        "date": "2026-07-11",
+        "date": "2026-07-12",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "up"
       },
       "pit_5500": {
@@ -44,11 +44,11 @@
         "change": -12.0,
         "change_pct": -1.9,
         "unit": "元/吨",
-        "date": "2026-07-11",
+        "date": "2026-07-12",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "down"
       },
       "qhd_inventory": {
@@ -74,11 +74,11 @@
         "change": 0.0,
         "change_pct": 0.0,
         "unit": "元/吨",
-        "date": "2026-07-11",
+        "date": "2026-07-12",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "flat"
       },
       {
@@ -88,11 +88,11 @@
         "change": 5.0,
         "change_pct": 0.71,
         "unit": "元/吨",
-        "date": "2026-07-11",
+        "date": "2026-07-12",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "up"
       },
       {
@@ -102,11 +102,11 @@
         "change": 2.0,
         "change_pct": 0.28,
         "unit": "元/吨",
-        "date": "2026-07-11",
+        "date": "2026-07-12",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "up"
       },
       {
@@ -116,11 +116,11 @@
         "change": -12.0,
         "change_pct": -1.9,
         "unit": "元/吨",
-        "date": "2026-07-11",
+        "date": "2026-07-12",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "down"
       },
       {
@@ -130,11 +130,11 @@
         "change": -3.0,
         "change_pct": -0.36,
         "unit": "元/吨",
-        "date": "2026-07-11",
+        "date": "2026-07-12",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "down"
       },
       {
@@ -144,11 +144,11 @@
         "change": -5.0,
         "change_pct": -0.58,
         "unit": "元/吨",
-        "date": "2026-07-11",
+        "date": "2026-07-12",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "down"
       },
       {
@@ -316,6 +316,11 @@
             "date": "2026-07-11",
             "value": 586.0,
             "change": 0.0
+          },
+          {
+            "date": "2026-07-12",
+            "value": 586.0,
+            "change": 0.0
           }
         ]
       },
@@ -396,6 +401,11 @@
           },
           {
             "date": "2026-07-11",
+            "value": 715.0,
+            "change": 5.0
+          },
+          {
+            "date": "2026-07-12",
             "value": 715.0,
             "change": 5.0
           }
@@ -480,6 +490,11 @@
             "date": "2026-07-11",
             "value": 714.0,
             "change": 2.0
+          },
+          {
+            "date": "2026-07-12",
+            "value": 714.0,
+            "change": 2.0
           }
         ]
       },
@@ -560,6 +575,11 @@
           },
           {
             "date": "2026-07-11",
+            "value": 621.0,
+            "change": -12.0
+          },
+          {
+            "date": "2026-07-12",
             "value": 621.0,
             "change": -12.0
           }
@@ -644,6 +664,11 @@
             "date": "2026-07-11",
             "value": 827.0,
             "change": -3.0
+          },
+          {
+            "date": "2026-07-12",
+            "value": 827.0,
+            "change": -3.0
           }
         ]
       },
@@ -724,6 +749,11 @@
           },
           {
             "date": "2026-07-11",
+            "value": 856.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-07-12",
             "value": 856.0,
             "change": -5.0
           }
@@ -16071,9 +16101,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 12,
-      "fetch_date": "2026-07-11",
-      "run_at": "2026-07-11 21:45:48",
-      "checked_at": "2026-07-11 21:46:25",
+      "fetch_date": "2026-07-12",
+      "run_at": "2026-07-12 08:00:01",
+      "checked_at": "2026-07-12 12:55:45",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -16081,18 +16111,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-07-11T21:46:10",
+        "mtime": "2026-07-12T12:55:35",
         "bytes": 3053
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-07-11T21:46:25",
+        "mtime": "2026-07-12T12:55:45",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-07-11T21:46:11",
-        "bytes": 323997
+        "mtime": "2026-07-12T12:55:35",
+        "bytes": 324430
       }
     }
   },
