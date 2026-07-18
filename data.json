@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-17T12:10:00",
+    "generated_at": "2026-07-18T08:01:42",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -223,12 +223,12 @@
       },
       {
         "indicator": "度电毛利",
-        "value": -1.4,
-        "value_text": "-1.4",
+        "value": -5.0,
+        "value_text": "-5",
         "change": null,
         "change_pct": null,
         "unit": "元/MWh",
-        "date": "2026-07-16",
+        "date": "2026-07-17",
         "source": "测算",
         "status": "ok",
         "note": "",
@@ -1239,9 +1239,9 @@
           "unit": "元/吨",
           "axis": "price",
           "selected": true,
-          "point_count": 1708,
+          "point_count": 1709,
           "date_start": "2018-08-01",
-          "date_end": "2026-07-16",
+          "date_end": "2026-07-17",
           "points": [
             {
               "date": "2018-08-01",
@@ -8074,6 +8074,10 @@
             {
               "date": "2026-07-16",
               "value": 816.0
+            },
+            {
+              "date": "2026-07-17",
+              "value": 820.0
             }
           ]
         },
@@ -8085,9 +8089,9 @@
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
-          "point_count": 50,
+          "point_count": 51,
           "date_start": "2026-05-28",
-          "date_end": "2026-07-16",
+          "date_end": "2026-07-17",
           "points": [
             {
               "date": "2026-05-28",
@@ -8303,9 +8307,9 @@
           "unit": "元/吨",
           "axis": "price",
           "selected": false,
-          "point_count": 1201,
+          "point_count": 1202,
           "date_start": "1994-07-04",
-          "date_end": "2026-07-10",
+          "date_end": "2026-07-17",
           "points": [
             {
               "date": "1994-07-04",
@@ -13110,6 +13114,10 @@
             {
               "date": "2026-07-10",
               "value": 721.0
+            },
+            {
+              "date": "2026-07-17",
+              "value": 722.0
             }
           ]
         },
@@ -16304,12 +16312,12 @@
         {
           "indicator": "Q5500现货价",
           "source_indicator": "环渤海Q5500K现货参考价",
-          "value": 816.0,
-          "value_text": "816.0",
-          "change": 7.0,
+          "value": 820.0,
+          "value_text": "820.0",
+          "change": 4.0,
           "change_pct": null,
           "unit": "元/吨",
-          "date": "2026-07-16",
+          "date": "2026-07-17",
           "source": "CCTD",
           "status": "ok",
           "note": "",
@@ -16334,12 +16342,12 @@
         {
           "indicator": "CCTD秦皇岛现货价",
           "source_indicator": "CCTD秦皇岛动力煤现货价",
-          "value": 721.0,
-          "value_text": "721.0",
-          "change": -6.0,
+          "value": 722.0,
+          "value_text": "722.0",
+          "change": 1.0,
           "change_pct": null,
           "unit": "元/吨",
-          "date": "2026-07-10",
+          "date": "2026-07-17",
           "source": "CCTD",
           "status": "ok",
           "note": "",
@@ -16368,29 +16376,31 @@
     "status": {
       "state": "ok",
       "ok": true,
-      "latest_count": 12,
-      "fetch_date": "2026-07-17",
-      "run_at": "2026-07-17 08:36:46",
-      "checked_at": "2026-07-17 08:37:16",
+      "latest_count": 10,
+      "fetch_date": "2026-07-18",
+      "run_at": "2026-07-18 08:00:02",
+      "checked_at": "2026-07-18 08:01:32",
       "alerts": [],
-      "warnings": [],
+      "warnings": [
+        "指标近期在、今日缺失：内蒙古沫煤(Q5500坑口)[Mysteel]、山西沫煤(Q5500坑口)[Mysteel]（疑上游改版/降级）"
+      ],
       "stale_indicators": []
     },
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-07-17T08:37:09",
-        "bytes": 3054
+        "mtime": "2026-07-18T08:01:25",
+        "bytes": 2576
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-07-17T08:37:16",
-        "bytes": 89
+        "mtime": "2026-07-18T08:01:32",
+        "bytes": 234
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-07-17T08:37:09",
-        "bytes": 328909
+        "mtime": "2026-07-18T08:01:25",
+        "bytes": 329726
       }
     }
   },
