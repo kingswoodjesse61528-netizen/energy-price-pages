@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-18T08:01:42",
+    "generated_at": "2026-07-18T08:10:00",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -192,34 +192,6 @@
         "note": "",
         "age_days": 1,
         "direction": "up"
-      },
-      {
-        "indicator": "内蒙古沫煤(Q5500坑口)",
-        "value": 815.0,
-        "value_text": "815",
-        "change": null,
-        "change_pct": null,
-        "unit": "元/吨",
-        "date": "2026-07-16",
-        "source": "Mysteel",
-        "status": "ok",
-        "note": "",
-        "age_days": 2,
-        "direction": "flat"
-      },
-      {
-        "indicator": "山西沫煤(Q5500坑口)",
-        "value": 815.0,
-        "value_text": "815",
-        "change": null,
-        "change_pct": null,
-        "unit": "元/吨",
-        "date": "2026-07-16",
-        "source": "Mysteel",
-        "status": "ok",
-        "note": "",
-        "age_days": 2,
-        "direction": "flat"
       },
       {
         "indicator": "度电毛利",
@@ -16321,7 +16293,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 1,
           "direction": "up"
         },
         {
@@ -16351,8 +16323,8 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 8,
-          "direction": "down"
+          "age_days": 1,
+          "direction": "up"
         },
         {
           "indicator": "环渤海指数BSPI",
