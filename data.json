@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-18T08:10:00",
+    "generated_at": "2026-07-18T12:10:00",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -192,6 +192,34 @@
         "note": "",
         "age_days": 1,
         "direction": "up"
+      },
+      {
+        "indicator": "内蒙古沫煤(Q5500坑口)",
+        "value": 815.0,
+        "value_text": "815",
+        "change": null,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-07-16",
+        "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 2,
+        "direction": "flat"
+      },
+      {
+        "indicator": "山西沫煤(Q5500坑口)",
+        "value": 815.0,
+        "value_text": "815",
+        "change": null,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-07-16",
+        "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 2,
+        "direction": "flat"
       },
       {
         "indicator": "度电毛利",
@@ -16348,30 +16376,28 @@
     "status": {
       "state": "ok",
       "ok": true,
-      "latest_count": 10,
+      "latest_count": 12,
       "fetch_date": "2026-07-18",
-      "run_at": "2026-07-18 08:00:02",
-      "checked_at": "2026-07-18 08:01:32",
+      "run_at": "2026-07-18 08:40:35",
+      "checked_at": "2026-07-18 08:41:44",
       "alerts": [],
-      "warnings": [
-        "指标近期在、今日缺失：内蒙古沫煤(Q5500坑口)[Mysteel]、山西沫煤(Q5500坑口)[Mysteel]（疑上游改版/降级）"
-      ],
+      "warnings": [],
       "stale_indicators": []
     },
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-07-18T08:01:25",
-        "bytes": 2576
+        "mtime": "2026-07-18T08:41:37",
+        "bytes": 3053
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-07-18T08:01:32",
-        "bytes": 234
+        "mtime": "2026-07-18T08:41:44",
+        "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-07-18T08:01:25",
+        "mtime": "2026-07-18T08:41:37",
         "bytes": 329726
       }
     }
