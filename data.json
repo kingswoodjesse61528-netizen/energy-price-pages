@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-21T08:00:36",
+    "generated_at": "2026-07-21T08:00:42",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -162,7 +162,7 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 8,
+        "age_days": 1,
         "direction": "flat"
       },
       {
@@ -16500,17 +16500,15 @@
     },
     "conversions": {},
     "status": {
-      "state": "stale",
+      "state": "ok",
       "ok": true,
       "latest_count": 12,
       "fetch_date": "2026-07-21",
       "run_at": "2026-07-21 08:00:03",
-      "checked_at": "2026-07-21 06:22:59",
+      "checked_at": "2026-07-21 08:00:36",
       "alerts": [],
       "warnings": [],
-      "stale_indicators": [
-        "广州港(Q5500)"
-      ]
+      "stale_indicators": []
     },
     "source_files": {
       "today": {
@@ -16520,7 +16518,7 @@
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-07-21T06:22:59",
+        "mtime": "2026-07-21T08:00:36",
         "bytes": 89
       },
       "history": {
