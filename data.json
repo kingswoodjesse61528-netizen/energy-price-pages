@@ -16583,10 +16583,10 @@
         "unit": "元/吨",
         "date": "2026-07-23",
         "source": "上海交易中心",
-        "status": "ok",
-        "note": "",
-        "age_days": 1,
-        "direction": "down"
+        "status": "miss",
+        "note": "shpgx 接口失败",
+        "age_days": 0,
+        "direction": "flat"
       },
       "national_lng": {
         "indicator": "全国LNG出站价",
@@ -16597,10 +16597,10 @@
         "unit": "元/吨",
         "date": "2026-07-23",
         "source": "上海交易中心",
-        "status": "ok",
-        "note": "",
-        "age_days": 1,
-        "direction": "down"
+        "status": "miss",
+        "note": "shpgx 接口失败",
+        "age_days": 0,
+        "direction": "flat"
       },
       "jkm": {
         "indicator": "JKM",
@@ -16611,10 +16611,10 @@
         "unit": "美元/MMBtu",
         "date": "2026-07-22",
         "source": "EnergyRiskIQ",
-        "status": "ok",
-        "note": "",
-        "age_days": 2,
-        "direction": "up"
+        "status": "miss",
+        "note": "EnergyRiskIQ 接口失败",
+        "age_days": 0,
+        "direction": "flat"
       },
       "henry_hub": {
         "indicator": "Henry Hub",
@@ -16632,10 +16632,10 @@
       },
       "ttf": {
         "indicator": "TTF",
-        "value": 19.2,
-        "value_text": "19.2",
-        "change": 2.9,
-        "change_pct": 17.79,
+        "value": null,
+        "value_text": "需手动",
+        "change": null,
+        "change_pct": null,
         "unit": "美元/MMBtu",
         "date": "2026-07-10",
         "source": "JOGMEC/Platts(周)",
@@ -16655,10 +16655,10 @@
         "unit": "元/吨",
         "date": "2026-07-23",
         "source": "上海交易中心",
-        "status": "ok",
-        "note": "",
-        "age_days": 1,
-        "direction": "down"
+        "status": "miss",
+        "note": "shpgx 接口失败",
+        "age_days": 0,
+        "direction": "flat"
       },
       {
         "indicator": "全国LNG出站价",
@@ -16669,10 +16669,10 @@
         "unit": "元/吨",
         "date": "2026-07-23",
         "source": "上海交易中心",
-        "status": "ok",
-        "note": "",
-        "age_days": 1,
-        "direction": "down"
+        "status": "miss",
+        "note": "shpgx 接口失败",
+        "age_days": 0,
+        "direction": "flat"
       },
       {
         "indicator": "浙江LNG出站价",
@@ -16690,16 +16690,16 @@
       },
       {
         "indicator": "江苏LNG出站价",
-        "value": 6070.0,
-        "value_text": "6070",
-        "change": 0.0,
-        "change_pct": 0.0,
+        "value": null,
+        "value_text": "未取到",
+        "change": null,
+        "change_pct": null,
         "unit": "元/吨",
         "date": "2026-07-23",
         "source": "上海交易中心",
-        "status": "ok",
-        "note": "",
-        "age_days": 1,
+        "status": "miss",
+        "note": "shpgx 接口失败",
+        "age_days": 0,
         "direction": "flat"
       },
       {
@@ -16711,10 +16711,10 @@
         "unit": "美元/MMBtu",
         "date": "2026-07-22",
         "source": "EnergyRiskIQ",
-        "status": "ok",
-        "note": "",
-        "age_days": 2,
-        "direction": "up"
+        "status": "miss",
+        "note": "EnergyRiskIQ 接口失败",
+        "age_days": 0,
+        "direction": "flat"
       },
       {
         "indicator": "Henry Hub",
@@ -16732,10 +16732,10 @@
       },
       {
         "indicator": "TTF",
-        "value": 19.2,
-        "value_text": "19.2",
-        "change": 2.9,
-        "change_pct": 17.79,
+        "value": null,
+        "value_text": "需手动",
+        "change": null,
+        "change_pct": null,
         "unit": "美元/MMBtu",
         "date": "2026-07-10",
         "source": "JOGMEC/Platts(周)",
@@ -16754,7 +16754,7 @@
         "date": "2026-07-24",
         "source": "上海交易中心",
         "status": "miss",
-        "note": "近10天该地区无有效报价",
+        "note": "shpgx 接口失败",
         "age_days": 0,
         "direction": "flat"
       }
@@ -28144,7 +28144,7 @@
       },
       {
         "indicator": "TTF",
-        "source": "JOGMEC/Platts(周)",
+        "source": "手动",
         "unit": "美元/MMBtu",
         "points": [
           {
@@ -38925,7 +38925,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 3,
           "direction": "down"
         },
         {
@@ -38940,7 +38940,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 3,
           "direction": "down"
         },
         {
@@ -38970,7 +38970,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 3,
           "direction": "flat"
         },
         {
@@ -39000,7 +39000,7 @@
           "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 4,
           "direction": "up"
         },
         {
@@ -39065,15 +39065,16 @@
       }
     },
     "status": {
-      "state": "ok",
-      "ok": true,
+      "state": "partial",
+      "ok": false,
       "latest_count": 8,
       "fetch_date": "2026-07-24",
       "run_at": "2026-07-24 07:50:05",
       "checked_at": "2026-07-24 07:50:12",
       "alerts": [],
       "warnings": [
-        "TTF 单日 +17.79%（+2.9美元/MMBtu），涨跌偏大请关注"
+        "Henry Hub（EIA）本次未取到：EIA 接口失败/无数据",
+        "JKM（EnergyRiskIQ）本次未取到：EnergyRiskIQ 接口失败"
       ],
       "stale_indicators": []
     },
