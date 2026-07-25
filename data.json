@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-07-24T08:11:09",
+    "generated_at": "2026-07-25T08:00:36",
     "machine": "Air",
-    "status": "ok",
+    "status": "stale",
     "title": "能源价格看板",
     "version": "1.2.1"
   },
@@ -223,12 +223,12 @@
       },
       {
         "indicator": "度电毛利",
-        "value": 8.8,
-        "value_text": "8.8",
+        "value": 32.8,
+        "value_text": "32.8",
         "change": null,
         "change_pct": null,
         "unit": "元/MWh",
-        "date": "2026-07-23",
+        "date": "2026-07-24",
         "source": "测算",
         "status": "ok",
         "note": "",
@@ -8355,9 +8355,9 @@
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
-          "point_count": 57,
+          "point_count": 58,
           "date_start": "2026-05-28",
-          "date_end": "2026-07-23",
+          "date_end": "2026-07-24",
           "points": [
             {
               "date": "2026-05-28",
@@ -16679,9 +16679,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 12,
-      "fetch_date": "2026-07-24",
-      "run_at": "2026-07-24 08:10:01",
-      "checked_at": "2026-07-24 08:10:29",
+      "fetch_date": "2026-07-25",
+      "run_at": "2026-07-25 08:00:01",
+      "checked_at": "2026-07-25 08:00:31",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -16689,18 +16689,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-07-24T08:10:22",
-        "bytes": 3049
+        "mtime": "2026-07-25T08:00:22",
+        "bytes": 3052
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-07-24T08:10:29",
+        "mtime": "2026-07-25T08:00:31",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-07-24T08:10:22",
-        "bytes": 334708
+        "mtime": "2026-07-25T08:00:22",
+        "bytes": 335530
       }
     }
   },
