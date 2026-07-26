@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-25T12:10:01",
+    "generated_at": "2026-07-26T08:00:08",
     "machine": "Air",
     "status": "stale",
     "title": "能源价格看板",
@@ -218,17 +218,17 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "flat"
       },
       {
         "indicator": "度电毛利",
-        "value": 32.8,
-        "value_text": "32.8",
+        "value": 83.9,
+        "value_text": "83.9",
         "change": null,
         "change_pct": null,
         "unit": "元/MWh",
-        "date": "2026-07-24",
+        "date": "2026-07-25",
         "source": "测算",
         "status": "ok",
         "note": "",
@@ -16637,9 +16637,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 12,
-      "fetch_date": "2026-07-25",
-      "run_at": "2026-07-25 11:20:09",
-      "checked_at": "2026-07-25 11:20:39",
+      "fetch_date": "2026-07-26",
+      "run_at": "2026-07-26 08:00:01",
+      "checked_at": "2026-07-26 08:00:06",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -16647,18 +16647,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-07-25T11:20:30",
+        "mtime": "2026-07-26T08:00:04",
         "bytes": 3052
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-07-25T11:20:39",
+        "mtime": "2026-07-26T08:00:06",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-07-25T11:20:30",
-        "bytes": 335530
+        "mtime": "2026-07-26T08:00:04",
+        "bytes": 336352
       }
     }
   },
