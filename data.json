@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-27T08:00:08",
+    "generated_at": "2026-07-27T08:00:15",
     "machine": "Air",
     "status": "stale",
     "title": "能源价格看板",
@@ -191,6 +191,34 @@
         "status": "ok",
         "note": "",
         "age_days": 3,
+        "direction": "flat"
+      },
+      {
+        "indicator": "内蒙古沫煤(Q5500坑口)",
+        "value": 825.0,
+        "value_text": "825",
+        "change": null,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-07-26",
+        "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 1,
+        "direction": "flat"
+      },
+      {
+        "indicator": "山西沫煤(Q5500坑口)",
+        "value": 825.0,
+        "value_text": "825",
+        "change": null,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-07-26",
+        "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 1,
         "direction": "flat"
       },
       {
@@ -8391,8 +8419,8 @@
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
-          "point_count": 39,
-          "date_start": "2026-06-16",
+          "point_count": 58,
+          "date_start": "2026-05-28",
           "date_end": "2026-07-24",
           "points": [
             {
@@ -16854,7 +16882,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 4,
+        "age_days": 3,
         "direction": "flat"
       },
       {
@@ -28339,7 +28367,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 425,
+          "point_count": 423,
           "date_start": "2024-09-25",
           "date_end": "2026-07-24",
           "points": [
@@ -30045,7 +30073,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 425,
+          "point_count": 423,
           "date_start": "2024-09-25",
           "date_end": "2026-07-24",
           "points": [
@@ -31751,7 +31779,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 425,
+          "point_count": 423,
           "date_start": "2024-09-25",
           "date_end": "2026-07-24",
           "points": [
@@ -33457,7 +33485,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 425,
+          "point_count": 423,
           "date_start": "2024-09-25",
           "date_end": "2026-07-24",
           "points": [
@@ -36721,7 +36749,7 @@
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 169,
+          "point_count": 171,
           "date_start": "2026-01-13",
           "date_end": "2026-07-25",
           "points": [
@@ -39115,7 +39143,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 4,
+          "age_days": 3,
           "direction": "flat"
         },
         {
@@ -39229,8 +39257,8 @@
       "ok": true,
       "latest_count": 8,
       "fetch_date": "2026-07-27",
-      "run_at": "2026-07-27 07:50:04",
-      "checked_at": "2026-07-27 07:50:11",
+      "run_at": "2026-07-27 08:00:01",
+      "checked_at": "2026-07-27 08:00:09",
       "alerts": [],
       "warnings": [
         "TTF 单日 +17.79%（+2.9美元/MMBtu），涨跌偏大请关注"
@@ -39241,19 +39269,19 @@
     },
     "source_files": {
       "today": {
-        "path": "/Users/zhouyijun/gas-watch/data/today.json",
-        "mtime": "2026-07-27T07:50:11",
+        "path": "/Users/hydtzyj/gas-watch/data/today.json",
+        "mtime": "2026-07-27T08:00:09",
         "bytes": 2327
       },
       "validation": {
-        "path": "/Users/zhouyijun/gas-watch/data/validation.json",
-        "mtime": "2026-07-27T07:50:11",
+        "path": "/Users/hydtzyj/gas-watch/data/validation.json",
+        "mtime": "2026-07-27T08:00:09",
         "bytes": 163
       },
       "history": {
-        "path": "/Users/zhouyijun/gas-watch/data/history.csv",
-        "mtime": "2026-07-27T07:50:11",
-        "bytes": 446355
+        "path": "/Users/hydtzyj/gas-watch/data/history.csv",
+        "mtime": "2026-07-27T08:00:09",
+        "bytes": 445776
       }
     }
   }
