@@ -20,7 +20,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "up"
       },
       "qhd_5500": {
@@ -34,7 +34,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       },
       "pit_5500": {
@@ -48,7 +48,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "up"
       },
       "qhd_inventory": {
@@ -78,7 +78,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "up"
       },
       {
@@ -92,7 +92,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       },
       {
@@ -106,7 +106,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "up"
       },
       {
@@ -120,7 +120,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "up"
       },
       {
@@ -134,7 +134,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "down"
       },
       {
@@ -148,7 +148,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "down"
       },
       {
@@ -162,7 +162,7 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 9,
+        "age_days": 10,
         "direction": "flat"
       },
       {
@@ -190,7 +190,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       },
       {
@@ -16800,7 +16800,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "flat"
         },
         {
@@ -16830,7 +16830,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 5,
+          "age_days": 6,
           "direction": "up"
         },
         {
@@ -16845,7 +16845,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 7,
+          "age_days": 8,
           "direction": "up"
         }
       ],
@@ -16897,7 +16897,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "down"
       },
       "national_lng": {
@@ -16911,17 +16911,17 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "down"
       },
       "jkm": {
         "indicator": "JKM",
-        "value": 21.43,
-        "value_text": "21.43",
-        "change": -0.57,
-        "change_pct": -2.59,
+        "value": 21.32,
+        "value_text": "21.32",
+        "change": -0.68,
+        "change_pct": -3.09,
         "unit": "美元/MMBtu",
-        "date": "2026-07-27",
+        "date": "2026-07-28",
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
@@ -16930,17 +16930,17 @@
       },
       "henry_hub": {
         "indicator": "Henry Hub",
-        "value": 2.8,
-        "value_text": "2.8",
-        "change": 0.05,
-        "change_pct": 1.82,
+        "value": 2.63,
+        "value_text": "2.63",
+        "change": -0.24,
+        "change_pct": -8.36,
         "unit": "美元/MMBtu",
-        "date": "2026-07-20",
+        "date": "2026-07-27",
         "source": "EIA",
         "status": "ok",
         "note": "",
-        "age_days": 9,
-        "direction": "up"
+        "age_days": 3,
+        "direction": "down"
       },
       "ttf": {
         "indicator": "TTF",
@@ -16953,7 +16953,7 @@
         "source": "JOGMEC/Platts(周)",
         "status": "ok",
         "note": "",
-        "age_days": 5,
+        "age_days": 6,
         "direction": "up"
       }
     },
@@ -16969,7 +16969,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "down"
       },
       {
@@ -16983,7 +16983,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "down"
       },
       {
@@ -16997,7 +16997,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "down"
       },
       {
@@ -17011,17 +17011,17 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       },
       {
         "indicator": "JKM",
-        "value": 21.43,
-        "value_text": "21.43",
-        "change": -0.57,
-        "change_pct": -2.59,
+        "value": 21.32,
+        "value_text": "21.32",
+        "change": -0.68,
+        "change_pct": -3.09,
         "unit": "美元/MMBtu",
-        "date": "2026-07-27",
+        "date": "2026-07-28",
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
@@ -17030,17 +17030,17 @@
       },
       {
         "indicator": "Henry Hub",
-        "value": 2.8,
-        "value_text": "2.8",
-        "change": 0.05,
-        "change_pct": 1.82,
+        "value": 2.63,
+        "value_text": "2.63",
+        "change": -0.24,
+        "change_pct": -8.36,
         "unit": "美元/MMBtu",
-        "date": "2026-07-20",
+        "date": "2026-07-27",
         "source": "EIA",
         "status": "ok",
         "note": "",
-        "age_days": 9,
-        "direction": "up"
+        "age_days": 3,
+        "direction": "down"
       },
       {
         "indicator": "TTF",
@@ -17053,7 +17053,7 @@
         "source": "JOGMEC/Platts(周)",
         "status": "ok",
         "note": "",
-        "age_days": 5,
+        "age_days": 6,
         "direction": "up"
       },
       {
@@ -17063,7 +17063,7 @@
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-07-29",
+        "date": "2026-07-30",
         "source": "上海交易中心",
         "status": "miss",
         "note": "近10天该地区无有效报价",
@@ -26469,6 +26469,11 @@
             "date": "2026-07-27",
             "value": 21.43,
             "change": -0.57
+          },
+          {
+            "date": "2026-07-28",
+            "value": 21.32,
+            "change": -0.68
           }
         ]
       },
@@ -28496,6 +28501,11 @@
             "date": "2026-07-20",
             "value": 2.8,
             "change": 0.05
+          },
+          {
+            "date": "2026-07-27",
+            "value": 2.63,
+            "change": -0.24
           }
         ]
       },
@@ -36953,7 +36963,7 @@
           "selected": true,
           "point_count": 173,
           "date_start": "2026-01-13",
-          "date_end": "2026-07-27",
+          "date_end": "2026-07-28",
           "points": [
             {
               "date": "2026-01-13",
@@ -37646,6 +37656,10 @@
             {
               "date": "2026-07-27",
               "value": 21.43
+            },
+            {
+              "date": "2026-07-28",
+              "value": 21.32
             }
           ]
         },
@@ -37657,9 +37671,9 @@
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 405,
+          "point_count": 406,
           "date_start": "2024-11-07",
-          "date_end": "2026-07-20",
+          "date_end": "2026-07-27",
           "points": [
             {
               "date": "2024-11-07",
@@ -39280,6 +39294,10 @@
             {
               "date": "2026-07-20",
               "value": 2.8
+            },
+            {
+              "date": "2026-07-27",
+              "value": 2.63
             }
           ]
         },
@@ -39327,7 +39345,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "down"
         },
         {
@@ -39342,7 +39360,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "down"
         },
         {
@@ -39357,7 +39375,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "down"
         },
         {
@@ -39372,7 +39390,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "flat"
         },
         {
@@ -39387,18 +39405,18 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 35,
+          "age_days": 36,
           "direction": "flat"
         },
         {
           "indicator": "JKM",
           "source_indicator": "JKM",
-          "value": 21.43,
-          "value_text": "21.43",
-          "change": -0.57,
+          "value": 21.32,
+          "value_text": "21.32",
+          "change": -0.68,
           "change_pct": null,
           "unit": "美元/MMBtu",
-          "date": "2026-07-27",
+          "date": "2026-07-28",
           "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
@@ -39408,17 +39426,17 @@
         {
           "indicator": "Henry Hub",
           "source_indicator": "Henry Hub",
-          "value": 2.8,
-          "value_text": "2.8",
-          "change": 0.05,
+          "value": 2.63,
+          "value_text": "2.63",
+          "change": -0.24,
           "change_pct": null,
           "unit": "美元/MMBtu",
-          "date": "2026-07-20",
+          "date": "2026-07-27",
           "source": "EIA",
           "status": "ok",
           "note": "",
-          "age_days": 9,
-          "direction": "up"
+          "age_days": 3,
+          "direction": "down"
         },
         {
           "indicator": "TTF",
@@ -39432,7 +39450,7 @@
           "source": "JOGMEC/Platts(周)",
           "status": "ok",
           "note": "",
-          "age_days": 5,
+          "age_days": 6,
           "direction": "up"
         }
       ],
@@ -39442,15 +39460,15 @@
       "jkm_to_cny_m3": {
         "indicator": "JKM换算",
         "input_label": "JKM",
-        "input_value": 21.43,
+        "input_value": 21.32,
         "input_unit": "美元/MMBtu",
-        "usd_cny": 6.774553,
+        "usd_cny": 6.77847,
         "factor": 27.1,
-        "value": 5.357146523616237,
+        "value": 5.3327299040590415,
         "unit": "元/立方米",
-        "date": "2026-07-27",
+        "date": "2026-07-28",
         "source": "EnergyRiskIQ",
-        "fx_date": "Tue, 28 Jul 2026",
+        "fx_date": "Wed, 29 Jul 2026",
         "note": "美元/MMBtu × USD/CNY ÷ 27.1"
       },
       "lng_ton_to_m3": {
