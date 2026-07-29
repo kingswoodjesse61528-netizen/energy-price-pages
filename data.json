@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-29T08:10:01",
+    "generated_at": "2026-07-29T12:10:04",
     "machine": "Air",
     "status": "stale",
     "title": "能源价格看板",
@@ -53,17 +53,17 @@
       },
       "qhd_inventory": {
         "indicator": "秦皇岛港库存",
-        "value": 657.0,
-        "value_text": "657",
-        "change": 14.0,
+        "value": 655.0,
+        "value_text": "655",
+        "change": -2.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-07-28",
+        "date": "2026-07-29",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
-        "direction": "up"
+        "age_days": 0,
+        "direction": "down"
       }
     },
     "latest": [
@@ -167,17 +167,17 @@
       },
       {
         "indicator": "秦皇岛港库存",
-        "value": 657.0,
-        "value_text": "657",
-        "change": 14.0,
+        "value": 655.0,
+        "value_text": "655",
+        "change": -2.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-07-28",
+        "date": "2026-07-29",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
-        "direction": "up"
+        "age_days": 0,
+        "direction": "down"
       },
       {
         "indicator": "环渤海港口库存",
@@ -1615,6 +1615,11 @@
             "date": "2026-07-28",
             "value": 657.0,
             "change": 14.0
+          },
+          {
+            "date": "2026-07-29",
+            "value": 655.0,
+            "change": -2.0
           }
         ]
       }
@@ -8507,9 +8512,9 @@
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
-          "point_count": 62,
+          "point_count": 63,
           "date_start": "2026-05-28",
-          "date_end": "2026-07-28",
+          "date_end": "2026-07-29",
           "points": [
             {
               "date": "2026-05-28",
@@ -8758,6 +8763,10 @@
             {
               "date": "2026-07-28",
               "value": 657.0
+            },
+            {
+              "date": "2026-07-29",
+              "value": 655.0
             }
           ]
         },
@@ -16797,17 +16806,17 @@
         {
           "indicator": "秦皇岛港库存",
           "source_indicator": "秦皇岛港库存",
-          "value": 657.0,
-          "value_text": "657.0",
-          "change": 14.0,
+          "value": 655.0,
+          "value_text": "655.0",
+          "change": -2.0,
           "change_pct": null,
           "unit": "万吨",
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 1,
-          "direction": "up"
+          "age_days": 0,
+          "direction": "down"
         },
         {
           "indicator": "CCTD秦皇岛现货价",
@@ -16848,8 +16857,8 @@
       "ok": true,
       "latest_count": 12,
       "fetch_date": "2026-07-29",
-      "run_at": "2026-07-29 08:00:02",
-      "checked_at": "2026-07-29 08:03:38",
+      "run_at": "2026-07-29 11:41:08",
+      "checked_at": "2026-07-29 11:41:13",
       "alerts": [],
       "warnings": [],
       "stale_indicators": [
@@ -16859,18 +16868,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-07-29T08:01:37",
+        "mtime": "2026-07-29T11:41:11",
         "bytes": 3049
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-07-29T08:03:38",
+        "mtime": "2026-07-29T11:41:13",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-07-29T08:01:37",
-        "bytes": 338780
+        "mtime": "2026-07-29T11:41:11",
+        "bytes": 338854
       }
     }
   },
