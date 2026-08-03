@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-02T15:35:19",
+    "generated_at": "2026-08-03T08:00:33",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -16,7 +16,7 @@
         "change": 1.0,
         "change_pct": 0.17,
         "unit": "元/吨",
-        "date": "2026-08-02",
+        "date": "2026-08-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -30,7 +30,7 @@
         "change": 0.0,
         "change_pct": 0.0,
         "unit": "元/吨",
-        "date": "2026-08-02",
+        "date": "2026-08-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -44,7 +44,7 @@
         "change": 0.0,
         "change_pct": 0.0,
         "unit": "元/吨",
-        "date": "2026-08-02",
+        "date": "2026-08-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -62,7 +62,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "down"
       }
     },
@@ -74,7 +74,7 @@
         "change": 1.0,
         "change_pct": 0.17,
         "unit": "元/吨",
-        "date": "2026-08-02",
+        "date": "2026-08-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -88,7 +88,7 @@
         "change": 0.0,
         "change_pct": 0.0,
         "unit": "元/吨",
-        "date": "2026-08-02",
+        "date": "2026-08-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -102,7 +102,7 @@
         "change": 0.0,
         "change_pct": 0.0,
         "unit": "元/吨",
-        "date": "2026-08-02",
+        "date": "2026-08-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -116,7 +116,7 @@
         "change": 0.0,
         "change_pct": 0.0,
         "unit": "元/吨",
-        "date": "2026-08-02",
+        "date": "2026-08-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -130,7 +130,7 @@
         "change": -3.0,
         "change_pct": -0.36,
         "unit": "元/吨",
-        "date": "2026-08-02",
+        "date": "2026-08-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -144,7 +144,7 @@
         "change": -5.0,
         "change_pct": -0.58,
         "unit": "元/吨",
-        "date": "2026-08-02",
+        "date": "2026-08-03",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -162,7 +162,7 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 4,
+        "age_days": 5,
         "direction": "flat"
       },
       {
@@ -176,7 +176,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "down"
       },
       {
@@ -190,7 +190,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "up"
       },
       {
@@ -204,7 +204,7 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       },
       {
@@ -218,7 +218,7 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       },
       {
@@ -232,7 +232,7 @@
         "source": "测算",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       }
     ],
@@ -426,6 +426,11 @@
             "date": "2026-08-02",
             "value": 589.0,
             "change": 1.0
+          },
+          {
+            "date": "2026-08-03",
+            "value": 589.0,
+            "change": 1.0
           }
         ]
       },
@@ -616,6 +621,11 @@
           },
           {
             "date": "2026-08-02",
+            "value": 715.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-08-03",
             "value": 715.0,
             "change": 0.0
           }
@@ -810,6 +820,11 @@
             "date": "2026-08-02",
             "value": 715.0,
             "change": 0.0
+          },
+          {
+            "date": "2026-08-03",
+            "value": 715.0,
+            "change": 0.0
           }
         ]
       },
@@ -1000,6 +1015,11 @@
           },
           {
             "date": "2026-08-02",
+            "value": 632.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-08-03",
             "value": 632.0,
             "change": 0.0
           }
@@ -1194,6 +1214,11 @@
             "date": "2026-08-02",
             "value": 827.0,
             "change": -3.0
+          },
+          {
+            "date": "2026-08-03",
+            "value": 827.0,
+            "change": -3.0
           }
         ]
       },
@@ -1384,6 +1409,11 @@
           },
           {
             "date": "2026-08-02",
+            "value": 856.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-08-03",
             "value": 856.0,
             "change": -5.0
           }
@@ -16963,7 +16993,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 3,
           "direction": "up"
         },
         {
@@ -16978,7 +17008,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 3,
           "direction": "down"
         },
         {
@@ -16993,7 +17023,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 3,
           "direction": "flat"
         },
         {
@@ -17008,7 +17038,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 4,
+          "age_days": 5,
           "direction": "flat"
         }
       ],
@@ -17019,9 +17049,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 12,
-      "fetch_date": "2026-08-02",
-      "run_at": "2026-08-02 15:34:55",
-      "checked_at": "2026-08-02 15:35:02",
+      "fetch_date": "2026-08-03",
+      "run_at": "2026-08-03 08:00:01",
+      "checked_at": "2026-08-03 08:00:28",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -17029,18 +17059,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-08-02T15:34:59",
+        "mtime": "2026-08-03T08:00:21",
         "bytes": 3050
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-08-02T15:35:02",
+        "mtime": "2026-08-03T08:00:28",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-08-02T15:34:59",
-        "bytes": 342435
+        "mtime": "2026-08-03T08:00:21",
+        "bytes": 342866
       }
     }
   },
@@ -17058,7 +17088,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "down"
       },
       "national_lng": {
@@ -17072,21 +17102,21 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "down"
       },
       "jkm": {
         "indicator": "JKM",
-        "value": 22.2,
-        "value_text": "low-USD22s",
-        "change": 1.4,
-        "change_pct": 6.73,
+        "value": 21.45,
+        "value_text": "21.45",
+        "change": 0.02,
+        "change_pct": 0.09,
         "unit": "美元/MMBtu",
-        "date": "2026-07-24",
-        "source": "JOGMEC/Platts(周)",
+        "date": "2026-08-01",
+        "source": "EnergyRiskIQ",
         "status": "ok",
-        "note": "Platts 周度区间评估，数值为近似；日度源失败，暂用周度值",
-        "age_days": 9,
+        "note": "",
+        "age_days": 2,
         "direction": "up"
       },
       "henry_hub": {
@@ -17100,7 +17130,7 @@
         "source": "EIA",
         "status": "ok",
         "note": "",
-        "age_days": 6,
+        "age_days": 7,
         "direction": "down"
       },
       "ttf": {
@@ -17114,7 +17144,7 @@
         "source": "JOGMEC/Platts(周)",
         "status": "ok",
         "note": "",
-        "age_days": 9,
+        "age_days": 10,
         "direction": "up"
       }
     },
@@ -17130,7 +17160,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "down"
       },
       {
@@ -17144,7 +17174,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "down"
       },
       {
@@ -17158,7 +17188,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "down"
       },
       {
@@ -17172,21 +17202,21 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "flat"
       },
       {
         "indicator": "JKM",
-        "value": 22.2,
-        "value_text": "low-USD22s",
-        "change": 1.4,
-        "change_pct": 6.73,
+        "value": 21.45,
+        "value_text": "21.45",
+        "change": 0.02,
+        "change_pct": 0.09,
         "unit": "美元/MMBtu",
-        "date": "2026-07-24",
-        "source": "JOGMEC/Platts(周)",
+        "date": "2026-08-01",
+        "source": "EnergyRiskIQ",
         "status": "ok",
-        "note": "Platts 周度区间评估，数值为近似；日度源失败，暂用周度值",
-        "age_days": 9,
+        "note": "",
+        "age_days": 2,
         "direction": "up"
       },
       {
@@ -17200,7 +17230,7 @@
         "source": "EIA",
         "status": "ok",
         "note": "",
-        "age_days": 6,
+        "age_days": 7,
         "direction": "down"
       },
       {
@@ -17214,7 +17244,7 @@
         "source": "JOGMEC/Platts(周)",
         "status": "ok",
         "note": "",
-        "age_days": 9,
+        "age_days": 10,
         "direction": "up"
       },
       {
@@ -17224,7 +17254,7 @@
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-08-02",
+        "date": "2026-08-03",
         "source": "上海交易中心",
         "status": "miss",
         "note": "近10天该地区无有效报价",
@@ -25803,18 +25833,888 @@
       },
       {
         "indicator": "JKM",
-        "source": "JOGMEC/Platts(周)",
+        "source": "EnergyRiskIQ",
         "unit": "美元/MMBtu",
         "points": [
           {
-            "date": "2026-06-19",
-            "value": 15.8,
-            "change": -2.0
+            "date": "2026-01-13",
+            "value": 9.61,
+            "change": 0.0
           },
           {
-            "date": "2026-07-24",
-            "value": 22.2,
-            "change": 1.4
+            "date": "2026-01-14",
+            "value": 9.59,
+            "change": -0.02
+          },
+          {
+            "date": "2026-01-15",
+            "value": 9.61,
+            "change": 0.02
+          },
+          {
+            "date": "2026-01-18",
+            "value": 11.15,
+            "change": 1.54
+          },
+          {
+            "date": "2026-01-20",
+            "value": 10.8,
+            "change": -0.35
+          },
+          {
+            "date": "2026-01-21",
+            "value": 11.33,
+            "change": 0.53
+          },
+          {
+            "date": "2026-01-22",
+            "value": 11.22,
+            "change": -0.11
+          },
+          {
+            "date": "2026-01-23",
+            "value": 11.28,
+            "change": 0.06
+          },
+          {
+            "date": "2026-01-24",
+            "value": 11.28,
+            "change": 0.0
+          },
+          {
+            "date": "2026-01-25",
+            "value": 11.28,
+            "change": 0.0
+          },
+          {
+            "date": "2026-01-26",
+            "value": 11.22,
+            "change": -0.06
+          },
+          {
+            "date": "2026-01-27",
+            "value": 11.35,
+            "change": 0.13
+          },
+          {
+            "date": "2026-01-28",
+            "value": 11.29,
+            "change": -0.06
+          },
+          {
+            "date": "2026-01-29",
+            "value": 11.46,
+            "change": 0.17
+          },
+          {
+            "date": "2026-01-30",
+            "value": 11.52,
+            "change": 0.06
+          },
+          {
+            "date": "2026-01-31",
+            "value": 11.52,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-01",
+            "value": 11.52,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-02",
+            "value": 11.15,
+            "change": -0.37
+          },
+          {
+            "date": "2026-02-03",
+            "value": 11.13,
+            "change": -0.02
+          },
+          {
+            "date": "2026-02-04",
+            "value": 11.1,
+            "change": -0.03
+          },
+          {
+            "date": "2026-02-05",
+            "value": 11.08,
+            "change": -0.02
+          },
+          {
+            "date": "2026-02-06",
+            "value": 11.1,
+            "change": 0.02
+          },
+          {
+            "date": "2026-02-07",
+            "value": 11.1,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-08",
+            "value": 11.1,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-09",
+            "value": 11.04,
+            "change": -0.06
+          },
+          {
+            "date": "2026-02-10",
+            "value": 11.01,
+            "change": -0.03
+          },
+          {
+            "date": "2026-02-11",
+            "value": 11.01,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-12",
+            "value": 11.0,
+            "change": -0.01
+          },
+          {
+            "date": "2026-02-13",
+            "value": 10.99,
+            "change": -0.01
+          },
+          {
+            "date": "2026-02-14",
+            "value": 10.99,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-15",
+            "value": 10.99,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-16",
+            "value": 10.99,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-20",
+            "value": 10.66,
+            "change": -0.12
+          },
+          {
+            "date": "2026-02-21",
+            "value": 10.66,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-22",
+            "value": 10.66,
+            "change": 0.0
+          },
+          {
+            "date": "2026-02-23",
+            "value": 10.72,
+            "change": 0.06
+          },
+          {
+            "date": "2026-02-24",
+            "value": 10.52,
+            "change": -0.14
+          },
+          {
+            "date": "2026-02-25",
+            "value": 10.59,
+            "change": 0.07
+          },
+          {
+            "date": "2026-02-26",
+            "value": 10.6,
+            "change": 0.01
+          },
+          {
+            "date": "2026-02-27",
+            "value": 10.72,
+            "change": 0.13
+          },
+          {
+            "date": "2026-02-28",
+            "value": 10.72,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-01",
+            "value": 10.72,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-02",
+            "value": 13.36,
+            "change": 2.64
+          },
+          {
+            "date": "2026-03-03",
+            "value": 15.77,
+            "change": 5.05
+          },
+          {
+            "date": "2026-03-04",
+            "value": 15.1,
+            "change": -0.67
+          },
+          {
+            "date": "2026-03-05",
+            "value": 15.49,
+            "change": -0.28
+          },
+          {
+            "date": "2026-03-06",
+            "value": 15.71,
+            "change": 0.61
+          },
+          {
+            "date": "2026-03-07",
+            "value": 15.71,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-08",
+            "value": 15.71,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-09",
+            "value": 16.23,
+            "change": 0.52
+          },
+          {
+            "date": "2026-03-10",
+            "value": 15.92,
+            "change": -0.31
+          },
+          {
+            "date": "2026-03-11",
+            "value": 15.98,
+            "change": -0.25
+          },
+          {
+            "date": "2026-03-12",
+            "value": 16.09,
+            "change": 0.17
+          },
+          {
+            "date": "2026-03-13",
+            "value": 16.18,
+            "change": 0.09
+          },
+          {
+            "date": "2026-03-14",
+            "value": 16.18,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-15",
+            "value": 16.18,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-16",
+            "value": 19.27,
+            "change": 3.09
+          },
+          {
+            "date": "2026-03-17",
+            "value": 19.41,
+            "change": 0.14
+          },
+          {
+            "date": "2026-03-18",
+            "value": 20.17,
+            "change": 0.9
+          },
+          {
+            "date": "2026-03-19",
+            "value": 22.35,
+            "change": 2.18
+          },
+          {
+            "date": "2026-03-23",
+            "value": 21.0,
+            "change": -0.7
+          },
+          {
+            "date": "2026-03-25",
+            "value": 19.98,
+            "change": -1.02
+          },
+          {
+            "date": "2026-03-26",
+            "value": 20.49,
+            "change": 0.51
+          },
+          {
+            "date": "2026-03-27",
+            "value": 20.39,
+            "change": 0.41
+          },
+          {
+            "date": "2026-03-28",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-29",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-30",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-03-31",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-01",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-02",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-03",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-04",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-05",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-06",
+            "value": 20.39,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-07",
+            "value": 19.87,
+            "change": -0.52
+          },
+          {
+            "date": "2026-04-08",
+            "value": 19.48,
+            "change": -0.39
+          },
+          {
+            "date": "2026-04-09",
+            "value": 19.49,
+            "change": -0.38
+          },
+          {
+            "date": "2026-04-10",
+            "value": 19.42,
+            "change": -0.06
+          },
+          {
+            "date": "2026-04-11",
+            "value": 19.42,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-12",
+            "value": 19.42,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-13",
+            "value": 19.44,
+            "change": 0.02
+          },
+          {
+            "date": "2026-04-14",
+            "value": 19.35,
+            "change": -0.07
+          },
+          {
+            "date": "2026-04-15",
+            "value": 19.19,
+            "change": -0.16
+          },
+          {
+            "date": "2026-04-16",
+            "value": 16.13,
+            "change": -3.06
+          },
+          {
+            "date": "2026-04-17",
+            "value": 15.0,
+            "change": -0.78
+          },
+          {
+            "date": "2026-04-18",
+            "value": 15.0,
+            "change": -0.78
+          },
+          {
+            "date": "2026-04-19",
+            "value": 15.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-20",
+            "value": 15.23,
+            "change": 0.23
+          },
+          {
+            "date": "2026-04-21",
+            "value": 15.81,
+            "change": 0.81
+          },
+          {
+            "date": "2026-04-22",
+            "value": 16.12,
+            "change": 0.31
+          },
+          {
+            "date": "2026-04-23",
+            "value": 16.12,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-24",
+            "value": 16.55,
+            "change": 0.43
+          },
+          {
+            "date": "2026-04-25",
+            "value": 16.55,
+            "change": 0.43
+          },
+          {
+            "date": "2026-04-26",
+            "value": 16.55,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-27",
+            "value": 16.55,
+            "change": 0.0
+          },
+          {
+            "date": "2026-04-28",
+            "value": 16.48,
+            "change": -0.07
+          },
+          {
+            "date": "2026-04-29",
+            "value": 16.96,
+            "change": 0.41
+          },
+          {
+            "date": "2026-04-30",
+            "value": 16.9,
+            "change": -0.06
+          },
+          {
+            "date": "2026-05-01",
+            "value": 16.86,
+            "change": -0.04
+          },
+          {
+            "date": "2026-05-02",
+            "value": 16.86,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-03",
+            "value": 16.86,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-04",
+            "value": 16.86,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-05",
+            "value": 17.03,
+            "change": 0.17
+          },
+          {
+            "date": "2026-05-06",
+            "value": 16.85,
+            "change": -0.18
+          },
+          {
+            "date": "2026-05-07",
+            "value": 16.84,
+            "change": -0.01
+          },
+          {
+            "date": "2026-05-08",
+            "value": 16.87,
+            "change": 0.02
+          },
+          {
+            "date": "2026-05-09",
+            "value": 16.87,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-10",
+            "value": 16.87,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-11",
+            "value": 16.94,
+            "change": 0.07
+          },
+          {
+            "date": "2026-05-12",
+            "value": 16.98,
+            "change": 0.04
+          },
+          {
+            "date": "2026-05-13",
+            "value": 17.02,
+            "change": 0.08
+          },
+          {
+            "date": "2026-05-14",
+            "value": 17.06,
+            "change": 0.04
+          },
+          {
+            "date": "2026-05-15",
+            "value": 17.1,
+            "change": 0.08
+          },
+          {
+            "date": "2026-05-16",
+            "value": 17.1,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-17",
+            "value": 17.1,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-18",
+            "value": 18.96,
+            "change": 1.86
+          },
+          {
+            "date": "2026-05-19",
+            "value": 19.61,
+            "change": 2.51
+          },
+          {
+            "date": "2026-05-20",
+            "value": 18.9,
+            "change": -0.71
+          },
+          {
+            "date": "2026-05-21",
+            "value": 18.92,
+            "change": 0.02
+          },
+          {
+            "date": "2026-05-22",
+            "value": 18.8,
+            "change": -0.1
+          },
+          {
+            "date": "2026-05-24",
+            "value": 18.8,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-25",
+            "value": 18.8,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-26",
+            "value": 18.42,
+            "change": -0.38
+          },
+          {
+            "date": "2026-05-27",
+            "value": 18.23,
+            "change": -0.19
+          },
+          {
+            "date": "2026-05-28",
+            "value": 18.33,
+            "change": 0.1
+          },
+          {
+            "date": "2026-05-29",
+            "value": 18.3,
+            "change": 0.07
+          },
+          {
+            "date": "2026-05-30",
+            "value": 18.3,
+            "change": 0.0
+          },
+          {
+            "date": "2026-05-31",
+            "value": 18.3,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-01",
+            "value": 18.68,
+            "change": 0.38
+          },
+          {
+            "date": "2026-06-02",
+            "value": 18.61,
+            "change": 0.31
+          },
+          {
+            "date": "2026-06-03",
+            "value": 18.81,
+            "change": 0.13
+          },
+          {
+            "date": "2026-06-04",
+            "value": 18.76,
+            "change": -0.05
+          },
+          {
+            "date": "2026-06-05",
+            "value": 18.77,
+            "change": 0.01
+          },
+          {
+            "date": "2026-06-06",
+            "value": 18.77,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-07",
+            "value": 18.77,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-08",
+            "value": 18.89,
+            "change": 0.12
+          },
+          {
+            "date": "2026-06-09",
+            "value": 18.88,
+            "change": 0.11
+          },
+          {
+            "date": "2026-06-10",
+            "value": 18.91,
+            "change": 0.03
+          },
+          {
+            "date": "2026-06-11",
+            "value": 18.92,
+            "change": 0.01
+          },
+          {
+            "date": "2026-06-12",
+            "value": 18.85,
+            "change": -0.07
+          },
+          {
+            "date": "2026-06-13",
+            "value": 18.85,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-14",
+            "value": 18.85,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-15",
+            "value": 16.22,
+            "change": -2.63
+          },
+          {
+            "date": "2026-06-16",
+            "value": 15.94,
+            "change": -0.28
+          },
+          {
+            "date": "2026-06-17",
+            "value": 15.82,
+            "change": -0.12
+          },
+          {
+            "date": "2026-06-18",
+            "value": 15.31,
+            "change": -0.63
+          },
+          {
+            "date": "2026-06-19",
+            "value": 15.31,
+            "change": -0.63
+          },
+          {
+            "date": "2026-06-20",
+            "value": 15.31,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-21",
+            "value": 15.31,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-22",
+            "value": 15.86,
+            "change": 0.55
+          },
+          {
+            "date": "2026-06-23",
+            "value": 15.74,
+            "change": 0.43
+          },
+          {
+            "date": "2026-06-24",
+            "value": 15.55,
+            "change": -0.19
+          },
+          {
+            "date": "2026-06-25",
+            "value": 15.38,
+            "change": -0.36
+          },
+          {
+            "date": "2026-06-27",
+            "value": 15.52,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-28",
+            "value": 15.52,
+            "change": 0.0
+          },
+          {
+            "date": "2026-06-30",
+            "value": 16.05,
+            "change": 0.53
+          },
+          {
+            "date": "2026-07-01",
+            "value": 16.02,
+            "change": -0.03
+          },
+          {
+            "date": "2026-07-04",
+            "value": 16.07,
+            "change": 0.0
+          },
+          {
+            "date": "2026-07-05",
+            "value": 16.07,
+            "change": 0.0
+          },
+          {
+            "date": "2026-07-06",
+            "value": 16.06,
+            "change": -0.01
+          },
+          {
+            "date": "2026-07-07",
+            "value": 16.17,
+            "change": 0.1
+          },
+          {
+            "date": "2026-07-08",
+            "value": 16.51,
+            "change": 0.45
+          },
+          {
+            "date": "2026-07-12",
+            "value": 16.52,
+            "change": 0.0
+          },
+          {
+            "date": "2026-07-14",
+            "value": 16.65,
+            "change": 0.12
+          },
+          {
+            "date": "2026-07-15",
+            "value": 19.93,
+            "change": 3.28
+          },
+          {
+            "date": "2026-07-17",
+            "value": 20.98,
+            "change": 1.06
+          },
+          {
+            "date": "2026-07-18",
+            "value": 20.98,
+            "change": 1.06
+          },
+          {
+            "date": "2026-07-19",
+            "value": 20.98,
+            "change": 1.06
+          },
+          {
+            "date": "2026-07-20",
+            "value": 21.02,
+            "change": 0.04
+          },
+          {
+            "date": "2026-07-22",
+            "value": 22.0,
+            "change": 0.98
+          },
+          {
+            "date": "2026-07-25",
+            "value": 22.0,
+            "change": 0.18
+          },
+          {
+            "date": "2026-07-26",
+            "value": 22.0,
+            "change": 0.18
+          },
+          {
+            "date": "2026-07-27",
+            "value": 21.43,
+            "change": -0.57
+          },
+          {
+            "date": "2026-07-28",
+            "value": 21.32,
+            "change": -0.68
+          },
+          {
+            "date": "2026-07-29",
+            "value": 21.43,
+            "change": 0.0
+          },
+          {
+            "date": "2026-08-01",
+            "value": 21.45,
+            "change": 0.02
           }
         ]
       },
@@ -36330,13 +37230,13 @@
           "key": "jkm",
           "indicator": "JKM",
           "name": "JKM",
-          "source": "JOGMEC/Platts(周)",
+          "source": "EnergyRiskIQ",
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 176,
+          "point_count": 177,
           "date_start": "2026-01-13",
-          "date_end": "2026-07-29",
+          "date_end": "2026-08-01",
           "points": [
             {
               "date": "2026-01-13",
@@ -37041,6 +37941,10 @@
             {
               "date": "2026-07-29",
               "value": 21.43
+            },
+            {
+              "date": "2026-08-01",
+              "value": 21.45
             }
           ]
         },
@@ -38726,7 +39630,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 3,
           "direction": "down"
         },
         {
@@ -38741,7 +39645,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 3,
           "direction": "down"
         },
         {
@@ -38756,7 +39660,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 3,
           "direction": "down"
         },
         {
@@ -38771,7 +39675,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 3,
           "direction": "flat"
         },
         {
@@ -38786,23 +39690,23 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 39,
+          "age_days": 40,
           "direction": "flat"
         },
         {
           "indicator": "JKM",
           "source_indicator": "JKM",
-          "value": 21.43,
-          "value_text": "21.43",
-          "change": 0.0,
+          "value": 21.45,
+          "value_text": "21.45",
+          "change": 0.02,
           "change_pct": null,
           "unit": "美元/MMBtu",
-          "date": "2026-07-29",
-          "source": "JOGMEC/Platts(周)",
+          "date": "2026-08-01",
+          "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
-          "age_days": 4,
-          "direction": "flat"
+          "age_days": 2,
+          "direction": "up"
         },
         {
           "indicator": "Henry Hub",
@@ -38816,7 +39720,7 @@
           "source": "EIA",
           "status": "ok",
           "note": "",
-          "age_days": 6,
+          "age_days": 7,
           "direction": "down"
         },
         {
@@ -38831,7 +39735,7 @@
           "source": "JOGMEC/Platts(周)",
           "status": "ok",
           "note": "",
-          "age_days": 9,
+          "age_days": 10,
           "direction": "up"
         }
       ],
@@ -38841,14 +39745,14 @@
       "jkm_to_cny_m3": {
         "indicator": "JKM换算",
         "input_label": "JKM",
-        "input_value": 22.2,
+        "input_value": 21.45,
         "input_unit": "美元/MMBtu",
         "usd_cny": 6.768807,
         "factor": 27.1,
-        "value": 5.5449267675276745,
+        "value": 5.357598160516604,
         "unit": "元/立方米",
-        "date": "2026-07-24",
-        "source": "JOGMEC/Platts(周)",
+        "date": "2026-08-01",
+        "source": "EnergyRiskIQ",
         "fx_date": "Sun, 02 Aug 2026",
         "note": "美元/MMBtu × USD/CNY ÷ 27.1"
       },
@@ -38869,9 +39773,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 8,
-      "fetch_date": "2026-08-02",
-      "run_at": "2026-08-02 15:34:55",
-      "checked_at": "2026-08-02 15:35:04",
+      "fetch_date": "2026-08-03",
+      "run_at": "2026-08-03 08:00:01",
+      "checked_at": "2026-08-03 08:00:19",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -38879,18 +39783,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/gas-watch/data/today.json",
-        "mtime": "2026-08-02T15:35:04",
-        "bytes": 2431
+        "mtime": "2026-08-03T08:00:19",
+        "bytes": 2343
       },
       "validation": {
         "path": "/Users/hydtzyj/gas-watch/data/validation.json",
-        "mtime": "2026-08-02T15:35:04",
+        "mtime": "2026-08-03T08:00:19",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/gas-watch/data/history.csv",
-        "mtime": "2026-08-02T15:35:04",
-        "bytes": 447734
+        "mtime": "2026-08-03T08:00:19",
+        "bytes": 447807
       }
     }
   }
