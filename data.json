@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-04T07:50:12",
-    "machine": "mini",
+    "generated_at": "2026-08-04T08:10:00",
+    "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
     "version": "1.2.1"
@@ -17109,29 +17109,29 @@
     "status": {
       "state": "ok",
       "ok": true,
-      "latest_count": 11,
+      "latest_count": 12,
       "fetch_date": "2026-08-04",
-      "run_at": "2026-08-04 07:50:00",
-      "checked_at": "2026-08-04 07:50:07",
+      "run_at": "2026-08-04 08:00:03",
+      "checked_at": "2026-08-04 08:00:30",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
     },
     "source_files": {
       "today": {
-        "path": "/Users/zhouyijun/coal-watch/data/today.json",
-        "mtime": "2026-08-04T07:50:05",
-        "bytes": 2594
+        "path": "/Users/hydtzyj/coal-watch/data/today.json",
+        "mtime": "2026-08-04T08:00:24",
+        "bytes": 3048
       },
       "validation": {
-        "path": "/Users/zhouyijun/coal-watch/data/validation.json",
-        "mtime": "2026-08-04T07:50:07",
+        "path": "/Users/hydtzyj/coal-watch/data/validation.json",
+        "mtime": "2026-08-04T08:00:30",
         "bytes": 89
       },
       "history": {
-        "path": "/Users/zhouyijun/coal-watch/data/history.csv",
-        "mtime": "2026-08-04T07:50:06",
-        "bytes": 338981
+        "path": "/Users/hydtzyj/coal-watch/data/history.csv",
+        "mtime": "2026-08-04T08:00:24",
+        "bytes": 343902
       }
     }
   },
@@ -28874,7 +28874,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 429,
+          "point_count": 428,
           "date_start": "2024-09-25",
           "date_end": "2026-08-03",
           "points": [
@@ -30600,7 +30600,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 429,
+          "point_count": 428,
           "date_start": "2024-09-25",
           "date_end": "2026-08-03",
           "points": [
@@ -32326,7 +32326,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 429,
+          "point_count": 428,
           "date_start": "2024-09-25",
           "date_end": "2026-08-03",
           "points": [
@@ -34052,7 +34052,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 429,
+          "point_count": 428,
           "date_start": "2024-09-25",
           "date_end": "2026-08-03",
           "points": [
@@ -37336,7 +37336,7 @@
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 174,
+          "point_count": 178,
           "date_start": "2026-01-13",
           "date_end": "2026-08-02",
           "points": [
@@ -39880,27 +39880,27 @@
       "ok": true,
       "latest_count": 8,
       "fetch_date": "2026-08-04",
-      "run_at": "2026-08-04 07:50:00",
-      "checked_at": "2026-08-04 07:50:08",
+      "run_at": "2026-08-04 08:00:03",
+      "checked_at": "2026-08-04 08:00:22",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
     },
     "source_files": {
       "today": {
-        "path": "/Users/zhouyijun/gas-watch/data/today.json",
-        "mtime": "2026-08-04T07:50:07",
+        "path": "/Users/hydtzyj/gas-watch/data/today.json",
+        "mtime": "2026-08-04T08:00:22",
         "bytes": 2369
       },
       "validation": {
-        "path": "/Users/zhouyijun/gas-watch/data/validation.json",
-        "mtime": "2026-08-04T07:50:08",
+        "path": "/Users/hydtzyj/gas-watch/data/validation.json",
+        "mtime": "2026-08-04T08:00:22",
         "bytes": 89
       },
       "history": {
-        "path": "/Users/zhouyijun/gas-watch/data/history.csv",
-        "mtime": "2026-08-04T07:50:07",
-        "bytes": 448310
+        "path": "/Users/hydtzyj/gas-watch/data/history.csv",
+        "mtime": "2026-08-04T08:00:22",
+        "bytes": 448242
       }
     }
   }
