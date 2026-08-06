@@ -16975,7 +16975,7 @@
     },
     "conversions": {},
     "status": {
-      "state": "ok",
+      "state": "stale",
       "ok": true,
       "latest_count": 8,
       "fetch_date": "2026-08-06",
