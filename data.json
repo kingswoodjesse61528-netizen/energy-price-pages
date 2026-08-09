@@ -17430,24 +17430,24 @@
         "unit": "美元/MMBtu",
         "date": "2026-08-08",
         "source": "EnergyRiskIQ",
-        "status": "ok",
-        "note": "",
-        "age_days": 5,
-        "direction": "down"
+        "status": "miss",
+        "note": "EnergyRiskIQ 接口失败",
+        "age_days": 0,
+        "direction": "flat"
       },
       "henry_hub": {
         "indicator": "Henry Hub",
-        "value": 2.81,
-        "value_text": "2.81",
-        "change": 0.22,
-        "change_pct": 8.49,
+        "value": null,
+        "value_text": "未取到",
+        "change": null,
+        "change_pct": null,
         "unit": "美元/MMBtu",
-        "date": "2026-08-03",
+        "date": "2026-08-10",
         "source": "EIA",
-        "status": "ok",
-        "note": "",
-        "age_days": 7,
-        "direction": "up"
+        "status": "miss",
+        "note": "EIA 接口失败/无数据",
+        "age_days": 0,
+        "direction": "flat"
       },
       "ttf": {
         "indicator": "TTF",
@@ -17460,7 +17460,7 @@
         "source": "手动",
         "status": "manual",
         "note": "JOGMEC 未解析到该指标",
-        "age_days": 3,
+        "age_days": 0,
         "direction": "flat"
       }
     },
@@ -17530,24 +17530,24 @@
         "unit": "美元/MMBtu",
         "date": "2026-08-08",
         "source": "EnergyRiskIQ",
-        "status": "ok",
-        "note": "",
-        "age_days": 5,
-        "direction": "down"
+        "status": "miss",
+        "note": "EnergyRiskIQ 接口失败",
+        "age_days": 0,
+        "direction": "flat"
       },
       {
         "indicator": "Henry Hub",
-        "value": 2.81,
-        "value_text": "2.81",
-        "change": 0.22,
-        "change_pct": 8.49,
+        "value": null,
+        "value_text": "未取到",
+        "change": null,
+        "change_pct": null,
         "unit": "美元/MMBtu",
-        "date": "2026-08-03",
+        "date": "2026-08-10",
         "source": "EIA",
-        "status": "ok",
-        "note": "",
-        "age_days": 7,
-        "direction": "up"
+        "status": "miss",
+        "note": "EIA 接口失败/无数据",
+        "age_days": 0,
+        "direction": "flat"
       },
       {
         "indicator": "TTF",
@@ -17560,7 +17560,7 @@
         "source": "手动",
         "status": "manual",
         "note": "JOGMEC 未解析到该指标",
-        "age_days": 3,
+        "age_days": 0,
         "direction": "flat"
       },
       {
@@ -17574,7 +17574,7 @@
         "source": "上海交易中心",
         "status": "miss",
         "note": "近10天该地区无有效报价",
-        "age_days": 3,
+        "age_days": 0,
         "direction": "flat"
       }
     ],
@@ -29239,7 +29239,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 432,
+          "point_count": 433,
           "date_start": "2024-09-25",
           "date_end": "2026-08-07",
           "points": [
@@ -30981,7 +30981,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 432,
+          "point_count": 433,
           "date_start": "2024-09-25",
           "date_end": "2026-08-07",
           "points": [
@@ -32723,7 +32723,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 432,
+          "point_count": 433,
           "date_start": "2024-09-25",
           "date_end": "2026-08-07",
           "points": [
@@ -34465,7 +34465,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 432,
+          "point_count": 433,
           "date_start": "2024-09-25",
           "date_end": "2026-08-07",
           "points": [
@@ -40336,7 +40336,10 @@
       "run_at": "2026-08-10 08:00:01",
       "checked_at": "2026-08-10 08:00:09",
       "alerts": [],
-      "warnings": [],
+      "warnings": [
+        "Henry Hub（EIA）本次未取到：EIA 接口失败/无数据",
+        "JKM（EnergyRiskIQ）本次未取到：EnergyRiskIQ 接口失败"
+      ],
       "stale_indicators": []
     },
     "source_files": {
