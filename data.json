@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-10T12:10:00",
+    "generated_at": "2026-08-11T08:00:18",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -62,7 +62,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "down"
       }
     },
@@ -162,7 +162,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "down"
       },
       {
@@ -209,12 +209,12 @@
       },
       {
         "indicator": "度电毛利",
-        "value": 31.4,
-        "value_text": "31.4",
+        "value": 53.4,
+        "value_text": "53.4",
         "change": null,
         "change_pct": null,
         "unit": "元/MWh",
-        "date": "2026-08-09",
+        "date": "2026-08-10",
         "source": "测算",
         "status": "ok",
         "note": "",
@@ -450,6 +450,11 @@
           },
           {
             "date": "2026-08-10",
+            "value": 593.0,
+            "change": 3.0
+          },
+          {
+            "date": "2026-08-11",
             "value": 593.0,
             "change": 3.0
           }
@@ -1156,6 +1161,11 @@
           },
           {
             "date": "2026-08-10",
+            "value": 651.0,
+            "change": 19.0
+          },
+          {
+            "date": "2026-08-11",
             "value": 651.0,
             "change": 19.0
           }
@@ -17346,7 +17356,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 0,
+          "age_days": 1,
           "direction": "down"
         },
         {
@@ -17387,9 +17397,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 11,
-      "fetch_date": "2026-08-10",
-      "run_at": "2026-08-10 11:11:50",
-      "checked_at": "2026-08-10 11:12:10",
+      "fetch_date": "2026-08-11",
+      "run_at": "2026-08-11 08:00:02",
+      "checked_at": "2026-08-11 07:15:10",
       "alerts": [],
       "warnings": [
         "指标近期在、今日缺失：广州港(Q5500)[Mysteel]（疑上游改版/降级）"
@@ -17399,18 +17409,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-08-10T11:12:03",
+        "mtime": "2026-08-11T08:00:16",
         "bytes": 2826
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-08-10T11:12:10",
+        "mtime": "2026-08-11T07:15:10",
         "bytes": 185
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-08-10T11:12:04",
-        "bytes": 349195
+        "mtime": "2026-08-11T08:00:16",
+        "bytes": 350018
       }
     }
   },
@@ -17452,7 +17462,7 @@
         "change": -0.03,
         "change_pct": -0.14,
         "unit": "美元/MMBtu",
-        "date": "2026-08-08",
+        "date": "2026-08-09",
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
@@ -17552,7 +17562,7 @@
         "change": -0.03,
         "change_pct": -0.14,
         "unit": "美元/MMBtu",
-        "date": "2026-08-08",
+        "date": "2026-08-09",
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
@@ -27203,6 +27213,11 @@
           },
           {
             "date": "2026-08-08",
+            "value": 21.11,
+            "change": -0.03
+          },
+          {
+            "date": "2026-08-09",
             "value": 21.11,
             "change": -0.03
           }
@@ -37830,9 +37845,9 @@
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 183,
+          "point_count": 184,
           "date_start": "2026-01-13",
-          "date_end": "2026-08-08",
+          "date_end": "2026-08-09",
           "points": [
             {
               "date": "2026-01-13",
@@ -38564,6 +38579,10 @@
             },
             {
               "date": "2026-08-08",
+              "value": 21.11
+            },
+            {
+              "date": "2026-08-09",
               "value": 21.11
             }
           ]
@@ -40329,7 +40348,7 @@
           "change": -0.03,
           "change_pct": null,
           "unit": "美元/MMBtu",
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
@@ -40375,13 +40394,13 @@
         "input_label": "JKM",
         "input_value": 21.11,
         "input_unit": "美元/MMBtu",
-        "usd_cny": 6.765066,
+        "usd_cny": 6.752312,
         "factor": 27.1,
-        "value": 5.269761743911439,
+        "value": 5.259826801476014,
         "unit": "元/立方米",
-        "date": "2026-08-08",
+        "date": "2026-08-09",
         "source": "EnergyRiskIQ",
-        "fx_date": "Sun, 09 Aug 2026",
+        "fx_date": "Mon, 10 Aug 2026",
         "note": "美元/MMBtu × USD/CNY ÷ 27.1"
       },
       "lng_ton_to_m3": {
@@ -40401,9 +40420,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 8,
-      "fetch_date": "2026-08-10",
-      "run_at": "2026-08-10 08:00:01",
-      "checked_at": "2026-08-10 08:00:09",
+      "fetch_date": "2026-08-11",
+      "run_at": "2026-08-11 08:00:02",
+      "checked_at": "2026-08-11 08:00:10",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -40411,18 +40430,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/gas-watch/data/today.json",
-        "mtime": "2026-08-10T08:00:09",
-        "bytes": 2362
+        "mtime": "2026-08-11T08:00:10",
+        "bytes": 2340
       },
       "validation": {
         "path": "/Users/hydtzyj/gas-watch/data/validation.json",
-        "mtime": "2026-08-10T08:00:09",
+        "mtime": "2026-08-11T08:00:10",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/gas-watch/data/history.csv",
-        "mtime": "2026-08-10T08:00:09",
-        "bytes": 450114
+        "mtime": "2026-08-11T08:00:10",
+        "bytes": 450625
       }
     }
   }
