@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-13T12:10:01",
+    "generated_at": "2026-08-14T00:18:19",
     "machine": "Air",
     "status": "partial",
     "title": "能源价格看板",
@@ -12,12 +12,12 @@
     "latest": [
       {
         "indicator": "环渤海港口库存",
-        "value": 863.0,
-        "value_text": "863",
-        "change": 5.0,
+        "value": 864.0,
+        "value_text": "864",
+        "change": 1.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-08-12",
+        "date": "2026-08-13",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -35,7 +35,7 @@
         "source": "测算",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       }
     ],
@@ -17248,7 +17248,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "up"
         },
         {
@@ -17263,7 +17263,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "up"
         },
         {
@@ -17278,7 +17278,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 6,
+          "age_days": 7,
           "direction": "up"
         },
         {
@@ -17293,7 +17293,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "up"
         }
       ],
@@ -17305,8 +17305,8 @@
       "ok": false,
       "latest_count": 2,
       "fetch_date": "2026-08-13",
-      "run_at": "2026-08-13 11:22:53",
-      "checked_at": "2026-08-13 11:24:40",
+      "run_at": "2026-08-13 23:27:16",
+      "checked_at": "2026-08-13 23:28:03",
       "alerts": [
         "主源指标缺失：CCTD 秦皇岛港5500K 未抓到"
       ],
@@ -17318,18 +17318,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-08-13T11:23:39",
+        "mtime": "2026-08-13T23:28:03",
         "bytes": 768
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-08-13T11:24:40",
+        "mtime": "2026-08-13T23:28:03",
         "bytes": 500
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-08-13T11:23:39",
-        "bytes": 351892
+        "mtime": "2026-08-13T23:28:03",
+        "bytes": 351968
       }
     }
   },
@@ -17347,7 +17347,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       },
       "national_lng": {
@@ -17361,7 +17361,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       },
       "jkm": {
@@ -17375,7 +17375,7 @@
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "up"
       },
       "henry_hub": {
@@ -17389,7 +17389,7 @@
         "source": "EIA",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "up"
       },
       "ttf": {
@@ -17403,7 +17403,7 @@
         "source": "JOGMEC/Platts(周)",
         "status": "ok",
         "note": "",
-        "age_days": 6,
+        "age_days": 7,
         "direction": "down"
       }
     },
@@ -17419,7 +17419,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       },
       {
@@ -17433,7 +17433,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       },
       {
@@ -17447,7 +17447,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       },
       {
@@ -17461,7 +17461,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       },
       {
@@ -17475,7 +17475,7 @@
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "up"
       },
       {
@@ -17489,7 +17489,7 @@
         "source": "EIA",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "up"
       },
       {
@@ -17503,7 +17503,7 @@
         "source": "JOGMEC/Platts(周)",
         "status": "ok",
         "note": "",
-        "age_days": 6,
+        "age_days": 7,
         "direction": "down"
       },
       {
@@ -17517,7 +17517,7 @@
         "source": "上海交易中心",
         "status": "miss",
         "note": "近10天该地区无有效报价",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       }
     ],
@@ -40285,7 +40285,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "flat"
         },
         {
@@ -40300,7 +40300,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "flat"
         },
         {
@@ -40315,7 +40315,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "flat"
         },
         {
@@ -40330,7 +40330,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "flat"
         },
         {
@@ -40345,7 +40345,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 50,
+          "age_days": 51,
           "direction": "flat"
         },
         {
@@ -40360,7 +40360,7 @@
           "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 3,
           "direction": "up"
         },
         {
@@ -40375,7 +40375,7 @@
           "source": "EIA",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 3,
           "direction": "up"
         },
         {
@@ -40390,7 +40390,7 @@
           "source": "JOGMEC/Platts(周)",
           "status": "ok",
           "note": "",
-          "age_days": 6,
+          "age_days": 7,
           "direction": "down"
         }
       ],
