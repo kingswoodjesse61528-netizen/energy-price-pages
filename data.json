@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-12T12:10:01",
+    "generated_at": "2026-08-13T08:00:22",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -62,7 +62,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "up"
       }
     },
@@ -162,7 +162,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "up"
       },
       {
@@ -190,7 +190,7 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       },
       {
@@ -204,17 +204,17 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       },
       {
         "indicator": "度电毛利",
-        "value": 84.1,
-        "value_text": "84.1",
+        "value": 72.1,
+        "value_text": "72.1",
         "change": null,
         "change_pct": null,
         "unit": "元/MWh",
-        "date": "2026-08-11",
+        "date": "2026-08-12",
         "source": "测算",
         "status": "ok",
         "note": "",
@@ -460,6 +460,11 @@
           },
           {
             "date": "2026-08-12",
+            "value": 593.0,
+            "change": 3.0
+          },
+          {
+            "date": "2026-08-13",
             "value": 593.0,
             "change": 3.0
           }
@@ -1196,6 +1201,11 @@
           },
           {
             "date": "2026-08-12",
+            "value": 651.0,
+            "change": 19.0
+          },
+          {
+            "date": "2026-08-13",
             "value": 651.0,
             "change": 19.0
           }
@@ -17436,7 +17446,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 0,
+          "age_days": 1,
           "direction": "up"
         },
         {
@@ -17477,9 +17487,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 11,
-      "fetch_date": "2026-08-12",
-      "run_at": "2026-08-12 11:17:56",
-      "checked_at": "2026-08-12 11:18:15",
+      "fetch_date": "2026-08-13",
+      "run_at": "2026-08-13 08:00:03",
+      "checked_at": "2026-08-13 08:00:20",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -17487,18 +17497,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-08-12T11:18:09",
-        "bytes": 2825
+        "mtime": "2026-08-13T08:00:12",
+        "bytes": 2823
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-08-12T11:18:15",
+        "mtime": "2026-08-13T08:00:20",
         "bytes": 185
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-08-12T11:18:09",
-        "bytes": 351153
+        "mtime": "2026-08-13T08:00:12",
+        "bytes": 351892
       }
     }
   },
@@ -17540,7 +17550,7 @@
         "change": 0.07,
         "change_pct": 0.33,
         "unit": "美元/MMBtu",
-        "date": "2026-08-10",
+        "date": "2026-08-11",
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
@@ -17640,7 +17650,7 @@
         "change": 0.07,
         "change_pct": 0.33,
         "unit": "美元/MMBtu",
-        "date": "2026-08-10",
+        "date": "2026-08-11",
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
@@ -27343,6 +27353,11 @@
             "date": "2026-08-10",
             "value": 21.26,
             "change": 0.15
+          },
+          {
+            "date": "2026-08-11",
+            "value": 21.18,
+            "change": 0.07
           }
         ]
       },
@@ -29431,7 +29446,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 434,
+          "point_count": 435,
           "date_start": "2024-09-25",
           "date_end": "2026-08-12",
           "points": [
@@ -31185,7 +31200,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 434,
+          "point_count": 435,
           "date_start": "2024-09-25",
           "date_end": "2026-08-12",
           "points": [
@@ -32939,7 +32954,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 434,
+          "point_count": 435,
           "date_start": "2024-09-25",
           "date_end": "2026-08-12",
           "points": [
@@ -34693,7 +34708,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 434,
+          "point_count": 435,
           "date_start": "2024-09-25",
           "date_end": "2026-08-12",
           "points": [
@@ -38005,9 +38020,9 @@
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 185,
+          "point_count": 186,
           "date_start": "2026-01-13",
-          "date_end": "2026-08-10",
+          "date_end": "2026-08-11",
           "points": [
             {
               "date": "2026-01-13",
@@ -38748,6 +38763,10 @@
             {
               "date": "2026-08-10",
               "value": 21.26
+            },
+            {
+              "date": "2026-08-11",
+              "value": 21.18
             }
           ]
         },
@@ -40516,7 +40535,7 @@
           "change": 0.07,
           "change_pct": null,
           "unit": "美元/MMBtu",
-          "date": "2026-08-10",
+          "date": "2026-08-11",
           "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
@@ -40562,11 +40581,11 @@
         "input_label": "JKM",
         "input_value": 21.18,
         "input_unit": "美元/MMBtu",
-        "usd_cny": 6.755367,
+        "usd_cny": 6.758618,
         "factor": 27.1,
-        "value": 5.299597875276752,
+        "value": 5.28219665092251,
         "unit": "元/立方米",
-        "date": "2026-08-10",
+        "date": "2026-08-11",
         "source": "EnergyRiskIQ",
         "fx_date": "Tue, 11 Aug 2026",
         "note": "美元/MMBtu × USD/CNY ÷ 27.1"
@@ -40588,9 +40607,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 8,
-      "fetch_date": "2026-08-12",
-      "run_at": "2026-08-12 08:00:02",
-      "checked_at": "2026-08-12 08:00:10",
+      "fetch_date": "2026-08-13",
+      "run_at": "2026-08-13 08:00:03",
+      "checked_at": "2026-08-13 08:00:08",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -40598,18 +40617,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/gas-watch/data/today.json",
-        "mtime": "2026-08-12T08:00:09",
-        "bytes": 2332
+        "mtime": "2026-08-13T08:00:08",
+        "bytes": 2331
       },
       "validation": {
         "path": "/Users/hydtzyj/gas-watch/data/validation.json",
-        "mtime": "2026-08-12T08:00:10",
+        "mtime": "2026-08-13T08:00:08",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/gas-watch/data/history.csv",
-        "mtime": "2026-08-12T08:00:10",
-        "bytes": 451054
+        "mtime": "2026-08-13T08:00:08",
+        "bytes": 451552
       }
     }
   }
