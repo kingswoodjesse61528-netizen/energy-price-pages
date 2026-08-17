@@ -20,7 +20,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       },
       "qhd_5500": {
@@ -34,7 +34,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       },
       "pit_5500": {
@@ -48,7 +48,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "up"
       },
       "qhd_inventory": {
@@ -78,7 +78,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       },
       {
@@ -92,7 +92,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       },
       {
@@ -106,7 +106,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "up"
       },
       {
@@ -120,7 +120,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "up"
       },
       {
@@ -134,7 +134,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "down"
       },
       {
@@ -148,7 +148,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "down"
       },
       {
@@ -204,7 +204,7 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       },
       {
@@ -218,7 +218,7 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       },
       {
@@ -17455,10 +17455,10 @@
     "summary": {
       "guangdong_lng": {
         "indicator": "广东LNG出站价",
-        "value": null,
-        "value_text": "未取到",
-        "change": null,
-        "change_pct": null,
+        "value": 5722.0,
+        "value_text": "5722",
+        "change": 0.0,
+        "change_pct": 0.0,
         "unit": "元/吨",
         "date": "2026-08-14",
         "source": "上海交易中心",
@@ -17497,12 +17497,12 @@
       },
       "henry_hub": {
         "indicator": "Henry Hub",
-        "value": null,
-        "value_text": "未取到",
-        "change": null,
-        "change_pct": null,
+        "value": 2.79,
+        "value_text": "2.79",
+        "change": 0.07,
+        "change_pct": 2.57,
         "unit": "美元/MMBtu",
-        "date": "2026-08-14",
+        "date": "2026-08-11",
         "source": "EIA",
         "status": "ok",
         "note": "",
@@ -17511,10 +17511,10 @@
       },
       "ttf": {
         "indicator": "TTF",
-        "value": null,
-        "value_text": "需手动",
-        "change": null,
-        "change_pct": null,
+        "value": 18.8,
+        "value_text": "18.8",
+        "change": -1.1,
+        "change_pct": -5.53,
         "unit": "美元/MMBtu",
         "date": "2026-08-07",
         "source": "JOGMEC/Platts(周)",
@@ -17527,10 +17527,10 @@
     "latest": [
       {
         "indicator": "广东LNG出站价",
-        "value": null,
-        "value_text": "未取到",
-        "change": null,
-        "change_pct": null,
+        "value": 5722.0,
+        "value_text": "5722",
+        "change": 0.0,
+        "change_pct": 0.0,
         "unit": "元/吨",
         "date": "2026-08-14",
         "source": "上海交易中心",
@@ -17555,10 +17555,10 @@
       },
       {
         "indicator": "浙江LNG出站价",
-        "value": null,
-        "value_text": "未取到",
-        "change": null,
-        "change_pct": null,
+        "value": 5948.0,
+        "value_text": "5948",
+        "change": 0.0,
+        "change_pct": 0.0,
         "unit": "元/吨",
         "date": "2026-08-14",
         "source": "上海交易中心",
@@ -17597,12 +17597,12 @@
       },
       {
         "indicator": "Henry Hub",
-        "value": null,
-        "value_text": "未取到",
-        "change": null,
-        "change_pct": null,
+        "value": 2.79,
+        "value_text": "2.79",
+        "change": 0.07,
+        "change_pct": 2.57,
         "unit": "美元/MMBtu",
-        "date": "2026-08-14",
+        "date": "2026-08-11",
         "source": "EIA",
         "status": "ok",
         "note": "",
@@ -17611,10 +17611,10 @@
       },
       {
         "indicator": "TTF",
-        "value": null,
-        "value_text": "需手动",
-        "change": null,
-        "change_pct": null,
+        "value": 18.8,
+        "value_text": "18.8",
+        "change": -1.1,
+        "change_pct": -5.53,
         "unit": "美元/MMBtu",
         "date": "2026-08-07",
         "source": "JOGMEC/Platts(周)",
@@ -17633,8 +17633,8 @@
         "date": "2026-08-17",
         "source": "上海交易中心",
         "status": "miss",
-        "note": "shpgx 接口失败",
-        "age_days": 2,
+        "note": "近10天该地区无有效报价",
+        "age_days": 0,
         "direction": "flat"
       }
     ],
@@ -29398,7 +29398,7 @@
       },
       {
         "indicator": "TTF",
-        "source": "手动",
+        "source": "JOGMEC/Platts(周)",
         "unit": "美元/MMBtu",
         "points": [
           {
@@ -40512,7 +40512,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 4,
+          "age_days": 3,
           "direction": "flat"
         },
         {
@@ -40527,7 +40527,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 4,
+          "age_days": 3,
           "direction": "flat"
         },
         {
@@ -40637,8 +40637,8 @@
       }
     },
     "status": {
-      "state": "partial",
-      "ok": false,
+      "state": "ok",
+      "ok": true,
       "latest_count": 8,
       "fetch_date": "2026-08-17",
       "run_at": "2026-08-17 08:00:01",
