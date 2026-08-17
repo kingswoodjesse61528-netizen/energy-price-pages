@@ -53,16 +53,16 @@
       },
       "qhd_inventory": {
         "indicator": "秦皇岛港库存",
-        "value": 615.0,
-        "value_text": "615",
-        "change": 3.0,
+        "value": 650.0,
+        "value_text": "650",
+        "change": 20.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-08-14",
+        "date": "2026-08-17",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 0,
         "direction": "up"
       }
     },
@@ -153,16 +153,16 @@
       },
       {
         "indicator": "秦皇岛港库存",
-        "value": 615.0,
-        "value_text": "615",
-        "change": 3.0,
+        "value": 650.0,
+        "value_text": "650",
+        "change": 20.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-08-14",
+        "date": "2026-08-17",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 0,
         "direction": "up"
       },
       {
@@ -2067,6 +2067,21 @@
             "date": "2026-08-14",
             "value": 615.0,
             "change": 3.0
+          },
+          {
+            "date": "2026-08-15",
+            "value": 620.0,
+            "change": 5.0
+          },
+          {
+            "date": "2026-08-16",
+            "value": 630.0,
+            "change": 10.0
+          },
+          {
+            "date": "2026-08-17",
+            "value": 650.0,
+            "change": 20.0
           }
         ]
       }
@@ -9254,6 +9269,18 @@
             {
               "date": "2026-08-14",
               "value": 615.0
+            },
+            {
+              "date": "2026-08-15",
+              "value": 620.0
+            },
+            {
+              "date": "2026-08-16",
+              "value": 630.0
+            },
+            {
+              "date": "2026-08-17",
+              "value": 650.0
             }
           ]
         },
@@ -17317,16 +17344,16 @@
         {
           "indicator": "秦皇岛港库存",
           "source_indicator": "秦皇岛港库存",
-          "value": 615.0,
-          "value_text": "615.0",
-          "change": 3.0,
+          "value": 650.0,
+          "value_text": "650.0",
+          "change": 20.0,
           "change_pct": null,
           "unit": "万吨",
-          "date": "2026-08-14",
+          "date": "2026-08-17",
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 0,
           "direction": "up"
         },
         {
