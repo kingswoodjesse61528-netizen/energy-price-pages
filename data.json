@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-18T07:50:13",
-    "machine": "mini",
+    "generated_at": "2026-08-18T08:00:11",
+    "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
     "version": "1.2.1"
@@ -202,6 +202,20 @@
         "unit": "元/吨",
         "date": "2026-08-17",
         "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 1,
+        "direction": "flat"
+      },
+      {
+        "indicator": "度电毛利",
+        "value": 110.9,
+        "value_text": "110.9",
+        "change": null,
+        "change_pct": null,
+        "unit": "元/MWh",
+        "date": "2026-08-17",
+        "source": "测算",
         "status": "ok",
         "note": "",
         "age_days": 1,
@@ -9240,8 +9254,8 @@
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
-          "point_count": 63,
-          "date_start": "2026-06-16",
+          "point_count": 82,
+          "date_start": "2026-05-28",
           "date_end": "2026-08-17",
           "points": [
             {
@@ -17683,29 +17697,29 @@
     "status": {
       "state": "ok",
       "ok": true,
-      "latest_count": 10,
+      "latest_count": 11,
       "fetch_date": "2026-08-18",
-      "run_at": "2026-08-18 07:50:02",
-      "checked_at": "2026-08-18 07:50:08",
+      "run_at": "2026-08-18 08:00:01",
+      "checked_at": "2026-08-18 08:00:06",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
     },
     "source_files": {
       "today": {
-        "path": "/Users/zhouyijun/coal-watch/data/today.json",
-        "mtime": "2026-08-18T07:50:06",
-        "bytes": 2368
+        "path": "/Users/hydtzyj/coal-watch/data/today.json",
+        "mtime": "2026-08-18T08:00:04",
+        "bytes": 2822
       },
       "validation": {
-        "path": "/Users/zhouyijun/coal-watch/data/validation.json",
-        "mtime": "2026-08-18T07:50:08",
+        "path": "/Users/hydtzyj/coal-watch/data/validation.json",
+        "mtime": "2026-08-18T08:00:06",
         "bytes": 89
       },
       "history": {
-        "path": "/Users/zhouyijun/coal-watch/data/history.csv",
-        "mtime": "2026-08-18T07:50:07",
-        "bytes": 348165
+        "path": "/Users/hydtzyj/coal-watch/data/history.csv",
+        "mtime": "2026-08-18T08:00:04",
+        "bytes": 356132
       }
     }
   },
@@ -38345,7 +38359,7 @@
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 183,
+          "point_count": 189,
           "date_start": "2026-01-13",
           "date_end": "2026-08-16",
           "points": [
@@ -40949,27 +40963,27 @@
       "ok": true,
       "latest_count": 8,
       "fetch_date": "2026-08-18",
-      "run_at": "2026-08-18 07:50:02",
-      "checked_at": "2026-08-18 07:50:08",
+      "run_at": "2026-08-18 08:00:01",
+      "checked_at": "2026-08-18 08:00:05",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
     },
     "source_files": {
       "today": {
-        "path": "/Users/zhouyijun/gas-watch/data/today.json",
-        "mtime": "2026-08-18T07:50:08",
+        "path": "/Users/hydtzyj/gas-watch/data/today.json",
+        "mtime": "2026-08-18T08:00:05",
         "bytes": 2330
       },
       "validation": {
-        "path": "/Users/zhouyijun/gas-watch/data/validation.json",
-        "mtime": "2026-08-18T07:50:08",
+        "path": "/Users/hydtzyj/gas-watch/data/validation.json",
+        "mtime": "2026-08-18T08:00:05",
         "bytes": 89
       },
       "history": {
-        "path": "/Users/zhouyijun/gas-watch/data/history.csv",
-        "mtime": "2026-08-18T07:50:08",
-        "bytes": 452481
+        "path": "/Users/hydtzyj/gas-watch/data/history.csv",
+        "mtime": "2026-08-18T08:00:05",
+        "bytes": 452917
       }
     }
   }
