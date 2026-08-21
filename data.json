@@ -194,6 +194,20 @@
         "direction": "down"
       },
       {
+        "indicator": "环渤海港口库存",
+        "value": 863.0,
+        "value_text": "863",
+        "change": -1.0,
+        "change_pct": null,
+        "unit": "万吨",
+        "date": "2026-08-20",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 1,
+        "direction": "down"
+      },
+      {
         "indicator": "内蒙古沫煤(Q5500坑口)",
         "value": 861.0,
         "value_text": "861",
