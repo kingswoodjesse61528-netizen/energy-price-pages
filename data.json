@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-21T12:10:05",
+    "generated_at": "2026-08-22T08:00:12",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -62,7 +62,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "down"
       }
     },
@@ -176,7 +176,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "down"
       },
       {
@@ -204,7 +204,7 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       },
       {
@@ -218,17 +218,17 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       },
       {
         "indicator": "度电毛利",
-        "value": 80.5,
-        "value_text": "80.5",
+        "value": 77.0,
+        "value_text": "77",
         "change": null,
         "change_pct": null,
         "unit": "元/MWh",
-        "date": "2026-08-20",
+        "date": "2026-08-21",
         "source": "测算",
         "status": "ok",
         "note": "",
@@ -17856,7 +17856,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 0,
+          "age_days": 1,
           "direction": "down"
         },
         {
@@ -17897,9 +17897,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 12,
-      "fetch_date": "2026-08-21",
-      "run_at": "2026-08-21 11:02:08",
-      "checked_at": "2026-08-21 11:02:24",
+      "fetch_date": "2026-08-22",
+      "run_at": "2026-08-22 08:00:02",
+      "checked_at": "2026-08-22 08:00:09",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -17907,18 +17907,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-08-21T11:02:19",
+        "mtime": "2026-08-22T08:00:06",
         "bytes": 3047
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-08-21T11:02:24",
+        "mtime": "2026-08-22T08:00:09",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-08-21T11:02:19",
-        "bytes": 431703
+        "mtime": "2026-08-22T08:00:06",
+        "bytes": 432446
       }
     }
   },
