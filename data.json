@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-31T08:00:12",
+    "generated_at": "2026-08-31T08:03:38",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -540,8 +540,8 @@
           },
           {
             "date": "2026-08-28",
-            "value": 598.0,
-            "change": 5.0
+            "value": 600.0,
+            "change": 2.0
           },
           {
             "date": "2026-08-29",
@@ -1551,8 +1551,8 @@
           },
           {
             "date": "2026-08-28",
-            "value": 686.0,
-            "change": 11.0
+            "value": 719.0,
+            "change": 33.0
           },
           {
             "date": "2026-08-29",
@@ -9740,8 +9740,8 @@
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
-          "point_count": 74,
-          "date_start": "2026-06-16",
+          "point_count": 93,
+          "date_start": "2026-05-28",
           "date_end": "2026-08-28",
           "points": [
             {
@@ -18245,8 +18245,8 @@
       "ok": true,
       "latest_count": 11,
       "fetch_date": "2026-08-31",
-      "run_at": "2026-08-31 04:59:27",
-      "checked_at": "2026-08-31 04:59:31",
+      "run_at": "2026-08-31 08:00:02",
+      "checked_at": "2026-08-31 08:03:36",
       "alerts": [],
       "warnings": [
         "指标近期在、今日缺失：广州港(Q5500)[Mysteel]（疑上游改版/降级）"
@@ -18256,17 +18256,17 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-08-31T04:59:30",
+        "mtime": "2026-08-31T08:01:35",
         "bytes": 2824
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-08-31T04:59:31",
+        "mtime": "2026-08-31T08:03:36",
         "bytes": 185
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-08-31T04:59:30",
+        "mtime": "2026-08-31T08:01:35",
         "bytes": 440400
       }
     }
