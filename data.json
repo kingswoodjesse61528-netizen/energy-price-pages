@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-02T08:00:21",
+    "generated_at": "2026-09-02T08:00:43",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -554,8 +554,8 @@
           },
           {
             "date": "2026-08-28",
-            "value": 598.0,
-            "change": 5.0
+            "value": 600.0,
+            "change": 2.0
           },
           {
             "date": "2026-08-29",
@@ -1595,8 +1595,8 @@
           },
           {
             "date": "2026-08-28",
-            "value": 686.0,
-            "change": 11.0
+            "value": 719.0,
+            "change": 33.0
           },
           {
             "date": "2026-08-29",
@@ -18368,8 +18368,8 @@
       "ok": true,
       "latest_count": 12,
       "fetch_date": "2026-09-02",
-      "run_at": "2026-09-02 05:01:09",
-      "checked_at": "2026-09-02 05:01:18",
+      "run_at": "2026-09-02 08:00:02",
+      "checked_at": "2026-09-02 08:00:39",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -18377,17 +18377,17 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-09-02T05:01:17",
+        "mtime": "2026-09-02T08:00:31",
         "bytes": 3052
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-09-02T05:01:18",
+        "mtime": "2026-09-02T08:00:39",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-09-02T05:01:17",
+        "mtime": "2026-09-02T08:00:31",
         "bytes": 442413
       }
     }
