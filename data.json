@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-01T12:10:05",
+    "generated_at": "2026-09-02T08:00:21",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -223,12 +223,12 @@
       },
       {
         "indicator": "度电毛利",
-        "value": 35.9,
-        "value_text": "35.9",
+        "value": -19.4,
+        "value_text": "-19.4",
         "change": null,
         "change_pct": null,
         "unit": "元/MWh",
-        "date": "2026-08-31",
+        "date": "2026-09-01",
         "source": "测算",
         "status": "ok",
         "note": "",
@@ -9847,9 +9847,9 @@
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
-          "point_count": 96,
+          "point_count": 97,
           "date_start": "2026-05-28",
-          "date_end": "2026-08-31",
+          "date_end": "2026-09-01",
           "points": [
             {
               "date": "2026-05-28",
@@ -18367,9 +18367,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 12,
-      "fetch_date": "2026-09-01",
-      "run_at": "2026-09-01 09:00:02",
-      "checked_at": "2026-09-01 09:00:07",
+      "fetch_date": "2026-09-02",
+      "run_at": "2026-09-02 05:01:09",
+      "checked_at": "2026-09-02 05:01:18",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -18377,18 +18377,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-09-01T09:00:05",
-        "bytes": 3051
+        "mtime": "2026-09-02T05:01:17",
+        "bytes": 3052
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-09-01T09:00:07",
+        "mtime": "2026-09-02T05:01:18",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-09-01T09:00:05",
-        "bytes": 441516
+        "mtime": "2026-09-02T05:01:17",
+        "bytes": 442413
       }
     }
   },
@@ -30696,7 +30696,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 448,
+          "point_count": 449,
           "date_start": "2024-09-25",
           "date_end": "2026-09-01",
           "points": [
@@ -32506,7 +32506,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 448,
+          "point_count": 449,
           "date_start": "2024-09-25",
           "date_end": "2026-09-01",
           "points": [
@@ -34316,7 +34316,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 448,
+          "point_count": 449,
           "date_start": "2024-09-25",
           "date_end": "2026-09-01",
           "points": [
@@ -36126,7 +36126,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 448,
+          "point_count": 449,
           "date_start": "2024-09-25",
           "date_end": "2026-09-01",
           "points": [
@@ -39494,7 +39494,7 @@
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 199,
+          "point_count": 200,
           "date_start": "2026-01-13",
           "date_end": "2026-08-31",
           "points": [
@@ -42153,9 +42153,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 8,
-      "fetch_date": "2026-09-01",
-      "run_at": "2026-09-01 08:00:02",
-      "checked_at": "2026-09-01 08:00:07",
+      "fetch_date": "2026-09-02",
+      "run_at": "2026-09-02 08:00:02",
+      "checked_at": "2026-09-02 08:00:12",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -42163,18 +42163,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/gas-watch/data/today.json",
-        "mtime": "2026-09-01T08:00:07",
+        "mtime": "2026-09-02T08:00:12",
         "bytes": 2362
       },
       "validation": {
         "path": "/Users/hydtzyj/gas-watch/data/validation.json",
-        "mtime": "2026-09-01T08:00:07",
+        "mtime": "2026-09-02T08:00:12",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/gas-watch/data/history.csv",
-        "mtime": "2026-09-01T08:00:07",
-        "bytes": 457437
+        "mtime": "2026-09-02T08:00:12",
+        "bytes": 457869
       }
     }
   }
