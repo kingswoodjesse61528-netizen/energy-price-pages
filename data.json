@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-02T12:10:03",
+    "generated_at": "2026-09-03T08:00:21",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -223,12 +223,12 @@
       },
       {
         "indicator": "度电毛利",
-        "value": -19.4,
-        "value_text": "-19.4",
+        "value": -47.4,
+        "value_text": "-47.4",
         "change": null,
         "change_pct": null,
         "unit": "元/MWh",
-        "date": "2026-09-01",
+        "date": "2026-09-02",
         "source": "测算",
         "status": "ok",
         "note": "",
@@ -18085,9 +18085,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 12,
-      "fetch_date": "2026-09-02",
-      "run_at": "2026-09-02 09:01:19",
-      "checked_at": "2026-09-02 09:01:52",
+      "fetch_date": "2026-09-03",
+      "run_at": "2026-09-03 05:04:18",
+      "checked_at": "2026-09-03 05:04:49",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -18095,18 +18095,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-09-02T09:01:45",
-        "bytes": 3052
+        "mtime": "2026-09-03T05:04:43",
+        "bytes": 3054
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-09-02T09:01:52",
+        "mtime": "2026-09-03T05:04:49",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-09-02T09:01:45",
-        "bytes": 442413
+        "mtime": "2026-09-03T05:04:43",
+        "bytes": 443238
       }
     }
   },
@@ -30369,7 +30369,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 449,
+          "point_count": 450,
           "date_start": "2024-09-25",
           "date_end": "2026-09-02",
           "points": [
@@ -32175,7 +32175,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 449,
+          "point_count": 450,
           "date_start": "2024-09-25",
           "date_end": "2026-09-02",
           "points": [
@@ -33981,7 +33981,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 449,
+          "point_count": 450,
           "date_start": "2024-09-25",
           "date_end": "2026-09-02",
           "points": [
@@ -35787,7 +35787,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 449,
+          "point_count": 450,
           "date_start": "2024-09-25",
           "date_end": "2026-09-02",
           "points": [
@@ -39151,7 +39151,7 @@
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 200,
+          "point_count": 201,
           "date_start": "2026-01-13",
           "date_end": "2026-09-01",
           "points": [
@@ -41786,9 +41786,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 8,
-      "fetch_date": "2026-09-02",
-      "run_at": "2026-09-02 08:00:02",
-      "checked_at": "2026-09-02 08:00:12",
+      "fetch_date": "2026-09-03",
+      "run_at": "2026-09-03 08:00:02",
+      "checked_at": "2026-09-03 08:00:11",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -41796,18 +41796,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/gas-watch/data/today.json",
-        "mtime": "2026-09-02T08:00:12",
-        "bytes": 2362
+        "mtime": "2026-09-03T08:00:11",
+        "bytes": 2349
       },
       "validation": {
         "path": "/Users/hydtzyj/gas-watch/data/validation.json",
-        "mtime": "2026-09-02T08:00:12",
+        "mtime": "2026-09-03T08:00:11",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/gas-watch/data/history.csv",
-        "mtime": "2026-09-02T08:00:12",
-        "bytes": 457869
+        "mtime": "2026-09-03T08:00:11",
+        "bytes": 458364
       }
     }
   }
