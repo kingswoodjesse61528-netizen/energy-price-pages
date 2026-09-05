@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-05T08:10:03",
+    "generated_at": "2026-09-05T12:10:04",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -18505,8 +18505,8 @@
       "ok": true,
       "latest_count": 12,
       "fetch_date": "2026-09-05",
-      "run_at": "2026-09-05 08:00:03",
-      "checked_at": "2026-09-05 08:00:17",
+      "run_at": "2026-09-05 10:40:53",
+      "checked_at": "2026-09-05 10:41:14",
       "alerts": [],
       "warnings": [
         "5500K坑口价 单日 +18.44%（+132元/吨），涨跌偏大请关注"
@@ -18516,18 +18516,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-09-05T08:00:11",
+        "mtime": "2026-09-05T10:41:06",
         "bytes": 3054
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-09-05T08:00:17",
+        "mtime": "2026-09-05T10:41:14",
         "bytes": 169
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-09-05T08:00:12",
-        "bytes": 445494
+        "mtime": "2026-09-05T10:41:06",
+        "bytes": 445749
       }
     }
   },
