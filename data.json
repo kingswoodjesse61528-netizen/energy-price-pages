@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-07T08:10:01",
+    "generated_at": "2026-09-07T12:10:03",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -53,16 +53,16 @@
       },
       "qhd_inventory": {
         "indicator": "秦皇岛港库存",
-        "value": 602.0,
-        "value_text": "602",
+        "value": 586.0,
+        "value_text": "586",
         "change": -4.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-09-04",
+        "date": "2026-09-07",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 0,
         "direction": "down"
       }
     },
@@ -167,16 +167,16 @@
       },
       {
         "indicator": "秦皇岛港库存",
-        "value": 602.0,
-        "value_text": "602",
+        "value": 586.0,
+        "value_text": "586",
         "change": -4.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-09-04",
+        "date": "2026-09-07",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 0,
         "direction": "down"
       },
       {
@@ -3019,6 +3019,21 @@
           {
             "date": "2026-09-04",
             "value": 602.0,
+            "change": -4.0
+          },
+          {
+            "date": "2026-09-05",
+            "value": 600.0,
+            "change": -2.0
+          },
+          {
+            "date": "2026-09-06",
+            "value": 590.0,
+            "change": -10.0
+          },
+          {
+            "date": "2026-09-07",
+            "value": 586.0,
             "change": -4.0
           }
         ]
@@ -10024,9 +10039,9 @@
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
-          "point_count": 100,
+          "point_count": 103,
           "date_start": "2026-05-28",
-          "date_end": "2026-09-04",
+          "date_end": "2026-09-07",
           "points": [
             {
               "date": "2026-05-28",
@@ -10427,6 +10442,18 @@
             {
               "date": "2026-09-04",
               "value": 602.0
+            },
+            {
+              "date": "2026-09-05",
+              "value": 600.0
+            },
+            {
+              "date": "2026-09-06",
+              "value": 590.0
+            },
+            {
+              "date": "2026-09-07",
+              "value": 586.0
             }
           ]
         },
@@ -18514,16 +18541,16 @@
         {
           "indicator": "秦皇岛港库存",
           "source_indicator": "秦皇岛港库存",
-          "value": 602.0,
-          "value_text": "602.0",
+          "value": 586.0,
+          "value_text": "586.0",
           "change": -4.0,
           "change_pct": null,
           "unit": "万吨",
-          "date": "2026-09-04",
+          "date": "2026-09-07",
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 0,
           "direction": "down"
         },
         {
@@ -18565,8 +18592,8 @@
       "ok": true,
       "latest_count": 12,
       "fetch_date": "2026-09-07",
-      "run_at": "2026-09-07 08:00:01",
-      "checked_at": "2026-09-07 08:00:18",
+      "run_at": "2026-09-07 10:49:15",
+      "checked_at": "2026-09-07 10:49:37",
       "alerts": [],
       "warnings": [
         "5500K坑口价 单日 +18.44%（+132元/吨），涨跌偏大请关注"
@@ -18576,18 +18603,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-09-07T08:00:12",
+        "mtime": "2026-09-07T10:49:29",
         "bytes": 3054
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-09-07T08:00:18",
+        "mtime": "2026-09-07T10:49:37",
         "bytes": 169
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-09-07T08:00:12",
-        "bytes": 447077
+        "mtime": "2026-09-07T10:49:31",
+        "bytes": 447294
       }
     }
   },
