@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-06T12:10:03",
+    "generated_at": "2026-09-07T08:00:21",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -162,7 +162,7 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 6,
+        "age_days": 7,
         "direction": "up"
       },
       {
@@ -200,7 +200,7 @@
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-09-05",
+        "date": "2026-09-06",
         "source": "Mysteel",
         "status": "ok",
         "note": "",
@@ -214,7 +214,7 @@
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-09-05",
+        "date": "2026-09-06",
         "source": "Mysteel",
         "status": "ok",
         "note": "",
@@ -223,12 +223,12 @@
       },
       {
         "indicator": "度电毛利",
-        "value": 51.8,
-        "value_text": "51.8",
+        "value": 66.4,
+        "value_text": "66.4",
         "change": null,
         "change_pct": null,
         "unit": "元/MWh",
-        "date": "2026-09-05",
+        "date": "2026-09-06",
         "source": "测算",
         "status": "ok",
         "note": "",
@@ -18564,9 +18564,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 12,
-      "fetch_date": "2026-09-06",
-      "run_at": "2026-09-06 10:45:50",
-      "checked_at": "2026-09-06 10:46:23",
+      "fetch_date": "2026-09-07",
+      "run_at": "2026-09-07 08:00:01",
+      "checked_at": "2026-09-07 08:00:18",
       "alerts": [],
       "warnings": [
         "5500K坑口价 单日 +18.44%（+132元/吨），涨跌偏大请关注"
@@ -18576,18 +18576,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-09-06T10:46:15",
-        "bytes": 3052
+        "mtime": "2026-09-07T08:00:12",
+        "bytes": 3054
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-09-06T10:46:23",
+        "mtime": "2026-09-07T08:00:18",
         "bytes": 169
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-09-06T10:46:15",
-        "bytes": 446413
+        "mtime": "2026-09-07T08:00:12",
+        "bytes": 447077
       }
     }
   },
@@ -30975,7 +30975,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 451,
+          "point_count": 452,
           "date_start": "2024-09-25",
           "date_end": "2026-09-04",
           "points": [
@@ -32797,7 +32797,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 451,
+          "point_count": 452,
           "date_start": "2024-09-25",
           "date_end": "2026-09-04",
           "points": [
@@ -34619,7 +34619,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 451,
+          "point_count": 452,
           "date_start": "2024-09-25",
           "date_end": "2026-09-04",
           "points": [
@@ -36441,7 +36441,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 451,
+          "point_count": 452,
           "date_start": "2024-09-25",
           "date_end": "2026-09-04",
           "points": [
@@ -39821,7 +39821,7 @@
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 202,
+          "point_count": 203,
           "date_start": "2026-01-13",
           "date_end": "2026-09-05",
           "points": [
@@ -42496,9 +42496,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 8,
-      "fetch_date": "2026-09-04",
-      "run_at": "2026-09-04 08:00:01",
-      "checked_at": "2026-09-04 08:00:08",
+      "fetch_date": "2026-09-07",
+      "run_at": "2026-09-07 08:00:01",
+      "checked_at": "2026-09-07 08:00:09",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -42506,18 +42506,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/gas-watch/data/today.json",
-        "mtime": "2026-09-04T08:00:08",
-        "bytes": 2356
+        "mtime": "2026-09-07T08:00:09",
+        "bytes": 2352
       },
       "validation": {
         "path": "/Users/hydtzyj/gas-watch/data/validation.json",
-        "mtime": "2026-09-04T08:00:08",
+        "mtime": "2026-09-07T08:00:09",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/gas-watch/data/history.csv",
-        "mtime": "2026-09-04T08:00:08",
-        "bytes": 458795
+        "mtime": "2026-09-07T08:00:09",
+        "bytes": 459224
       }
     }
   }
