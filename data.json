@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-10T08:00:26",
+    "generated_at": "2026-09-10T08:10:00",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -18690,7 +18690,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 8,
+          "age_days": 1,
           "direction": "up"
         }
       ],
