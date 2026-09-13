@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-13T08:10:00",
+    "generated_at": "2026-09-13T12:10:03",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -150,6 +150,20 @@
         "note": "",
         "age_days": 0,
         "direction": "down"
+      },
+      {
+        "indicator": "广州港(Q5500)",
+        "value": 1035.0,
+        "value_text": "1035",
+        "change": 0.0,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-09-13",
+        "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "flat"
       },
       {
         "indicator": "秦皇岛港库存",
@@ -2679,6 +2693,11 @@
             "date": "2026-08-31",
             "value": 940.0,
             "change": 5.0
+          },
+          {
+            "date": "2026-09-13",
+            "value": 1035.0,
+            "change": 0.0
           }
         ]
       },
@@ -18820,32 +18839,31 @@
     "status": {
       "state": "ok",
       "ok": true,
-      "latest_count": 11,
+      "latest_count": 12,
       "fetch_date": "2026-09-13",
-      "run_at": "2026-09-13 08:00:01",
-      "checked_at": "2026-09-13 08:00:17",
+      "run_at": "2026-09-13 11:05:36",
+      "checked_at": "2026-09-13 11:05:55",
       "alerts": [],
       "warnings": [
-        "5500K坑口价 单日 +18.44%（+132元/吨），涨跌偏大请关注",
-        "指标近期在、今日缺失：广州港(Q5500)[Mysteel]（疑上游改版/降级）"
+        "5500K坑口价 单日 +18.44%（+132元/吨），涨跌偏大请关注"
       ],
       "stale_indicators": []
     },
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-09-13T08:00:11",
-        "bytes": 2827
+        "mtime": "2026-09-13T11:05:47",
+        "bytes": 3056
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-09-13T08:00:17",
-        "bytes": 263
+        "mtime": "2026-09-13T11:05:55",
+        "bytes": 169
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-09-13T08:00:11",
-        "bytes": 452837
+        "mtime": "2026-09-13T11:05:47",
+        "bytes": 452913
       }
     }
   },
