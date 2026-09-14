@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-14T08:10:04",
+    "generated_at": "2026-09-14T12:10:03",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -3270,6 +3270,21 @@
             "date": "2026-09-11",
             "value": 605.0,
             "change": -5.0
+          },
+          {
+            "date": "2026-09-12",
+            "value": 602.0,
+            "change": -3.0
+          },
+          {
+            "date": "2026-09-13",
+            "value": 604.0,
+            "change": 2.0
+          },
+          {
+            "date": "2026-09-14",
+            "value": 610.0,
+            "change": 6.0
           }
         ]
       }
@@ -10294,9 +10309,9 @@
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
-          "point_count": 107,
+          "point_count": 110,
           "date_start": "2026-05-28",
-          "date_end": "2026-09-11",
+          "date_end": "2026-09-14",
           "points": [
             {
               "date": "2026-05-28",
@@ -10725,6 +10740,18 @@
             {
               "date": "2026-09-11",
               "value": 605.0
+            },
+            {
+              "date": "2026-09-12",
+              "value": 602.0
+            },
+            {
+              "date": "2026-09-13",
+              "value": 604.0
+            },
+            {
+              "date": "2026-09-14",
+              "value": 610.0
             }
           ]
         },
@@ -18820,17 +18847,17 @@
         {
           "indicator": "秦皇岛港库存",
           "source_indicator": "秦皇岛港库存",
-          "value": 605.0,
-          "value_text": "605.0",
-          "change": -5.0,
+          "value": 610.0,
+          "value_text": "610.0",
+          "change": 6.0,
           "change_pct": null,
           "unit": "万吨",
-          "date": "2026-09-11",
+          "date": "2026-09-14",
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 3,
-          "direction": "down"
+          "age_days": 0,
+          "direction": "up"
         },
         {
           "indicator": "CCTD秦皇岛现货价",
@@ -18871,8 +18898,8 @@
       "ok": true,
       "latest_count": 12,
       "fetch_date": "2026-09-14",
-      "run_at": "2026-09-14 08:00:02",
-      "checked_at": "2026-09-14 08:00:18",
+      "run_at": "2026-09-14 08:36:33",
+      "checked_at": "2026-09-14 08:36:50",
       "alerts": [],
       "warnings": [
         "5500K坑口价 单日 +18.44%（+132元/吨），涨跌偏大请关注"
@@ -18882,18 +18909,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-09-14T08:00:13",
+        "mtime": "2026-09-14T08:36:44",
         "bytes": 3056
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-09-14T08:00:18",
+        "mtime": "2026-09-14T08:36:50",
         "bytes": 169
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-09-14T08:00:13",
-        "bytes": 453578
+        "mtime": "2026-09-14T09:30:08",
+        "bytes": 453789
       }
     }
   },
