@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T08:00:18",
+    "generated_at": "2026-09-15T08:00:43",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -152,20 +152,6 @@
         "direction": "down"
       },
       {
-        "indicator": "广州港(Q5500)",
-        "value": 1035.0,
-        "value_text": "1035",
-        "change": 0.0,
-        "change_pct": null,
-        "unit": "元/吨",
-        "date": "2026-09-13",
-        "source": "Mysteel",
-        "status": "ok",
-        "note": "",
-        "age_days": 2,
-        "direction": "flat"
-      },
-      {
         "indicator": "秦皇岛港库存",
         "value": 610.0,
         "value_text": "610",
@@ -192,34 +178,6 @@
         "note": "",
         "age_days": 1,
         "direction": "down"
-      },
-      {
-        "indicator": "内蒙古沫煤(Q5500坑口)",
-        "value": 985.0,
-        "value_text": "985",
-        "change": null,
-        "change_pct": null,
-        "unit": "元/吨",
-        "date": "2026-09-14",
-        "source": "Mysteel",
-        "status": "ok",
-        "note": "",
-        "age_days": 1,
-        "direction": "flat"
-      },
-      {
-        "indicator": "山西沫煤(Q5500坑口)",
-        "value": 985.0,
-        "value_text": "985",
-        "change": null,
-        "change_pct": null,
-        "unit": "元/吨",
-        "date": "2026-09-14",
-        "source": "Mysteel",
-        "status": "ok",
-        "note": "",
-        "age_days": 1,
-        "direction": "flat"
       },
       {
         "indicator": "度电毛利",
@@ -18930,28 +18888,30 @@
     "status": {
       "state": "ok",
       "ok": true,
-      "latest_count": 12,
+      "latest_count": 9,
       "fetch_date": "2026-09-15",
-      "run_at": "2026-09-15 04:38:45",
-      "checked_at": "2026-09-15 04:39:01",
+      "run_at": "2026-09-15 08:00:02",
+      "checked_at": "2026-09-15 08:00:36",
       "alerts": [],
-      "warnings": [],
+      "warnings": [
+        "指标近期在、今日缺失：内蒙古沫煤(Q5500坑口)[Mysteel]、山西沫煤(Q5500坑口)[Mysteel]、广州港(Q5500)[Mysteel]（疑上游改版/降级）"
+      ],
       "stale_indicators": []
     },
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-09-15T04:38:56",
-        "bytes": 3055
+        "mtime": "2026-09-15T08:00:31",
+        "bytes": 2349
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-09-15T04:39:01",
-        "bytes": 89
+        "mtime": "2026-09-15T08:00:36",
+        "bytes": 262
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-09-15T04:38:56",
+        "mtime": "2026-09-15T08:00:31",
         "bytes": 454450
       }
     }
