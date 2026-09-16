@@ -18890,7 +18890,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "down"
         },
         {
@@ -18953,7 +18953,6 @@
       "warnings": [
         "指标近期在、今日缺失：内蒙古沫煤(Q5500坑口)[Mysteel]、山西沫煤(Q5500坑口)[Mysteel]、广州港(Q5500)[Mysteel]（疑上游改版/降级）"
       ],
-      "warnings": [],
       "stale_indicators": []
     },
     "source_files": {
