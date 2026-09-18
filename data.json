@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-18T08:10:01",
+    "generated_at": "2026-09-18T12:10:00",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -195,30 +195,30 @@
       },
       {
         "indicator": "内蒙古沫煤(Q5500坑口)",
-        "value": 983.0,
-        "value_text": "983",
+        "value": 980.0,
+        "value_text": "980",
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-09-18",
+        "date": "2026-09-17",
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       },
       {
         "indicator": "山西沫煤(Q5500坑口)",
-        "value": 983.0,
-        "value_text": "983",
+        "value": 980.0,
+        "value_text": "980",
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-09-18",
+        "date": "2026-09-17",
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 0,
+        "age_days": 1,
         "direction": "flat"
       },
       {
@@ -19065,8 +19065,8 @@
       "ok": true,
       "latest_count": 12,
       "fetch_date": "2026-09-18",
-      "run_at": "2026-09-18 08:00:04",
-      "checked_at": "2026-09-18 08:00:20",
+      "run_at": "2026-09-18 08:45:29",
+      "checked_at": "2026-09-18 08:45:46",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -19074,17 +19074,17 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-09-18T08:00:15",
+        "mtime": "2026-09-18T08:45:40",
         "bytes": 3053
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-09-18T08:00:20",
+        "mtime": "2026-09-18T08:45:46",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-09-18T08:00:15",
+        "mtime": "2026-09-18T08:45:41",
         "bytes": 457388
       }
     }
