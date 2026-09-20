@@ -27,15 +27,15 @@
         "indicator": "秦皇岛港5500K",
         "value": 730.0,
         "value_text": "725-735",
-        "change": 0.0,
-        "change_pct": 0.0,
+        "change": 10.0,
+        "change_pct": 1.39,
         "unit": "元/吨",
         "date": "2026-09-20",
         "source": "CCTD",
         "status": "ok",
         "note": "",
         "age_days": 0,
-        "direction": "flat"
+        "direction": "up"
       },
       "pit_5500": {
         "indicator": "5500K坑口价",
@@ -85,29 +85,29 @@
         "indicator": "秦皇岛港5500K",
         "value": 730.0,
         "value_text": "725-735",
-        "change": 0.0,
-        "change_pct": 0.0,
+        "change": 10.0,
+        "change_pct": 1.39,
         "unit": "元/吨",
         "date": "2026-09-20",
         "source": "CCTD",
         "status": "ok",
         "note": "",
         "age_days": 0,
-        "direction": "flat"
+        "direction": "up"
       },
       {
         "indicator": "综合指数",
         "value": 728.0,
         "value_text": "728",
-        "change": 0.0,
-        "change_pct": 0.0,
+        "change": 8.0,
+        "change_pct": 1.11,
         "unit": "元/吨",
         "date": "2026-09-20",
         "source": "CCTD",
         "status": "ok",
         "note": "",
         "age_days": 0,
-        "direction": "flat"
+        "direction": "up"
       },
       {
         "indicator": "5500K坑口价",
@@ -192,6 +192,20 @@
         "note": "",
         "age_days": 2,
         "direction": "flat"
+      },
+      {
+        "indicator": "环渤海港口库存",
+        "value": 979.0,
+        "value_text": "979",
+        "change": 2.0,
+        "change_pct": null,
+        "unit": "万吨",
+        "date": "2026-09-20",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 1,
+        "direction": "up"
       },
       {
         "indicator": "内蒙古沫煤(Q5500坑口)",
@@ -653,7 +667,17 @@
             "change": 2.0
           },
           {
-            "date": "2026-09-17",
+            "date": "2026-09-18",
+            "value": 610.0,
+            "change": 2.0
+          },
+          {
+            "date": "2026-09-20",
+            "value": 610.0,
+            "change": 2.0
+          },
+          {
+            "date": "2026-09-21",
             "value": 610.0,
             "change": 2.0
           },
@@ -1051,8 +1075,8 @@
           },
           {
             "date": "2026-09-09",
-            "value": 730.0,
-            "change": 10.0
+            "value": 720.0,
+            "change": 5.0
           },
           {
             "date": "2026-09-10",
@@ -1087,10 +1111,10 @@
           {
             "date": "2026-09-16",
             "value": 730.0,
-            "change": 0.0
+            "change": 10.0
           },
           {
-            "date": "2026-09-17",
+            "date": "2026-09-18",
             "value": 730.0,
             "change": 0.0
           },
@@ -1488,8 +1512,8 @@
           },
           {
             "date": "2026-09-09",
-            "value": 728.0,
-            "change": 8.0
+            "value": 720.0,
+            "change": 3.0
           },
           {
             "date": "2026-09-10",
@@ -1524,10 +1548,10 @@
           {
             "date": "2026-09-16",
             "value": 728.0,
-            "change": 0.0
+            "change": 8.0
           },
           {
-            "date": "2026-09-17",
+            "date": "2026-09-18",
             "value": 728.0,
             "change": 0.0
           },
@@ -1964,7 +1988,17 @@
             "change": 5.0
           },
           {
-            "date": "2026-09-17",
+            "date": "2026-09-18",
+            "value": 856.0,
+            "change": 5.0
+          },
+          {
+            "date": "2026-09-20",
+            "value": 856.0,
+            "change": 5.0
+          },
+          {
+            "date": "2026-09-21",
             "value": 856.0,
             "change": 5.0
           },
@@ -2401,7 +2435,17 @@
             "change": -3.0
           },
           {
-            "date": "2026-09-17",
+            "date": "2026-09-18",
+            "value": 827.0,
+            "change": -3.0
+          },
+          {
+            "date": "2026-09-20",
+            "value": 827.0,
+            "change": -3.0
+          },
+          {
+            "date": "2026-09-21",
             "value": 827.0,
             "change": -3.0
           },
@@ -2838,7 +2882,17 @@
             "change": -5.0
           },
           {
-            "date": "2026-09-17",
+            "date": "2026-09-18",
+            "value": 856.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-09-20",
+            "value": 856.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-09-21",
             "value": 856.0,
             "change": -5.0
           },
@@ -19290,10 +19344,10 @@
       },
       {
         "indicator": "江苏LNG出站价",
-        "value": 6230.0,
-        "value_text": "6230",
-        "change": 0.0,
-        "change_pct": 0.0,
+        "value": 6355.0,
+        "value_text": "6355",
+        "change": 25.0,
+        "change_pct": 0.39,
         "unit": "元/吨",
         "date": "2026-09-17",
         "source": "上海交易中心",
@@ -26270,7 +26324,7 @@
             "change": 0.0
           },
           {
-            "date": "2026-09-16",
+            "date": "2026-09-17",
             "value": 6207.0,
             "change": 17.0
           },
@@ -28577,7 +28631,7 @@
             "change": 0.0
           },
           {
-            "date": "2026-09-16",
+            "date": "2026-09-17",
             "value": 6230.0,
             "change": 0.0
           },
@@ -37325,7 +37379,7 @@
               "value": 6190.0
             },
             {
-              "date": "2026-09-16",
+              "date": "2026-09-17",
               "value": 6207.0
             },
             {
@@ -39179,7 +39233,7 @@
               "value": 6230.0
             },
             {
-              "date": "2026-09-16",
+              "date": "2026-09-17",
               "value": 6230.0
             },
             {
@@ -43374,9 +43428,9 @@
         {
           "indicator": "江苏LNG",
           "source_indicator": "江苏LNG出站价",
-          "value": 6230.0,
-          "value_text": "6230.0",
-          "change": 0.0,
+          "value": 6355.0,
+          "value_text": "6355.0",
+          "change": 25.0,
           "change_pct": null,
           "unit": "元/吨",
           "date": "2026-09-17",
