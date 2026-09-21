@@ -631,6 +631,11 @@
             "date": "2026-09-22",
             "value": 610.0,
             "change": 2.0
+          },
+          {
+            "date": "2026-09-21",
+            "value": 610.0,
+            "change": 2.0
           }
         ]
       },
@@ -2219,6 +2224,11 @@
             "date": "2026-09-22",
             "value": 827.0,
             "change": -3.0
+          },
+          {
+            "date": "2026-09-21",
+            "value": 827.0,
+            "change": -3.0
           }
         ]
       },
@@ -2614,6 +2624,11 @@
           },
           {
             "date": "2026-09-22",
+            "value": 856.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-09-21",
             "value": 856.0,
             "change": -5.0
           }
@@ -18860,12 +18875,12 @@
       },
       "henry_hub": {
         "indicator": "Henry Hub",
-        "value": 2.97,
-        "value_text": "2.97",
-        "change": 0.12,
-        "change_pct": 4.21,
+        "value": null,
+        "value_text": "未取到",
+        "change": null,
+        "change_pct": null,
         "unit": "美元/MMBtu",
-        "date": "2026-09-15",
+        "date": "2026-09-21",
         "source": "EIA",
         "status": "ok",
         "note": "",
@@ -18874,10 +18889,10 @@
       },
       "ttf": {
         "indicator": "TTF",
-        "value": 27.0,
-        "value_text": "27",
-        "change": 2.5,
-        "change_pct": 10.2,
+        "value": null,
+        "value_text": "需手动",
+        "change": null,
+        "change_pct": null,
         "unit": "美元/MMBtu",
         "date": "2026-09-11",
         "source": "JOGMEC/Platts(周)",
@@ -18960,12 +18975,12 @@
       },
       {
         "indicator": "Henry Hub",
-        "value": 2.97,
-        "value_text": "2.97",
-        "change": 0.12,
-        "change_pct": 4.21,
+        "value": null,
+        "value_text": "未取到",
+        "change": null,
+        "change_pct": null,
         "unit": "美元/MMBtu",
-        "date": "2026-09-15",
+        "date": "2026-09-21",
         "source": "EIA",
         "status": "ok",
         "note": "",
@@ -18974,10 +18989,10 @@
       },
       {
         "indicator": "TTF",
-        "value": 27.0,
-        "value_text": "27",
-        "change": 2.5,
-        "change_pct": 10.2,
+        "value": null,
+        "value_text": "需手动",
+        "change": null,
+        "change_pct": null,
         "unit": "美元/MMBtu",
         "date": "2026-09-11",
         "source": "JOGMEC/Platts(周)",
@@ -31301,7 +31316,7 @@
       },
       {
         "indicator": "TTF",
-        "source": "JOGMEC/Platts(周)",
+        "source": "手动",
         "unit": "美元/MMBtu",
         "points": [
           {
@@ -35050,6 +35065,10 @@
             },
             {
               "date": "2026-09-21",
+              "value": 6058.0
+            },
+            {
+              "date": "2026-09-20",
               "value": 6058.0
             }
           ]
@@ -43015,7 +43034,10 @@
       "run_at": "2026-09-22 07:50:00",
       "checked_at": "2026-09-22 07:50:07",
       "alerts": [],
-      "warnings": [],
+      "warnings": [
+        "Henry Hub（EIA）本次未取到：EIA 接口失败/无数据",
+        "JKM（EnergyRiskIQ）本次未取到：EnergyRiskIQ 接口失败"
+      ],
       "stale_indicators": []
     },
     "source_files": {
