@@ -39,17 +39,17 @@
       },
       "pit_5500": {
         "indicator": "5500K坑口价",
-        "value": 856.0,
-        "value_text": "853-859",
-        "change": 5.0,
-        "change_pct": 0.59,
+        "value": 828.0,
+        "value_text": "825-831",
+        "change": -28.0,
+        "change_pct": -3.27,
         "unit": "元/吨",
         "date": "2026-09-20",
         "source": "CCTD",
         "status": "ok",
         "note": "",
         "age_days": 0,
-        "direction": "up"
+        "direction": "down"
       },
       "qhd_inventory": {
         "indicator": "秦皇岛港库存",
@@ -111,17 +111,17 @@
       },
       {
         "indicator": "5500K坑口价",
-        "value": 856.0,
-        "value_text": "853-859",
-        "change": 5.0,
-        "change_pct": 0.59,
+        "value": 828.0,
+        "value_text": "825-831",
+        "change": -28.0,
+        "change_pct": -3.27,
         "unit": "元/吨",
         "date": "2026-09-20",
         "source": "CCTD",
         "status": "ok",
         "note": "",
         "age_days": 0,
-        "direction": "up"
+        "direction": "down"
       },
       {
         "indicator": "北方港5500K",
@@ -195,12 +195,12 @@
       },
       {
         "indicator": "环渤海港口库存",
-        "value": 979.0,
-        "value_text": "979",
-        "change": 2.0,
+        "value": 982.0,
+        "value_text": "982",
+        "change": 3.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-09-20",
+        "date": "2026-09-21",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -19344,8 +19344,8 @@
       },
       {
         "indicator": "江苏LNG出站价",
-        "value": 6355.0,
-        "value_text": "6355",
+        "value": 6380.0,
+        "value_text": "6380",
         "change": 25.0,
         "change_pct": 0.39,
         "unit": "元/吨",
@@ -35531,6 +35531,10 @@
             {
               "date": "2026-09-17",
               "value": 6058.0
+            },
+            {
+              "date": "2026-09-21",
+              "value": 6058.0
             }
           ]
         },
@@ -43428,8 +43432,8 @@
         {
           "indicator": "江苏LNG",
           "source_indicator": "江苏LNG出站价",
-          "value": 6355.0,
-          "value_text": "6355.0",
+          "value": 6380.0,
+          "value_text": "6380.0",
           "change": 25.0,
           "change_pct": null,
           "unit": "元/吨",
