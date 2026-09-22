@@ -640,7 +640,7 @@
           {
             "date": "2026-09-22",
             "value": 610.0,
-            "change": 0.0
+            "change": 2.0
           }
         ]
       },
@@ -18813,7 +18813,7 @@
     "status": {
       "state": "ok",
       "ok": true,
-      "latest_count": 12,
+      "latest_count": 13,
       "fetch_date": "2026-09-22",
       "run_at": "2026-09-22 10:06:07",
       "checked_at": "2026-09-22 10:06:12",
