@@ -1,15 +1,198 @@
 {
   "meta": {
-    "generated_at": "2026-09-27T12:10:04",
+    "generated_at": "2026-09-28T06:17:42",
     "machine": "Air",
-    "status": "partial",
+    "status": "ok",
     "title": "能源价格看板",
     "version": "1.2.1"
   },
   "coal": {
     "name": "coal",
-    "summary": {},
+    "summary": {
+      "thermal_q5500": {
+        "indicator": "动力煤5500综合价",
+        "value": 610.0,
+        "value_text": "610",
+        "change": 2.0,
+        "change_pct": 0.33,
+        "unit": "元/吨",
+        "date": "2026-09-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "up"
+      },
+      "qhd_5500": {
+        "indicator": "秦皇岛港5500K",
+        "value": 730.0,
+        "value_text": "725-735",
+        "change": 10.0,
+        "change_pct": 1.39,
+        "unit": "元/吨",
+        "date": "2026-09-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "up"
+      },
+      "pit_5500": {
+        "indicator": "5500K坑口价",
+        "value": 828.0,
+        "value_text": "825-831",
+        "change": -28.0,
+        "change_pct": -3.27,
+        "unit": "元/吨",
+        "date": "2026-09-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "down"
+      },
+      "qhd_inventory": {
+        "indicator": "秦皇岛港库存",
+        "value": 605.0,
+        "value_text": "605",
+        "change": 5.0,
+        "change_pct": null,
+        "unit": "万吨",
+        "date": "2026-09-24",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 4,
+        "direction": "up"
+      }
+    },
     "latest": [
+      {
+        "indicator": "动力煤5500综合价",
+        "value": 610.0,
+        "value_text": "610",
+        "change": 2.0,
+        "change_pct": 0.33,
+        "unit": "元/吨",
+        "date": "2026-09-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "up"
+      },
+      {
+        "indicator": "秦皇岛港5500K",
+        "value": 730.0,
+        "value_text": "725-735",
+        "change": 10.0,
+        "change_pct": 1.39,
+        "unit": "元/吨",
+        "date": "2026-09-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "up"
+      },
+      {
+        "indicator": "综合指数",
+        "value": 728.0,
+        "value_text": "728",
+        "change": 8.0,
+        "change_pct": 1.11,
+        "unit": "元/吨",
+        "date": "2026-09-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "up"
+      },
+      {
+        "indicator": "5500K坑口价",
+        "value": 828.0,
+        "value_text": "825-831",
+        "change": -28.0,
+        "change_pct": -3.27,
+        "unit": "元/吨",
+        "date": "2026-09-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "down"
+      },
+      {
+        "indicator": "北方港5500K",
+        "value": 827.0,
+        "value_text": "827",
+        "change": -3.0,
+        "change_pct": -0.36,
+        "unit": "元/吨",
+        "date": "2026-09-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "down"
+      },
+      {
+        "indicator": "长江口5500K",
+        "value": 856.0,
+        "value_text": "856",
+        "change": -5.0,
+        "change_pct": -0.58,
+        "unit": "元/吨",
+        "date": "2026-09-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "down"
+      },
+      {
+        "indicator": "广州港(Q5500)",
+        "value": 1030.0,
+        "value_text": "1030",
+        "change": 0.0,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-09-25",
+        "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 3,
+        "direction": "flat"
+      },
+      {
+        "indicator": "秦皇岛港库存",
+        "value": 605.0,
+        "value_text": "605",
+        "change": 5.0,
+        "change_pct": null,
+        "unit": "万吨",
+        "date": "2026-09-24",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 4,
+        "direction": "up"
+      },
+      {
+        "indicator": "5500K车板价",
+        "value": 878.0,
+        "value_text": "875-881",
+        "change": -31.0,
+        "change_pct": -3.42,
+        "unit": "元/吨",
+        "date": "2026-09-28",
+        "source": "CCTD",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "down"
+      },
       {
         "indicator": "环渤海港口库存",
         "value": 2442.4,
@@ -21,8 +204,36 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "up"
+      },
+      {
+        "indicator": "内蒙古沫煤(Q5500坑口)",
+        "value": 983.0,
+        "value_text": "983",
+        "change": null,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-09-27",
+        "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 1,
+        "direction": "flat"
+      },
+      {
+        "indicator": "山西沫煤(Q5500坑口)",
+        "value": 983.0,
+        "value_text": "983",
+        "change": null,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-09-27",
+        "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 1,
+        "direction": "flat"
       },
       {
         "indicator": "度电毛利",
@@ -35,7 +246,7 @@
         "source": "测算",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       }
     ],
@@ -507,6 +718,11 @@
           },
           {
             "date": "2026-09-27",
+            "value": 610.0,
+            "change": 2.0
+          },
+          {
+            "date": "2026-09-28",
             "value": 610.0,
             "change": 2.0
           }
@@ -981,6 +1197,11 @@
             "date": "2026-09-27",
             "value": 730.0,
             "change": 10.0
+          },
+          {
+            "date": "2026-09-28",
+            "value": 730.0,
+            "change": 10.0
           }
         ]
       },
@@ -1451,6 +1672,11 @@
           },
           {
             "date": "2026-09-27",
+            "value": 728.0,
+            "change": 8.0
+          },
+          {
+            "date": "2026-09-28",
             "value": 728.0,
             "change": 8.0
           }
@@ -1925,6 +2151,11 @@
             "date": "2026-09-27",
             "value": 828.0,
             "change": -28.0
+          },
+          {
+            "date": "2026-09-28",
+            "value": 828.0,
+            "change": -28.0
           }
         ]
       },
@@ -2397,6 +2628,11 @@
             "date": "2026-09-27",
             "value": 827.0,
             "change": -3.0
+          },
+          {
+            "date": "2026-09-28",
+            "value": 827.0,
+            "change": -3.0
           }
         ]
       },
@@ -2867,6 +3103,11 @@
           },
           {
             "date": "2026-09-27",
+            "value": 856.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-09-28",
             "value": 856.0,
             "change": -5.0
           }
@@ -19186,7 +19427,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "up"
         },
         {
@@ -19201,7 +19442,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "up"
         },
         {
@@ -19216,7 +19457,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 9,
+          "age_days": 10,
           "direction": "flat"
         },
         {
@@ -19231,7 +19472,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 4,
+          "age_days": 5,
           "direction": "flat"
         }
       ],
@@ -19239,35 +19480,37 @@
     },
     "conversions": {},
     "status": {
-      "state": "partial",
-      "ok": false,
-      "latest_count": 2,
-      "fetch_date": "2026-09-27",
-      "run_at": "2026-09-27 08:33:10",
-      "checked_at": "2026-09-27 08:36:12",
-      "alerts": [
-        "主源指标缺失：CCTD 秦皇岛港5500K 未抓到"
-      ],
+      "state": "ok",
+      "ok": true,
+      "latest_count": 13,
+      "fetch_date": "2026-09-28",
+      "run_at": "2026-09-28 06:17:24",
+      "checked_at": "2026-09-28 06:17:32",
+      "alerts": [],
       "warnings": [
-        "指标近期在、今日缺失：5500K坑口价[CCTD]、5500K车板价[CCTD]、内蒙古沫煤(Q5500坑口)[Mysteel]、动力煤5500综合价[CCTD]、北方港5500K[CCTD]、山西沫煤(Q5500坑口)[Mysteel]、广州港(Q5500)[Mysteel]、秦皇岛港5500K[CCTD]、秦皇岛港库存[CCTD]、综合指数[CCTD]、长江口5500K[CCTD]（疑上游改版/降级）"
+        "秦皇岛港库存 数据 2026-09-24 距今 4 天，疑停更",
+        "环渤海港口库存 数据 2026-09-24 距今 4 天，疑停更",
+        "跨口径价差：5500K坑口价 828[鄂尔多斯OSPI 2026-09-18] vs 秦皇岛港5500K 730[环渤海BSPI 2026-09-23]，差 +98 元/吨 —— 不同地区/口径/频度，非同一价格链，请人工判断，勿当解析错误",
+        "长江口5500K 源站停更/滞后于 2025-11-28（距今 304 天），不可按当日行情解读",
+        "北方港5500K 源站停更/滞后于 2025-11-28（距今 304 天），不可按当日行情解读"
       ],
       "stale_indicators": []
     },
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-09-27T08:35:11",
-        "bytes": 774
+        "mtime": "2026-09-28T06:17:28",
+        "bytes": 4679
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-09-27T08:36:12",
-        "bytes": 523
+        "mtime": "2026-09-28T06:17:32",
+        "bytes": 680
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-09-27T08:35:11",
-        "bytes": 465627
+        "mtime": "2026-09-28T06:17:28",
+        "bytes": 466298
       }
     }
   },
@@ -19285,7 +19528,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "flat"
       },
       "national_lng": {
@@ -19299,7 +19542,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "down"
       },
       "jkm": {
@@ -19309,7 +19552,7 @@
         "change": 0.09,
         "change_pct": 0.35,
         "unit": "美元/MMBtu",
-        "date": "2026-09-25",
+        "date": "2026-09-26",
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
@@ -19327,7 +19570,7 @@
         "source": "EIA",
         "status": "ok",
         "note": "",
-        "age_days": 5,
+        "age_days": 6,
         "direction": "down"
       },
       "ttf": {
@@ -19341,7 +19584,7 @@
         "source": "JOGMEC/Platts(周)",
         "status": "ok",
         "note": "",
-        "age_days": 9,
+        "age_days": 10,
         "direction": "down"
       }
     },
@@ -19357,7 +19600,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "flat"
       },
       {
@@ -19371,7 +19614,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "down"
       },
       {
@@ -19385,7 +19628,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "flat"
       },
       {
@@ -19399,7 +19642,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "flat"
       },
       {
@@ -19409,7 +19652,7 @@
         "change": 0.09,
         "change_pct": 0.35,
         "unit": "美元/MMBtu",
-        "date": "2026-09-25",
+        "date": "2026-09-26",
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
@@ -19427,7 +19670,7 @@
         "source": "EIA",
         "status": "ok",
         "note": "",
-        "age_days": 5,
+        "age_days": 6,
         "direction": "down"
       },
       {
@@ -19441,7 +19684,7 @@
         "source": "JOGMEC/Platts(周)",
         "status": "ok",
         "note": "",
-        "age_days": 9,
+        "age_days": 10,
         "direction": "down"
       },
       {
@@ -19451,7 +19694,7 @@
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-09-27",
+        "date": "2026-09-28",
         "source": "上海交易中心",
         "status": "miss",
         "note": "近10天该地区无有效报价",
@@ -29870,6 +30113,11 @@
           },
           {
             "date": "2026-09-25",
+            "value": 25.81,
+            "change": 0.09
+          },
+          {
+            "date": "2026-09-26",
             "value": 25.81,
             "change": 0.09
           }
@@ -41069,9 +41317,9 @@
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 217,
+          "point_count": 218,
           "date_start": "2026-01-13",
-          "date_end": "2026-09-25",
+          "date_end": "2026-09-26",
           "points": [
             {
               "date": "2026-01-13",
@@ -41939,6 +42187,10 @@
             },
             {
               "date": "2026-09-25",
+              "value": 25.81
+            },
+            {
+              "date": "2026-09-26",
               "value": 25.81
             }
           ]
@@ -43681,7 +43933,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "down"
         },
         {
@@ -43696,7 +43948,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "flat"
         },
         {
@@ -43711,7 +43963,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "flat"
         },
         {
@@ -43726,7 +43978,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "flat"
         },
         {
@@ -43741,7 +43993,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 95,
+          "age_days": 96,
           "direction": "flat"
         },
         {
@@ -43752,7 +44004,7 @@
           "change": 0.09,
           "change_pct": null,
           "unit": "美元/MMBtu",
-          "date": "2026-09-25",
+          "date": "2026-09-26",
           "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
@@ -43771,7 +44023,7 @@
           "source": "EIA",
           "status": "ok",
           "note": "",
-          "age_days": 5,
+          "age_days": 6,
           "direction": "down"
         },
         {
@@ -43786,7 +44038,7 @@
           "source": "JOGMEC/Platts(周)",
           "status": "ok",
           "note": "",
-          "age_days": 9,
+          "age_days": 10,
           "direction": "down"
         }
       ],
@@ -43798,13 +44050,13 @@
         "input_label": "JKM",
         "input_value": 25.81,
         "input_unit": "美元/MMBtu",
-        "usd_cny": 6.724641,
+        "usd_cny": 6.729032,
         "factor": 27.1,
-        "value": 6.404538162730627,
+        "value": 6.408720144649447,
         "unit": "元/立方米",
-        "date": "2026-09-25",
+        "date": "2026-09-26",
         "source": "EnergyRiskIQ",
-        "fx_date": "Sat, 26 Sep 2026",
+        "fx_date": "Sun, 27 Sep 2026",
         "note": "美元/MMBtu × USD/CNY ÷ 27.1"
       },
       "lng_ton_to_m3": {
@@ -43824,9 +44076,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 8,
-      "fetch_date": "2026-09-27",
-      "run_at": "2026-09-27 00:32:38",
-      "checked_at": "2026-09-27 00:33:00",
+      "fetch_date": "2026-09-28",
+      "run_at": "2026-09-28 06:17:23",
+      "checked_at": "2026-09-28 06:17:32",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -43834,18 +44086,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/gas-watch/data/today.json",
-        "mtime": "2026-09-27T00:32:59",
+        "mtime": "2026-09-28T06:17:32",
         "bytes": 2333
       },
       "validation": {
         "path": "/Users/hydtzyj/gas-watch/data/validation.json",
-        "mtime": "2026-09-27T00:33:00",
+        "mtime": "2026-09-28T06:17:32",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/gas-watch/data/history.csv",
-        "mtime": "2026-09-27T00:33:00",
-        "bytes": 465351
+        "mtime": "2026-09-28T06:17:32",
+        "bytes": 465424
       }
     }
   }
