@@ -1,184 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-09-27T08:10:04",
+    "generated_at": "2026-09-27T12:10:04",
     "machine": "Air",
-    "status": "ok",
+    "status": "partial",
     "title": "能源价格看板",
     "version": "1.2.1"
   },
   "coal": {
     "name": "coal",
-    "summary": {
-      "thermal_q5500": {
-        "indicator": "动力煤5500综合价",
-        "value": 610.0,
-        "value_text": "610",
-        "change": 2.0,
-        "change_pct": 0.33,
-        "unit": "元/吨",
-        "date": "2026-09-27",
-        "source": "CCTD",
-        "status": "ok",
-        "note": "",
-        "age_days": 0,
-        "direction": "up"
-      },
-      "qhd_5500": {
-        "indicator": "秦皇岛港5500K",
-        "value": 730.0,
-        "value_text": "725-735",
-        "change": 10.0,
-        "change_pct": 1.39,
-        "unit": "元/吨",
-        "date": "2026-09-27",
-        "source": "CCTD",
-        "status": "ok",
-        "note": "",
-        "age_days": 0,
-        "direction": "up"
-      },
-      "pit_5500": {
-        "indicator": "5500K坑口价",
-        "value": 828.0,
-        "value_text": "825-831",
-        "change": -28.0,
-        "change_pct": -3.27,
-        "unit": "元/吨",
-        "date": "2026-09-27",
-        "source": "CCTD",
-        "status": "ok",
-        "note": "",
-        "age_days": 0,
-        "direction": "down"
-      },
-      "qhd_inventory": {
-        "indicator": "秦皇岛港库存",
-        "value": 605.0,
-        "value_text": "605",
-        "change": 5.0,
-        "change_pct": null,
-        "unit": "万吨",
-        "date": "2026-09-24",
-        "source": "CCTD",
-        "status": "ok",
-        "note": "",
-        "age_days": 3,
-        "direction": "up"
-      }
-    },
+    "summary": {},
     "latest": [
-      {
-        "indicator": "动力煤5500综合价",
-        "value": 610.0,
-        "value_text": "610",
-        "change": 2.0,
-        "change_pct": 0.33,
-        "unit": "元/吨",
-        "date": "2026-09-27",
-        "source": "CCTD",
-        "status": "ok",
-        "note": "",
-        "age_days": 0,
-        "direction": "up"
-      },
-      {
-        "indicator": "秦皇岛港5500K",
-        "value": 730.0,
-        "value_text": "725-735",
-        "change": 10.0,
-        "change_pct": 1.39,
-        "unit": "元/吨",
-        "date": "2026-09-27",
-        "source": "CCTD",
-        "status": "ok",
-        "note": "",
-        "age_days": 0,
-        "direction": "up"
-      },
-      {
-        "indicator": "综合指数",
-        "value": 728.0,
-        "value_text": "728",
-        "change": 8.0,
-        "change_pct": 1.11,
-        "unit": "元/吨",
-        "date": "2026-09-27",
-        "source": "CCTD",
-        "status": "ok",
-        "note": "",
-        "age_days": 0,
-        "direction": "up"
-      },
-      {
-        "indicator": "5500K坑口价",
-        "value": 828.0,
-        "value_text": "825-831",
-        "change": -28.0,
-        "change_pct": -3.27,
-        "unit": "元/吨",
-        "date": "2026-09-27",
-        "source": "CCTD",
-        "status": "ok",
-        "note": "",
-        "age_days": 0,
-        "direction": "down"
-      },
-      {
-        "indicator": "北方港5500K",
-        "value": 827.0,
-        "value_text": "827",
-        "change": -3.0,
-        "change_pct": -0.36,
-        "unit": "元/吨",
-        "date": "2026-09-27",
-        "source": "CCTD",
-        "status": "ok",
-        "note": "",
-        "age_days": 0,
-        "direction": "down"
-      },
-      {
-        "indicator": "长江口5500K",
-        "value": 856.0,
-        "value_text": "856",
-        "change": -5.0,
-        "change_pct": -0.58,
-        "unit": "元/吨",
-        "date": "2026-09-27",
-        "source": "CCTD",
-        "status": "ok",
-        "note": "",
-        "age_days": 0,
-        "direction": "down"
-      },
-      {
-        "indicator": "秦皇岛港库存",
-        "value": 605.0,
-        "value_text": "605",
-        "change": 5.0,
-        "change_pct": null,
-        "unit": "万吨",
-        "date": "2026-09-24",
-        "source": "CCTD",
-        "status": "ok",
-        "note": "",
-        "age_days": 3,
-        "direction": "up"
-      },
-      {
-        "indicator": "5500K车板价",
-        "value": 878.0,
-        "value_text": "875-881",
-        "change": -31.0,
-        "change_pct": -3.42,
-        "unit": "元/吨",
-        "date": "2026-09-27",
-        "source": "CCTD",
-        "status": "ok",
-        "note": "",
-        "age_days": 0,
-        "direction": "down"
-      },
       {
         "indicator": "环渤海港口库存",
         "value": 2442.4,
@@ -19408,35 +19239,34 @@
     },
     "conversions": {},
     "status": {
-      "state": "ok",
-      "ok": true,
-      "latest_count": 10,
+      "state": "partial",
+      "ok": false,
+      "latest_count": 2,
       "fetch_date": "2026-09-27",
-      "run_at": "2026-09-27 08:00:04",
-      "checked_at": "2026-09-27 08:00:43",
-      "alerts": [],
+      "run_at": "2026-09-27 08:33:10",
+      "checked_at": "2026-09-27 08:36:12",
+      "alerts": [
+        "主源指标缺失：CCTD 秦皇岛港5500K 未抓到"
+      ],
       "warnings": [
-        "指标近期在、今日缺失：内蒙古沫煤(Q5500坑口)[Mysteel]、山西沫煤(Q5500坑口)[Mysteel]、广州港(Q5500)[Mysteel]（疑上游改版/降级）",
-        "跨口径价差：5500K坑口价 828[鄂尔多斯OSPI 2026-09-18] vs 秦皇岛港5500K 730[环渤海BSPI 2026-09-23]，差 +98 元/吨 —— 不同地区/口径/频度，非同一价格链，请人工判断，勿当解析错误",
-        "长江口5500K 源站停更/滞后于 2025-11-28（距今 303 天），不可按当日行情解读",
-        "北方港5500K 源站停更/滞后于 2025-11-28（距今 303 天），不可按当日行情解读"
+        "指标近期在、今日缺失：5500K坑口价[CCTD]、5500K车板价[CCTD]、内蒙古沫煤(Q5500坑口)[Mysteel]、动力煤5500综合价[CCTD]、北方港5500K[CCTD]、山西沫煤(Q5500坑口)[Mysteel]、广州港(Q5500)[Mysteel]、秦皇岛港5500K[CCTD]、秦皇岛港库存[CCTD]、综合指数[CCTD]、长江口5500K[CCTD]（疑上游改版/降级）"
       ],
       "stale_indicators": []
     },
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-09-27T08:00:36",
-        "bytes": 3973
+        "mtime": "2026-09-27T08:35:11",
+        "bytes": 774
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-09-27T08:00:43",
-        "bytes": 710
+        "mtime": "2026-09-27T08:36:12",
+        "bytes": 523
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-09-27T08:00:36",
+        "mtime": "2026-09-27T08:35:11",
         "bytes": 465627
       }
     }
