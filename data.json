@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-27T08:00:48",
+    "generated_at": "2026-09-27T08:10:04",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -192,34 +192,6 @@
         "note": "",
         "age_days": 3,
         "direction": "up"
-      },
-      {
-        "indicator": "内蒙古沫煤(Q5500坑口)",
-        "value": 983.0,
-        "value_text": "983",
-        "change": null,
-        "change_pct": null,
-        "unit": "元/吨",
-        "date": "2026-09-27",
-        "source": "Mysteel",
-        "status": "ok",
-        "note": "",
-        "age_days": 1,
-        "direction": "flat"
-      },
-      {
-        "indicator": "山西沫煤(Q5500坑口)",
-        "value": 983.0,
-        "value_text": "983",
-        "change": null,
-        "change_pct": null,
-        "unit": "元/吨",
-        "date": "2026-09-27",
-        "source": "Mysteel",
-        "status": "ok",
-        "note": "",
-        "age_days": 1,
-        "direction": "flat"
       },
       {
         "indicator": "度电毛利",
@@ -10799,8 +10771,8 @@
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
-          "point_count": 101,
-          "date_start": "2026-06-16",
+          "point_count": 120,
+          "date_start": "2026-05-28",
           "date_end": "2026-09-24",
           "points": [
             {
@@ -32213,7 +32185,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 462,
+          "point_count": 465,
           "date_start": "2024-09-25",
           "date_end": "2026-09-24",
           "points": [
@@ -34087,7 +34059,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 462,
+          "point_count": 465,
           "date_start": "2024-09-25",
           "date_end": "2026-09-24",
           "points": [
@@ -35961,7 +35933,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 462,
+          "point_count": 465,
           "date_start": "2024-09-25",
           "date_end": "2026-09-24",
           "points": [
@@ -37835,7 +37807,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 462,
+          "point_count": 465,
           "date_start": "2024-09-25",
           "date_end": "2026-09-24",
           "points": [
