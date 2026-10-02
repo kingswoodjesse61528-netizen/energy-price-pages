@@ -18945,7 +18945,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 3,
           "direction": "up"
         },
         {
@@ -19053,7 +19053,7 @@
         "change": -0.34,
         "change_pct": -1.3,
         "unit": "美元/MMBtu",
-        "date": "2026-09-30",
+        "date": "2026-10-01",
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
@@ -19153,7 +19153,7 @@
         "change": -0.34,
         "change_pct": -1.3,
         "unit": "美元/MMBtu",
-        "date": "2026-09-30",
+        "date": "2026-10-01",
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
@@ -19198,7 +19198,7 @@
         "date": "2026-10-02",
         "source": "上海交易中心",
         "status": "miss",
-        "note": "shpgx 接口失败",
+        "note": "近10天该地区无有效报价",
         "age_days": 0,
         "direction": "flat"
       }
@@ -31653,7 +31653,7 @@
       },
       {
         "indicator": "TTF",
-        "source": "手动",
+        "source": "JOGMEC/Platts(周)",
         "unit": "美元/MMBtu",
         "points": [
           {
@@ -43498,8 +43498,8 @@
       }
     },
     "status": {
-      "state": "partial",
-      "ok": false,
+      "state": "ok",
+      "ok": true,
       "latest_count": 8,
       "fetch_date": "2026-10-02",
       "run_at": "2026-10-02 08:00:01",
