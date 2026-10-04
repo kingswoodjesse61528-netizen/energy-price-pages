@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-03T12:10:00",
+    "generated_at": "2026-10-04T08:10:00",
     "machine": "Air",
     "status": "partial",
     "title": "能源价格看板",
@@ -11,13 +11,55 @@
     "summary": {},
     "latest": [
       {
+        "indicator": "广州港(Q5500)",
+        "value": 1030.0,
+        "value_text": "1030",
+        "change": 0.0,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-10-01",
+        "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 3,
+        "direction": "flat"
+      },
+      {
+        "indicator": "内蒙古沫煤(Q5500坑口)",
+        "value": 983.0,
+        "value_text": "983",
+        "change": null,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-10-02",
+        "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 2,
+        "direction": "flat"
+      },
+      {
+        "indicator": "山西沫煤(Q5500坑口)",
+        "value": 983.0,
+        "value_text": "983",
+        "change": null,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-10-02",
+        "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 2,
+        "direction": "flat"
+      },
+      {
         "indicator": "度电毛利",
-        "value": 104.4,
-        "value_text": "104.4",
+        "value": 99.3,
+        "value_text": "99.3",
         "change": null,
         "change_pct": null,
         "unit": "元/MWh",
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "source": "测算",
         "status": "ok",
         "note": "",
@@ -19354,7 +19396,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "flat"
         },
         {
@@ -19369,7 +19411,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 4,
+          "age_days": 5,
           "direction": "up"
         },
         {
@@ -19384,7 +19426,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 15,
+          "age_days": 16,
           "direction": "flat"
         },
         {
@@ -19399,7 +19441,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 10,
+          "age_days": 11,
           "direction": "flat"
         }
       ],
@@ -19409,33 +19451,33 @@
     "status": {
       "state": "partial",
       "ok": false,
-      "latest_count": 1,
-      "fetch_date": "2026-10-03",
-      "run_at": "2026-10-03 12:00:02",
-      "checked_at": "2026-10-03 12:00:49",
+      "latest_count": 4,
+      "fetch_date": "2026-10-04",
+      "run_at": "2026-10-04 08:00:03",
+      "checked_at": "2026-10-04 08:00:15",
       "alerts": [
         "主源指标缺失：CCTD 秦皇岛港5500K 未抓到"
       ],
       "warnings": [
-        "指标近期在、今日缺失：5500K坑口价[CCTD]、5500K车板价[CCTD]、内蒙古沫煤(Q5500坑口)[Mysteel]、动力煤5500综合价[CCTD]、北方港5500K[CCTD]、山西沫煤(Q5500坑口)[Mysteel]、广州港(Q5500)[Mysteel]、环渤海港口库存[CCTD]、秦皇岛港5500K[CCTD]、秦皇岛港库存[CCTD]、综合指数[CCTD]、长江口5500K[CCTD]（疑上游改版/降级）"
+        "指标近期在、今日缺失：5500K坑口价[CCTD]、5500K车板价[CCTD]、动力煤5500综合价[CCTD]、北方港5500K[CCTD]、环渤海港口库存[CCTD]、秦皇岛港5500K[CCTD]、秦皇岛港库存[CCTD]、综合指数[CCTD]、长江口5500K[CCTD]（疑上游改版/降级）"
       ],
       "stale_indicators": []
     },
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-10-03T12:00:39",
-        "bytes": 542
+        "mtime": "2026-10-04T08:00:10",
+        "bytes": 1246
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-10-03T12:00:49",
-        "bytes": 553
+        "mtime": "2026-10-04T08:00:15",
+        "bytes": 448
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-10-03T12:00:39",
-        "bytes": 469893
+        "mtime": "2026-10-04T08:00:10",
+        "bytes": 470124
       }
     }
   },
@@ -19453,7 +19495,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "up"
       },
       "national_lng": {
@@ -19467,7 +19509,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "up"
       },
       "jkm": {
@@ -19481,7 +19523,7 @@
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "down"
       },
       "henry_hub": {
@@ -19495,7 +19537,7 @@
         "source": "EIA",
         "status": "ok",
         "note": "",
-        "age_days": 4,
+        "age_days": 5,
         "direction": "up"
       },
       "ttf": {
@@ -19509,7 +19551,7 @@
         "source": "JOGMEC/Platts(周)",
         "status": "ok",
         "note": "",
-        "age_days": 8,
+        "age_days": 9,
         "direction": "down"
       }
     },
@@ -19525,7 +19567,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "up"
       },
       {
@@ -19539,7 +19581,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "up"
       },
       {
@@ -19553,7 +19595,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "up"
       },
       {
@@ -19567,7 +19609,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "up"
       },
       {
@@ -19581,7 +19623,7 @@
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "down"
       },
       {
@@ -19595,7 +19637,7 @@
         "source": "EIA",
         "status": "ok",
         "note": "",
-        "age_days": 4,
+        "age_days": 5,
         "direction": "up"
       },
       {
@@ -19609,7 +19651,7 @@
         "source": "JOGMEC/Platts(周)",
         "status": "ok",
         "note": "",
-        "age_days": 8,
+        "age_days": 9,
         "direction": "down"
       },
       {
@@ -19623,7 +19665,7 @@
         "source": "上海交易中心",
         "status": "miss",
         "note": "近10天该地区无有效报价",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       }
     ],
@@ -43975,7 +44017,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "up"
         },
         {
@@ -43990,7 +44032,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "up"
         },
         {
@@ -44005,7 +44047,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "up"
         },
         {
@@ -44020,7 +44062,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "up"
         },
         {
@@ -44035,7 +44077,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 101,
+          "age_days": 102,
           "direction": "flat"
         },
         {
@@ -44050,7 +44092,7 @@
           "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "down"
         },
         {
@@ -44065,7 +44107,7 @@
           "source": "EIA",
           "status": "ok",
           "note": "",
-          "age_days": 4,
+          "age_days": 5,
           "direction": "up"
         },
         {
@@ -44080,7 +44122,7 @@
           "source": "JOGMEC/Platts(周)",
           "status": "ok",
           "note": "",
-          "age_days": 8,
+          "age_days": 9,
           "direction": "down"
         }
       ],
