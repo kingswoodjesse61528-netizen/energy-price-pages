@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-05T08:10:00",
+    "generated_at": "2026-10-05T12:10:01",
     "machine": "Air",
     "status": "partial",
     "title": "能源价格看板",
@@ -19453,8 +19453,8 @@
       "ok": false,
       "latest_count": 4,
       "fetch_date": "2026-10-05",
-      "run_at": "2026-10-05 08:00:03",
-      "checked_at": "2026-10-05 08:00:12",
+      "run_at": "2026-10-05 12:00:01",
+      "checked_at": "2026-10-05 12:00:10",
       "alerts": [
         "主源指标缺失：CCTD 秦皇岛港5500K 未抓到"
       ],
@@ -19466,17 +19466,17 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-10-05T08:00:09",
+        "mtime": "2026-10-05T12:00:06",
         "bytes": 1244
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-10-05T08:00:12",
+        "mtime": "2026-10-05T12:00:10",
         "bytes": 448
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-10-05T08:00:09",
+        "mtime": "2026-10-05T12:00:06",
         "bytes": 470355
       }
     }
