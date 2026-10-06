@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-06T08:10:03",
+    "generated_at": "2026-10-06T12:10:00",
     "machine": "Air",
     "status": "partial",
     "title": "能源价格看板",
@@ -19183,8 +19183,8 @@
       "ok": false,
       "latest_count": 1,
       "fetch_date": "2026-10-06",
-      "run_at": "2026-10-06 08:00:01",
-      "checked_at": "2026-10-06 08:00:59",
+      "run_at": "2026-10-06 12:00:01",
+      "checked_at": "2026-10-06 12:00:48",
       "alerts": [
         "主源指标缺失：CCTD 秦皇岛港5500K 未抓到"
       ],
@@ -19203,17 +19203,17 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-10-06T08:00:58",
+        "mtime": "2026-10-06T12:00:47",
         "bytes": 540
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-10-06T08:00:59",
+        "mtime": "2026-10-06T12:00:48",
         "bytes": 553
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-10-06T08:00:58",
+        "mtime": "2026-10-06T12:00:47",
         "bytes": 470586
       }
     }
@@ -43732,8 +43732,8 @@
       "ok": false,
       "latest_count": 8,
       "fetch_date": "2026-10-06",
-      "run_at": "2026-10-06 08:00:01",
-      "checked_at": "2026-10-06 08:00:31",
+      "run_at": "2026-10-06 12:00:01",
+      "checked_at": "2026-10-06 12:00:16",
       "alerts": [
         "所有数据源都没拿到有效数值（网络/接口改版？）",
         "国内主源缺失：上海交易中心 全国LNG出站价 未取到"
@@ -43747,12 +43747,12 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/gas-watch/data/today.json",
-        "mtime": "2026-10-06T08:00:31",
+        "mtime": "2026-10-06T12:00:16",
         "bytes": 2504
       },
       "validation": {
         "path": "/Users/hydtzyj/gas-watch/data/validation.json",
-        "mtime": "2026-10-06T08:00:31",
+        "mtime": "2026-10-06T12:00:16",
         "bytes": 387
       },
       "history": {
