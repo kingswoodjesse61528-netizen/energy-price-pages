@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-07T08:10:03",
+    "generated_at": "2026-10-07T09:00:22",
     "machine": "Air",
     "status": "partial",
     "title": "能源价格看板",
@@ -19239,15 +19239,13 @@
     },
     "conversions": {},
     "status": {
-      "state": "partial",
-      "ok": false,
-      "latest_count": 2,
+      "state": "ok",
+      "ok": true,
+      "latest_count": 13,
       "fetch_date": "2026-10-07",
-      "run_at": "2026-10-07 08:00:02",
-      "checked_at": "2026-10-07 08:00:49",
-      "alerts": [
-        "主源指标缺失：CCTD 秦皇岛港5500K 未抓到"
-      ],
+      "run_at": "2026-10-07 09:00:04",
+      "checked_at": "2026-10-07 09:00:09",
+      "alerts": [],
       "warnings": [
         "秦皇岛港库存 数据 2026-09-30 距今 7 天，疑停更",
         "环渤海港口库存 数据 2026-09-30 距今 7 天，疑停更",
@@ -19263,17 +19261,17 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-10-07T08:00:49",
-        "bytes": 774
+        "mtime": "2026-10-07T09:00:08",
+        "bytes": 4680
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-10-07T08:00:49",
-        "bytes": 595
+        "mtime": "2026-10-07T09:00:09",
+        "bytes": 1003
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-10-07T08:00:49",
+        "mtime": "2026-10-07T09:00:08",
         "bytes": 471986
       }
     }
@@ -19283,31 +19281,31 @@
     "summary": {
       "guangdong_lng": {
         "indicator": "广东LNG出站价",
-        "value": null,
-        "value_text": "未取到",
-        "change": null,
-        "change_pct": null,
+        "value": 6482.0,
+        "value_text": "6482",
+        "change": 142.0,
+        "change_pct": 2.24,
         "unit": "元/吨",
-        "date": "2026-10-07",
+        "date": "2026-09-30",
         "source": "上海交易中心",
-        "status": "miss",
-        "note": "shpgx 接口失败",
-        "age_days": 0,
-        "direction": "flat"
+        "status": "ok",
+        "note": "",
+        "age_days": 7,
+        "direction": "up"
       },
       "national_lng": {
         "indicator": "全国LNG出站价",
-        "value": null,
-        "value_text": "未取到",
-        "change": null,
-        "change_pct": null,
+        "value": 6208.0,
+        "value_text": "6208",
+        "change": 91.0,
+        "change_pct": 1.49,
         "unit": "元/吨",
-        "date": "2026-10-07",
+        "date": "2026-09-30",
         "source": "上海交易中心",
-        "status": "miss",
-        "note": "shpgx 接口失败",
-        "age_days": 0,
-        "direction": "flat"
+        "status": "ok",
+        "note": "",
+        "age_days": 7,
+        "direction": "up"
       },
       "jkm": {
         "indicator": "JKM",
@@ -19316,26 +19314,26 @@
         "change": 0.01,
         "change_pct": 0.04,
         "unit": "美元/MMBtu",
-        "date": "2026-10-07",
+        "date": "2026-10-05",
         "source": "EnergyRiskIQ",
-        "status": "miss",
-        "note": "EnergyRiskIQ 接口失败",
-        "age_days": 0,
-        "direction": "flat"
+        "status": "ok",
+        "note": "",
+        "age_days": 2,
+        "direction": "up"
       },
       "henry_hub": {
         "indicator": "Henry Hub",
-        "value": null,
-        "value_text": "未取到",
-        "change": null,
-        "change_pct": null,
+        "value": 3.18,
+        "value_text": "3.18",
+        "change": 0.05,
+        "change_pct": 1.6,
         "unit": "美元/MMBtu",
-        "date": "2026-10-07",
+        "date": "2026-09-29",
         "source": "EIA",
-        "status": "miss",
-        "note": "EIA 接口失败/无数据",
-        "age_days": 0,
-        "direction": "flat"
+        "status": "ok",
+        "note": "",
+        "age_days": 8,
+        "direction": "up"
       },
       "ttf": {
         "indicator": "TTF",
@@ -19355,59 +19353,59 @@
     "latest": [
       {
         "indicator": "广东LNG出站价",
-        "value": null,
-        "value_text": "未取到",
-        "change": null,
-        "change_pct": null,
+        "value": 6482.0,
+        "value_text": "6482",
+        "change": 142.0,
+        "change_pct": 2.24,
         "unit": "元/吨",
-        "date": "2026-10-07",
+        "date": "2026-09-30",
         "source": "上海交易中心",
-        "status": "miss",
-        "note": "shpgx 接口失败",
-        "age_days": 0,
-        "direction": "flat"
+        "status": "ok",
+        "note": "",
+        "age_days": 7,
+        "direction": "up"
       },
       {
         "indicator": "全国LNG出站价",
-        "value": null,
-        "value_text": "未取到",
-        "change": null,
-        "change_pct": null,
+        "value": 6208.0,
+        "value_text": "6208",
+        "change": 91.0,
+        "change_pct": 1.49,
         "unit": "元/吨",
-        "date": "2026-10-07",
+        "date": "2026-09-30",
         "source": "上海交易中心",
-        "status": "miss",
-        "note": "shpgx 接口失败",
-        "age_days": 0,
-        "direction": "flat"
+        "status": "ok",
+        "note": "",
+        "age_days": 7,
+        "direction": "up"
       },
       {
         "indicator": "浙江LNG出站价",
-        "value": null,
-        "value_text": "未取到",
-        "change": null,
-        "change_pct": null,
+        "value": 6473.0,
+        "value_text": "6473",
+        "change": 50.0,
+        "change_pct": 0.78,
         "unit": "元/吨",
-        "date": "2026-10-07",
+        "date": "2026-09-30",
         "source": "上海交易中心",
-        "status": "miss",
-        "note": "shpgx 接口失败",
-        "age_days": 0,
-        "direction": "flat"
+        "status": "ok",
+        "note": "",
+        "age_days": 7,
+        "direction": "up"
       },
       {
         "indicator": "江苏LNG出站价",
-        "value": null,
-        "value_text": "未取到",
-        "change": null,
-        "change_pct": null,
+        "value": 6450.0,
+        "value_text": "6450",
+        "change": 25.0,
+        "change_pct": 0.39,
         "unit": "元/吨",
-        "date": "2026-10-07",
+        "date": "2026-09-30",
         "source": "上海交易中心",
-        "status": "miss",
-        "note": "shpgx 接口失败",
-        "age_days": 0,
-        "direction": "flat"
+        "status": "ok",
+        "note": "",
+        "age_days": 7,
+        "direction": "up"
       },
       {
         "indicator": "JKM",
@@ -19416,26 +19414,26 @@
         "change": 0.01,
         "change_pct": 0.04,
         "unit": "美元/MMBtu",
-        "date": "2026-10-07",
+        "date": "2026-10-05",
         "source": "EnergyRiskIQ",
-        "status": "miss",
-        "note": "EnergyRiskIQ 接口失败",
-        "age_days": 0,
-        "direction": "flat"
+        "status": "ok",
+        "note": "",
+        "age_days": 2,
+        "direction": "up"
       },
       {
         "indicator": "Henry Hub",
-        "value": null,
-        "value_text": "未取到",
-        "change": null,
-        "change_pct": null,
+        "value": 3.18,
+        "value_text": "3.18",
+        "change": 0.05,
+        "change_pct": 1.6,
         "unit": "美元/MMBtu",
-        "date": "2026-10-07",
+        "date": "2026-09-29",
         "source": "EIA",
-        "status": "miss",
-        "note": "EIA 接口失败/无数据",
-        "age_days": 0,
-        "direction": "flat"
+        "status": "ok",
+        "note": "",
+        "age_days": 8,
+        "direction": "up"
       },
       {
         "indicator": "TTF",
@@ -19461,7 +19459,7 @@
         "date": "2026-10-07",
         "source": "上海交易中心",
         "status": "miss",
-        "note": "shpgx 接口失败",
+        "note": "近10天该地区无有效报价",
         "age_days": 0,
         "direction": "flat"
       }
@@ -41040,7 +41038,7 @@
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 222,
+          "point_count": 223,
           "date_start": "2026-01-13",
           "date_end": "2026-10-05",
           "points": [
@@ -43723,8 +43721,8 @@
           "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
-          "age_days": 4,
-          "direction": "down"
+          "age_days": 2,
+          "direction": "up"
         },
         {
           "indicator": "Henry Hub",
@@ -43792,33 +43790,29 @@
       "ok": false,
       "latest_count": 8,
       "fetch_date": "2026-10-07",
-      "run_at": "2026-10-07 08:00:02",
-      "checked_at": "2026-10-07 08:00:17",
+      "run_at": "2026-10-07 09:00:04",
+      "checked_at": "2026-10-07 09:00:13",
       "alerts": [
-        "所有数据源都没拿到有效数值（网络/接口改版？）",
-        "国内主源缺失：上海交易中心 全国LNG出站价 未取到"
+        "主源数据日期 2026-09-30 距今 7 天，疑似过期/停更"
       ],
-      "warnings": [
-        "Henry Hub（EIA）本次未取到：EIA 接口失败/无数据",
-        "JKM（EnergyRiskIQ）本次未取到：EnergyRiskIQ 接口失败"
-      ],
+      "warnings": [],
       "stale_indicators": []
     },
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/gas-watch/data/today.json",
-        "mtime": "2026-10-07T08:00:17",
-        "bytes": 2504
+        "mtime": "2026-10-07T09:00:13",
+        "bytes": 2363
       },
       "validation": {
         "path": "/Users/hydtzyj/gas-watch/data/validation.json",
-        "mtime": "2026-10-07T08:00:17",
-        "bytes": 387
+        "mtime": "2026-10-07T09:00:13",
+        "bytes": 164
       },
       "history": {
         "path": "/Users/hydtzyj/gas-watch/data/history.csv",
-        "mtime": "2026-10-05T08:00:11",
-        "bytes": 466585
+        "mtime": "2026-10-07T09:00:13",
+        "bytes": 466658
       }
     }
   }
