@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-06T12:10:00",
+    "generated_at": "2026-10-07T08:10:03",
     "machine": "Air",
     "status": "partial",
     "title": "能源价格看板",
@@ -237,12 +237,12 @@
       },
       {
         "indicator": "度电毛利",
-        "value": 97.6,
-        "value_text": "97.6",
+        "value": 30.3,
+        "value_text": "30.3",
         "change": null,
         "change_pct": null,
         "unit": "元/MWh",
-        "date": "2026-10-05",
+        "date": "2026-10-06",
         "source": "测算",
         "status": "ok",
         "note": "",
@@ -690,6 +690,16 @@
             "date": "2026-10-01",
             "value": 610.0,
             "change": 2.0
+          },
+          {
+            "date": "2026-10-06",
+            "value": 610.0,
+            "change": 2.0
+          },
+          {
+            "date": "2026-10-07",
+            "value": 610.0,
+            "change": 2.0
           }
         ]
       },
@@ -1130,6 +1140,16 @@
           },
           {
             "date": "2026-10-01",
+            "value": 730.0,
+            "change": 10.0
+          },
+          {
+            "date": "2026-10-06",
+            "value": 730.0,
+            "change": 10.0
+          },
+          {
+            "date": "2026-10-07",
             "value": 730.0,
             "change": 10.0
           }
@@ -1574,6 +1594,16 @@
             "date": "2026-10-01",
             "value": 728.0,
             "change": 8.0
+          },
+          {
+            "date": "2026-10-06",
+            "value": 728.0,
+            "change": 8.0
+          },
+          {
+            "date": "2026-10-07",
+            "value": 728.0,
+            "change": 8.0
           }
         ]
       },
@@ -2014,6 +2044,16 @@
           },
           {
             "date": "2026-10-01",
+            "value": 828.0,
+            "change": -28.0
+          },
+          {
+            "date": "2026-10-06",
+            "value": 828.0,
+            "change": -28.0
+          },
+          {
+            "date": "2026-10-07",
             "value": 828.0,
             "change": -28.0
           }
@@ -2458,6 +2498,16 @@
             "date": "2026-10-01",
             "value": 827.0,
             "change": -3.0
+          },
+          {
+            "date": "2026-10-06",
+            "value": 827.0,
+            "change": -3.0
+          },
+          {
+            "date": "2026-10-07",
+            "value": 827.0,
+            "change": -3.0
           }
         ]
       },
@@ -2898,6 +2948,16 @@
           },
           {
             "date": "2026-10-01",
+            "value": 856.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-10-06",
+            "value": 856.0,
+            "change": -5.0
+          },
+          {
+            "date": "2026-10-07",
             "value": 856.0,
             "change": -5.0
           }
@@ -10590,9 +10650,9 @@
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
-          "point_count": 125,
+          "point_count": 126,
           "date_start": "2026-05-28",
-          "date_end": "2026-09-29",
+          "date_end": "2026-09-30",
           "points": [
             {
               "date": "2026-06-16",
@@ -19126,7 +19186,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 6,
+          "age_days": 7,
           "direction": "flat"
         },
         {
@@ -19142,7 +19202,7 @@
           "status": "ok",
           "note": "",
           "age_days": 7,
-          "direction": "up"
+          "direction": "down"
         },
         {
           "indicator": "CCTD秦皇岛现货价",
@@ -19156,7 +19216,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 18,
+          "age_days": 19,
           "direction": "flat"
         },
         {
@@ -19171,7 +19231,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 13,
+          "age_days": 7,
           "direction": "flat"
         }
       ],
@@ -19181,10 +19241,10 @@
     "status": {
       "state": "partial",
       "ok": false,
-      "latest_count": 1,
-      "fetch_date": "2026-10-06",
-      "run_at": "2026-10-06 12:00:01",
-      "checked_at": "2026-10-06 12:00:48",
+      "latest_count": 2,
+      "fetch_date": "2026-10-07",
+      "run_at": "2026-10-07 08:00:02",
+      "checked_at": "2026-10-07 08:00:49",
       "alerts": [
         "主源指标缺失：CCTD 秦皇岛港5500K 未抓到"
       ],
@@ -19203,18 +19263,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-10-06T12:00:47",
-        "bytes": 540
+        "mtime": "2026-10-07T08:00:49",
+        "bytes": 774
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-10-06T12:00:48",
-        "bytes": 553
+        "mtime": "2026-10-07T08:00:49",
+        "bytes": 595
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-10-06T12:00:47",
-        "bytes": 470586
+        "mtime": "2026-10-07T08:00:49",
+        "bytes": 471986
       }
     }
   },
@@ -19228,7 +19288,7 @@
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-10-06",
+        "date": "2026-10-07",
         "source": "上海交易中心",
         "status": "miss",
         "note": "shpgx 接口失败",
@@ -19242,7 +19302,7 @@
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-10-06",
+        "date": "2026-10-07",
         "source": "上海交易中心",
         "status": "miss",
         "note": "shpgx 接口失败",
@@ -19256,7 +19316,7 @@
         "change": 0.01,
         "change_pct": 0.04,
         "unit": "美元/MMBtu",
-        "date": "2026-10-06",
+        "date": "2026-10-07",
         "source": "EnergyRiskIQ",
         "status": "miss",
         "note": "EnergyRiskIQ 接口失败",
@@ -19270,7 +19330,7 @@
         "change": null,
         "change_pct": null,
         "unit": "美元/MMBtu",
-        "date": "2026-10-06",
+        "date": "2026-10-07",
         "source": "EIA",
         "status": "miss",
         "note": "EIA 接口失败/无数据",
@@ -19284,7 +19344,7 @@
         "change": null,
         "change_pct": null,
         "unit": "美元/MMBtu",
-        "date": "2026-10-06",
+        "date": "2026-10-07",
         "source": "手动",
         "status": "manual",
         "note": "JOGMEC 未解析到该指标",
@@ -19300,7 +19360,7 @@
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-10-06",
+        "date": "2026-10-07",
         "source": "上海交易中心",
         "status": "miss",
         "note": "shpgx 接口失败",
@@ -19314,7 +19374,7 @@
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-10-06",
+        "date": "2026-10-07",
         "source": "上海交易中心",
         "status": "miss",
         "note": "shpgx 接口失败",
@@ -19328,7 +19388,7 @@
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-10-06",
+        "date": "2026-10-07",
         "source": "上海交易中心",
         "status": "miss",
         "note": "shpgx 接口失败",
@@ -19342,7 +19402,7 @@
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-10-06",
+        "date": "2026-10-07",
         "source": "上海交易中心",
         "status": "miss",
         "note": "shpgx 接口失败",
@@ -19356,7 +19416,7 @@
         "change": 0.01,
         "change_pct": 0.04,
         "unit": "美元/MMBtu",
-        "date": "2026-10-06",
+        "date": "2026-10-07",
         "source": "EnergyRiskIQ",
         "status": "miss",
         "note": "EnergyRiskIQ 接口失败",
@@ -19370,7 +19430,7 @@
         "change": null,
         "change_pct": null,
         "unit": "美元/MMBtu",
-        "date": "2026-10-06",
+        "date": "2026-10-07",
         "source": "EIA",
         "status": "miss",
         "note": "EIA 接口失败/无数据",
@@ -19384,7 +19444,7 @@
         "change": null,
         "change_pct": null,
         "unit": "美元/MMBtu",
-        "date": "2026-10-06",
+        "date": "2026-10-07",
         "source": "手动",
         "status": "manual",
         "note": "JOGMEC 未解析到该指标",
@@ -43588,7 +43648,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 6,
+          "age_days": 7,
           "direction": "up"
         },
         {
@@ -43603,7 +43663,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 6,
+          "age_days": 7,
           "direction": "up"
         },
         {
@@ -43618,7 +43678,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 6,
+          "age_days": 7,
           "direction": "up"
         },
         {
@@ -43633,7 +43693,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 6,
+          "age_days": 7,
           "direction": "up"
         },
         {
@@ -43648,7 +43708,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 104,
+          "age_days": 105,
           "direction": "flat"
         },
         {
@@ -43663,7 +43723,7 @@
           "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "down"
         },
         {
@@ -43678,7 +43738,7 @@
           "source": "EIA",
           "status": "ok",
           "note": "",
-          "age_days": 7,
+          "age_days": 8,
           "direction": "up"
         },
         {
@@ -43693,7 +43753,7 @@
           "source": "JOGMEC/Platts(周)",
           "status": "ok",
           "note": "",
-          "age_days": 11,
+          "age_days": 12,
           "direction": "down"
         }
       ],
@@ -43731,9 +43791,9 @@
       "state": "partial",
       "ok": false,
       "latest_count": 8,
-      "fetch_date": "2026-10-06",
-      "run_at": "2026-10-06 12:00:01",
-      "checked_at": "2026-10-06 12:00:16",
+      "fetch_date": "2026-10-07",
+      "run_at": "2026-10-07 08:00:02",
+      "checked_at": "2026-10-07 08:00:17",
       "alerts": [
         "所有数据源都没拿到有效数值（网络/接口改版？）",
         "国内主源缺失：上海交易中心 全国LNG出站价 未取到"
@@ -43747,12 +43807,12 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/gas-watch/data/today.json",
-        "mtime": "2026-10-06T12:00:16",
+        "mtime": "2026-10-07T08:00:17",
         "bytes": 2504
       },
       "validation": {
         "path": "/Users/hydtzyj/gas-watch/data/validation.json",
-        "mtime": "2026-10-06T12:00:16",
+        "mtime": "2026-10-07T08:00:17",
         "bytes": 387
       },
       "history": {
