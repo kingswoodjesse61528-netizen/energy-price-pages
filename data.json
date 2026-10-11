@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-11T12:10:00",
+    "generated_at": "2026-10-11T23:57:01",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -237,16 +237,16 @@
       },
       {
         "indicator": "度电毛利",
-        "value": 77.9,
-        "value_text": "77.9",
+        "value": 40.7,
+        "value_text": "40.7",
         "change": null,
         "change_pct": null,
         "unit": "元/MWh",
-        "date": "2026-10-09",
+        "date": "2026-10-11",
         "source": "测算",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 0,
         "direction": "flat"
       }
     ],
@@ -19940,8 +19940,8 @@
       "ok": true,
       "latest_count": 13,
       "fetch_date": "2026-10-11",
-      "run_at": "2026-10-11 10:54:24",
-      "checked_at": "2026-10-11 10:54:34",
+      "run_at": "2026-10-11 23:56:26",
+      "checked_at": "2026-10-11 23:56:46",
       "alerts": [],
       "warnings": [
         "跨口径价差：5500K坑口价 828[鄂尔多斯OSPI 2026-09-18] vs 秦皇岛港5500K 730[环渤海BSPI 2026-09-30]，差 +98 元/吨 —— 不同地区/口径/频度，非同一价格链，请人工判断，勿当解析错误",
@@ -19958,18 +19958,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-10-11T10:54:29",
+        "mtime": "2026-10-11T23:56:37",
         "bytes": 4679
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-10-11T10:54:34",
+        "mtime": "2026-10-11T23:56:46",
         "bytes": 1073
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-10-11T10:54:29",
-        "bytes": 476789
+        "mtime": "2026-10-11T23:56:37",
+        "bytes": 477020
       }
     }
   },
@@ -19983,39 +19983,39 @@
         "change": 0.0,
         "change_pct": 0.0,
         "unit": "元/吨",
-        "date": "2026-10-08",
+        "date": "2026-10-10",
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 1,
         "direction": "flat"
       },
       "national_lng": {
         "indicator": "全国LNG出站价",
-        "value": 6241.0,
-        "value_text": "6241",
-        "change": 33.0,
-        "change_pct": 0.53,
+        "value": 6273.0,
+        "value_text": "6273",
+        "change": 15.0,
+        "change_pct": 0.24,
         "unit": "元/吨",
-        "date": "2026-10-08",
+        "date": "2026-10-10",
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 1,
         "direction": "up"
       },
       "jkm": {
         "indicator": "JKM",
-        "value": 25.87,
-        "value_text": "25.87",
-        "change": 0.16,
-        "change_pct": 0.62,
+        "value": 25.98,
+        "value_text": "25.98",
+        "change": 0.03,
+        "change_pct": 0.12,
         "unit": "美元/MMBtu",
-        "date": "2026-10-07",
+        "date": "2026-10-10",
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
-        "age_days": 4,
+        "age_days": 1,
         "direction": "up"
       },
       "henry_hub": {
@@ -20039,11 +20039,11 @@
         "change": null,
         "change_pct": null,
         "unit": "美元/MMBtu",
-        "date": "2026-10-09",
+        "date": "2026-10-11",
         "source": "手动",
         "status": "manual",
         "note": "JOGMEC 未解析到该指标",
-        "age_days": 2,
+        "age_days": 0,
         "direction": "flat"
       }
     },
@@ -20055,67 +20055,67 @@
         "change": 0.0,
         "change_pct": 0.0,
         "unit": "元/吨",
-        "date": "2026-10-08",
+        "date": "2026-10-10",
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 1,
         "direction": "flat"
       },
       {
         "indicator": "全国LNG出站价",
-        "value": 6241.0,
-        "value_text": "6241",
-        "change": 33.0,
-        "change_pct": 0.53,
+        "value": 6273.0,
+        "value_text": "6273",
+        "change": 15.0,
+        "change_pct": 0.24,
         "unit": "元/吨",
-        "date": "2026-10-08",
+        "date": "2026-10-10",
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 1,
         "direction": "up"
       },
       {
         "indicator": "浙江LNG出站价",
         "value": 6607.0,
         "value_text": "6607",
-        "change": 134.0,
-        "change_pct": 2.07,
+        "change": 0.0,
+        "change_pct": 0.0,
         "unit": "元/吨",
-        "date": "2026-10-08",
+        "date": "2026-10-10",
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
-        "direction": "up"
+        "age_days": 1,
+        "direction": "flat"
       },
       {
         "indicator": "江苏LNG出站价",
-        "value": 6483.0,
-        "value_text": "6483",
-        "change": 33.0,
-        "change_pct": 0.51,
+        "value": 6533.0,
+        "value_text": "6533",
+        "change": 50.0,
+        "change_pct": 0.77,
         "unit": "元/吨",
-        "date": "2026-10-08",
+        "date": "2026-10-10",
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 1,
         "direction": "up"
       },
       {
         "indicator": "JKM",
-        "value": 25.87,
-        "value_text": "25.87",
-        "change": 0.16,
-        "change_pct": 0.62,
+        "value": 25.98,
+        "value_text": "25.98",
+        "change": 0.03,
+        "change_pct": 0.12,
         "unit": "美元/MMBtu",
-        "date": "2026-10-07",
+        "date": "2026-10-10",
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
-        "age_days": 4,
+        "age_days": 1,
         "direction": "up"
       },
       {
@@ -20139,25 +20139,25 @@
         "change": null,
         "change_pct": null,
         "unit": "美元/MMBtu",
-        "date": "2026-10-09",
+        "date": "2026-10-11",
         "source": "手动",
         "status": "manual",
         "note": "JOGMEC 未解析到该指标",
-        "age_days": 2,
+        "age_days": 0,
         "direction": "flat"
       },
       {
         "indicator": "山东LNG出站价",
-        "value": null,
-        "value_text": "未取到",
+        "value": 4200.0,
+        "value_text": "4200",
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-10-09",
+        "date": "2026-10-10",
         "source": "上海交易中心",
-        "status": "miss",
-        "note": "近10天该地区无有效报价",
-        "age_days": 2,
+        "status": "ok",
+        "note": "",
+        "age_days": 1,
         "direction": "flat"
       }
     ],
@@ -22504,6 +22504,11 @@
           },
           {
             "date": "2026-10-08",
+            "value": 6482.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-10-10",
             "value": 6482.0,
             "change": 0.0
           }
@@ -24853,6 +24858,11 @@
             "date": "2026-10-08",
             "value": 6241.0,
             "change": 33.0
+          },
+          {
+            "date": "2026-10-10",
+            "value": 6273.0,
+            "change": 15.0
           }
         ]
       },
@@ -27200,6 +27210,11 @@
             "date": "2026-10-08",
             "value": 6607.0,
             "change": 134.0
+          },
+          {
+            "date": "2026-10-10",
+            "value": 6607.0,
+            "change": 0.0
           }
         ]
       },
@@ -29547,6 +29562,11 @@
             "date": "2026-10-08",
             "value": 6483.0,
             "change": 33.0
+          },
+          {
+            "date": "2026-10-10",
+            "value": 6533.0,
+            "change": 50.0
           }
         ]
       },
@@ -30674,6 +30694,11 @@
             "date": "2026-10-07",
             "value": 25.87,
             "change": 0.16
+          },
+          {
+            "date": "2026-10-10",
+            "value": 25.98,
+            "change": 0.03
           }
         ]
       },
@@ -32832,9 +32857,9 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 468,
+          "point_count": 469,
           "date_start": "2024-09-25",
-          "date_end": "2026-10-08",
+          "date_end": "2026-10-10",
           "points": [
             {
               "date": "2024-09-25",
@@ -34707,6 +34732,10 @@
             {
               "date": "2026-10-08",
               "value": 6241.0
+            },
+            {
+              "date": "2026-10-10",
+              "value": 6273.0
             }
           ]
         },
@@ -34718,9 +34747,9 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 468,
+          "point_count": 469,
           "date_start": "2024-09-25",
-          "date_end": "2026-10-08",
+          "date_end": "2026-10-10",
           "points": [
             {
               "date": "2024-09-25",
@@ -36593,6 +36622,10 @@
             {
               "date": "2026-10-08",
               "value": 6482.0
+            },
+            {
+              "date": "2026-10-10",
+              "value": 6482.0
             }
           ]
         },
@@ -36604,9 +36637,9 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 468,
+          "point_count": 469,
           "date_start": "2024-09-25",
-          "date_end": "2026-10-08",
+          "date_end": "2026-10-10",
           "points": [
             {
               "date": "2024-09-25",
@@ -38479,6 +38512,10 @@
             {
               "date": "2026-10-08",
               "value": 6607.0
+            },
+            {
+              "date": "2026-10-10",
+              "value": 6607.0
             }
           ]
         },
@@ -38490,9 +38527,9 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 468,
+          "point_count": 469,
           "date_start": "2024-09-25",
-          "date_end": "2026-10-08",
+          "date_end": "2026-10-10",
           "points": [
             {
               "date": "2024-09-25",
@@ -40365,6 +40402,10 @@
             {
               "date": "2026-10-08",
               "value": 6483.0
+            },
+            {
+              "date": "2026-10-10",
+              "value": 6533.0
             }
           ]
         },
@@ -40376,9 +40417,9 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": false,
-          "point_count": 386,
+          "point_count": 387,
           "date_start": "2024-09-25",
-          "date_end": "2026-06-24",
+          "date_end": "2026-10-10",
           "points": [
             {
               "date": "2024-09-25",
@@ -41923,6 +41964,10 @@
             {
               "date": "2026-06-24",
               "value": 4200.0
+            },
+            {
+              "date": "2026-10-10",
+              "value": 4200.0
             }
           ]
         },
@@ -41934,9 +41979,9 @@
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 225,
+          "point_count": 226,
           "date_start": "2026-01-13",
-          "date_end": "2026-10-07",
+          "date_end": "2026-10-10",
           "points": [
             {
               "date": "2026-01-13",
@@ -42837,6 +42882,10 @@
             {
               "date": "2026-10-07",
               "value": 25.87
+            },
+            {
+              "date": "2026-10-10",
+              "value": 25.98
             }
           ]
         },
@@ -44581,16 +44630,16 @@
         {
           "indicator": "全国LNG",
           "source_indicator": "全国LNG出站价",
-          "value": 6241.0,
-          "value_text": "6241.0",
-          "change": 33.0,
+          "value": 6273.0,
+          "value_text": "6273.0",
+          "change": 15.0,
           "change_pct": null,
           "unit": "元/吨",
-          "date": "2026-10-08",
+          "date": "2026-10-10",
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 1,
           "direction": "up"
         },
         {
@@ -44601,11 +44650,11 @@
           "change": 0.0,
           "change_pct": null,
           "unit": "元/吨",
-          "date": "2026-10-08",
+          "date": "2026-10-10",
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 1,
           "direction": "flat"
         },
         {
@@ -44613,29 +44662,29 @@
           "source_indicator": "浙江LNG出站价",
           "value": 6607.0,
           "value_text": "6607.0",
-          "change": 134.0,
+          "change": 0.0,
           "change_pct": null,
           "unit": "元/吨",
-          "date": "2026-10-08",
+          "date": "2026-10-10",
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 3,
-          "direction": "up"
+          "age_days": 1,
+          "direction": "flat"
         },
         {
           "indicator": "江苏LNG",
           "source_indicator": "江苏LNG出站价",
-          "value": 6483.0,
-          "value_text": "6483.0",
-          "change": 33.0,
+          "value": 6533.0,
+          "value_text": "6533.0",
+          "change": 50.0,
           "change_pct": null,
           "unit": "元/吨",
-          "date": "2026-10-08",
+          "date": "2026-10-10",
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 1,
           "direction": "up"
         },
         {
@@ -44646,26 +44695,26 @@
           "change": null,
           "change_pct": null,
           "unit": "元/吨",
-          "date": "2026-06-24",
+          "date": "2026-10-10",
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 109,
+          "age_days": 1,
           "direction": "flat"
         },
         {
           "indicator": "JKM",
           "source_indicator": "JKM",
-          "value": 25.87,
-          "value_text": "25.87",
-          "change": 0.16,
+          "value": 25.98,
+          "value_text": "25.98",
+          "change": 0.03,
           "change_pct": null,
           "unit": "美元/MMBtu",
-          "date": "2026-10-07",
+          "date": "2026-10-10",
           "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
-          "age_days": 4,
+          "age_days": 1,
           "direction": "up"
         },
         {
@@ -44705,15 +44754,15 @@
       "jkm_to_cny_m3": {
         "indicator": "JKM换算",
         "input_label": "JKM",
-        "input_value": 25.87,
+        "input_value": 25.98,
         "input_unit": "美元/MMBtu",
-        "usd_cny": 6.712457,
+        "usd_cny": 6.706851,
         "factor": 27.1,
-        "value": 6.407795667527674,
+        "value": 6.4296674900369,
         "unit": "元/立方米",
-        "date": "2026-10-07",
+        "date": "2026-10-10",
         "source": "EnergyRiskIQ",
-        "fx_date": "Thu, 08 Oct 2026",
+        "fx_date": "Sun, 11 Oct 2026",
         "note": "美元/MMBtu × USD/CNY ÷ 27.1"
       },
       "lng_ton_to_m3": {
@@ -44724,7 +44773,7 @@
         "factor": 1380.0,
         "value": 4.697101449275363,
         "unit": "元/立方米",
-        "date": "2026-10-08",
+        "date": "2026-10-10",
         "source": "上海交易中心",
         "note": "元/吨 ÷ 1380"
       }
@@ -44733,9 +44782,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 8,
-      "fetch_date": "2026-10-09",
-      "run_at": "2026-10-09 08:00:01",
-      "checked_at": "2026-10-09 08:00:07",
+      "fetch_date": "2026-10-11",
+      "run_at": "2026-10-11 23:56:25",
+      "checked_at": "2026-10-11 23:56:54",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
@@ -44743,18 +44792,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/gas-watch/data/today.json",
-        "mtime": "2026-10-09T08:00:07",
-        "bytes": 2362
+        "mtime": "2026-10-11T23:56:54",
+        "bytes": 2322
       },
       "validation": {
         "path": "/Users/hydtzyj/gas-watch/data/validation.json",
-        "mtime": "2026-10-09T08:00:07",
+        "mtime": "2026-10-11T23:56:54",
         "bytes": 89
       },
       "history": {
         "path": "/Users/hydtzyj/gas-watch/data/history.csv",
-        "mtime": "2026-10-09T08:00:07",
-        "bytes": 467233
+        "mtime": "2026-10-11T23:56:54",
+        "bytes": 467750
       }
     }
   }
