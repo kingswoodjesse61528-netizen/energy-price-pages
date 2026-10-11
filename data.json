@@ -62,7 +62,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "down"
       }
     },
@@ -176,7 +176,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "down"
       },
       {
@@ -19883,7 +19883,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "up"
         },
         {
@@ -19898,7 +19898,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "down"
         },
         {
@@ -19987,7 +19987,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       },
       "national_lng": {
@@ -20001,7 +20001,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "up"
       },
       "jkm": {
@@ -20059,7 +20059,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       },
       {
@@ -20073,7 +20073,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "up"
       },
       {
@@ -20087,7 +20087,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 2,
         "direction": "flat"
       },
       {
@@ -22504,6 +22504,11 @@
           },
           {
             "date": "2026-10-08",
+            "value": 6482.0,
+            "change": 0.0
+          },
+          {
+            "date": "2026-10-10",
             "value": 6482.0,
             "change": 0.0
           },
@@ -27210,6 +27215,11 @@
             "date": "2026-10-08",
             "value": 6607.0,
             "change": 134.0
+          },
+          {
+            "date": "2026-10-10",
+            "value": 6607.0,
+            "change": 0.0
           },
           {
             "date": "2026-10-10",
@@ -36626,6 +36636,10 @@
             {
               "date": "2026-10-10",
               "value": 6482.0
+            },
+            {
+              "date": "2026-10-10",
+              "value": 6482.0
             }
           ]
         },
@@ -38511,6 +38525,10 @@
             },
             {
               "date": "2026-10-08",
+              "value": 6607.0
+            },
+            {
+              "date": "2026-10-10",
               "value": 6607.0
             },
             {
@@ -44639,7 +44657,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "up"
         },
         {
@@ -44654,7 +44672,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "flat"
         },
         {
@@ -44669,7 +44687,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 2,
           "direction": "flat"
         },
         {
