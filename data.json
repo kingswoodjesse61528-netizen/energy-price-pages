@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-15T08:00:15",
+    "generated_at": "2026-10-15T08:10:00",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -209,30 +209,30 @@
       },
       {
         "indicator": "内蒙古沫煤(Q5500坑口)",
-        "value": 1010.0,
-        "value_text": "1010",
+        "value": 1016.0,
+        "value_text": "1016",
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-10-14",
+        "date": "2026-10-15",
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "flat"
       },
       {
         "indicator": "山西沫煤(Q5500坑口)",
-        "value": 1010.0,
-        "value_text": "1010",
+        "value": 1016.0,
+        "value_text": "1016",
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-10-14",
+        "date": "2026-10-15",
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "flat"
       },
       {
@@ -20112,8 +20112,8 @@
       "ok": true,
       "latest_count": 13,
       "fetch_date": "2026-10-15",
-      "run_at": "2026-10-15 08:00:01",
-      "checked_at": "2026-10-15 08:00:10",
+      "run_at": "2026-10-15 08:01:49",
+      "checked_at": "2026-10-15 08:01:56",
       "alerts": [],
       "warnings": [
         "跨口径价差：5500K坑口价 830[鄂尔多斯OSPI 2026-10-09] vs 秦皇岛港5500K 745[环渤海BSPI 2026-10-14]，差 +85 元/吨 —— 不同地区/口径/频度，非同一价格链，请人工判断，勿当解析错误",
@@ -20125,18 +20125,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-10-15T08:00:07",
+        "mtime": "2026-10-15T08:01:53",
         "bytes": 4802
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-10-15T08:00:10",
+        "mtime": "2026-10-15T08:01:56",
         "bytes": 539
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-10-15T08:00:07",
-        "bytes": 480461
+        "mtime": "2026-10-15T08:01:53",
+        "bytes": 480628
       }
     }
   },
