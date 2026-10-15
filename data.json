@@ -53,17 +53,17 @@
       },
       "qhd_inventory": {
         "indicator": "秦皇岛港库存",
-        "value": 580.0,
-        "value_text": "580",
-        "change": -3.0,
+        "value": 585.0,
+        "value_text": "585",
+        "change": 5.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-10-14",
+        "date": "2026-10-15",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
-        "direction": "down"
+        "age_days": 0,
+        "direction": "up"
       }
     },
     "latest": [
@@ -167,17 +167,17 @@
       },
       {
         "indicator": "秦皇岛港库存",
-        "value": 580.0,
-        "value_text": "580",
-        "change": -3.0,
+        "value": 585.0,
+        "value_text": "585",
+        "change": 5.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-10-14",
+        "date": "2026-10-15",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
-        "direction": "down"
+        "age_days": 0,
+        "direction": "up"
       },
       {
         "indicator": "5500K车板价",
@@ -3695,6 +3695,11 @@
             "date": "2026-10-14",
             "value": 580.0,
             "change": -3.0
+          },
+          {
+            "date": "2026-10-15",
+            "value": 585.0,
+            "change": 5.0
           }
         ]
       }
@@ -11282,6 +11287,10 @@
             {
               "date": "2026-10-14",
               "value": 580.0
+            },
+            {
+              "date": "2026-10-15",
+              "value": 585.0
             }
           ]
         },
@@ -19401,17 +19410,17 @@
         {
           "indicator": "秦皇岛港库存",
           "source_indicator": "秦皇岛港库存",
-          "value": 580.0,
-          "value_text": "580.0",
-          "change": -3.0,
+          "value": 585.0,
+          "value_text": "585.0",
+          "change": 5.0,
           "change_pct": null,
           "unit": "万吨",
-          "date": "2026-10-14",
+          "date": "2026-10-15",
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 1,
-          "direction": "down"
+          "age_days": 0,
+          "direction": "up"
         },
         {
           "indicator": "CCTD秦皇岛现货价",
