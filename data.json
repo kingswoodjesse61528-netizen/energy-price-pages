@@ -20337,7 +20337,7 @@
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 4,
         "direction": "up"
       },
       "henry_hub": {
@@ -20365,7 +20365,7 @@
         "source": "手动",
         "status": "manual",
         "note": "JOGMEC 未解析到该指标",
-        "age_days": 0,
+        "age_days": 2,
         "direction": "flat"
       }
     },
@@ -20437,7 +20437,7 @@
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 4,
         "direction": "up"
       },
       {
@@ -20465,7 +20465,7 @@
         "source": "手动",
         "status": "manual",
         "note": "JOGMEC 未解析到该指标",
-        "age_days": 0,
+        "age_days": 2,
         "direction": "flat"
       },
       {
@@ -45270,7 +45270,7 @@
           "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 4,
           "direction": "up"
         },
         {
