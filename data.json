@@ -20309,7 +20309,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "up"
       },
       "national_lng": {
@@ -20323,7 +20323,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "up"
       },
       "jkm": {
@@ -20337,7 +20337,7 @@
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
-        "age_days": 4,
+        "age_days": 5,
         "direction": "up"
       },
       "henry_hub": {
@@ -20365,7 +20365,7 @@
         "source": "手动",
         "status": "manual",
         "note": "JOGMEC 未解析到该指标",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "flat"
       }
     },
@@ -20381,7 +20381,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "up"
       },
       {
@@ -20395,7 +20395,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "up"
       },
       {
@@ -20409,7 +20409,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "up"
       },
       {
@@ -20423,7 +20423,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 4,
         "direction": "up"
       },
       {
@@ -20437,7 +20437,7 @@
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
-        "age_days": 4,
+        "age_days": 5,
         "direction": "up"
       },
       {
@@ -20465,7 +20465,7 @@
         "source": "手动",
         "status": "manual",
         "note": "JOGMEC 未解析到该指标",
-        "age_days": 2,
+        "age_days": 3,
         "direction": "flat"
       },
       {
@@ -45195,7 +45195,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "up"
         },
         {
@@ -45210,7 +45210,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "up"
         },
         {
@@ -45225,7 +45225,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "up"
         },
         {
@@ -45240,7 +45240,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 4,
           "direction": "up"
         },
         {
@@ -45270,7 +45270,7 @@
           "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
-          "age_days": 4,
+          "age_days": 5,
           "direction": "up"
         },
         {
