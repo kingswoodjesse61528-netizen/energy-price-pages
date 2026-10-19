@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-10-19T08:00:15",
+    "generated_at": "2026-10-19T08:00:23",
     "machine": "Air",
-    "status": "partial",
+    "status": "ok",
     "title": "能源价格看板",
     "version": "1.2.1"
   },
@@ -20263,17 +20263,17 @@
     },
     "conversions": {},
     "status": {
-      "state": "partial",
-      "ok": false,
+      "state": "ok",
+      "ok": true,
       "latest_count": 13,
       "fetch_date": "2026-10-19",
       "run_at": "2026-10-19 08:00:02",
-      "checked_at": "2026-10-19 04:17:19",
-      "alerts": [
-        "主源指标缺失：CCTD 秦皇岛港5500K 未抓到"
-      ],
+      "checked_at": "2026-10-19 08:00:20",
+      "alerts": [],
       "warnings": [
-        "指标近期在、今日缺失：5500K坑口价[CCTD]、5500K车板价[CCTD]、内蒙古沫煤(Q5500坑口)[Mysteel]、动力煤5500综合价[CCTD]、北方港5500K[CCTD]、山西沫煤(Q5500坑口)[Mysteel]、广州港(Q5500)[Mysteel]、秦皇岛港5500K[CCTD]、秦皇岛港库存[CCTD]、综合指数[CCTD]、长江口5500K[CCTD]（疑上游改版/降级）"
+        "跨口径价差：5500K坑口价 860[鄂尔多斯OSPI 2026-10-16] vs 秦皇岛港5500K 745[环渤海BSPI 2026-10-14]，差 +115 元/吨 —— 不同地区/口径/频度，非同一价格链，请人工判断，勿当解析错误",
+        "长江口5500K 源站停更/滞后于 2025-11-28（距今 325 天），不可按当日行情解读",
+        "北方港5500K 源站停更/滞后于 2025-11-28（距今 325 天），不可按当日行情解读"
       ],
       "stale_indicators": []
     },
@@ -20285,8 +20285,8 @@
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-10-19T04:17:19",
-        "bytes": 523
+        "mtime": "2026-10-19T08:00:20",
+        "bytes": 540
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
