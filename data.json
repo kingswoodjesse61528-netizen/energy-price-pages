@@ -20663,10 +20663,10 @@
       },
       "ttf": {
         "indicator": "TTF",
-        "value": 28.9,
-        "value_text": "28.9",
-        "change": 2.2,
-        "change_pct": 8.24,
+        "value": null,
+        "value_text": "需手动",
+        "change": null,
+        "change_pct": null,
         "unit": "美元/MMBtu",
         "date": "2026-10-16",
         "source": "JOGMEC/Platts(周)",
@@ -20763,10 +20763,10 @@
       },
       {
         "indicator": "TTF",
-        "value": 28.9,
-        "value_text": "28.9",
-        "change": 2.2,
-        "change_pct": 8.24,
+        "value": null,
+        "value_text": "需手动",
+        "change": null,
+        "change_pct": null,
         "unit": "美元/MMBtu",
         "date": "2026-10-16",
         "source": "JOGMEC/Platts(周)",
@@ -20786,7 +20786,7 @@
         "source": "上海交易中心",
         "status": "miss",
         "note": "近10天该地区无有效报价",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "flat"
       }
     ],
@@ -33655,7 +33655,7 @@
       },
       {
         "indicator": "TTF",
-        "source": "JOGMEC/Platts(周)",
+        "source": "手动",
         "unit": "美元/MMBtu",
         "points": [
           {
