@@ -20663,10 +20663,10 @@
       },
       "ttf": {
         "indicator": "TTF",
-        "value": null,
-        "value_text": "需手动",
-        "change": null,
-        "change_pct": null,
+        "value": 28.9,
+        "value_text": "28.9",
+        "change": 2.2,
+        "change_pct": 8.24,
         "unit": "美元/MMBtu",
         "date": "2026-10-16",
         "source": "JOGMEC/Platts(周)",
@@ -20763,10 +20763,10 @@
       },
       {
         "indicator": "TTF",
-        "value": null,
-        "value_text": "需手动",
-        "change": null,
-        "change_pct": null,
+        "value": 28.9,
+        "value_text": "28.9",
+        "change": 2.2,
+        "change_pct": 8.24,
         "unit": "美元/MMBtu",
         "date": "2026-10-16",
         "source": "JOGMEC/Platts(周)",
@@ -33655,7 +33655,7 @@
       },
       {
         "indicator": "TTF",
-        "source": "手动",
+        "source": "JOGMEC/Platts(周)",
         "unit": "美元/MMBtu",
         "points": [
           {
