@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-25T08:10:02",
+    "generated_at": "2026-10-25T12:10:02",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -20543,8 +20543,8 @@
       "ok": true,
       "latest_count": 13,
       "fetch_date": "2026-10-25",
-      "run_at": "2026-10-25 08:00:02",
-      "checked_at": "2026-10-25 08:00:12",
+      "run_at": "2026-10-25 09:59:42",
+      "checked_at": "2026-10-25 09:59:51",
       "alerts": [],
       "warnings": [
         "环渤海港口库存 数据 2026-10-21 距今 4 天，疑停更",
@@ -20557,17 +20557,17 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-10-25T08:00:09",
+        "mtime": "2026-10-25T09:59:48",
         "bytes": 4800
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-10-25T08:00:12",
+        "mtime": "2026-10-25T09:59:51",
         "bytes": 612
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-10-25T08:00:09",
+        "mtime": "2026-10-25T09:59:48",
         "bytes": 490130
       }
     }
