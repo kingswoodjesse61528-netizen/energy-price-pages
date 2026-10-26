@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-10-26T08:10:00",
-    "machine": "Air",
+    "generated_at": "2026-10-26T08:30:25",
+    "machine": "mini",
     "status": "ok",
     "title": "能源价格看板",
     "version": "1.2.1"
@@ -232,21 +232,7 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 1,
-        "direction": "flat"
-      },
-      {
-        "indicator": "度电毛利",
-        "value": 114.7,
-        "value_text": "114.7",
-        "change": null,
-        "change_pct": null,
-        "unit": "元/MWh",
-        "date": "2026-10-25",
-        "source": "测算",
-        "status": "ok",
-        "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "flat"
       }
     ],
@@ -19895,10 +19881,10 @@
     "status": {
       "state": "ok",
       "ok": true,
-      "latest_count": 13,
+      "latest_count": 12,
       "fetch_date": "2026-10-26",
-      "run_at": "2026-10-26 08:00:04",
-      "checked_at": "2026-10-26 08:00:12",
+      "run_at": "2026-10-26 08:30:01",
+      "checked_at": "2026-10-26 08:30:20",
       "alerts": [],
       "warnings": [
         "环渤海港口库存 数据 2026-10-21 距今 5 天，疑停更",
@@ -19910,19 +19896,19 @@
     },
     "source_files": {
       "today": {
-        "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-10-26T08:00:09",
-        "bytes": 4802
+        "path": "/Users/zhouyijun/coal-watch/data/today.json",
+        "mtime": "2026-10-26T08:30:14",
+        "bytes": 4346
       },
       "validation": {
-        "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-10-26T08:00:12",
+        "path": "/Users/zhouyijun/coal-watch/data/validation.json",
+        "mtime": "2026-10-26T08:30:20",
         "bytes": 612
       },
       "history": {
-        "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-10-26T08:00:09",
-        "bytes": 490868
+        "path": "/Users/zhouyijun/coal-watch/data/history.csv",
+        "mtime": "2026-10-26T08:30:14",
+        "bytes": 394752
       }
     }
   },
@@ -30757,11 +30743,6 @@
             "date": "2026-10-21",
             "value": 30.06,
             "change": 0.51
-          },
-          {
-            "date": "2026-10-24",
-            "value": 31.42,
-            "change": 1.36
           },
           {
             "date": "2026-10-24",
@@ -42158,7 +42139,7 @@
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 236,
+          "point_count": 223,
           "date_start": "2026-01-13",
           "date_end": "2026-10-24",
           "points": [
@@ -43049,10 +43030,6 @@
             {
               "date": "2026-10-21",
               "value": 30.06
-            },
-            {
-              "date": "2026-10-24",
-              "value": 31.42
             },
             {
               "date": "2026-10-24",
@@ -44966,27 +44943,27 @@
       "ok": true,
       "latest_count": 8,
       "fetch_date": "2026-10-26",
-      "run_at": "2026-10-26 08:00:04",
-      "checked_at": "2026-10-26 08:00:11",
+      "run_at": "2026-10-26 08:30:01",
+      "checked_at": "2026-10-26 08:30:09",
       "alerts": [],
       "warnings": [],
       "stale_indicators": []
     },
     "source_files": {
       "today": {
-        "path": "/Users/hydtzyj/gas-watch/data/today.json",
-        "mtime": "2026-10-26T08:00:11",
+        "path": "/Users/zhouyijun/gas-watch/data/today.json",
+        "mtime": "2026-10-26T08:30:09",
         "bytes": 2333
       },
       "validation": {
-        "path": "/Users/hydtzyj/gas-watch/data/validation.json",
-        "mtime": "2026-10-26T08:00:11",
+        "path": "/Users/zhouyijun/gas-watch/data/validation.json",
+        "mtime": "2026-10-26T08:30:09",
         "bytes": 89
       },
       "history": {
-        "path": "/Users/hydtzyj/gas-watch/data/history.csv",
-        "mtime": "2026-10-26T08:00:11",
-        "bytes": 471950
+        "path": "/Users/zhouyijun/gas-watch/data/history.csv",
+        "mtime": "2026-10-26T08:30:09",
+        "bytes": 469929
       }
     }
   }
