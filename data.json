@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-27T08:10:03",
+    "generated_at": "2026-10-27T12:10:00",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -53,16 +53,16 @@
       },
       "qhd_inventory": {
         "indicator": "秦皇岛港库存",
-        "value": 585.0,
-        "value_text": "585",
-        "change": -10.0,
+        "value": 580.0,
+        "value_text": "580",
+        "change": -5.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-10-26",
+        "date": "2026-10-27",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "down"
       }
     },
@@ -167,16 +167,16 @@
       },
       {
         "indicator": "秦皇岛港库存",
-        "value": 585.0,
-        "value_text": "585",
-        "change": -10.0,
+        "value": 580.0,
+        "value_text": "580",
+        "change": -5.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-10-26",
+        "date": "2026-10-27",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "down"
       },
       {
@@ -4709,6 +4709,11 @@
             "date": "2026-10-26",
             "value": 585.0,
             "change": -10.0
+          },
+          {
+            "date": "2026-10-27",
+            "value": 580.0,
+            "change": -5.0
           }
         ]
       }
@@ -11841,9 +11846,9 @@
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
-          "point_count": 152,
+          "point_count": 153,
           "date_start": "2026-05-28",
-          "date_end": "2026-10-26",
+          "date_end": "2026-10-27",
           "points": [
             {
               "date": "2026-05-28",
@@ -12452,6 +12457,10 @@
             {
               "date": "2026-10-26",
               "value": 585.0
+            },
+            {
+              "date": "2026-10-27",
+              "value": 580.0
             }
           ]
         },
@@ -20583,16 +20592,16 @@
         {
           "indicator": "秦皇岛港库存",
           "source_indicator": "秦皇岛港库存",
-          "value": 585.0,
-          "value_text": "585.0",
-          "change": -10.0,
+          "value": 580.0,
+          "value_text": "580.0",
+          "change": -5.0,
           "change_pct": null,
           "unit": "万吨",
-          "date": "2026-10-26",
+          "date": "2026-10-27",
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 0,
           "direction": "down"
         },
         {
@@ -20634,8 +20643,8 @@
       "ok": true,
       "latest_count": 13,
       "fetch_date": "2026-10-27",
-      "run_at": "2026-10-27 08:00:01",
-      "checked_at": "2026-10-27 08:00:20",
+      "run_at": "2026-10-27 10:03:20",
+      "checked_at": "2026-10-27 10:03:38",
       "alerts": [],
       "warnings": [
         "跨口径价差：5500K坑口价 856[鄂尔多斯OSPI 2026-10-23] vs 秦皇岛港5500K 745[环渤海BSPI 2026-10-21]，差 +111 元/吨 —— 不同地区/口径/频度，非同一价格链，请人工判断，勿当解析错误",
@@ -20647,18 +20656,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-10-27T08:00:14",
-        "bytes": 4803
+        "mtime": "2026-10-27T10:03:31",
+        "bytes": 4802
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-10-27T08:00:20",
+        "mtime": "2026-10-27T10:03:38",
         "bytes": 540
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-10-27T08:00:14",
-        "bytes": 491900
+        "mtime": "2026-10-27T10:03:31",
+        "bytes": 491974
       }
     }
   },
