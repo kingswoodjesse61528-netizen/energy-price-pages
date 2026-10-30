@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-30T08:10:04",
+    "generated_at": "2026-10-30T12:10:05",
     "machine": "Air",
     "status": "stale",
     "title": "能源价格看板",
@@ -62,7 +62,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "up"
       }
     },
@@ -176,7 +176,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "up"
       },
       {
@@ -218,7 +218,7 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "flat"
       },
       {
@@ -232,7 +232,7 @@
         "source": "Mysteel",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "flat"
       },
       {
@@ -11963,9 +11963,9 @@
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
-          "point_count": 155,
+          "point_count": 156,
           "date_start": "2026-05-28",
-          "date_end": "2026-10-29",
+          "date_end": "2026-10-30",
           "points": [
             {
               "date": "2026-05-28",
@@ -20734,7 +20734,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 0,
           "direction": "up"
         },
         {
@@ -20776,8 +20776,8 @@
       "ok": true,
       "latest_count": 13,
       "fetch_date": "2026-10-30",
-      "run_at": "2026-10-30 08:00:01",
-      "checked_at": "2026-10-30 08:00:08",
+      "run_at": "2026-10-30 10:12:02",
+      "checked_at": "2026-10-30 10:12:17",
       "alerts": [],
       "warnings": [
         "跨口径价差：5500K坑口价 856[鄂尔多斯OSPI 2026-10-23] vs 秦皇岛港5500K 745[环渤海BSPI 2026-10-28]，差 +111 元/吨 —— 不同地区/口径/频度，非同一价格链，请人工判断，勿当解析错误",
@@ -20791,18 +20791,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-10-30T08:00:05",
-        "bytes": 4796
+        "mtime": "2026-10-30T10:12:10",
+        "bytes": 4797
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-10-30T08:00:08",
+        "mtime": "2026-10-30T10:12:17",
         "bytes": 540
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-10-30T08:00:05",
-        "bytes": 494907
+        "mtime": "2026-10-30T10:12:10",
+        "bytes": 495148
       }
     }
   },
