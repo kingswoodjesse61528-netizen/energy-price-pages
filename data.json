@@ -53,12 +53,12 @@
       },
       "qhd_inventory": {
         "indicator": "秦皇岛港库存",
-        "value": 575.0,
-        "value_text": "575",
-        "change": 5.0,
+        "value": 590.0,
+        "value_text": "590",
+        "change": 15.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-10-29",
+        "date": "2026-10-30",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -167,12 +167,12 @@
       },
       {
         "indicator": "秦皇岛港库存",
-        "value": 575.0,
-        "value_text": "575",
-        "change": 5.0,
+        "value": 590.0,
+        "value_text": "590",
+        "change": 15.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-10-29",
+        "date": "2026-10-30",
         "source": "CCTD",
         "status": "ok",
         "note": "",
@@ -209,12 +209,12 @@
       },
       {
         "indicator": "内蒙古沫煤(Q5500坑口)",
-        "value": 1025.0,
-        "value_text": "1025",
+        "value": 1020.0,
+        "value_text": "1020",
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-10-29",
+        "date": "2026-10-30",
         "source": "Mysteel",
         "status": "ok",
         "note": "",
@@ -223,12 +223,12 @@
       },
       {
         "indicator": "山西沫煤(Q5500坑口)",
-        "value": 1025.0,
-        "value_text": "1025",
+        "value": 1020.0,
+        "value_text": "1020",
         "change": null,
         "change_pct": null,
         "unit": "元/吨",
-        "date": "2026-10-29",
+        "date": "2026-10-30",
         "source": "Mysteel",
         "status": "ok",
         "note": "",
@@ -4814,6 +4814,11 @@
             "date": "2026-10-29",
             "value": 575.0,
             "change": 5.0
+          },
+          {
+            "date": "2026-10-30",
+            "value": 590.0,
+            "change": 15.0
           }
         ]
       }
@@ -12581,6 +12586,10 @@
             {
               "date": "2026-10-29",
               "value": 575.0
+            },
+            {
+              "date": "2026-10-30",
+              "value": 590.0
             }
           ]
         },
@@ -20716,12 +20725,12 @@
         {
           "indicator": "秦皇岛港库存",
           "source_indicator": "秦皇岛港库存",
-          "value": 575.0,
-          "value_text": "575.0",
-          "change": 5.0,
+          "value": 590.0,
+          "value_text": "590.0",
+          "change": 15.0,
           "change_pct": null,
           "unit": "万吨",
-          "date": "2026-10-29",
+          "date": "2026-10-30",
           "source": "CCTD",
           "status": "ok",
           "note": "",
@@ -20830,12 +20839,12 @@
       },
       "jkm": {
         "indicator": "JKM",
-        "value": 32.35,
-        "value_text": "32.35",
-        "change": 0.15,
-        "change_pct": 0.47,
+        "value": 32.03,
+        "value_text": "32.03",
+        "change": 0.29,
+        "change_pct": 0.91,
         "unit": "美元/MMBtu",
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
@@ -20930,12 +20939,12 @@
       },
       {
         "indicator": "JKM",
-        "value": 32.35,
-        "value_text": "32.35",
-        "change": 0.15,
-        "change_pct": 0.47,
+        "value": 32.03,
+        "value_text": "32.03",
+        "change": 0.29,
+        "change_pct": 0.91,
         "unit": "美元/MMBtu",
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
@@ -31853,6 +31862,11 @@
             "date": "2026-10-28",
             "value": 32.35,
             "change": 0.15
+          },
+          {
+            "date": "2026-10-29",
+            "value": 32.03,
+            "change": 0.29
           }
         ]
       },
@@ -43368,7 +43382,7 @@
           "selected": true,
           "point_count": 240,
           "date_start": "2026-01-13",
-          "date_end": "2026-10-28",
+          "date_end": "2026-10-29",
           "points": [
             {
               "date": "2026-01-13",
@@ -44329,6 +44343,10 @@
             {
               "date": "2026-10-28",
               "value": 32.35
+            },
+            {
+              "date": "2026-10-29",
+              "value": 32.03
             }
           ]
         },
@@ -46168,12 +46186,12 @@
         {
           "indicator": "JKM",
           "source_indicator": "JKM",
-          "value": 32.35,
-          "value_text": "32.35",
-          "change": 0.15,
+          "value": 32.03,
+          "value_text": "32.03",
+          "change": 0.29,
           "change_pct": null,
           "unit": "美元/MMBtu",
-          "date": "2026-10-28",
+          "date": "2026-10-29",
           "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
@@ -46217,15 +46235,15 @@
       "jkm_to_cny_m3": {
         "indicator": "JKM换算",
         "input_label": "JKM",
-        "input_value": 32.35,
+        "input_value": 32.03,
         "input_unit": "美元/MMBtu",
-        "usd_cny": 6.680538,
+        "usd_cny": 6.676858,
         "factor": 27.1,
-        "value": 7.974738166051661,
+        "value": 7.891504123247232,
         "unit": "元/立方米",
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "source": "EnergyRiskIQ",
-        "fx_date": "Thu, 29 Oct 2026",
+        "fx_date": "Fri, 30 Oct 2026",
         "note": "美元/MMBtu × USD/CNY ÷ 27.1"
       },
       "lng_ton_to_m3": {
