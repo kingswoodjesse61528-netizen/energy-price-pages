@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-07T08:10:00",
+    "generated_at": "2026-11-07T12:10:01",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -21120,8 +21120,8 @@
       "ok": true,
       "latest_count": 13,
       "fetch_date": "2026-11-07",
-      "run_at": "2026-11-07 08:00:01",
-      "checked_at": "2026-11-07 08:00:23",
+      "run_at": "2026-11-07 11:39:54",
+      "checked_at": "2026-11-07 11:40:21",
       "alerts": [],
       "warnings": [
         "跨口径价差：5500K坑口价 846[鄂尔多斯OSPI 2026-11-06] vs 秦皇岛港5500K 755[环渤海BSPI 2026-11-04]，差 +91 元/吨 —— 不同地区/口径/频度，非同一价格链，请人工判断，勿当解析错误",
@@ -21133,17 +21133,17 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-11-07T08:00:12",
+        "mtime": "2026-11-07T11:40:08",
         "bytes": 4797
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-11-07T08:00:23",
+        "mtime": "2026-11-07T11:40:21",
         "bytes": 539
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-11-07T08:00:12",
+        "mtime": "2026-11-07T11:40:08",
         "bytes": 502787
       }
     }
