@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-11T08:00:13",
+    "generated_at": "2026-11-11T08:00:21",
     "machine": "Air",
     "status": "stale",
     "title": "能源价格看板",
@@ -5093,7 +5093,7 @@
           {
             "date": "2026-10-12",
             "value": 586.0,
-            "change": null
+            "change": -7.0
           },
           {
             "date": "2026-10-13",
@@ -21344,7 +21344,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 1,
         "direction": "down"
       },
       "jkm": {
@@ -21358,7 +21358,7 @@
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 2,
         "direction": "down"
       },
       "henry_hub": {
@@ -21416,7 +21416,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 1,
         "direction": "down"
       },
       {
@@ -21430,7 +21430,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 1,
         "direction": "flat"
       },
       {
@@ -21444,7 +21444,7 @@
         "source": "上海交易中心",
         "status": "ok",
         "note": "",
-        "age_days": 2,
+        "age_days": 1,
         "direction": "down"
       },
       {
@@ -21458,7 +21458,7 @@
         "source": "EnergyRiskIQ",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 2,
         "direction": "down"
       },
       {
@@ -21500,7 +21500,7 @@
         "source": "上海交易中心",
         "status": "miss",
         "note": "近10天该地区无有效报价",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "flat"
       }
     ],
@@ -34740,7 +34740,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 488,
+          "point_count": 489,
           "date_start": "2024-09-25",
           "date_end": "2026-11-10",
           "points": [
@@ -36710,7 +36710,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 488,
+          "point_count": 489,
           "date_start": "2024-09-25",
           "date_end": "2026-11-10",
           "points": [
@@ -38680,7 +38680,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 488,
+          "point_count": 489,
           "date_start": "2024-09-25",
           "date_end": "2026-11-10",
           "points": [
@@ -40650,7 +40650,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 488,
+          "point_count": 489,
           "date_start": "2024-09-25",
           "date_end": "2026-11-10",
           "points": [
@@ -44182,7 +44182,7 @@
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 246,
+          "point_count": 247,
           "date_start": "2026-01-13",
           "date_end": "2026-11-09",
           "points": [
@@ -46954,7 +46954,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 1,
           "direction": "down"
         },
         {
@@ -46984,7 +46984,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 1,
           "direction": "flat"
         },
         {
@@ -46999,7 +46999,7 @@
           "source": "上海交易中心",
           "status": "ok",
           "note": "",
-          "age_days": 2,
+          "age_days": 1,
           "direction": "down"
         },
         {
@@ -47029,7 +47029,7 @@
           "source": "EnergyRiskIQ",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 2,
           "direction": "down"
         },
         {
@@ -47097,9 +47097,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 8,
-      "fetch_date": "2026-11-10",
-      "run_at": "2026-11-10 08:00:04",
-      "checked_at": "2026-11-10 08:00:09",
+      "fetch_date": "2026-11-11",
+      "run_at": "2026-11-11 08:00:05",
+      "checked_at": "2026-11-11 08:00:16",
       "alerts": [],
       "warnings": [
         "TTF 单日 -17.65%（-6美元/MMBtu），涨跌偏大请关注"
@@ -47109,18 +47109,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/gas-watch/data/today.json",
-        "mtime": "2026-11-10T08:00:09",
-        "bytes": 2341
+        "mtime": "2026-11-11T08:00:16",
+        "bytes": 2343
       },
       "validation": {
         "path": "/Users/hydtzyj/gas-watch/data/validation.json",
-        "mtime": "2026-11-10T08:00:09",
+        "mtime": "2026-11-11T08:00:16",
         "bytes": 161
       },
       "history": {
         "path": "/Users/hydtzyj/gas-watch/data/history.csv",
-        "mtime": "2026-11-10T08:00:09",
-        "bytes": 476582
+        "mtime": "2026-11-11T08:00:16",
+        "bytes": 477018
       }
     }
   }
