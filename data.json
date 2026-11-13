@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-11-13T08:10:01",
+    "generated_at": "2026-11-13T12:10:04",
     "machine": "Air",
-    "status": "stale",
+    "status": "ok",
     "title": "能源价格看板",
     "version": "1.2.1"
   },
@@ -62,7 +62,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "down"
       }
     },
@@ -176,7 +176,7 @@
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 1,
+        "age_days": 0,
         "direction": "down"
       },
       {
@@ -206,34 +206,6 @@
         "note": "",
         "age_days": 1,
         "direction": "down"
-      },
-      {
-        "indicator": "内蒙古沫煤(Q5500坑口)",
-        "value": 1015.0,
-        "value_text": "1015",
-        "change": null,
-        "change_pct": null,
-        "unit": "元/吨",
-        "date": "2026-11-03",
-        "source": "Mysteel",
-        "status": "ok",
-        "note": "",
-        "age_days": 10,
-        "direction": "flat"
-      },
-      {
-        "indicator": "山西沫煤(Q5500坑口)",
-        "value": 1015.0,
-        "value_text": "1015",
-        "change": null,
-        "change_pct": null,
-        "unit": "元/吨",
-        "date": "2026-11-03",
-        "source": "Mysteel",
-        "status": "ok",
-        "note": "",
-        "age_days": 10,
-        "direction": "flat"
       },
       {
         "indicator": "度电毛利",
@@ -12532,9 +12504,9 @@
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
-          "point_count": 169,
+          "point_count": 170,
           "date_start": "2026-05-28",
-          "date_end": "2026-11-12",
+          "date_end": "2026-11-13",
           "points": [
             {
               "date": "2026-05-28",
@@ -21379,7 +21351,7 @@
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 1,
+          "age_days": 0,
           "direction": "down"
         },
         {
@@ -21417,39 +21389,35 @@
     },
     "conversions": {},
     "status": {
-      "state": "stale",
+      "state": "ok",
       "ok": true,
-      "latest_count": 13,
+      "latest_count": 10,
       "fetch_date": "2026-11-13",
-      "run_at": "2026-11-13 08:00:03",
-      "checked_at": "2026-11-13 08:00:25",
+      "run_at": "2026-11-13 10:40:08",
+      "checked_at": "2026-11-13 10:40:50",
       "alerts": [],
       "warnings": [
         "跨口径价差：5500K坑口价 851[鄂尔多斯OSPI 2026-11-13] vs 秦皇岛港5500K 755[环渤海BSPI 2026-11-11]，差 +96 元/吨 —— 不同地区/口径/频度，非同一价格链，请人工判断，勿当解析错误",
         "长江口5500K 源站停更/滞后于 2025-11-28（距今 351 天），不可按当日行情解读",
         "北方港5500K 源站停更/滞后于 2025-11-28（距今 351 天），不可按当日行情解读"
       ],
-      "stale_indicators": [
-        "广州港(Q5500)",
-        "内蒙古沫煤(Q5500坑口)",
-        "山西沫煤(Q5500坑口)"
-      ]
+      "stale_indicators": []
     },
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-11-13T08:00:13",
-        "bytes": 4793
+        "mtime": "2026-11-13T10:40:37",
+        "bytes": 4084
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-11-13T08:00:25",
-        "bytes": 539
+        "mtime": "2026-11-13T10:40:50",
+        "bytes": 710
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-11-13T08:00:13",
-        "bytes": 507535
+        "mtime": "2026-11-13T10:40:37",
+        "bytes": 507610
       }
     }
   },
