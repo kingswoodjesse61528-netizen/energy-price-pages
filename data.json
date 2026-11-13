@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-12T08:10:04",
+    "generated_at": "2026-11-13T08:00:15",
     "machine": "Air",
     "status": "stale",
     "title": "能源价格看板",
@@ -237,12 +237,12 @@
       },
       {
         "indicator": "度电毛利",
-        "value": 33.9,
-        "value_text": "33.9",
+        "value": 56.5,
+        "value_text": "56.5",
         "change": null,
         "change_pct": null,
         "unit": "元/MWh",
-        "date": "2026-11-11",
+        "date": "2026-11-12",
         "source": "测算",
         "status": "ok",
         "note": "",
@@ -11863,9 +11863,9 @@
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
-          "point_count": 168,
+          "point_count": 169,
           "date_start": "2026-05-28",
-          "date_end": "2026-11-11",
+          "date_end": "2026-11-12",
           "points": [
             {
               "date": "2026-06-16",
@@ -20667,9 +20667,9 @@
       "state": "stale",
       "ok": true,
       "latest_count": 13,
-      "fetch_date": "2026-11-12",
-      "run_at": "2026-11-12 08:00:05",
-      "checked_at": "2026-11-12 08:00:14",
+      "fetch_date": "2026-11-13",
+      "run_at": "2026-11-13 08:00:03",
+      "checked_at": "2026-11-13 06:40:08",
       "alerts": [],
       "warnings": [
         "跨口径价差：5500K坑口价 846[鄂尔多斯OSPI 2026-11-06] vs 秦皇岛港5500K 755[环渤海BSPI 2026-11-11]，差 +91 元/吨 —— 不同地区/口径/频度，非同一价格链，请人工判断，勿当解析错误",
@@ -20683,18 +20683,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-11-12T08:00:10",
-        "bytes": 4796
+        "mtime": "2026-11-13T08:00:13",
+        "bytes": 4793
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-11-12T08:00:14",
+        "mtime": "2026-11-13T06:40:08",
         "bytes": 539
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-11-12T08:00:10",
-        "bytes": 506564
+        "mtime": "2026-11-13T08:00:13",
+        "bytes": 507535
       }
     }
   },
@@ -34082,7 +34082,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 490,
+          "point_count": 491,
           "date_start": "2024-09-25",
           "date_end": "2026-11-12",
           "points": [
@@ -36052,7 +36052,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 490,
+          "point_count": 491,
           "date_start": "2024-09-25",
           "date_end": "2026-11-12",
           "points": [
@@ -38022,7 +38022,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 490,
+          "point_count": 491,
           "date_start": "2024-09-25",
           "date_end": "2026-11-12",
           "points": [
@@ -39992,7 +39992,7 @@
           "unit": "元/吨",
           "axis": "domestic",
           "selected": true,
-          "point_count": 490,
+          "point_count": 491,
           "date_start": "2024-09-25",
           "date_end": "2026-11-12",
           "points": [
@@ -43524,7 +43524,7 @@
           "unit": "美元/MMBtu",
           "axis": "international",
           "selected": true,
-          "point_count": 248,
+          "point_count": 249,
           "date_start": "2026-01-13",
           "date_end": "2026-11-11",
           "points": [
@@ -46403,9 +46403,9 @@
       "state": "ok",
       "ok": true,
       "latest_count": 8,
-      "fetch_date": "2026-11-12",
-      "run_at": "2026-11-12 08:00:05",
-      "checked_at": "2026-11-12 08:00:10",
+      "fetch_date": "2026-11-13",
+      "run_at": "2026-11-13 08:00:02",
+      "checked_at": "2026-11-13 08:00:11",
       "alerts": [],
       "warnings": [
         "TTF 单日 -17.65%（-6美元/MMBtu），涨跌偏大请关注"
@@ -46415,18 +46415,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/gas-watch/data/today.json",
-        "mtime": "2026-11-12T08:00:10",
-        "bytes": 2336
+        "mtime": "2026-11-13T08:00:10",
+        "bytes": 2326
       },
       "validation": {
         "path": "/Users/hydtzyj/gas-watch/data/validation.json",
-        "mtime": "2026-11-12T08:00:10",
+        "mtime": "2026-11-13T08:00:11",
         "bytes": 161
       },
       "history": {
         "path": "/Users/hydtzyj/gas-watch/data/history.csv",
-        "mtime": "2026-11-12T08:00:10",
-        "bytes": 477450
+        "mtime": "2026-11-13T08:00:10",
+        "bytes": 477947
       }
     }
   }
