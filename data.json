@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-14T08:00:48",
+    "generated_at": "2026-11-14T08:10:00",
     "machine": "Air",
     "status": "stale",
     "title": "能源价格看板",
@@ -206,6 +206,34 @@
         "note": "",
         "age_days": 1,
         "direction": "down"
+      },
+      {
+        "indicator": "内蒙古沫煤(Q5500坑口)",
+        "value": 1025.0,
+        "value_text": "1025",
+        "change": null,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-11-14",
+        "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "flat"
+      },
+      {
+        "indicator": "山西沫煤(Q5500坑口)",
+        "value": 1025.0,
+        "value_text": "1025",
+        "change": null,
+        "change_pct": null,
+        "unit": "元/吨",
+        "date": "2026-11-14",
+        "source": "Mysteel",
+        "status": "ok",
+        "note": "",
+        "age_days": 0,
+        "direction": "flat"
       },
       {
         "indicator": "度电毛利",
@@ -2279,8 +2307,8 @@
           },
           {
             "date": "2026-11-11",
-            "value": 754.0,
-            "change": 9.0
+            "value": 755.0,
+            "change": 1.0
           },
           {
             "date": "2026-11-12",
@@ -2981,8 +3009,8 @@
           },
           {
             "date": "2026-11-13",
-            "value": 846.0,
-            "change": 8.0
+            "value": 851.0,
+            "change": 5.0
           },
           {
             "date": "2026-11-14",
@@ -5155,7 +5183,7 @@
           {
             "date": "2026-10-12",
             "value": 586.0,
-            "change": null
+            "change": -7.0
           },
           {
             "date": "2026-10-13",
@@ -5170,7 +5198,7 @@
           {
             "date": "2026-10-15",
             "value": 585.0,
-            "change": null
+            "change": 5.0
           },
           {
             "date": "2026-10-16",
