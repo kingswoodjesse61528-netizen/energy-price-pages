@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-16T09:28:27",
+    "generated_at": "2026-11-16T12:00:22",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -53,16 +53,16 @@
       },
       "qhd_inventory": {
         "indicator": "秦皇岛港库存",
-        "value": 580.0,
-        "value_text": "580",
-        "change": -13.0,
+        "value": 586.0,
+        "value_text": "586",
+        "change": -2.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-11-13",
+        "date": "2026-11-16",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 0,
         "direction": "down"
       }
     },
@@ -167,16 +167,16 @@
       },
       {
         "indicator": "秦皇岛港库存",
-        "value": 580.0,
-        "value_text": "580",
-        "change": -13.0,
+        "value": 586.0,
+        "value_text": "586",
+        "change": -2.0,
         "change_pct": null,
         "unit": "万吨",
-        "date": "2026-11-13",
+        "date": "2026-11-16",
         "source": "CCTD",
         "status": "ok",
         "note": "",
-        "age_days": 3,
+        "age_days": 0,
         "direction": "down"
       },
       {
@@ -5409,6 +5409,21 @@
             "date": "2026-11-13",
             "value": 580.0,
             "change": -13.0
+          },
+          {
+            "date": "2026-11-14",
+            "value": 577.0,
+            "change": -3.0
+          },
+          {
+            "date": "2026-11-15",
+            "value": 588.0,
+            "change": 11.0
+          },
+          {
+            "date": "2026-11-16",
+            "value": 586.0,
+            "change": -2.0
           }
         ]
       }
@@ -12597,9 +12612,9 @@
           "unit": "万吨",
           "axis": "inventory",
           "selected": true,
-          "point_count": 170,
+          "point_count": 173,
           "date_start": "2026-05-28",
-          "date_end": "2026-11-13",
+          "date_end": "2026-11-16",
           "points": [
             {
               "date": "2026-05-28",
@@ -13280,6 +13295,18 @@
             {
               "date": "2026-11-13",
               "value": 580.0
+            },
+            {
+              "date": "2026-11-14",
+              "value": 577.0
+            },
+            {
+              "date": "2026-11-15",
+              "value": 588.0
+            },
+            {
+              "date": "2026-11-16",
+              "value": 586.0
             }
           ]
         },
@@ -21435,16 +21462,16 @@
         {
           "indicator": "秦皇岛港库存",
           "source_indicator": "秦皇岛港库存",
-          "value": 580.0,
-          "value_text": "580.0",
-          "change": -13.0,
+          "value": 586.0,
+          "value_text": "586.0",
+          "change": -2.0,
           "change_pct": null,
           "unit": "万吨",
-          "date": "2026-11-13",
+          "date": "2026-11-16",
           "source": "CCTD",
           "status": "ok",
           "note": "",
-          "age_days": 3,
+          "age_days": 0,
           "direction": "down"
         },
         {
@@ -21486,8 +21513,8 @@
       "ok": true,
       "latest_count": 13,
       "fetch_date": "2026-11-16",
-      "run_at": "2026-11-16 09:27:53",
-      "checked_at": "2026-11-16 09:28:15",
+      "run_at": "2026-11-16 12:00:01",
+      "checked_at": "2026-11-16 12:00:19",
       "alerts": [],
       "warnings": [
         "跨口径价差：5500K坑口价 851[鄂尔多斯OSPI 2026-11-13] vs 秦皇岛港5500K 755[环渤海BSPI 2026-11-11]，差 +96 元/吨 —— 不同地区/口径/频度，非同一价格链，请人工判断，勿当解析错误",
@@ -21499,18 +21526,18 @@
     "source_files": {
       "today": {
         "path": "/Users/hydtzyj/coal-watch/data/today.json",
-        "mtime": "2026-11-16T09:28:04",
-        "bytes": 4799
+        "mtime": "2026-11-16T12:00:11",
+        "bytes": 4798
       },
       "validation": {
         "path": "/Users/hydtzyj/coal-watch/data/validation.json",
-        "mtime": "2026-11-16T09:28:15",
+        "mtime": "2026-11-16T12:00:19",
         "bytes": 539
       },
       "history": {
         "path": "/Users/hydtzyj/coal-watch/data/history.csv",
-        "mtime": "2026-11-16T09:28:05",
-        "bytes": 510398
+        "mtime": "2026-11-16T12:00:12",
+        "bytes": 510614
       }
     }
   },
