@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-24T08:00:12",
+    "generated_at": "2026-11-24T08:00:18",
     "machine": "Air",
     "status": "ok",
     "title": "能源价格看板",
@@ -46739,13 +46739,13 @@
         "input_label": "JKM",
         "input_value": 30.2,
         "input_unit": "美元/MMBtu",
-        "usd_cny": 6.693346,
+        "usd_cny": 6.681345,
         "factor": 27.1,
-        "value": 7.459005505535054,
+        "value": 7.4456316974169745,
         "unit": "元/立方米",
         "date": "2026-11-13",
         "source": "JOGMEC/Platts(周)",
-        "fx_date": "Sun, 22 Nov 2026",
+        "fx_date": "Mon, 23 Nov 2026",
         "note": "美元/MMBtu × USD/CNY ÷ 27.1"
       },
       "lng_ton_to_m3": {
